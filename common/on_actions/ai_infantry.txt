@@ -1,0 +1,100 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					not = {
+						has_country_flag = infantry_weapons1_flag
+					}
+				}
+				CreateRegularInfantry = yes
+			}
+		}
+	}
+
+	on_monthly = {
+		effect = {
+			# basic_infantry_default
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = infantry_weapons1
+					not = {
+						has_country_flag = infantry_weapons1_flag
+					}
+				}
+				CreateRegularInfantry = yes
+			}
+
+			# basic_infantry_default_at
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = infantry_weapons2
+					has_army_experience > 3
+					not = {
+						has_country_flag = infantry_weapons2_flag
+					}
+				}
+				CreateImprovedRegularInfantry = yes
+			}
+
+			# improved_infantry_default
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = improved_infantry_weapons
+					has_army_experience > 5
+					not = {
+						has_country_flag = improved_infantry_weapons_flag
+					}
+				}
+				CreateImprovedInfantry = yes
+			}
+
+			# improved_infantry_default_AT
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = improved_infantry_weapons
+					has_tech = infantry_at
+					has_army_experience > 5
+					not = {
+						has_country_flag = improved_infantry_weapons_AT_flag
+					}
+				}
+				CreateImprovedInfantryAT = yes
+			}
+
+			# advanced_infantry_default
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = advanced_infantry_weapons
+					has_tech = infantry_at
+					has_army_experience > 7
+					not = {
+						has_country_flag = advanced_infantry_weapons_flag
+					}
+				}
+				CreateAdvancedInfantry = yes
+			}
+
+			# advanced_infantry_default_AT
+			every_country = {
+				limit = {
+					is_ai = yes
+					has_tech = advanced_infantry_weapons
+					has_tech = infantry_at2
+					has_army_experience > 5
+					not = {
+						has_country_flag = advanced_infantry_weapons_AT_flag
+					}
+				}
+				CreateAdvancedInfantryAT = yes
+			}
+		}
+		
+	}
+
+}
