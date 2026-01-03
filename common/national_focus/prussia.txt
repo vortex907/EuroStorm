@@ -33,7 +33,66 @@ focus_tree = {
 	}
 
 	focus = {
-		id = dealing_with_the_resource_crisis
+		id = PRE_recovering_from_the_german_civil_war
+		icon = xxx
+		x = 20
+		y = 1
+		relative_position_id = situation_of_prussia
+		prerequisite = { focus = situation_of_prussia	}
+		cost = 10
+		available = {
+
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+			PRE = { country_event = { id = prussia.7 } }
+		}
+	}
+
+	focus = {
+		id = PRE_old_system_new_faces
+		icon = xxx
+		x = 8
+		y = 1
+		relative_position_id = PRE_recovering_from_the_german_civil_war
+		prerequisite = { focus = PRE_recovering_from_the_german_civil_war	}
+		mutually_exclusive = { focus = PRE_reformation_of_old_glory }
+		cost = 1
+		available = {
+			always = false
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PRE_reformation_of_old_glory
+		icon = xxx
+		x = -8
+		y = 1
+		relative_position_id = PRE_recovering_from_the_german_civil_war
+		prerequisite = { focus = PRE_recovering_from_the_german_civil_war	}
+		mutually_exclusive = { focus = PRE_old_system_new_faces }
+		cost = 1
+		available = {
+			always = false
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = PRE_dealing_with_the_resource_crisis
 		icon = xxx
 		x = -20
 		y = 1
@@ -52,12 +111,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = searching_for_trade_partners
+		id = PRE_searching_for_trade_partners
 		icon = GFX_goal_generic_positive_trade_relations
 		x = 8
 		y = 1
-		relative_position_id = dealing_with_the_resource_crisis
-		prerequisite = { focus = dealing_with_the_resource_crisis	}
+		relative_position_id = PRE_dealing_with_the_resource_crisis
+		prerequisite = { focus = PRE_dealing_with_the_resource_crisis	}
 		mutually_exclusive = { focus = prussian_way_to_autarky }
 		cost = 1
 		available = {
@@ -76,9 +135,9 @@ focus_tree = {
 		icon = GFX_focus_GER_autarky_ambitions
 		x = -8
 		y = 1
-		relative_position_id = dealing_with_the_resource_crisis
-		prerequisite = { focus = dealing_with_the_resource_crisis	}
-		mutually_exclusive = { focus = searching_for_trade_partners }
+		relative_position_id = PRE_dealing_with_the_resource_crisis
+		prerequisite = { focus = PRE_dealing_with_the_resource_crisis	}
+		mutually_exclusive = { focus = PRE_searching_for_trade_partners }
 		cost = 1
 		available = {
 			always = false

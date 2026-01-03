@@ -108,10 +108,28 @@ country_event = {
 	
 	option = {
 		name = prussia.6.a
-		complete_national_focus = searching_for_trade_partners
+		complete_national_focus = PRE_searching_for_trade_partners
 	}
 	option = {
 		name = prussia.6.b
 		complete_national_focus = prussian_way_to_autarky
+	}
+}
+
+country_event = {
+	id = prussia.7
+	title = prussia.7.t
+	desc = prussia.7.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prussia.7.a
+		complete_national_focus = PRE_reformation_of_old_glory
+	}
+	option = {
+		name = prussia.7.b
+		complete_national_focus = PRE_old_system_new_faces
 	}
 }
