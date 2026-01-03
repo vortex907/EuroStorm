@@ -1,0 +1,1688 @@
+SOV_ships = {
+
+	category = naval
+		
+	blocked_for = {
+	}
+	
+	available_for = {
+		SOV
+	}
+	
+	roles = {
+		
+	}
+	
+	priority = {
+		factor = 1
+	}
+	
+	carrier_a = {
+	
+		name = "Izmail Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_1_BB_Izmail.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_carrier_conversion_bb 
+			modules = {
+				fixed_conning_tower_slot=ship_carrier_island_1
+				fixed_engine_type_slot=steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_1
+				fixed_ship_deck_slot_1=ship_deck_space
+				fixed_ship_deck_slot_2=ship_deck_space
+				fixed_ship_deck_type_slot=early_carrier_deck
+				fixed_ship_engine_slot=heavy_ship_engine_2
+				fixed_ship_secondaries_slot=ship_secondaries_1
+				mid_1_custom_slot=ship_secondaries_1
+			}
+		}
+		
+		
+	}
+	
+	carrier_b = {
+	
+		name = "Frunze Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_1_CA_Frunze.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_carrier_conversion_ca 
+			modules = {
+				fixed_conning_tower_slot=ship_carrier_island_1
+				fixed_engine_type_slot=steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_1
+				fixed_ship_deck_slot_1=ship_deck_space
+				fixed_ship_deck_type_slot=early_carrier_deck
+				fixed_ship_engine_slot=cruiser_ship_engine_1
+				fixed_ship_secondaries_slot=ship_secondaries_1
+			}
+		}
+		
+		
+	}
+	
+	carrier_c = {
+	
+		name = "Project 71 Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_2_Project_71.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_carrier_1 
+			modules = {
+				fixed_conning_tower_slot=ship_carrier_island_1
+				fixed_engine_type_slot=steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_1
+				fixed_ship_deck_slot_1=ship_deck_space
+				fixed_ship_deck_slot_2=ship_deck_space
+				fixed_ship_deck_type_slot=early_carrier_deck
+				fixed_ship_engine_slot=carrier_ship_engine_2
+				fixed_ship_secondaries_slot=dp_ship_secondaries_1
+				front_1_custom_slot=ship_deck_space
+			}
+		}
+		
+		
+	}
+	
+	carrier_d = {
+	
+		name = "Kostromitinov Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_3_Kostromitinov.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_carrier_2 
+			modules = {
+				fixed_conning_tower_slot=ship_carrier_island_2
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_2
+				fixed_ship_deck_slot_1=ship_deck_space
+				fixed_ship_deck_slot_2=ship_deck_space
+				fixed_ship_deck_type_slot=early_carrier_deck
+				fixed_ship_engine_slot=carrier_ship_engine_3
+				fixed_ship_radar_slot=ship_radar_1
+				fixed_ship_secondaries_slot=dp_ship_secondaries_3
+				front_1_custom_slot=ship_deck_space
+				mid_1_custom_slot=dp_ship_secondaries_3
+			}
+		}
+		
+		
+	}
+	
+	carrier_e = {
+	
+		name = "Project 72 Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_4_Project_72.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_carrier_3
+			modules = {
+				fixed_conning_tower_slot=ship_carrier_island_2
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_3
+				fixed_ship_deck_slot_1=ship_deck_space
+				fixed_ship_deck_slot_2=ship_armor_carrier_deck
+				fixed_ship_deck_type_slot=early_carrier_deck
+				fixed_ship_engine_slot=carrier_ship_engine_3
+				fixed_ship_radar_slot=ship_radar_1
+				fixed_ship_secondaries_slot=dp_ship_secondaries_3
+				front_1_custom_slot=ship_deck_space
+				mid_1_custom_slot=ship_deck_space
+				mid_2_custom_slot=dp_ship_secondaries_3
+			}
+		}
+		
+		
+	}
+	
+	carrier_f = {
+	
+		name = "Project 69AV Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_5_Project_69AV.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_carrier_4
+			modules = {
+				fixed_conning_tower_slot=ship_carrier_island_3
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_3
+				fixed_ship_deck_slot_1=ship_deck_space
+				fixed_ship_deck_slot_2=ship_deck_space
+				fixed_ship_deck_type_slot=early_carrier_deck
+				fixed_ship_engine_slot=carrier_ship_engine_3
+				fixed_ship_radar_slot=ship_radar_1
+				fixed_ship_secondaries_slot=dp_ship_secondaries_3
+				front_1_custom_slot=ship_deck_space
+				mid_1_custom_slot=ship_deck_space
+				#mid_2_custom_slot=ship_anti_air_3
+				rear_1_custom_slot=ship_anti_air_3
+			}
+		}
+		
+		
+	}
+	
+	carrier_g = {
+	
+		name = "Project 85 Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_6_Project_85.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_carrier_5
+			modules = {
+				fixed_conning_tower_slot=ship_carrier_island_3
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_3
+				fixed_ship_deck_slot_1=ship_deck_space
+				fixed_ship_deck_slot_2=ship_deck_space
+				fixed_ship_deck_type_slot=early_carrier_deck
+				fixed_ship_engine_slot=carrier_ship_engine_3
+				fixed_ship_radar_slot=ship_radar_2
+				fixed_ship_secondaries_slot=dp_ship_secondaries_4
+				front_1_custom_slot=modern_deck_space
+				mid_1_custom_slot=ship_deck_space
+				mid_2_custom_slot=dp_ship_secondaries_4
+				rear_1_custom_slot=ship_armor_carrier_deck
+				rear_2_custom_slot=ship_anti_air_3
+			}
+		}
+		
+		
+	}
+	
+	carrier_h = {
+	
+		name = "Project 1153 Oryol Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_7_Oryol.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_carrier_6
+			modules = {
+				fixed_conning_tower_slot=ship_carrier_island_4
+				fixed_engine_type_slot=carrier_nuclear_reactor_module
+				fixed_ship_anti_air_slot=ship_anti_air_5
+				fixed_ship_deck_slot_1=modern_deck_space
+				fixed_ship_deck_slot_2=modern_deck_space
+				fixed_ship_deck_type_slot=angled_deck
+				fixed_ship_engine_slot=carrier_ship_engine_3
+				fixed_ship_radar_slot=ship_radar_6
+				fixed_ship_secondaries_slot=dp_ship_secondaries_5
+				front_1_custom_slot=modern_deck_space
+				mid_1_custom_slot=modern_deck_space
+				mid_2_custom_slot=modern_deck_space
+				mid_3_custom_slot=ship_armor_carrier_deck
+				rear_1_custom_slot=ship_dp_missile_battery_2
+				rear_2_custom_slot=ship_sam_missile_battery_2
+			}
+		}
+		
+		
+	}
+	
+	battleship_a = {
+	
+		name = "Gangut Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_1_Marat.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_heavy_1
+			modules = {
+				fixed_aircraft_facilities_slot=ship_airplane_launcher_2
+				fixed_conning_tower_slot=ship_conning_tower_1
+				fixed_engine_type_slot=steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_1
+				fixed_ship_armor_slot=ship_armor_bb_1
+				fixed_ship_battery_slot=ship_heavy_battery_5_3x
+				fixed_ship_engine_slot=heavy_ship_engine_2
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_0
+				fixed_ship_secondaries_slot=ship_secondaries_1
+				front_1_custom_slot=ship_heavy_battery_5_3x
+				mid_1_custom_slot=ship_heavy_battery_5_3x
+				mid_2_custom_slot=ship_secondaries_1
+				rear_1_custom_slot=ship_heavy_battery_5_3x
+			}
+		}
+		
+		
+	}
+	
+	battleship_b = {
+	
+		name = "Project 21 Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_2_Project_21.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_heavy_2
+			modules = {
+				fixed_aircraft_facilities_slot=ship_airplane_launcher_1
+				fixed_conning_tower_slot=ship_conning_tower_1
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_2
+				fixed_ship_armor_slot=ship_armor_bb_1
+				fixed_ship_battery_slot=ship_heavy_battery_2_3x
+				fixed_ship_engine_slot=heavy_ship_engine_2
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_5
+				fixed_ship_secondaries_slot=dp_ship_secondaries_1
+				fixed_torpedo_protection_slot=torpedo_protection_1
+				front_1_custom_slot=ship_heavy_battery_2_3x
+				mid_1_custom_slot=ship_secondaries_2
+				mid_2_custom_slot=ship_secondaries_2
+				rear_1_custom_slot=ship_heavy_battery_2_3x
+			}
+		}
+		
+		
+	}
+	
+	battleship_c = {
+	
+		name = "UP41 Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_3_UP_41.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_heavy_3
+			modules = {
+				fixed_aircraft_facilities_slot=ship_airplane_launcher_1
+				fixed_conning_tower_slot=ship_conning_tower_2
+				fixed_engine_type_slot=steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_3
+				fixed_ship_armor_slot=ship_armor_bb_2
+				fixed_ship_battery_slot=ship_heavy_battery_3_3x
+				fixed_ship_engine_slot=heavy_ship_engine_3
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_2
+				fixed_ship_radar_slot=ship_radar_1
+				fixed_ship_secondaries_slot=dp_ship_secondaries_2
+				fixed_torpedo_protection_slot=torpedo_protection_3
+				front_1_custom_slot=ship_heavy_battery_3_3x
+				mid_1_custom_slot=ship_anti_air_3
+				mid_2_custom_slot=dp_ship_secondaries_2
+				mid_3_custom_slot=dp_ship_secondaries_2
+				rear_1_custom_slot=ship_heavy_battery_3_3x
+			}
+		}
+		
+		
+	}
+	
+	battleship_d = {
+	
+		name = "KB-4 Project 23 Type A class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_4_Type_A_KB_4_Project_23.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_heavy_4
+			modules = {				
+				fixed_conning_tower_slot=ship_conning_tower_3
+				fixed_engine_type_slot=steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_4
+				fixed_ship_armor_slot=ship_armor_bb_3
+				fixed_ship_battery_slot=ship_heavy_battery_4_3x
+				fixed_ship_engine_slot=heavy_ship_engine_4
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_4
+				fixed_ship_radar_slot=ship_radar_4
+				fixed_ship_secondaries_slot=dp_ship_secondaries_3
+				fixed_torpedo_protection_slot=torpedo_protection_3
+				mid_1_custom_slot=ship_anti_air_4
+				mid_2_custom_slot=dp_ship_secondaries_3
+				mid_3_custom_slot=ship_heavy_battery_4_3x
+				rear_1_custom_slot=ship_heavy_battery_4_3x
+			}
+		}
+		
+		
+	}
+	
+	battleship_e = {
+	
+		name = "Project 24 Variant XII class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_SHBB_1_Project_23_final_design.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_super_heavy_1
+			modules = {				
+				fixed_aircraft_facilities_slot=ship_airplane_launcher_1
+				fixed_conning_tower_slot=ship_conning_tower_2
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_3
+				fixed_ship_armor_slot=ship_armor_shbb
+				fixed_ship_battery_slot=ship_super_heavy_battery_1_3x
+				fixed_ship_engine_slot=heavy_ship_engine_3
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_2
+				fixed_ship_radar_slot=ship_radar_1
+				fixed_ship_secondaries_slot=dp_ship_secondaries_3
+				fixed_torpedo_protection_slot=torpedo_protection_2
+				front_1_custom_slot=ship_super_heavy_battery_1_3x
+				front_2_custom_slot=ship_anti_air_3
+				mid_1_custom_slot=ship_anti_air_3
+				mid_2_custom_slot=ship_anti_air_3
+				mid_3_custom_slot=dp_ship_secondaries_3
+				rear_1_custom_slot=dp_ship_secondaries_3
+				rear_2_custom_slot=ship_super_heavy_battery_1_3x
+			}
+		}
+		
+		
+	}
+	
+	battleship_f = {
+	
+		name = "Project 24 Variant XV class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_SHBB_2_Project_24.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_super_heavy_2
+			modules = {				
+				fixed_aircraft_facilities_slot=ship_airplane_launcher_2
+				fixed_conning_tower_slot=ship_conning_tower_4
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_4
+				fixed_ship_armor_slot=ship_armor_shbb
+				fixed_ship_battery_slot=ship_super_heavy_battery_2_3x
+				fixed_ship_engine_slot=heavy_ship_engine_4
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_3
+				fixed_ship_radar_slot=ship_radar_3
+				fixed_ship_secondaries_slot=dp_ship_secondaries_4
+				fixed_torpedo_protection_slot=torpedo_protection_2
+				front_1_custom_slot=ship_super_heavy_battery_2_3x
+				front_2_custom_slot=ship_anti_air_4
+				mid_1_custom_slot=ship_anti_air_4
+				mid_2_custom_slot=ship_anti_air_4
+				mid_3_custom_slot=dp_ship_secondaries_4
+				rear_1_custom_slot=dp_ship_secondaries_4
+				rear_2_custom_slot=ship_super_heavy_battery_2_3x
+			}
+		}
+		
+		
+	}
+	
+	battlecruiser_a = {
+	
+		name = "Borodino class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_1_Izmail.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_heavy_1
+			modules = {				
+				fixed_conning_tower_slot=ship_conning_tower_1
+				fixed_engine_type_slot=steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_1
+				fixed_ship_armor_slot=ship_armor_bc_1
+				fixed_ship_battery_slot=ship_heavy_battery_1_3x
+				fixed_ship_engine_slot=heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_0
+				fixed_ship_secondaries_slot=ship_secondaries_1
+				front_1_custom_slot=ship_heavy_battery_1_3x
+				mid_1_custom_slot=ship_secondaries_1
+				mid_2_custom_slot=ship_secondaries_1
+				rear_1_custom_slot=ship_heavy_battery_1_3x
+			}
+		}
+		
+		
+	}
+	
+	battlecruiser_b = {
+	
+		name = "Kronshtadt class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_2_Kronshtadt.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_heavy_2
+			modules = {				
+				fixed_aircraft_facilities_slot=ship_airplane_launcher_1
+				fixed_conning_tower_slot=ship_conning_tower_2
+				fixed_engine_type_slot=steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_2
+				fixed_ship_armor_slot=ship_armor_bc_2
+				fixed_ship_battery_slot=ship_heavy_battery_2_2x
+				fixed_ship_engine_slot=heavy_ship_engine_3
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_0
+				fixed_ship_secondaries_slot=ship_secondaries_2
+				fixed_torpedo_protection_slot=torpedo_protection_1
+				front_1_custom_slot=ship_heavy_battery_2_2x
+				mid_1_custom_slot=dp_ship_secondaries_2
+				mid_2_custom_slot=ship_anti_air_2
+				rear_1_custom_slot=ship_heavy_battery_2_2x
+			}
+		}
+		
+		
+	}
+		
+	battlecruiser_c = {
+	
+		name = "Project 22 class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_3_Project_22.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_heavy_3
+			modules = {				
+				fixed_aircraft_facilities_slot=ship_airplane_launcher_1
+				fixed_conning_tower_slot=ship_conning_tower_3
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_3
+				fixed_ship_armor_slot=ship_armor_bc_2
+				fixed_ship_battery_slot=ship_heavy_battery_2_2x
+				fixed_ship_engine_slot=heavy_ship_engine_3
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_2
+				fixed_ship_secondaries_slot=ship_secondaries_2
+				fixed_torpedo_protection_slot=torpedo_protection_1
+				front_1_custom_slot=ship_heavy_battery_2_2x
+				mid_1_custom_slot=dp_ship_secondaries_2
+				mid_2_custom_slot=ship_anti_air_3
+				rear_1_custom_slot=ship_heavy_battery_2_2x
+			}
+		}
+		
+		
+	}
+		
+	battlecruiser_d = {
+	
+		name = "Stalingrad class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_4_Stalingrad.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_heavy_4
+			modules = {				
+				fixed_conning_tower_slot=ship_conning_tower_3
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_3
+				fixed_ship_armor_slot=ship_armor_bc_2
+				fixed_ship_battery_slot=ship_heavy_battery_5_3x
+				fixed_ship_engine_slot=heavy_ship_engine_4
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_4
+				fixed_ship_radar_slot=ship_radar_4
+				fixed_ship_secondaries_slot=dp_ship_secondaries_3
+				fixed_torpedo_protection_slot=torpedo_protection_3
+				front_1_custom_slot=ship_heavy_battery_5_3x
+				mid_1_custom_slot=dp_ship_secondaries_3
+				mid_2_custom_slot=ship_anti_air_3
+				mid_3_custom_slot=ship_anti_air_3
+				rear_1_custom_slot=ship_heavy_battery_5_3x
+			}
+		}
+		
+		
+	}
+		
+	battlecruiser_e = {
+	
+		name = "Stalingrad class BCG Refit"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_5_Stalingrad_BCG.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_heavy_5
+			modules = {				
+				fixed_aircraft_facilities_slot=naval_helicopter_module_1
+				fixed_conning_tower_slot=ship_conning_tower_4
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_5
+				fixed_ship_armor_slot=ship_armor_bc_2
+				fixed_ship_battery_slot=ship_heavy_asm_battery_2
+				fixed_ship_engine_slot=heavy_ship_engine_4
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_6
+				fixed_ship_radar_slot=ship_radar_7
+				fixed_ship_secondaries_slot=dp_ship_secondaries_5
+				fixed_torpedo_protection_slot=torpedo_protection_4
+				front_1_custom_slot=ship_heavy_battery_5_3x
+				mid_1_custom_slot=dp_ship_secondaries_4
+				mid_2_custom_slot=dp_ship_secondaries_4
+				mid_3_custom_slot=ship_dp_missile_battery_1
+				rear_1_custom_slot=ship_heavy_asm_battery_1
+			}
+		}
+	}
+		
+	helo_carrier_a = {
+	
+		name = "Moskva Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/CVH/SOV_CVH_1_Moskva.png"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_mega_carrier
+			modules = {				
+				fixed_conning_tower_slot=ship_cruiser_island_1
+				fixed_engine_type_slot=steam_turbine
+				fixed_ship_anti_air_slot=ship_sam_missile_battery_2
+				fixed_ship_deck_slot_1=helicopter_carrier_deck
+				fixed_ship_engine_slot=cruiser_ship_engine_1
+				fixed_ship_radar_slot=ship_radar_7
+				fixed_ship_secondaries_slot=dp_ship_secondaries_4
+				fixed_ship_sonar_slot=ship_sonar_4
+				front_1_custom_slot=ship_depth_charge_7
+				mid_1_custom_slot=helicopter_carrier_deck
+			}
+		}		
+	}
+		
+	helo_carrier_b = {
+	
+		name = "Kiev Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/CVH/SOV_CVH_1_Kiev.png"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_mega_carrier
+			modules = {				
+				fixed_conning_tower_slot=ship_carrier_island_4
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_sam_missile_battery_2
+				fixed_ship_deck_slot_1=helicopter_carrier_deck
+				fixed_ship_engine_slot=cruiser_ship_engine_1
+				fixed_ship_radar_slot=ship_radar_7
+				fixed_ship_secondaries_slot=dp_ship_secondaries_4
+				fixed_ship_sonar_slot=ship_sonar_4
+				front_1_custom_slot=ship_heavy_asm_battery_2
+				mid_1_custom_slot=helicopter_carrier_deck
+			}
+		}		
+	}
+		
+	light_cruiser_a = {
+	
+		name = "Svetlana Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_1_Svetlana.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_cruiser_1
+			modules = {				
+				fixed_engine_type_slot=steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_1
+				fixed_ship_armor_slot=ship_armor_cruiser_1
+				fixed_ship_battery_slot=ship_light_medium_battery_1
+				fixed_ship_engine_slot=cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_0
+				mid_1_custom_slot=ship_light_medium_battery_1
+				mid_2_custom_slot=ship_torpedo_d
+				rear_1_custom_slot=ship_light_medium_battery_1
+			}
+		}		
+	}
+		
+	light_cruiser_b = {
+	
+		name = "Kirov Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_2_Kirov.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_cruiser_2
+			modules = {				
+				fixed_aircraft_facilities_slot=ship_airplane_launcher_1
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_1
+				fixed_ship_armor_slot=ship_armor_cruiser_1
+				fixed_ship_battery_slot=ship_light_medium_battery_2
+				fixed_ship_engine_slot=cruiser_ship_engine_2
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_0
+				fixed_ship_secondaries_slot=dp_ship_secondaries_1
+				fixed_ship_sonar_slot=ship_sonar_1
+				front_1_custom_slot=ship_light_medium_battery_2
+				mid_1_custom_slot=ship_torpedo_1
+				mid_2_custom_slot=ship_mine_layer_1
+				rear_1_custom_slot=ship_depth_charge_1
+			}
+		}		
+	}
+		
+	light_cruiser_c = {
+	
+		name = "Chapayev Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_3_Chapayev.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_cruiser_3
+			modules = {								
+				fixed_aircraft_facilities_slot=ship_airplane_launcher_1
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_2
+				fixed_ship_armor_slot=ship_armor_cruiser_2
+				fixed_ship_battery_slot=ship_light_medium_battery_2
+				fixed_ship_engine_slot=cruiser_ship_engine_2
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_0
+				fixed_ship_secondaries_slot=dp_ship_secondaries_2
+				front_1_custom_slot=ship_light_medium_battery_2
+				mid_1_custom_slot=ship_torpedo_1
+				mid_2_custom_slot=ship_torpedo_1
+				rear_1_custom_slot=ship_light_medium_battery_2
+				rear_2_custom_slot=ship_light_medium_battery_2
+			}
+		}		
+	}
+		
+	light_cruiser_d = {
+	
+		name = "Project 94 Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_5_Sverdlov.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_cruiser_5
+			modules = {								
+				fixed_aircraft_facilities_slot=ship_airplane_launcher_1
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_3
+				fixed_ship_armor_slot=ship_armor_cruiser_4
+				fixed_ship_battery_slot=ship_light_medium_battery_3
+				fixed_ship_engine_slot=cruiser_ship_engine_2
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_0
+				fixed_ship_secondaries_slot=dp_ship_secondaries_2
+				fixed_ship_sonar_slot=ship_sonar_1
+				front_1_custom_slot=ship_light_medium_battery_3
+				mid_1_custom_slot=ship_torpedo_2
+				mid_2_custom_slot=ship_light_medium_battery_3
+				rear_1_custom_slot=ship_light_medium_battery_3
+				rear_2_custom_slot=dp_ship_secondaries_2
+			}
+		}		
+	}
+		
+	light_cruiser_e = {
+	
+		name = "Kynda Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_7_Kynda.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_cruiser_7
+			modules = {								
+				
+				fixed_aircraft_facilities_slot=naval_helicopter_module_1
+				fixed_engine_type_slot=steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_5
+				fixed_ship_armor_slot=ship_armor_cruiser_1
+				fixed_ship_battery_slot=ship_light_asm_battery_2
+				fixed_ship_engine_slot=cruiser_ship_engine_2
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_3
+				fixed_ship_radar_slot=ship_radar_3
+				fixed_ship_secondaries_slot=dp_ship_secondaries_2
+				fixed_ship_sonar_slot=ship_sonar_2
+				front_1_custom_slot=ship_anti_air_5
+				mid_1_custom_slot=ship_torpedo_3
+				rear_1_custom_slot=ship_sam_missile_battery_2
+			}
+		}		
+	}
+		
+	heavy_cruiser_a = {
+	
+		name = "Krasnyi Kavkaz Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_1_Krasnyi_Kavkaz.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_cruiser_1
+			modules = {								
+				
+				fixed_aircraft_facilities_slot=ship_airplane_launcher_1
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_1
+				fixed_ship_armor_slot=ship_armor_cruiser_1
+				fixed_ship_battery_slot=ship_medium_battery_1
+				fixed_ship_engine_slot=cruiser_ship_engine_1
+				fixed_ship_secondaries_slot=dp_ship_secondaries_1
+				mid_1_custom_slot=ship_medium_battery_1
+				mid_2_custom_slot=ship_torpedo_d
+				rear_1_custom_slot=ship_medium_battery_1
+			}
+		}		
+	}
+		
+	heavy_cruiser_b = {
+	
+		name = "Kirov Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_2_Project_26bis.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_cruiser_2
+			modules = {			
+				fixed_aircraft_facilities_slot=ship_airplane_launcher_1
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_2
+				fixed_ship_armor_slot=ship_armor_cruiser_2
+				fixed_ship_battery_slot=ship_medium_battery_1
+				fixed_ship_engine_slot=cruiser_ship_engine_2
+				fixed_ship_secondaries_slot=dp_ship_secondaries_2
+				fixed_ship_sonar_slot=ship_sonar_1
+				front_1_custom_slot=ship_medium_battery_1
+				mid_1_custom_slot=ship_torpedo_1
+				mid_2_custom_slot=ship_mine_layer_1
+				rear_1_custom_slot=ship_depth_charge_1
+			}
+		}		
+	}
+		
+	heavy_cruiser_c = {
+	
+		name = "Project Kh Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_3_Project_Kh.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_cruiser_3
+			modules = {			
+				fixed_aircraft_facilities_slot=ship_airplane_launcher_1
+				fixed_engine_type_slot=steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_3
+				fixed_ship_armor_slot=ship_armor_cruiser_3
+				fixed_ship_battery_slot=ship_medium_battery_2
+				fixed_ship_engine_slot=cruiser_ship_engine_2
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_1
+				fixed_ship_secondaries_slot=dp_ship_secondaries_2
+				fixed_ship_sonar_slot=ship_sonar_1
+				front_1_custom_slot=ship_medium_battery_2
+				mid_1_custom_slot=ship_medium_battery_2
+				mid_2_custom_slot=ship_torpedo_2
+				rear_1_custom_slot=dp_ship_secondaries_2
+				rear_2_custom_slot=ship_medium_battery_2
+			}
+		}		
+	}
+		
+	destroyer_a = {
+	
+		name = "Orfey Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_1_Orfey.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_light_1
+			modules = {			
+				fixed_engine_type_slot=steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_1
+				fixed_ship_battery_slot=ship_light_battery_1
+				fixed_ship_engine_slot=light_ship_engine_1
+				fixed_ship_torpedo_slot=ship_torpedo_d
+				mid_1_custom_slot=ship_anti_air_1
+				rear_1_custom_slot=ship_torpedo_d
+			}
+		}		
+	}
+		
+	destroyer_b = {
+	
+		name = "Fidonisy Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_1_Fidonisi.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_light_1
+			modules = {			
+				fixed_engine_type_slot=steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_1
+				fixed_ship_battery_slot=ship_light_battery_1
+				fixed_ship_engine_slot=light_ship_engine_1
+				fixed_ship_torpedo_slot=ship_torpedo_d
+				mid_1_custom_slot=ship_mine_layer_1
+				rear_1_custom_slot=ship_anti_air_1
+			}
+		}		
+	}
+		
+	destroyer_c = {
+	
+		name = "Leningrad Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_2_Leningrad.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_light_2
+			modules = {			
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_2
+				fixed_ship_battery_slot=ship_light_battery_2
+				fixed_ship_engine_slot=light_ship_engine_1
+				fixed_ship_torpedo_slot=ship_torpedo_1
+				mid_1_custom_slot=ship_mine_layer_1
+				rear_1_custom_slot=ship_depth_charge_1
+			}
+		}		
+	}
+		
+	destroyer_d = {
+	
+		name = "Gnevny Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_2_Gnenvy.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_light_2
+			modules = {		
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_2
+				fixed_ship_battery_slot=ship_light_battery_2
+				fixed_ship_engine_slot=light_ship_engine_2
+				fixed_ship_sonar_slot=ship_sonar_1
+				fixed_ship_torpedo_slot=ship_torpedo_1
+				mid_1_custom_slot=ship_mine_layer_1
+				rear_1_custom_slot=ship_depth_charge_1
+			}
+		}		
+	}
+		
+	destroyer_e = {
+	
+		name = "Tashkent Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_3_Tashkent.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_light_3
+			modules = {		
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_2
+				fixed_ship_battery_slot=ship_light_battery_2
+				fixed_ship_engine_slot=light_ship_engine_2
+				fixed_ship_sonar_slot=ship_sonar_1
+				fixed_ship_torpedo_slot=ship_torpedo_1
+				mid_1_custom_slot=ship_mine_layer_1
+				rear_1_custom_slot=ship_depth_charge_1
+			}
+		}		
+	}
+		
+	destroyer_f = {
+	
+		name = "Ognevoy Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_3_Ognevoy.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_light_3
+			modules = {		
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_2
+				fixed_ship_battery_slot=ship_light_battery_3
+				fixed_ship_engine_slot=light_ship_engine_3
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_1
+				fixed_ship_radar_slot=ship_radar_2
+				fixed_ship_sonar_slot=ship_sonar_2
+				fixed_ship_torpedo_slot=ship_torpedo_2
+				front_1_custom_slot=ship_light_battery_3
+				mid_1_custom_slot=ship_mine_layer_1
+				rear_1_custom_slot=ship_depth_charge_2
+			}
+		}		
+	}
+		
+	destroyer_g = {
+	
+		name = "Kiev Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_4_Kiev.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_light_4
+			modules = {		
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_5
+				fixed_ship_battery_slot=ship_light_battery_3
+				fixed_ship_engine_slot=light_ship_engine_3
+				fixed_ship_sonar_slot=ship_sonar_2
+				fixed_ship_radar_slot=ship_radar_2
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_2
+				fixed_ship_torpedo_slot=ship_torpedo_4
+				front_1_custom_slot=ship_light_battery_3
+				mid_1_custom_slot=ship_torpedo_4
+				mid_2_custom_slot=ship_depth_charge_2
+				rear_1_custom_slot=ship_light_battery_3
+			}
+		}		
+	}
+		
+	destroyer_h = {
+	
+		name = "Skory Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_5_Skoryi.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_light_5
+			modules = {		
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_4
+				fixed_ship_battery_slot=dp_light_battery_4
+				fixed_ship_engine_slot=light_ship_engine_4
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_2
+				fixed_ship_radar_slot=ship_radar_3
+				fixed_ship_sonar_slot=ship_sonar_2
+				fixed_ship_torpedo_slot=ship_torpedo_3
+				front_1_custom_slot=dp_light_battery_4
+				mid_1_custom_slot=ship_mine_layer_1
+				mid_2_custom_slot=ship_depth_charge_2
+				rear_1_custom_slot=ship_depth_charge_2
+			}
+		}		
+	}
+		
+	destroyer_i = {
+	
+		name = "Skory Class Minelayer"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_5_Skoryi.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_light_5
+			modules = {		
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_3
+				fixed_ship_battery_slot=dp_light_battery_3
+				fixed_ship_engine_slot=light_ship_engine_4
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_1
+				fixed_ship_radar_slot=ship_radar_2
+				fixed_ship_sonar_slot=ship_sonar_2
+				fixed_ship_torpedo_slot=ship_torpedo_3
+				front_1_custom_slot=dp_light_battery_3
+				mid_1_custom_slot=ship_anti_air_3
+				mid_2_custom_slot=ship_torpedo_3
+				rear_1_custom_slot=ship_mine_layer_1
+			}
+		}		
+	}
+		
+	destroyer_j = {
+	
+		name = "Neustrashimy Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_6_Neustrashimy.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_light_6
+			modules = {		
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_4
+				fixed_ship_battery_slot=dp_light_battery_4
+				fixed_ship_engine_slot=light_ship_engine_4
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_2
+				fixed_ship_radar_slot=ship_radar_3
+				fixed_ship_sonar_slot=ship_sonar_2
+				fixed_ship_torpedo_slot=ship_torpedo_3
+				front_1_custom_slot=dp_light_battery_4
+				mid_1_custom_slot=ship_mine_layer_1
+				mid_2_custom_slot=ship_depth_charge_2
+				rear_1_custom_slot=ship_depth_charge_2
+			}
+		}		
+	}
+		
+	destroyer_k = {
+	
+		name = "Kotlin Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_6_Kotlin.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_light_6
+			modules = {		
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_4
+				fixed_ship_battery_slot=dp_light_battery_4
+				fixed_ship_engine_slot=light_ship_engine_4
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_2
+				fixed_ship_radar_slot=ship_radar_3
+				fixed_ship_sonar_slot=ship_sonar_2
+				fixed_ship_torpedo_slot=ship_torpedo_4
+				front_1_custom_slot=dp_light_battery_4
+				mid_1_custom_slot=ship_depth_charge_2
+				mid_2_custom_slot=ship_depth_charge_2
+				rear_1_custom_slot=ship_mine_layer_1
+			}
+		}		
+	}
+		
+	destroyer_l = {
+	
+		name = "Kotlin Class Conversion"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/DDGC/SOV_DDG_1_Kildin.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_light_converted_missile
+			modules = {		
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_5
+				fixed_ship_battery_slot=dp_light_battery_4
+				fixed_ship_engine_slot=light_ship_engine_4
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_2
+				fixed_ship_radar_slot=ship_radar_4
+				fixed_ship_sonar_slot=ship_sonar_3
+				fixed_ship_torpedo_slot=ship_torpedo_4
+				front_1_custom_slot=dp_light_battery_4
+				mid_1_custom_slot=ship_depth_charge_2
+				mid_2_custom_slot=ship_depth_charge_6
+				rear_1_custom_slot=ship_sam_missile_battery_2
+			}
+		}		
+	}
+		
+	destroyer_m = {
+	
+		name = "Kanin Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_7_Kanin.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_light_7
+			modules = {		
+				fixed_engine_type_slot=geared_steam_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_5
+				fixed_ship_battery_slot=dp_light_battery_5
+				fixed_ship_engine_slot=light_ship_engine_4
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_6
+				fixed_ship_radar_slot=ship_radar_7
+				fixed_ship_sonar_slot=ship_sonar_4
+				fixed_ship_torpedo_slot=ship_torpedo_4
+				front_1_custom_slot=ship_anti_air_5
+				mid_1_custom_slot=ship_depth_charge_6
+				mid_2_custom_slot=ship_depth_charge_5
+				rear_1_custom_slot=naval_helicopter_module_2
+			}
+		}		
+	}
+		
+	destroyer_n = {
+	
+		name = "Kashin Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_7_Kashin.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_light_7
+			modules = {		
+				fixed_engine_type_slot=gas_turbine
+				fixed_ship_anti_air_slot=ship_anti_air_5
+				fixed_ship_battery_slot=dp_light_battery_5
+				fixed_ship_engine_slot=light_ship_engine_4
+				fixed_ship_fire_control_system_slot=ship_fire_control_system_6
+				fixed_ship_radar_slot=ship_radar_7
+				fixed_ship_sonar_slot=ship_sonar_4
+				fixed_ship_torpedo_slot=ship_torpedo_4
+				front_1_custom_slot=ship_depth_charge_6
+				mid_1_custom_slot=ship_light_asm_battery_2
+				mid_2_custom_slot=ship_sam_missile_battery_2
+				rear_1_custom_slot=naval_helicopter_module_2
+			}
+		}		
+	}
+			
+	submarine_a = {
+	
+		name = "Dekabrist Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_1_Dekabrist.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_submarine_1
+			modules = {		
+				fixed_ship_anti_air_slot=sub_ship_anti_air_1
+				fixed_ship_engine_slot=sub_ship_engine_1
+				fixed_ship_fire_control_system_slot=submarine_firing_computer_1
+				fixed_ship_torpedo_slot=ship_torpedo_sub_1
+				fixed_ship_sonar_slot=submarine_sonar_1
+				rear_1_custom_slot=ship_torpedo_sub_1
+				deck_gun_custom_slot=ship_deck_gun_sub_2
+			}
+		}		
+	}
+			
+	submarine_b = {
+	
+		name = "Leninets Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_1_Leninets.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_submarine_1
+			modules = {		
+				deck_gun_custom_slot=ship_deck_gun_sub_2
+				fixed_ship_anti_air_slot=sub_ship_anti_air_1
+				fixed_ship_engine_slot=sub_ship_engine_1
+				fixed_ship_torpedo_slot=ship_torpedo_sub_1
+				fixed_ship_sonar_slot=submarine_sonar_1
+				rear_1_custom_slot=ship_mine_layer_sub
+			}
+		}		
+	}	
+	
+	submarine_c = {
+	
+		name = "Stalinets Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_2_S_class.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_submarine_2
+			modules = {		
+				deck_gun_custom_slot=ship_deck_gun_sub_2
+				fixed_ship_anti_air_slot=sub_ship_anti_air_1
+				fixed_ship_engine_slot=sub_ship_engine_2
+				fixed_ship_fire_control_system_slot=submarine_firing_computer_1
+				fixed_ship_sonar_slot=submarine_sonar_1
+				fixed_ship_torpedo_slot=ship_torpedo_sub_2
+				rear_1_custom_slot=ship_mine_layer_sub
+			}
+		}		
+	}
+	
+	submarine_d = {
+	
+		name = "Stalinets IX Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_3_S_class_XI_Series.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_submarine_3
+			modules = {		
+				deck_gun_custom_slot=ship_deck_gun_sub_2
+				fixed_conning_tower_slot=ship_sub_snorkel_1
+				fixed_ship_anti_air_slot=sub_ship_anti_air_1
+				fixed_ship_engine_slot=sub_ship_engine_3
+				fixed_ship_fire_control_system_slot=submarine_firing_computer_2
+				fixed_ship_sonar_slot=submarine_sonar_1
+				fixed_ship_torpedo_slot=ship_torpedo_sub_2
+				rear_1_custom_slot=ship_mine_layer_sub
+			}
+		}		
+	}
+	
+	submarine_e = {
+	
+		name = "Whiskey Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_4_Whiskey.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_submarine_4
+			modules = {		
+				fixed_conning_tower_slot=ship_sub_snorkel_2
+				fixed_ship_anti_air_slot=sub_ship_anti_air_2
+				fixed_ship_engine_slot=sub_ship_engine_4
+				fixed_ship_fire_control_system_slot=submarine_firing_computer_2
+				fixed_ship_sonar_slot=submarine_sonar_1
+				fixed_ship_sub_radar_slot=sub_ship_radar_1
+				fixed_ship_torpedo_slot=ship_torpedo_sub_3
+				front_1_custom_slot=ship_torpedo_sub_3
+				#mid_2_custom_slot=ship_mine_layer_sub
+				rear_1_custom_slot=ship_mine_layer_sub
+			}
+		}		
+	}
+	
+	submarine_f = {
+	
+		name = "Quebec Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_5_Quebec.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_submarine_5
+			modules = {		
+				fixed_conning_tower_slot=ship_sub_snorkel_3
+				fixed_ship_anti_air_slot=sub_ship_anti_air_2
+				fixed_ship_engine_slot=sub_ship_engine_4
+				fixed_ship_fire_control_system_slot=submarine_firing_computer_2
+				fixed_ship_sonar_slot=submarine_sonar_1
+				fixed_ship_sub_radar_slot=sub_ship_radar_1
+				fixed_ship_torpedo_slot=ship_torpedo_sub_4
+				front_1_custom_slot=ship_torpedo_sub_4
+				mid_2_custom_slot=ship_mine_layer_sub
+				rear_1_custom_slot=ship_mine_layer_sub
+			}
+		}		
+	}
+	
+	submarine_f = {
+	
+		name = "Romeo Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_6_Romeo.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_submarine_6
+			modules = {		
+				fixed_conning_tower_slot=ship_sub_snorkel_3
+				fixed_ship_anti_air_slot=sub_ship_anti_air_2
+				fixed_ship_engine_slot=sub_ship_engine_5
+				fixed_ship_fire_control_system_slot=submarine_firing_computer_4
+				fixed_ship_sonar_slot=submarine_sonar_3
+				fixed_ship_sub_radar_slot=sub_ship_radar_3
+				fixed_ship_torpedo_slot=ship_torpedo_sub_5
+				front_1_custom_slot=ship_torpedo_sub_5
+				mid_2_custom_slot=ship_torpedo_sub_5
+			}
+		}		
+	}
+	
+	submarine_g = {
+	
+		name = "November Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_6_November.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_submarine_6
+			modules = {		
+				fixed_conning_tower_slot=ship_sub_snorkel_4
+				fixed_engine_type_slot=sub_nuclear_reactor_module
+				fixed_ship_engine_slot=sub_ship_engine_5
+				fixed_ship_fire_control_system_slot=submarine_firing_computer_4
+				fixed_ship_sonar_slot=submarine_sonar_3
+				fixed_ship_armor_slot=anechoic_tiles_2
+				fixed_ship_sub_radar_slot=sub_ship_radar_3
+				fixed_ship_torpedo_slot=ship_torpedo_sub_5
+				front_1_custom_slot=ship_torpedo_sub_5
+				mid_2_custom_slot=ship_torpedo_sub_5
+			}
+		}		
+	}
+	
+	submarine_h = {
+	
+		name = "Juliett Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/SSG/SOV_SSG_1_Juliett.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_submarine_6
+			modules = {		
+				fixed_conning_tower_slot=ship_sub_snorkel_4
+				fixed_ship_anti_air_slot=sub_ship_anti_air_2
+				fixed_ship_armor_slot=anechoic_tiles_2
+				fixed_ship_engine_slot=sub_ship_engine_2
+				fixed_ship_fire_control_system_slot=submarine_firing_computer_4
+				fixed_ship_sonar_slot=submarine_sonar_3
+				fixed_ship_sub_radar_slot=sub_ship_radar_3
+				fixed_ship_torpedo_slot=ship_torpedo_sub_7
+				front_1_custom_slot=ship_torpedo_sub_7
+				mid_2_custom_slot=sub_missile_launcher
+				rear_1_custom_slot=ship_torpedo_sub_7
+			}
+		}		
+	}
+	
+	submarine_i = {
+	
+		name = "K Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/SSC/SOV_SSC_1_K_class.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_cruiser_submarine
+			modules = {		
+				fixed_ship_anti_air_slot=sub_ship_anti_air_2
+				fixed_ship_engine_slot=sub_ship_engine_2
+				fixed_ship_fire_control_system_slot=submarine_firing_computer_1
+				fixed_ship_torpedo_slot=ship_torpedo_sub_2
+				front_1_custom_slot=ship_torpedo_sub_2
+				rear_1_custom_slot=ship_torpedo_sub_2
+			}
+		}		
+	}
+	
+	submarine_j = {
+	
+		name = "Pravda Class"		
+		override_sprite="gfx/interface/equipmentdesigner/ships/SOV/SST/SOV_SST_1_Pravda.dds"
+		history = yes
+		
+		priority = {
+			factor = 1
+		}
+
+		target_variant = {
+			match_value = 1
+			
+			type = ship_hull_tanker_submarine
+			modules = {		
+				fixed_ship_anti_air_slot=sub_ship_anti_air_2
+				fixed_ship_engine_slot=sub_ship_engine_2
+				# fixed_ship_fire_control_system_slot=submarine_firing_computer_1
+				# fixed_ship_torpedo_slot=ship_torpedo_sub_2
+			}
+		}		
+	}
+	
+}

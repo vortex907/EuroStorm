@@ -1,0 +1,14 @@
+units = {
+	fleet = {
+		name = "Replenishment Fleet"			
+		naval_base = 241 # Wilhemshaven
+		task_force = {					
+			name = "Replenishment Fleet"				
+			location = 241 # Wilhemshaven
+			# Replenishment Division			
+			ship = { name = "Kulmerland" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = GER } } }		
+			ship = { name = "Ermland" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = GER } } }		
+			ship = { name = "Gedania" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = GER } } }		
+		}			
+	}
+}

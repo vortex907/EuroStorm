@@ -1,0 +1,75 @@
+spriteTypes = {	
+
+
+	SpriteType = {
+	name = "GFX_TIB_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/TIB_1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_TIB_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/denxson/TIB_2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_TIB_improved_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/TIB_3.dds"
+	}
+
+### Arty ###
+
+	SpriteType = {
+	name = "GFX_SLO_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/SLO_iwa.dds"
+	}
+	 
+	SpriteType = {
+	name = "GFX_SLO_adv_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/SLO_a2.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_SLO_artillery3_medium"
+	texturefile = "gfx/interface/technologies/denxson/SLO_a3.dds"
+	}	 
+	
+	SpriteType = {
+	name = "GFX_SLO_artillery_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/denxson/SLO_iwa.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_SLO_artillery_equipment_3_medium"
+	texturefile = "gfx/interface/technologies/denxson/SLO_a3.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_SLO_artillery_equipment_2_medium"
+	texturefile = "gfx/interface/technologies/denxson/SLO_a2.dds"
+	}
+	
+### Anti-Air ###
+
+	SpriteType = {
+	name = "GFX_TIB_interwar_antiair_medium"
+	texturefile = "gfx/interface/technologies/denxson/TIB_aa1.dds"
+	}
+	
+### troop_carriers ###
+
+	SpriteType = {
+		name = "GFX_TIB_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/denxson/TIB_tc1.dds"
+	}
+		SpriteType = {
+		name = "GFX_TIB_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/denxson/TIB_tc1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TIB_motorised_equipment_medium"
+		texturefile = "gfx/interface/technologies/denxson/TIB_tc1.dds"
+	}
+
+
+}

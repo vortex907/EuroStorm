@@ -1,0 +1,370 @@
+###### AIR PROJECTS ######
+# MUST SUCCEED CHECK
+
+sp_air_bouncing_bomb_trigger = {
+
+	any_enemy_country = {
+		OR = {
+			dam > 0
+			dam_mountain > 0
+			canal_kiel > 0
+			canal_panama > 0
+		}
+	}	
+	OR = {
+		has_deployed_air_force_size = {
+			size > 69
+			type = strategic_bomber
+		}
+		has_deployed_air_force_size = {
+			size > 69
+			type = tactical_bomber
+		}
+	}		
+	#has_tech = heavy_bombs
+	
+}
+
+sp_air_earthshaker_bomb_trigger = {
+	any_enemy_country = {
+		mega_gun_emplacement > 0
+	}
+	has_deployed_air_force_size = {
+		size > 69
+		type = strategic_bomber
+	}
+	#has_tech = heavy_bombs
+	is_major = yes
+}
+
+sp_air_intercontinental_bomber_trigger = {
+	
+    any_enemy_country = {
+		is_major = yes
+		capital_scope = {
+			check_variable = { distance_to@var:ROOT.capital < 2000 }
+		}
+	}  
+
+}
+	
+sp_air_mothership_aircraft_trigger = {
+	any_enemy_country = {		
+		has_deployed_air_force_size = {
+			size > 1499
+			type = fighter
+		}
+	}	
+	has_deployed_air_force_size = {
+		size > 1499
+		type = strategic_bomber
+	}
+	#has_tech = improved_large_airframe
+}
+	
+sp_air_jet_engine_trigger = {
+	OR = {
+		AND = {
+			any_enemy_country = {
+				is_special_project_completed = sp:sp_air_jet_engine
+			}	
+			has_deployed_air_force_size = {
+				size > 299
+				type = fighter
+			}
+			OR = {
+				has_tech = improved_small_airframe
+				has_tech = improved_medium_airframe
+			}
+		}		
+		AND = {
+			is_major = yes
+			OR = {
+				has_tech = improved_small_airframe
+				has_tech = improved_medium_airframe
+			}
+		}
+	}
+	#has_tech = engines_2
+}
+
+sp_air_helicopter_trigger = {
+	is_major = yes
+}
+
+###### LAND PROJECTS ######
+# MUST SUCCEED CHECK
+	
+sp_land_land_cruiser_trigger = {
+	#surrender_progress < 0.01
+	arms_factory > 199
+	OR = {
+		AND = {
+			has_war_support > 0.95
+			has_government = DEMOCRATIC
+		}
+		has_war_support > 0.7
+	}
+}
+
+sp_infantry_fighting_vehicle_trigger = {
+	is_major = yes
+}
+
+sp_paratank_trigger = {
+	is_major = yes
+}
+	
+sp_main_battle_tank_trigger = {
+	is_major = yes
+}
+
+sp_land_multi_charge_large_caliber_gun_trigger = {
+	is_major = yes
+	surrender_progress < 0.01
+	NOT = { has_government = DEMOCRATIC }
+}
+
+sp_land_stronghold_network_trigger = {
+	OR = {
+		has_defensive_war = yes
+		surrender_progress < 0.01
+	}
+}
+
+sp_low_altitude_sam_trigger = {
+	is_major = yes
+}
+
+sp_tactical_ballistic_missiles_trigger = {
+	is_major = yes
+}
+
+sp_ballistic_computer_trigger = {
+	is_major = yes
+	or = {
+		has_tech = modern_light_tank_chassis
+		has_tech = main_battle_tank_chassis
+	}
+}
+
+###### NAVAL PROJECTS ######
+# MUST SUCCEED CHECK
+
+sp_naval_cruiser_submarine_trigger = {
+	is_major = yes
+	or = {
+		or = {
+			tag = FRA
+			tag = JAP
+		}
+		#has_doctrine = new_convoy_raiding
+		#has_doctrine = new_base_strike
+	}
+}
+
+sp_naval_fleet_submarine_trigger = {
+	is_major = yes
+	or = {
+		#has_doctrine = new_convoy_raiding
+		#has_doctrine = new_base_strike
+		#has_doctrine = new_fleet_in_being
+	}
+}
+
+sp_naval_midget_submarine_trigger = {
+	or = {
+		#has_doctrine = new_convoy_raiding
+		#has_tech = home_defense
+		tag = JAP
+		tag = ITA
+		tag = GER
+		tag = ENG
+	}
+}
+
+sp_naval_aip_engine_trigger = {
+	or = {
+		#has_doctrine = new_convoy_raiding
+		#has_tech = home_defense
+		tag = SWE
+		tag = GER
+	}
+}
+
+sp_naval_anechoic_tiles_trigger = {
+	or = {
+		#has_doctrine = new_convoy_raiding
+		#has_tech = home_defense
+		has_navy_size = {
+			size > 25
+			type = submarine			
+		}
+	}
+}
+
+sp_naval_torpedo_cruiser_trigger = {
+	or = {
+		AND = {
+			OR = {
+				#has_tech = home_defense
+				#has_doctrine = new_fleet_in_being
+			}
+			has_navy_size = {
+				size < 4
+				type = capital_ship
+				archetype = ship_hull_heavy	
+			}
+			any_enemy_country = {
+				has_navy_size = {
+					size > 9
+					type = capital_ship
+					archetype = ship_hull_heavy			
+				}
+			}	
+		}
+		tag = JAP
+	}
+}
+	
+sp_panzerschiff_trigger = {
+	or = {
+		and = {
+			#has_doctrine = new_convoy_raiding
+			#has_tech = capital_ship_raiders
+		}
+		and = {
+			any_enemy_country = {
+				has_navy_size = {
+					size > 59
+					archetype = ship_hull_cruiser		
+				}
+			}
+		}
+		tag = GER
+	}
+}
+
+sp_naval_super_heavy_battleship_trigger = {
+	is_major = yes
+	or = {
+		tag = GER
+		tag = JAP
+		tag = ENG
+		or = {
+			and = {
+				#has_doctrine = new_base_strike
+				has_navy_size = {
+					size > 4
+					type = capital_ship
+					archetype = ship_hull_heavy			
+				}
+				any_enemy_country = {
+					has_navy_size = {
+						size > 4
+						type = capital_ship
+						archetype = ship_hull_heavy		
+					}
+					has_navy_size = {
+						size < 4
+						type = carrier
+					}
+				}		
+			}
+			and = {
+				#has_doctrine = new_fleet_in_being					
+				has_navy_size = {
+					size > 4
+					type = capital_ship
+					archetype = ship_hull_heavy			
+				}
+				any_enemy_country = {
+					has_navy_size = {
+						size > 4
+						type = capital_ship
+						archetype = ship_hull_heavy		
+					}
+				}
+			}
+		}
+	}	
+}
+
+sp_naval_modern_battleship_trigger = {
+	is_major = yes
+	has_navy_size = {
+		size > 5
+		type = capital_ship
+		archetype = ship_hull_heavy				
+	}
+	any_enemy_country = {
+		has_navy_size = {
+			size > 4
+			type = capital_ship
+			archetype = ship_hull_heavy		
+		}
+		has_navy_size = {
+			size < 4
+			type = carrier
+		}
+	}
+}
+	
+###### ROCKET PROJECTS ######
+# MUST SUCCEED CHECK
+
+sp_hardened_missile_silos_trigger = {
+	is_major = yes
+	or = {
+		any_other_country = {	
+			is_in_array = {
+				array = potential_and_current_enemies
+				value = PREV  # Target country
+			}
+			or = {
+				has_deployed_air_force_size = {
+					size > 50
+					type = nuclear_missile
+				}
+				has_deployed_air_force_size = {
+					size > 50
+					type = ballistic_missile
+				}
+			}
+			num_of_nukes > 50
+		}
+		or = {
+			tag = SOV
+			tag = GER
+			tag = USA
+		}
+	}
+}
+
+sp_anti_ballistic_missile_system_trigger = {
+	is_major = yes
+	or = {
+		any_other_country = {	
+			is_in_array = {
+				array = potential_and_current_enemies
+				value = PREV  # Target country
+			}
+			or = {
+				has_deployed_air_force_size = {
+					size > 50
+					type = nuclear_missile
+				}
+				has_deployed_air_force_size = {
+					size > 50
+					type = ballistic_missile
+				}
+			}
+			num_of_nukes > 50
+		}
+		or = {
+			tag = SOV
+			tag = GER
+			tag = USA
+		}
+	}
+}

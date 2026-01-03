@@ -1,0 +1,580 @@
+spriteTypes = {
+	
+	### NEW MISSILES AND ROCKETS
+	
+	###### USA
+	
+	# SpriteType = {
+		# name = "GFX_USA_sp_flying_bomb_medium"
+		# texturefile = "gfx/interface/technologies/missiles/USA_JB_1.dds"
+	# }	
+	
+	# SpriteType = {
+		# name = "GFX_guided_missile_equipment_1_medium"
+		# texturefile = "gfx/interface/technologies/missiles/USA_JB_1.dds"
+	# }	
+	
+	SpriteType = {
+		name = "GFX_USA_sp_flying_bomb_medium"
+		texturefile = "gfx/interface/technologies/USA_guided_missile_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_guided_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/USA_guided_missile_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_sp_flying_bomb_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_MGM_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_guided_missile_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_MGM_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_sp_flying_bomb_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_MGM_13.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_guided_missile_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_MGM_13.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_sp_flying_bomb_4_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_Navaho.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_guided_missile_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_Navaho.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_sp_flying_bomb_5_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_Snark.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_guided_missile_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_Snark.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_sp_ballistic_missile_medium"
+		texturefile = "gfx/interface/technologies/USA_guided_missile_2.dds"
+	} 
+
+	SpriteType = {
+		name = "GFX_USA_ballistic_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/USA_guided_missile_2.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_sp_ballistic_missile_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_Redstone.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_ballistic_missile_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_Redstone.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_sp_ballistic_missile_3_medium"
+		texturefile = "gfx/interface/technologies/USA_guided_missile_4.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_ballistic_missile_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/USA_guided_missile_4.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_sp_nuclear_missile_1_medium"
+		texturefile = "gfx/interface/technologies/USA_guided_missile_5.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_nuclear_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/USA_guided_missile_5.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_sp_nuclear_missile_2_medium"
+		texturefile = "gfx/interface/technologies/USA_guided_missile_6.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_nuclear_missile_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/USA_guided_missile_6.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_sp_nuclear_missile_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_Titan.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_nuclear_missile_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_Titan.dds"
+	}  
+	
+	SpriteType = {
+		name = "GFX_USA_sp_sam_missile_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_GAPA.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_sam_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_GAPA.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_sp_sam_missile_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_Nike_Ajax.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_sam_missile_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_Nike_Ajax.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_sp_sam_missile_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_Nike_Hercules.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_sam_missile_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_Nike_Hercules.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_sp_sam_missile_4_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_BOMARC.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_sam_missile_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_BOMARC.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_sp_slbm_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_Polaris.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_slbm_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_Polaris.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_slcm_tech_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_Regulus.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_slcm_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_Regulus.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_slcm_tech_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_Regulus_II.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_USA_slcm_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/USA_Regulus_II.dds"
+	}
+	
+	###### SOV
+	
+	# SpriteType = {
+		# name = "GFX_SOV_sp_flying_bomb_medium"
+		# texturefile = "gfx/interface/technologies/missiles/SOV_JB_1.dds"
+	# }	
+	
+	# SpriteType = {
+		# name = "GFX_guided_missile_equipment_1_medium"
+		# texturefile = "gfx/interface/technologies/missiles/SOV_JB_1.dds"
+	# }	
+	
+	SpriteType = {
+		name = "GFX_SOV_sp_flying_bomb_medium"
+		texturefile = "gfx/interface/technologies/SOV_guided_missile_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_guided_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_guided_missile_1.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_SOV_sp_flying_bomb_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_P_35.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_guided_missile_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_P_35.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_sp_flying_bomb_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_Tu_121.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_guided_missile_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_Tu_121.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_sp_flying_bomb_4_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_La_350.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_guided_missile_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_La_350.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_sp_flying_bomb_5_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_M_40.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_guided_missile_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_M_40.dds"
+	}
+	 
+	SpriteType = {
+		name = "GFX_SOV_sp_ballistic_missile_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_R_11.dds"
+	} 
+
+	SpriteType = {  
+		name = "GFX_SOV_ballistic_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_R_11.dds"
+	}  
+	
+	SpriteType = {
+		name = "GFX_SOV_sp_ballistic_missile_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/sov_r5.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_ballistic_missile_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/sov_r5.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_sp_ballistic_missile_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_R_12.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_ballistic_missile_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_R_12.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_sp_nuclear_missile_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_R_14.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_nuclear_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_R_14.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_sp_nuclear_missile_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/sov_r7.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_nuclear_missile_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/sov_r7.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_sp_nuclear_missile_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_R_16.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_nuclear_missile_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_R_16.dds"
+	}  
+	
+	SpriteType = {
+		name = "GFX_SOV_sp_sam_missile_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_R_108.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_sam_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_R_108.dds"
+	}  
+	
+	SpriteType = {
+		name = "GFX_SOV_sp_sam_missile_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_S_25.dds" 
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_sam_missile_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_S_25.dds" 
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_sp_sam_missile_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_S_75.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_sam_missile_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_S_75.dds"
+	} 
+	 
+	SpriteType = {
+		name = "GFX_SOV_sp_sam_missile_4_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_S_200.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_sam_missile_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_S_200.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_sp_slbm_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_R_13.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_slbm_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_R_13.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_slcm_tech_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_P_205.dds"
+	} 
+	 
+	SpriteType = {
+		name = "GFX_SOV_slcm_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_P_205.dds"
+	} 
+	 
+	SpriteType = {
+		name = "GFX_SOV_slcm_tech_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_P_5.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_slcm_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/SOV_P_5.dds"
+	}
+ 
+	###### GER
+	
+	# SpriteType = {
+		# name = "GFX_GER_sp_flying_bomb_medium"
+		# texturefile = "gfx/interface/technologies/missiles/GER_JB_1.dds"
+	# }	
+	
+	# SpriteType = {
+		# name = "GFX_guided_missile_equipment_1_medium"
+		# texturefile = "gfx/interface/technologies/missiles/GER_JB_1.dds"
+	# }	
+	
+	SpriteType = {
+		name = "GFX_GER_sp_flying_bomb_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_Fi_103.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_guided_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_Fi_103.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_GER_sp_flying_bomb_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_A7.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_guided_missile_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_A7.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_sp_flying_bomb_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_A4b.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_guided_missile_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_A4b.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_sp_flying_bomb_4_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_G3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_guided_missile_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_G3.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_sp_flying_bomb_5_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_A6.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_guided_missile_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_A6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_sp_ballistic_missile_medium"
+		texturefile = "gfx/interface/technologies/missiles/ger_v2.dds"
+	}  
+
+	SpriteType = { 
+		name = "GFX_GER_ballistic_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/ger_v2.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_sp_ballistic_missile_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_A9.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_ballistic_missile_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_A9.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_sp_ballistic_missile_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_A8.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_ballistic_missile_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_A8.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_sp_nuclear_missile_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_G4.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_nuclear_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_G4.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_sp_nuclear_missile_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_A8A9.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_nuclear_missile_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_A8A9.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_sp_nuclear_missile_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/Ger_SuperJupiter.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_nuclear_missile_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/Ger_SuperJupiter.dds"
+	}  
+	
+	SpriteType = {
+		name = "GFX_GER_sp_sam_missile_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_Enzian.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_sam_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_Enzian.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_sp_sam_missile_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_Hs_117.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_sam_missile_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_Hs_117.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_sp_sam_missile_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_Wasserfall.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_sam_missile_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_Wasserfall.dds"
+	} 
+	 
+	SpriteType = {
+		name = "GFX_GER_sp_sam_missile_4_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_R_117.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_sam_missile_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_R_117.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_sp_slbm_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_Pruefstand.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_slbm_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_Pruefstand.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_slcm_tech_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_A7N.dds"
+	} 
+	 
+	SpriteType = {
+		name = "GFX_GER_slcm_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_A7N.dds"
+	} 
+	 
+	SpriteType = {
+		name = "GFX_GER_slcm_tech_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_EKR.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_GER_slcm_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/missiles/GER_EKR.dds"
+	}
+}

@@ -1,0 +1,22 @@
+units = {
+	fleet = {
+		name = "Mursmansk Replenishment Fleet"			
+		naval_base = 3134 # Mursmansk
+		task_force = {					
+			name = "Mursmansk Replenishment Fleet"				
+			location = 3134 # Mursmansk
+			# Replenishment Division			
+			ship = { name = "Polyarnik" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = SOV } } }
+		}			
+	}
+	fleet = {
+		name = "Vladivostok Replenishment Fleet"			
+		naval_base = 957 # Vladivostok
+		task_force = {					
+			name = "Vladivostok Replenishment Fleet"				
+			location = 957 # Vladivostok
+			# Replenishment Division				
+			ship = { name = "Pevek" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = SOV } } }
+		}
+	}
+}

@@ -1,0 +1,35 @@
+spriteTypes = {
+
+#MIOS
+		
+	SpriteType = { 
+		name = "GFX_mio_lockheed_skunk_works"
+		texturefile = "gfx/interface/military_industrial_organization/policy_icons/mio_skunk_works.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_mio_cat_eq_all_modern_tank"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_cat_eq_all_modern_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mio_cat_eq_all_rockets"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_cat_eq_all_rockets.dds"
+	} 
+
+	spriteType = {
+		name = "GFX_mio_cat_eq_all_helicopter_carrier"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_cat_eq_all_helicopter_carrier.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_military_industrial_organization_airlifter_equipment"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_cat_eq_airlifter.dds"
+	} 
+
+	spriteType = { 
+		name = "GFX_military_industrial_organization_heavy_artillery_equipment"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_cat_eq_heavy_artillery.dds"
+	} 
+} 
+

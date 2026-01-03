@@ -1,0 +1,138 @@
+spriteTypes = {	
+
+	SpriteType = {
+	name = "GFX_WGR_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/GER_1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_WGR_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/denxson/GER_2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_WGR_improved_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/GER_3.dds"
+	}
+		
+	SpriteType = {
+	name = "GFX_WGR_advanced_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/GER_4.dds"
+	}
+	
+### Arty ###
+
+	SpriteType = {
+	name = "GFX_WRG_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/WRG_iwa.dds"
+	}
+	 
+	SpriteType = {
+	name = "GFX_WRG_adv_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/WRG_a2.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_WRG_artillery3_medium"
+	texturefile = "gfx/interface/technologies/denxson/WRG_a3.dds"
+	}	 
+	
+	SpriteType = {
+	name = "GFX_WRG_artillery_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/denxson/WRG_iwa.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_WRG_artillery_equipment_3_medium"
+	texturefile = "gfx/interface/technologies/denxson/WRG_a3.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_WRG_artillery_equipment_2_medium"
+	texturefile = "gfx/interface/technologies/denxson/WRG_a2.dds"
+	}	
+	
+### Anti-tank ###
+
+	SpriteType = {
+	name = "GFX_WGR_interwar_antitank_medium"
+	texturefile = "gfx/interface/technologies/denxson/WGR_at1.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_WGR_antitank2_medium"
+	texturefile = "gfx/interface/technologies/denxson/WGR_at2.dds"
+	}		
+   
+    SpriteType = {
+	name = "GFX_WGR_antitank5_medium"
+	texturefile = "gfx/interface/technologies/denxson/WGR_at3.dds"
+	}	
+
+### Anti-air ###
+	
+	SpriteType = {
+	name = "GFX_WGR_interwar_antiair_medium"
+	texturefile = "gfx/interface/technologies/denxson/WGR_aa1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_WGR_antiair2_medium"
+	texturefile = "gfx/interface/technologies/denxson/WGR_aa2.dds"
+	}
+		
+	SpriteType = {
+	name = "GFX_WGR_antiair5_medium"
+	texturefile = "gfx/interface/technologies/denxson/WGR_aa3.dds"
+	}	
+	
+### armoured cars ###
+
+	SpriteType = {
+	name = "GFX_WGR_armored_car1_medium"
+	texturefile = "gfx/interface/technologies/denxson/WGR_ac1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_WGR_armored_car2_medium"
+	texturefile = "gfx/interface/technologies/denxson/WGR_ac2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_WGR_armored_car3_medium"
+	texturefile = "gfx/interface/technologies/denxson/WGR_ac3.dds"
+	}
+	
+### troop_carriers ###
+
+    SpriteType = {
+	name = "GFX_WGR_motorized_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/denxson/WGR_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_WGR_motorised_infantry_medium"
+	texturefile = "gfx/interface/technologies/denxson/WGR_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_WGR_motorised_equipment_medium"
+	texturefile = "gfx/interface/technologies/denxson/WGR_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_WGR_mechanised_infantry3_medium"
+	texturefile = "gfx/interface/technologies/denxson/WGR_tc4.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_WGR_mechanised_infantry2_medium"
+	texturefile = "gfx/interface/technologies/denxson/WGR_tc3.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_WGR_mechanised_infantry_medium"
+	texturefile = "gfx/interface/technologies/denxson/WGR_tc2.dds"
+	}
+	
+}

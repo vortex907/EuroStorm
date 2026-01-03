@@ -1,0 +1,2365 @@
+# add_namespace = SOV_plane_variants
+
+# country_event = { #I-16
+	# id = SOV_plane_variants.1
+		
+	# title = SOV_plane_variants.1.t
+	# desc = SOV_plane_variants.1.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = basic_small_airframe
+		# has_tech = aa_hmg
+		# has_tech = engines_2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "I-16"
+			# type = small_plane_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = empty
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = light_mg_4x
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# engine_type_slot = radial_engine_2_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_SOV_I_16
+			# mark_older_equipment_obsolete = no
+			# #design_team = mio:SOV_ilyushin_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #I-153
+	# id = SOV_plane_variants.2
+		
+	# title = SOV_plane_variants.2.t
+	# desc = SOV_plane_variants.2.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "I-153"
+			# type = small_plane_airframe_0
+			# modules = {
+				# fixed_wing_slot = biplane_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = empty
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = light_mg_4x
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# engine_type_slot = radial_engine_1_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_SOV_early_fighter_medium
+			# mark_older_equipment_obsolete = no
+			# #design_team = mio:SOV_ilyushin_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Mig-3
+	# id = SOV_plane_variants.3
+		
+	# title = SOV_plane_variants.3.t
+	# desc = SOV_plane_variants.3.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = basic_small_airframe
+		# has_tech = engines_2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Mig-3"
+			# type = small_plane_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = light_mg_4x
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# engine_type_slot = engine_2_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_SOV_Mig_3
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_mig_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #LaGG-3
+	# id = SOV_plane_variants.4
+		
+	# title = SOV_plane_variants.4.t
+	# desc = SOV_plane_variants.4.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = improved_small_airframe
+		# has_tech = engines_3
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "LaGG-3"
+			# type = small_plane_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = engine_cannon_1_1x
+				# fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_3_1x
+				# special_type_slot_1 = non_strategic_materials_small
+				# special_type_slot_2 = armor_plate_small	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_SOV_Lagg_3
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_lavochkin_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Yak-1
+	# id = SOV_plane_variants.5
+		
+	# title = SOV_plane_variants.5.t
+	# desc = SOV_plane_variants.5.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = improved_small_airframe
+		# has_tech = engines_3
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Yak-1"
+			# type = small_plane_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = engine_cannon_1_1x
+				# fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_3_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_SOV_Yak_1
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_yakovlev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Yak-9
+	# id = SOV_plane_variants.6
+		
+	# title = SOV_plane_variants.6.t
+	# desc = SOV_plane_variants.6.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = improved_small_airframe
+		# has_tech = engines_4
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Yak-9"
+			# type = small_plane_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system	
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = engine_cannon_1_1x
+				# fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_4_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_SOV_Yak_9
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_yakovlev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #La-5
+	# id = SOV_plane_variants.7
+		
+	# title = SOV_plane_variants.7.t
+	# desc = SOV_plane_variants.7.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = improved_small_airframe
+		# has_tech = engines_3
+		# has_tech = aa_cannon_1
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "La-5"
+			# type = small_plane_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system	
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_1_2x
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = radial_engine_3_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_SOV_La_5
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_lavochkin_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Yak-3
+	# id = SOV_plane_variants.8
+		
+	# title = SOV_plane_variants.8.t
+	# desc = SOV_plane_variants.8.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = advanced_small_airframe
+		# has_tech = engines_4
+		# has_tech = aa_cannon_2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Yak-3"
+			# type = small_plane_airframe_3
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight 
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = engine_cannon_2_1x 
+				# fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				# fixed_auxiliary_weapon_slot_2 = empty 
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_4_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_SOV_fighter3_medium
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_yakovlev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #La-7
+	# id = SOV_plane_variants.9
+		
+	# title = SOV_plane_variants.9.t
+	# desc = SOV_plane_variants.9.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = advanced_small_airframe
+		# has_tech = engines_4
+		# has_tech = aa_cannon_2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "La-7"
+			# type = small_plane_airframe_3
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight 
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_1_2x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_1x
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = radial_engine_4_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_SOV_La_7
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_lavochkin_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Mig-9
+	# id = SOV_plane_variants.10
+	
+	# title = SOV_plane_variants.10.t
+	# desc = SOV_plane_variants.10.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_small_airframe
+		# has_tech = jet_engines
+		# has_tech = aa_cannon_3
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Mig-9 Fargo"
+			# type = small_plane_airframe_4
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight 
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_3_1x 
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x 
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = jet_engine_2x
+				# special_type_slot_1 = g_suit_1
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty		
+			# }
+			# icon = GFX_SOV_Mig_9
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_mig_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Yak-15
+	# id = SOV_plane_variants.11
+	
+	# title = SOV_plane_variants.11.t
+	# desc = SOV_plane_variants.11.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_small_airframe
+		# has_tech = jet_engines
+		# has_tech = aa_cannon_3
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Yak-15 Feather"
+			# type = small_plane_airframe_4
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight 
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_3_2x 
+				# fixed_auxiliary_weapon_slot_1 = empty 
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = jet_engine_1x
+				# special_type_slot_1 = g_suit_1
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty		
+			# }
+			# icon = GFX_SOV_Yak_15
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_yakovlev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Mig-15
+	# id = SOV_plane_variants.12
+	
+	# title = SOV_plane_variants.12.t
+	# desc = SOV_plane_variants.12.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_small_airframe_2
+		# has_tech = jet_engines_2
+		# has_tech = aa_cannon_3
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Mig-15 Fagot"
+			# type = small_plane_airframe_5
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight 
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_3_1x 
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x 
+				# fixed_auxiliary_weapon_slot_2 = drop_tanks
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = jet_engine_2_1x
+				# special_type_slot_1 = g_suit_1
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty		
+			# }
+			# icon = GFX_SOV_Mig_15
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_mig_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #La-15
+	# id = SOV_plane_variants.13
+	
+	# title = SOV_plane_variants.13.t
+	# desc = SOV_plane_variants.13.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_small_airframe_2
+		# has_tech = jet_engines_2
+		# has_tech = aa_cannon_3
+		# has_tech = postwar_radar_tech_1
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "La-15 Fantail"
+			# type = small_plane_airframe_5
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = air_air_radar_3
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight 
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_3_1x 
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x 
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = jet_engine_2_1x
+				# special_type_slot_1 = g_suit_1
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty		
+			# }
+			# icon = GFX_SOV_La_15
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_lavochkin_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Mig-17
+	# id = SOV_plane_variants.14
+	
+	# title = SOV_plane_variants.14.t
+	# desc = SOV_plane_variants.14.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_small_airframe_3
+		# has_tech = second_gen_jet_engines
+		# has_tech = aa_cannon_3
+		# #has_tech = postwar_radar_tech_1
+		# has_tech = imp_bomb_rack
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Mig-17 Fresco"
+			# type = small_plane_airframe_6
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight 
+				# fixed_engine_mod_slot = afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_3_1x 
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x 
+				# fixed_auxiliary_weapon_slot_2 = imp_bomb_locks
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = jet_engine_2_1x
+				# special_type_slot_1 = g_suit_2
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty		
+			# }
+			# icon = GFX_SOV_Mig_17
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_mig_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Mig-17PM
+	# id = SOV_plane_variants.15
+	
+	# title = SOV_plane_variants.15.t
+	# desc = SOV_plane_variants.15.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_small_airframe_3
+		# has_tech = jet_engines_2
+		# has_tech = aa_cannon_3
+		# has_tech = postwar_radar_tech_3
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Mig-17PM Fresco E"
+			# type = small_plane_airframe_6
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = air_air_radar_4
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight 
+				# fixed_engine_mod_slot = afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_3_1x 
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x 
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = jet_engine_2_1x
+				# special_type_slot_1 = g_suit_2
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty		
+			# }
+			# icon = GFX_SOV_Mig_17
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_mig_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Mig-19
+	# id = SOV_plane_variants.16
+	
+	# title = SOV_plane_variants.16.t
+	# desc = SOV_plane_variants.16.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_small_airframe_3
+		# has_tech = second_gen_jet_engines
+		# has_tech = aa_cannon_4
+		# has_tech = postwar_radar_tech_3
+		# has_tech = aa_cannon_5
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Mig-19 Farmer"
+			# type = small_plane_airframe_6
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = air_air_radar_4
+				# fixed_aux_prop_slot = empty   
+				# fixed_optics_slot = hud_module 
+				# fixed_engine_mod_slot = afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_4_1x 
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_4_2x 
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = second_gen_jet_engine_1x
+				# special_type_slot_1 = g_suit_2
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty		
+			# }
+			# icon = GFX_SOV_Mig_19
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_mig_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Su-9
+	# id = SOV_plane_variants.17
+	
+	# title = SOV_plane_variants.17.t
+	# desc = SOV_plane_variants.17.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_small_airframe_4
+		# has_tech = second_gen_jet_engines
+		# has_tech = aa_cannon_4
+		# has_tech = postwar_radar_tech_3
+		# has_tech = aa_cannon_5
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Su-9 Fishpot"
+			# type = small_plane_airframe_7
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = air_air_radar_4
+				# fixed_aux_prop_slot = empty   
+				# fixed_optics_slot = hud_module 
+				# fixed_engine_mod_slot = afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = air_air_missile_3_module 
+				# fixed_auxiliary_weapon_slot_1 = air_air_missile_3_module 
+				# fixed_auxiliary_weapon_slot_2 = drop_tanks
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = second_gen_jet_engine_1x
+				# special_type_slot_1 = g_suit_2
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty		
+			# }
+			# icon = GFX_SOV_Su_9
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_sukhoi_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Su-7
+	# id = SOV_plane_variants.18
+	
+	# title = SOV_plane_variants.18.t
+	# desc = SOV_plane_variants.18.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_small_airframe_4
+		# has_tech = second_gen_jet_engines
+		# has_tech = imp_bomb_rack
+		# has_tech = postwar_radar_tech_3
+		# has_tech = aa_cannon_5
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Su-7 Fitter"
+			# type = small_plane_airframe_7
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty   
+				# fixed_optics_slot = hud_module 
+				# fixed_engine_mod_slot = afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_3_2x 
+				# fixed_auxiliary_weapon_slot_1 = drop_tanks 
+				# fixed_auxiliary_weapon_slot_2 = imp_bomb_locks
+				# fixed_auxiliary_weapon_slot_3 = rocket_pod_module
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = second_gen_jet_engine_1x
+				# special_type_slot_1 = g_suit_2
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty		
+			# }
+			# icon = GFX_SOV_Su_7
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_sukhoi_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Mig-21
+	# id = SOV_plane_variants.19
+	
+	# title = SOV_plane_variants.19.t
+	# desc = SOV_plane_variants.19.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_small_airframe_5
+		# has_tech = third_gen_jet_engines
+		# has_tech = air_air_missile_4
+		# has_tech = postwar_radar_tech_5
+		# has_tech = aa_cannon_5
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Mig-21 Fishbed"
+			# type = small_plane_airframe_8
+			# modules = {
+				# fixed_wing_slot = tailed_delta_wing
+				# fixed_radar_slot = air_air_radar_6
+				# fixed_aux_prop_slot = empty   
+				# fixed_optics_slot = hud_module 
+				# fixed_engine_mod_slot = mach_2_afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_5_1x 
+				# fixed_auxiliary_weapon_slot_1 = air_air_ir_missile_1_module 
+				# fixed_auxiliary_weapon_slot_2 = air_air_missile_4_module
+				# fixed_auxiliary_weapon_slot_3 = drop_tanks
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = third_gen_jet_engine_1x
+				# special_type_slot_1 = g_suit_3
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty		
+			# }
+			# icon = GFX_SOV_Mig_21
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_mig_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Su-2
+	# id = SOV_plane_variants.20
+		
+	# title = SOV_plane_variants.20.t
+	# desc = SOV_plane_variants.20.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = basic_small_airframe
+		# has_tech = engines_2
+		# has_tech = early_bombs
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Su-2"
+			# type = small_plane_cas_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = bomb_locks
+				# fixed_auxiliary_weapon_slot_1 = light_mg_4x
+				# engine_type_slot = radial_engine_2_1x
+				# special_type_slot_1 = lmg_defense_turret
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_SOV_Su_2
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_sukhoi_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Il-2
+	# id = SOV_plane_variants.21
+		
+	# title = SOV_plane_variants.21.t
+	# desc = SOV_plane_variants.21.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = improved_small_airframe
+		# has_tech = engines_3
+		# has_tech = heavy_bombs
+		# has_tech = survivability_studies
+		# has_tech = aa_cannon_1
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Il-2"
+			# type = small_plane_cas_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = small_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = light_mg_2x
+				# fixed_auxiliary_weapon_slot_2 = aircraft_cannon_1_2x
+				# fixed_auxiliary_weapon_slot_3 = rocket_rails
+				# engine_type_slot = engine_3_1x
+				# special_type_slot_1 = lmg_defense_turret
+				# special_type_slot_2 = armor_plate_small	
+				# special_type_slot_3 = armor_plate_small	
+			# }
+			# icon = GFX_SOV_CAS2_medium
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_ilyushin_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Il-10
+	# id = SOV_plane_variants.22
+		
+	# title = SOV_plane_variants.22.t
+	# desc = SOV_plane_variants.22.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = advanced_small_airframe
+		# has_tech = engines_4
+		# has_tech = heavy_bombs
+		# has_tech = survivability_studies
+		# has_tech = aa_cannon_2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Il-10"
+			# type = small_plane_cas_airframe_3
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = small_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = light_mg_2x
+				# fixed_auxiliary_weapon_slot_2 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_3 = imp_rocket_rails
+				# engine_type_slot = engine_4_1x
+				# special_type_slot_1 = cannon_defense_turret
+				# special_type_slot_2 = armor_plate_small	
+				# special_type_slot_3 = armor_plate_small	
+			# }
+			# icon = GFX_SOV_CAS3_medium
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_ilyushin_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Il-16
+	# id = SOV_plane_variants.23
+		
+	# title = SOV_plane_variants.23.t
+	# desc = SOV_plane_variants.23.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_small_airframe
+		# has_tech = turboprops
+		# has_tech = heavy_bombs
+		# has_tech = survivability_studies
+		# has_tech = aa_cannon_3
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Il-16"
+			# type = small_plane_cas_airframe_4
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = small_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = light_mg_2x
+				# fixed_auxiliary_weapon_slot_2 = aircraft_cannon_3_2x
+				# fixed_auxiliary_weapon_slot_3 = imp_rocket_rails
+				# fixed_auxiliary_weapon_slot_4 = bomb_locks
+				# engine_type_slot = engine_5_1x
+				# special_type_slot_1 = cannon_defense_turret
+				# special_type_slot_2 = armor_plate_small	
+				# special_type_slot_3 = armor_plate_small	
+			# }
+			# icon = GFX_SOV_Il_16
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_ilyushin_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Il-40
+	# id = SOV_plane_variants.24
+		
+	# title = SOV_plane_variants.24.t
+	# desc = SOV_plane_variants.24.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_small_airframe_3
+		# has_tech = jet_engines_2
+		# has_tech = heavy_bombs
+		# has_tech = survivability_studies
+		# has_tech = aa_cannon_3
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Il-40 Brawny"
+			# type = small_plane_cas_airframe_6
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = small_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				# fixed_auxiliary_weapon_slot_2 = aircraft_cannon_3_1x
+				# fixed_auxiliary_weapon_slot_3 = imp_rocket_rails
+				# fixed_auxiliary_weapon_slot_4 = bomb_locks
+				# engine_type_slot = jet_engine_2_2x
+				# special_type_slot_1 = cannon_defense_turret_2
+				# special_type_slot_2 = armor_plate_small	
+				# special_type_slot_3 = armor_plate_small	
+				# special_type_slot_4 = dive_brakes_small
+			# }
+			# icon = GFX_SOV_Il_40
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_ilyushin_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Il-102
+	# id = SOV_plane_variants.25
+		
+	# title = SOV_plane_variants.25.t
+	# desc = SOV_plane_variants.25.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_small_airframe_4
+		# has_tech = jet_engines_2
+		# has_tech = imp_bomb_rack
+		# has_tech = imp_bomb_rack
+		# has_tech = aa_cannon_4
+		# has_tech = aa_cannon_5
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Il-102 Brawny II"
+			# type = small_plane_cas_airframe_7
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = hud_module
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = small_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_4_2x
+				# fixed_auxiliary_weapon_slot_2 = rocket_pod_module
+				# fixed_auxiliary_weapon_slot_3 = imp_bomb_locks
+				# fixed_auxiliary_weapon_slot_4 = rocket_pod_module
+				# engine_type_slot = jet_engine_2_2x
+				# special_type_slot_1 = cannon_defense_turret_3
+				# special_type_slot_2 = armor_plate_small	
+				# special_type_slot_3 = armor_plate_small	
+				# special_type_slot_4 = dive_brakes_small
+			# }
+			# icon = GFX_SOV_Il_40
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_ilyushin_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Su-7B
+	# id = SOV_plane_variants.26
+		
+	# title = SOV_plane_variants.26.t
+	# desc = SOV_plane_variants.26.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		
+		# has_tech = modern_small_airframe_5
+		# has_tech = second_gen_jet_engines
+		# has_tech = imp_bomb_rack
+		# has_tech = postwar_radar_tech_3
+		# has_tech = aa_cannon_5
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Su-7B Fitter"
+			# type = small_plane_cas_airframe_8
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty   
+				# fixed_optics_slot = hud_module 
+				# fixed_engine_mod_slot = afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_3_2x 
+				# fixed_auxiliary_weapon_slot_1 = drop_tanks 
+				# fixed_auxiliary_weapon_slot_2 = imp_bomb_locks
+				# fixed_auxiliary_weapon_slot_3 = rocket_pod_module
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = second_gen_jet_engine_1x
+				# special_type_slot_1 = g_suit_2
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty		
+			# }
+			# icon = GFX_SOV_Su_7B
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_sukhoi_design_bureau_organization
+		# }
+	# }		
+# }
+
+# country_event = { #SB
+	# id = SOV_plane_variants.27
+		
+	# title = SOV_plane_variants.27.t
+	# desc = SOV_plane_variants.27.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = iw_medium_airframe
+		# has_tech = aa_lmg
+		# has_tech = engines_1
+		# has_tech = early_bombs
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "SB ANT-40"
+			# type = medium_plane_airframe_0
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = empty
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = radial_engine_1_2x
+				# special_type_slot_1 = lmg_defense_turret_2x
+				# special_type_slot_2 = lmg_defense_turret
+				# special_type_slot_3 = empty
+				# special_type_slot_4 = empty
+			# }
+			# icon = GFX_SOV_heavy_fighter3_medium
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_tupolev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #SB
+	# id = SOV_plane_variants.28
+		
+	# title = SOV_plane_variants.28.t
+	# desc = SOV_plane_variants.28.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = iw_medium_airframe
+		# has_tech = aa_lmg
+		# has_tech = engines_1
+		# has_tech = early_bombs
+		# has_tech = range_improvements
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "DB-2 ANT-37"
+			# type = medium_plane_airframe_0
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = empty
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = radial_engine_1_2x
+				# special_type_slot_1 = fuel_tanks_medium
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+				# special_type_slot_4 = empty
+			# }
+			# icon = GFX_SOV_DB_2
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_tupolev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #DB-3
+	# id = SOV_plane_variants.29
+		
+	# title = SOV_plane_variants.29.t
+	# desc = SOV_plane_variants.29.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = basic_medium_airframe
+		# has_tech = aa_lmg
+		# has_tech = engines_2
+		# has_tech = early_bombs
+		# has_tech = range_improvements
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "DB-3"
+			# type = medium_plane_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_1
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = radial_engine_2_2x
+				# special_type_slot_1 = lmg_defense_turret_2x
+				# special_type_slot_2 = fuel_tanks_medium
+				# special_type_slot_3 = fuel_tanks_medium
+				# special_type_slot_4 = empty
+			# }
+			# icon = GFX_SOV_DB_3
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_ilyushin_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Il-4
+	# id = SOV_plane_variants.30
+		
+	# title = SOV_plane_variants.30.t
+	# desc = SOV_plane_variants.30.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = basic_medium_airframe
+		# has_tech = aa_lmg
+		# has_tech = engines_2
+		# has_tech = early_bombs
+		# has_tech = range_improvements
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Il-4"
+			# type = medium_plane_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_1
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = radial_engine_2_2x
+				# special_type_slot_1 = lmg_defense_turret
+				# special_type_slot_2 = fuel_tanks_medium
+				# special_type_slot_3 = fuel_tanks_medium
+				# special_type_slot_4 = empty
+			# }
+			# icon = GFX_SOV_naval_bomber1_medium
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_ilyushin_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Il-4T
+	# id = SOV_plane_variants.31
+		
+	# title = SOV_plane_variants.31.t
+	# desc = SOV_plane_variants.31.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = basic_medium_airframe
+		# has_tech = aa_lmg
+		# has_tech = engines_2
+		# has_tech = air_torpedoe_1
+		# has_tech = range_improvements
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Il-4T"
+			# type = medium_plane_naval_bomber_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_1
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = torpedo_mounting
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = radial_engine_2_2x
+				# special_type_slot_1 = lmg_defense_turret
+				# special_type_slot_2 = fuel_tanks_medium
+				# special_type_slot_3 = fuel_tanks_medium
+				# special_type_slot_4 = empty
+			# }
+			# icon = GFX_SOV_naval_bomber1_medium
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_ilyushin_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Ar-2
+	# id = SOV_plane_variants.32
+	
+	# title = SOV_plane_variants.32.t
+	# desc = SOV_plane_variants.32.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = improved_medium_airframe
+		# has_tech = aa_lmg
+		# has_tech = engines_3
+		# has_tech = early_bombs
+		# #has_tech = range_improvements
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ar-2"
+			# type = medium_plane_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_1
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_3_2x
+				# special_type_slot_1 = lmg_defense_turret_2x
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+				# special_type_slot_4 = empty
+			# }
+			# icon = GFX_SOV_AR_2
+			# mark_older_equipment_obsolete = Yes
+			# #design_team = mio:SOV_ilyushin_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Ar-2
+	# id = SOV_plane_variants.33
+	
+	# title = SOV_plane_variants.33.t
+	# desc = SOV_plane_variants.33.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = improved_medium_airframe
+		# has_tech = aa_hmg
+		# has_tech = engines_3
+		# has_tech = early_bombs
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Pe-2"
+			# type = medium_plane_fighter_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = empty
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = heavy_mg_2x
+				# fixed_auxiliary_weapon_slot_1 = bomb_locks
+				# fixed_auxiliary_weapon_slot_2 = bomb_locks
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_3_2x
+				# special_type_slot_1 = lmg_defense_turret
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+				# special_type_slot_4 = empty
+			# }
+			# icon = GFX_SOV_heavy_fighter3_medium
+			# mark_older_equipment_obsolete = no
+			# #design_team = mio:SOV_ilyushin_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Tu-2
+	# id = SOV_plane_variants.34
+	
+	# title = SOV_plane_variants.34.t
+	# desc = SOV_plane_variants.34.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = advanced_medium_airframe
+		# has_tech = aa_cannon_1
+		# has_tech = engines_4
+		# has_tech = early_bombs
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Tu-2"
+			# type = medium_plane_airframe_3
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = empty
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
+				# fixed_auxiliary_weapon_slot_2 = bomb_locks
+				# fixed_auxiliary_weapon_slot_3 = bomb_locks
+				# engine_type_slot = radial_engine_4_2x
+				# special_type_slot_1 = lmg_defense_turret_2x
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+				# special_type_slot_4 = empty
+			# }
+			# icon = GFX_SOV_tactical_bomber2_medium
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_tupolev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Pe-3
+	# id = SOV_plane_variants.35
+	
+	# title = SOV_plane_variants.35.t
+	# desc = SOV_plane_variants.35.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = advanced_medium_airframe
+		# has_tech = aa_cannon_1
+		# has_tech = aa_hmg
+		# has_tech = engines_4
+		# has_tech = early_bombs
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Pe-3"
+			# type = medium_plane_fighter_airframe_3
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = empty
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = heavy_mg_2x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_1x
+				# fixed_auxiliary_weapon_slot_2 = bomb_locks
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_4_2x
+				# special_type_slot_1 = hmg_defense_turret_2x
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+				# special_type_slot_4 = empty
+			# }
+			# icon = GFX_SOV_heavy_fighter3_medium
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_tupolev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Il-6
+	# id = SOV_plane_variants.36
+	
+	# title = SOV_plane_variants.36.t
+	# desc = SOV_plane_variants.36.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = advanced_medium_airframe
+		# has_tech = aa_cannon_1
+		# has_tech = aa_hmg
+		# has_tech = engines_4
+		# has_tech = early_bombs
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Il-6"
+			# type = medium_plane_airframe_3
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = empty
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_2 = bomb_locks
+				# fixed_auxiliary_weapon_slot_3 = torpedo_mounting
+				# engine_type_slot = engine_4_2x
+				# special_type_slot_1 = hmg_defense_turret_2x
+				# special_type_slot_2 = hmg_defense_turret
+				# special_type_slot_3 = fuel_tanks_medium
+				# special_type_slot_4 = fuel_tanks_medium
+			# }
+			# icon = GFX_SOV_naval_bomber3_medium
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_ilyushin_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Il-28
+	# id = SOV_plane_variants.37
+	
+	# title = SOV_plane_variants.37.t
+	# desc = SOV_plane_variants.37.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_medium_airframe_2
+		# has_tech = aa_cannon_3
+		# has_tech = jet_engines_2
+		# has_tech = early_bombs
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Il-28 Beagle"
+			# type = medium_plane_airframe_5
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = empty
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				# fixed_auxiliary_weapon_slot_2 = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = jet_engine_2_2x
+				# special_type_slot_1 = cannon_defense_turret_2
+				# special_type_slot_2 = pressurized_cabin_medium
+				# special_type_slot_3 = empty
+				# special_type_slot_4 = empty
+			# }
+			# icon = GFX_SOV_Il_28
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_ilyushin_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Tu-14
+	# id = SOV_plane_variants.38
+	
+	# title = SOV_plane_variants.38.t
+	# desc = SOV_plane_variants.38.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_medium_airframe_3
+		# has_tech = aa_cannon_3
+		# has_tech = jet_engines_2
+		# has_tech = early_bombs
+		# has_tech = air_torpedoe_3
+		# has_tech = airdrop_mines_bba
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Tu-14T Bosun"
+			# type = medium_plane_naval_bomber_airframe_6
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = empty
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = torpedo_mounting_3
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				# fixed_auxiliary_weapon_slot_2 = airdropped_mines
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = second_gen_jet_engine_2x
+				# special_type_slot_1 = cannon_defense_turret_2
+				# special_type_slot_2 = pressurized_cabin_medium
+				# special_type_slot_3 = radio_navigation_2
+				# special_type_slot_4 = empty
+			# }
+			# icon = GFX_SOV_Tu_14
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_tupolev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Yak-28
+	# id = SOV_plane_variants.39
+	
+	# title = SOV_plane_variants.39.t
+	# desc = SOV_plane_variants.39.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_medium_airframe_4
+		# has_tech = postwar_radar_tech_3
+		# has_tech = ecm_pod_1
+		# has_tech = second_gen_jet_engines
+		# has_tech = imp_bomb_rack
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Yak-28 Brewer"
+			# type = medium_plane_airframe_7
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = toss_computer
+				# fixed_engine_mod_slot = afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = second_gen_jet_engine_2x
+				# special_type_slot_1 = air_ground_radar_4
+				# special_type_slot_2 = pressurized_cabin_medium
+				# special_type_slot_3 = module_ecm_pod_1
+				# special_type_slot_4 = empty
+			# }
+			# icon = GFX_SOV_Yak_28
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_yakovlev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Yak-28P
+	# id = SOV_plane_variants.40
+	
+	# title = SOV_plane_variants.40.t
+	# desc = SOV_plane_variants.40.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_medium_airframe_4
+		# has_tech = postwar_radar_tech_3
+		# has_tech = ecm_pod_1
+		# has_tech = second_gen_jet_engines
+		# has_tech = air_air_missile_3
+		# has_tech = aa_cannon_5
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Yak-28P Firebar"
+			# type = medium_plane_fighter_airframe_7
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = air_air_radar_4
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = hud_module
+				# fixed_engine_mod_slot = afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = air_air_missile_3_module
+				# fixed_auxiliary_weapon_slot_1 = air_air_missile_3_module
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = second_gen_jet_engine_2x
+				# special_type_slot_1 = module_ecm_pod_1
+				# special_type_slot_2 = pressurized_cabin_medium
+				# special_type_slot_3 = empty
+				# special_type_slot_4 = empty
+			# }
+			# icon = GFX_SOV_Yak_28
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_yakovlev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Tu-22
+	# id = SOV_plane_variants.41
+	
+	# title = SOV_plane_variants.41.t
+	# desc = SOV_plane_variants.41.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_medium_airframe_5
+		# has_tech = postwar_radar_tech_4
+		# has_tech = ecm_pod_1
+		# has_tech = third_gen_jet_engines
+		# has_tech = aa_cannon_5
+		# has_tech = air_air_missile_4
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Tu-22 Blinder"
+			# type = medium_plane_airframe_8
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = hud_module
+				# fixed_engine_mod_slot = mach_2_afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_1 = medium_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_2 = medium_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_3 = guided_anti_ship_missile_3
+				# engine_type_slot = third_gen_jet_engine_2x
+				# special_type_slot_1 = module_ecm_pod_1
+				# special_type_slot_2 = pressurized_cabin_medium
+				# special_type_slot_3 = cannon_defense_turret_3
+				# special_type_slot_4 = air_ground_radar_5
+			# }
+			# icon = GFX_SOV_Tu_22
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_tupolev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #TB-3
+	# id = SOV_plane_variants.42
+	
+	# title = SOV_plane_variants.42.t
+	# desc = SOV_plane_variants.42.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = iw_large_airframe
+		# has_tech = aa_lmg
+		# has_tech = engines_1
+		# has_tech = early_bombs
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "TB-3"
+			# type = large_plane_airframe_0
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = empty
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = large_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_1_4x
+				# special_type_slot_1 = lmg_defense_turret_2x
+				# special_type_slot_2 = lmg_defense_turret_2x
+				# special_type_slot_3 = empty
+				# special_type_slot_4 = empty
+			# }
+			# icon = GFX_SOV_TB_3
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_tupolev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Pe-8
+	# id = SOV_plane_variants.43
+		
+	# title = SOV_plane_variants.43.t
+	# desc = SOV_plane_variants.43.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = basic_large_airframe
+		# has_tech = aa_hmg
+		# has_tech = engines_2
+		# has_tech = early_bombs
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Pe-8"
+			# type = large_plane_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_1
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = large_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_2_4x
+				# special_type_slot_1 = lmg_defense_turret
+				# special_type_slot_2 = lmg_defense_turret
+				# special_type_slot_3 = hmg_defense_turret
+				# special_type_slot_4 = fuel_tanks_large
+				# special_type_slot_5 = empty
+			# }
+			# icon = GFX_SOV_strategic_bomber1_medium
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_tupolev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# # country_event = { #ANT-64
+	# # id = SOV_plane_variants.42
+	
+	# # title = SOV_plane_variants.42.t
+	# # desc = SOV_plane_variants.42.d
+	# # picture = GFX_report_event_ett60
+	
+	# # fire_only_once = yes
+	# # hidden = yes
+	# # trigger = {
+		# # tag = SOV
+		# # is_ai = yes
+		# # has_tech = basic_large_airframe
+		# # has_tech = aa_hmg
+		# # has_tech = engines_3
+		# # has_tech = early_bombs
+		# # #has_tech = survivability_studies
+	# # }
+	
+	# # immediate = {
+		# # create_equipment_variant = {
+			# # name = "ANT-64"
+			# # type = large_plane_airframe_2
+			# # modules = {
+				# # fixed_wing_slot = straight_wing
+				# # fixed_radar_slot = empty
+				# # fixed_aux_prop_slot = empty
+				# # fixed_optics_slot = bomb_sights_1
+				# # fixed_engine_mod_slot = supercharger
+				# # fixed_fuel_type_slot = empty
+				# # fixed_main_weapon_slot = large_bomb_bay
+				# # fixed_auxiliary_weapon_slot_1 = large_bomb_bay
+				# # fixed_auxiliary_weapon_slot_2 = empty
+				# # fixed_auxiliary_weapon_slot_3 = empty
+				# # engine_type_slot = engine_3_4x
+				# # special_type_slot_1 = lmg_defense_turret_2x
+				# # special_type_slot_2 = lmg_defense_turret_2x
+				# # special_type_slot_3 = hmg_defense_turret
+				# # special_type_slot_4 = fuel_tanks_large
+				# # special_type_slot_5 = fuel_tanks_large
+			# # }
+			# # icon = GFX_SOV_ANT_64
+			# # mark_older_equipment_obsolete = no
+			# # #design_team = mio:SOV_tupolev_design_bureau_organization
+		# # }
+	# # }	
+# # }
+
+# country_event = { #Tu-4
+	# id = SOV_plane_variants.44
+	
+	# title = SOV_plane_variants.44.t
+	# desc = SOV_plane_variants.44.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = advanced_large_airframe
+		# has_tech = aa_hmg
+		# has_tech = engines_4
+		# has_tech = early_bombs
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Tu-4 Bull"
+			# type = large_plane_airframe_3
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = bomb_sights_2
+				# fixed_engine_mod_slot = turbocharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = large_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = large_bomb_bay
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = radial_engine_4_4x
+				# special_type_slot_1 = cannon_defense_turret_2x
+				# special_type_slot_2 = cannon_defense_turret_2x
+				# special_type_slot_3 = cannon_defense_turret_2x
+				# special_type_slot_4 = pressurized_cabin_large	
+			# }
+			# icon = GFX_SOV_strategic_bomber3_medium
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:SOV_tupolev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Tu-16
+	# id = SOV_plane_variants.45
+	
+	# title = SOV_plane_variants.45.t
+	# desc = SOV_plane_variants.45.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_large_airframe_2
+		# has_tech = aa_hmg
+		# has_tech = jet_engines_2
+		# has_tech = early_bombs
+		# has_tech = air_improved_construction
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Tu-16 Badger"
+			# type = large_plane_airframe_5
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_2
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = large_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = large_bomb_bay
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = jet_engine_2_4x
+				# special_type_slot_1 = hmg_defense_turret_2x
+				# special_type_slot_2 = hmg_defense_turret_2x
+				# special_type_slot_3 = pressurized_cabin_large
+				# special_type_slot_4 = radio_navigation_2	
+			# }
+			# icon = GFX_SOV_strategic_bomber3_medium
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_tupolev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Tu-16
+	# id = SOV_plane_variants.46
+	
+	# title = SOV_plane_variants.46.t
+	# desc = SOV_plane_variants.46.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_large_airframe_3
+		# has_tech = aa_cannon_3
+		# has_tech = second_gen_jet_engines
+		# has_tech = imp_bomb_rack
+		# has_tech = air_improved_construction
+		# has_tech = postwar_radar_tech_1
+		# has_tech = ecm_pod_1
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "M-4 Bison"
+			# type = large_plane_airframe_6
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_2
+				# fixed_engine_mod_slot = afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = large_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_1 = large_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = second_gen_jet_engine_4x
+				# special_type_slot_1 = pressurized_cabin_large
+				# special_type_slot_2 = air_ground_radar_3
+				# special_type_slot_3 = module_ecm_pod_1
+				# special_type_slot_4 = cannon_defense_turret_2_2x	
+				# special_type_slot_5 = cannon_defense_turret_2
+				# special_type_slot_6 = radio_navigation_2		
+			# }
+			# icon = GFX_SOV_Mya_4
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_myasishchev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Tu-95
+	# id = SOV_plane_variants.47
+	
+	# title = SOV_plane_variants.47.t
+	# desc = SOV_plane_variants.47.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_large_airframe_4
+		# has_tech = aa_cannon_3
+		# has_tech = second_gen_jet_engines
+		# has_tech = imp_bomb_rack
+		# has_tech = air_improved_construction
+		# has_tech = postwar_radar_tech_3
+		# has_tech = ecm_pod_1
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "M-4 Bison"
+			# type = large_plane_airframe_7
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_2
+				# fixed_engine_mod_slot = contra_rotating_props
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = large_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_1 = large_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_2 = large_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = turboprop_engine_4x
+				# special_type_slot_1 = radio_navigation_2
+				# special_type_slot_2 = air_ground_radar_4
+				# special_type_slot_3 = module_ecm_pod_1
+				# special_type_slot_4 = pressurized_cabin_large	
+				# special_type_slot_5 = cannon_defense_turret_3
+				# special_type_slot_6 = empty		
+			# }
+			# icon = GFX_SOV_Tu_95M
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_tupolev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Be-6
+	# id = SOV_plane_variants.48
+	
+	# title = SOV_plane_variants.48.t
+	# desc = SOV_plane_variants.48.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_medium_airframe_2
+		# has_tech = air_torpedoe_3
+		# has_tech = aa_cannon_2
+		# has_tech = engines_4
+		# has_tech = imp_bomb_rack
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Be-6 Madge"
+			# type = medium_plane_naval_bomber_airframe_5
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = toss_computer
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = torpedo_mounting_3
+				# fixed_auxiliary_weapon_slot_1 = torpedo_mounting_3
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = radial_engine_4_2x
+				# special_type_slot_1 = flying_boat_medium
+				# special_type_slot_2 = radio_navigation_2
+				# special_type_slot_3 = cannon_defense_turret_2x
+				# special_type_slot_4 = cannon_defense_turret
+			# }
+			# icon = GFX_SOV_Be_6
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_beriev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Be-10
+	# id = SOV_plane_variants.49
+	
+	# title = SOV_plane_variants.49.t
+	# desc = SOV_plane_variants.49.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_medium_airframe_4
+		# has_tech = air_torpedoe_3
+		# has_tech = aa_cannon_2
+		# has_tech = second_gen_jet_engines
+		# has_tech = imp_bomb_rack
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Be-10 Mallow"
+			# type = medium_plane_naval_bomber_airframe_7
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = toss_computer
+				# fixed_engine_mod_slot = afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = torpedo_mounting_3
+				# fixed_auxiliary_weapon_slot_1 = torpedo_mounting_3
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = second_gen_jet_engine_2x
+				# special_type_slot_1 = flying_boat_medium
+				# special_type_slot_2 = radio_navigation_2
+				# special_type_slot_3 = cannon_defense_turret_2x
+				# special_type_slot_4 = air_ground_radar_3
+				# special_type_slot_5 = pressurized_cabin_medium
+			# }
+			# icon = GFX_SOV_Be_10
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_beriev_design_bureau_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Be-12
+	# id = SOV_plane_variants.50
+	
+	# title = SOV_plane_variants.50.t
+	# desc = SOV_plane_variants.50.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = SOV
+		# is_ai = yes
+		# has_tech = modern_medium_airframe_5
+		# has_tech = air_torpedoe_3
+		# has_tech = postwar_radar_tech_4
+		# has_tech = second_gen_jet_engines
+		# has_tech = imp_bomb_rack
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Be-12 Mail"
+			# type = medium_plane_naval_bomber_airframe_8
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = toss_computer
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = torpedo_mounting_3
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = turboprop_engine_2x
+				# special_type_slot_1 = flying_boat_medium
+				# special_type_slot_2 = mad_2
+				# special_type_slot_3 = air_ground_radar_5
+				# special_type_slot_4 = pressurized_cabin_medium
+			# }
+			# icon = GFX_SOV_Be_12
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:SOV_beriev_design_bureau_organization
+		# }
+	# }	
+# }

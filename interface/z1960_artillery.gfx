@@ -1,0 +1,28 @@
+spriteTypes = {
+		 
+	SpriteType = {
+		name = "GFX_artillery1_medium"
+		textureFile = "gfx/interface/technologies/counterbattery.dds"
+	}	
+		 
+	SpriteType = {
+		name = "GFX_artillery4_medium"
+		texturefile = "gfx/interface/technologies/artillery3.dds"
+	}		 
+		 
+	SpriteType = {
+		name = "GFX_JAP_artillery1_medium"
+		textureFile = "gfx/interface/technologies/counterbattery.dds"
+	}	
+		 
+	SpriteType = {
+		name = "GFX_JAP_artillery4_medium"
+		texturefile = "gfx/interface/technologies/artillery3.dds"
+	}	
+		 
+	SpriteType = {  
+		name = "GFX_artillery_d_medium"
+		texturefile = "gfx/interface/technologies/r56_tech_artillery_04_SOV_D44.dds"
+	}		 
+ 
+}  

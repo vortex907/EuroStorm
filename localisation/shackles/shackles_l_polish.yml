@@ -1,0 +1,15 @@
+l_polish:
+remove_shackles:0 "Usuń Kajdany"
+remove_shackles_desc:0 "Aby umożliwić grę do lat 60., ograniczono zdolność mniejszych państw do tworzenia ogromnych armii i produkcji ogromnych ilości sprzętu. Jeśli chcesz grać jako mniejsze lub średnie państwo, które zostało w jakiś sposób ograniczone, ta decyzja usunie te kajdany."
+
+shackles.1.t:0 "Kajdany AI"
+shackles.1.d:0 "Późna faza gry w HoI4 jest znana z opóźnień. Jest to spowodowane tym, że kraje sterowane przez AI produkują ogromne ilości sprzętu wojskowego i szkolą ogromne armie, nawet w przypadku małych państw. Problem staje się widoczny pod koniec lat 40. i nasila się w latach 50., co znacznie wpływa na wydajność gry. Mod AI Shackles wprowadza ograniczenia produkcji i rekrutacji dla tych mniejszych państw, aby zapewnić płynność rozgrywki. Niektóre kraje, takie jak Brazylia i Argentyna, które miały względnie rozwinięty przemysł, ale niewielkie zainteresowanie konfliktami zagranicznymi (do czasu, gdy, jak w przypadku Brazylii, zostały w nie wciągnięte), będą miały ograniczenia tylko w zakresie dostępnej do rekrutacji siły roboczej. Inne, takie jak Salwador, będą miały ograniczenia zarówno w zakresie siły roboczej, jak i przemysłu.\n\nJeśli zdecydujesz się nałożyć te ograniczenia, zwane kajdanami, na AI, możesz je usunąć za pomocą decyzji (bez kosztów punktów politycznych), jeśli chcesz grać jako małe państwo. Kraje objęte kajdanami, przeciwko którym toczy się uzasadnianie wojny lub które są już w stanie wojny, natychmiast tracą swoje kajdany i wracają do normalnych praw mobilizacyjnych i ekonomicznych. Możesz także zdecydować się na grę bez tych ograniczeń od samego początku dla wszystkich krajów, ale z pewnością negatywnie wpłynie to na wydajność gry. Wybór należy do ciebie.\n\nZachęcam do sprawdzenia moda Extended Tech Tree 1960 na Steam, aby kontynuować grę daleko poza normalną datę zakończenia z nowymi treściami."
+shackles.1.b:0 "Nie chcę ograniczać AI."
+shackles.1.b.d:0 "Małe państwa nie będą miały żadnych ograniczeń."
+shackles.1.a:0 "Ogranicz AI"
+shackles.1.a.d:0 "Małe państwa będą ograniczone."
+
+unindustrialized:0 "Nieuprzemysłowiony"
+uninterested:0 "Niezaangażowany"
+
+unshackle_congo: "Usuń kajdany Konga"

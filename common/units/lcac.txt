@@ -1,0 +1,113 @@
+sub_units = {
+
+	pacv_support = { #patrol hovercraft
+		abbreviation = "pacv"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+			category_marines
+		}
+
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 500
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.02
+		recon = 1
+		can_be_parachuted = no
+
+		# Support nerfs to combat abilities
+		breakthrough 	= -0.7
+		defense 		= -0.9	
+		soft_attack 	= -0.45
+		hard_attack 	= -0.7
+
+		affects_speed = no
+		
+		essential = {
+			infantry_equipment
+			support_equipment
+			pacv_equipment
+		}
+
+		need = {
+			infantry_equipment = 40
+			support_equipment = 10
+			pacv_equipment = 5
+		}
+		
+		forest = {
+			attack = -0.1
+			defence = -0.1
+			movement = -0.1
+		}
+		hills = {
+			attack = -0.1
+			defence = -0.1
+			movement = -0.1
+		}
+		mountain = {
+			attack = -0.15
+			defence = -0.15
+			movement = -0.15
+		}
+		jungle = {
+			attack = -0.1
+			defence = -0.1
+			movement = -0.1
+		}
+		marsh = {
+			attack = 0.2
+			defence = 0.2
+			movement = 0.25
+		}
+		plains = {
+			attack = 0.1
+			defence = 0.1
+			movement = 0.12
+		}
+		desert = {
+			attack = 0.1
+			defence = 0.1
+			movement = 0.12
+		}
+		river = {
+			attack = 0.2
+			defence = 0.2
+			movement = 0.25
+		}
+		amphibious = {
+			attack = 0.2
+			defence = 0.2
+			movement = 0.25
+		}
+		snow = { #
+			attack = 0.1
+			defence = 0.1
+			movement = 0.12
+		}
+		
+		#same_support_type = recon # blocks adding other recon types to template
+	}
+}

@@ -1,0 +1,275 @@
+spriteTypes = {	
+
+	SpriteType = {
+	name = "GFX_HOL_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_1.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_HOL_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_HOL_improved_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_3.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_HOL_advanced_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_4.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_INS_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_1.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_INS_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/denxson/INS_2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_INS_improved_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/INS_3.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_INS_advanced_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_4.dds"
+	}
+	
+
+    ### gw_tank ###
+
+	SpriteType = {
+	name = "GFX_HOL_gwtank_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_gw.dds"
+	}
+
+ ### Arty ###
+
+	SpriteType = {
+	name = "GFX_HOL_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_iwa.dds"
+	}
+	 
+	SpriteType = {
+	name = "GFX_HOL_adv_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_a2.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_HOL_artillery3_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_a3.dds"
+	}	 
+	
+	SpriteType = {
+	name = "GFX_HOL_artillery_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_iwa.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_HOL_artillery_equipment_3_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_a3.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_HOL_artillery_equipment_2_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_a2.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_INS_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_iwa.dds"
+	}
+	 
+	SpriteType = {
+	name = "GFX_INS_adv_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_a2.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_INS_artillery3_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_a3.dds"
+	}	 
+	
+	SpriteType = {
+	name = "GFX_INS_artillery_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_iwa.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_INS_artillery_equipment_3_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_a3.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_INS_artillery_equipment_2_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_a2.dds"
+	}
+	
+	
+### Anti-tank ###
+
+
+	SpriteType = {
+	name = "GFX_INS_interwar_antitank_medium"
+	texturefile = "gfx/interface/technologies/denxson/SWI_at1.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_HOL_interwar_antitank_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_at1.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_HOL_antitank2_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_at2.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_INS_antitank2_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_at2.dds"
+	}	
+	
+    SpriteType = {
+	name = "GFX_HOL_antitank5_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_at3.dds"
+	}		
+	
+    SpriteType = {
+	name = "GFX_INS_antitank5_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_at3.dds"
+	}		
+	
+### Anti-air ###
+
+	SpriteType = {
+	name = "GFX_INS_interwar_antiair_medium"
+	texturefile = "gfx/interface/technologies/denxson/INS_aa1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_HOL_interwar_antiair_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_aa1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_HOL_antiair2_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_aa2.dds"
+	}
+	
+    SpriteType = {
+	name = "GFX_INS_antiair2_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_aa2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_INS_antiair5_medium"
+	texturefile = "gfx/interface/technologies/denxson/INS_aa3.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_HOL_antiair5_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_aa3.dds"
+	}
+
+	
+### troop_carriers ###
+
+	SpriteType = {
+	name = "GFX_HOL_motorized_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_HOL_motorised_infantry_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_HOL_motorised_equipment_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_INS_motorized_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_INS_motorised_infantry_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_INS_motorised_equipment_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_tc1.dds"
+	}
+	
+
+	SpriteType = {
+	name = "GFX_HOL_mechanised_infantry_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_tc2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_HOL_mechanised_infantry2_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_tc3.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_HOL_mechanised_infantry3_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_tc4.dds"
+	}
+
+
+	SpriteType = {
+	name = "GFX_INS_mechanised_infantry_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_tc2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_INS_mechanised_infantry2_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_tc3.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_INS_mechanised_infantry3_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_tc4.dds"
+	}
+
+	
+### armoured cars ###
+
+	SpriteType = {
+	name = "GFX_HOL_armored_car1_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_ac1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_INS_armored_car1_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_ac1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_HOL_armored_car2_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_ac2.dds"
+	}
+		
+	SpriteType = {
+	name = "GFX_INS_armored_car2_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_ac2.dds"
+	}
+		
+	SpriteType = {
+	name = "GFX_HOL_armored_car3_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_ac3.dds"
+	}
+			
+	SpriteType = {
+	name = "GFX_INS_armored_car3_medium"
+	texturefile = "gfx/interface/technologies/denxson/HOL_ac3.dds"
+	}

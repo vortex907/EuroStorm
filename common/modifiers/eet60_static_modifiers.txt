@@ -1,0 +1,13 @@
+# All global modifiers are here. They are applied from certain game-features.
+# Effects are fully scriptable here.
+# These names can NOT be removed or changes, as the code uses them....
+
+# This is scaled based on support ratio
+
+naval_range_support = {
+	max_organisation = 0.05
+	navy_max_range_factor = 0.2
+	naval_attrition = -0.025
+	amphibious_invasion = 0.1
+}
+

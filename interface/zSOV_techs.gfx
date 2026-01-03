@@ -1,0 +1,1941 @@
+spriteTypes = {
+	
+	SpriteType = {
+		name = "GFX_SOV_CAS4_medium"
+		texturefile = "gfx/interface/technologies/SOV_CAS4.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_jet_CAS1_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_CAS1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_jet_CAS2_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_CAS2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_jet_CAS3_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_CAS3.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_jet_CAS4_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_CAS4.dds"
+	}	
+	# SpriteType = {
+		# name = "GFX_SOV_cv_jet_CAS1_medium"
+		# texturefile = "gfx/interface/technologies/SOV_cv_jet_CAS1.dds"
+	# }	
+	
+	# SpriteType = {
+		# name = "GFX_SOV_cv_jet_CAS2_medium"
+		# texturefile = "gfx/interface/technologies/SOV_cv_jet_CAS2.dds"
+	# }	
+	
+	# SpriteType = {
+		# name = "GFX_SOV_cv_jet_CAS3_medium"
+		# texturefile = "gfx/interface/technologies/SOV_cv_jet_CAS3.dds"
+	# }	
+	
+	# SpriteType = {
+		# name = "GFX_SOV_cv_jet_CAS4_medium"
+		# texturefile = "gfx/interface/technologies/SOV_cv_jet_CAS4.dds"
+	# }	
+	
+	SpriteType = {
+		name = "GFX_SOV_naval_bomber4_medium"
+		texturefile = "gfx/interface/technologies/SOV_naval_bomber4.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_naval_bomber5_medium"
+		texturefile = "gfx/interface/technologies/SOV_naval_bomber5.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_naval_bomber6_medium"
+		texturefile = "gfx/interface/technologies/SOV_naval_bomber6.dds"
+	}						
+	SpriteType = {
+		name = "GFX_SOV_jet_strategic_bomber1_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_strategic_bomber1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_jet_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_strategic_bomber2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_jet_strategic_bomber3_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_strategic_bomber3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_tactical_bomber1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_tactical_bomber2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_jet_tactical_bomber3_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_tactical_bomber3.dds"
+	}	
+			
+	SpriteType = {
+		name = "GFX_SOV_jet_fighter1_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_fighter1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_jet_fighter2_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_fighter2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_jet_fighter3_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_fighter3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_jet_fighter4_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_fighter4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_jet_fighter5_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_fighter5.dds"
+	}
+	# SpriteType = {
+		# name = "GFX_SOV_cv_jet_fighter1_medium"
+		# texturefile = "gfx/interface/technologies/SOV_cv_jet_fighter1.dds"
+	# }
+		
+	# SpriteType = {
+		# name = "GFX_SOV_cv_jet_fighter2_medium"
+		# texturefile = "gfx/interface/technologies/SOV_cv_jet_fighter2.dds"
+	# }
+	# SpriteType = {
+		# name = "GFX_SOV_cv_jet_fighter3_medium"
+		# texturefile = "gfx/interface/technologies/SOV_cv_jet_fighter3.dds"
+	# }
+	# SpriteType = {
+		# name = "GFX_SOV_cv_jet_fighter4_medium"
+		# texturefile = "gfx/interface/technologies/SOV_cv_jet_fighter4.dds"
+	# }		
+	SpriteType = {
+		name = "GFX_SOV_jet_interceptor1_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_interceptor1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_jet_interceptor2_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_interceptor2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_jet_interceptor3_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_interceptor3.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_SOV_jet_interceptor4_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_interceptor4.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_SOV_jet_interceptor5_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_interceptor5.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_SOV_interceptor1_medium"
+		texturefile = "gfx/interface/technologies/SOV_interceptor1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_interceptor2_medium"
+		texturefile = "gfx/interface/technologies/SOV_interceptor2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_interceptor3_medium"
+		texturefile = "gfx/interface/technologies/SOV_interceptor3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_early_bomber_medium"
+		texturefile = "gfx/interface/technologies/SOV_early_bomber.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_SOV_bba_early_transport_plane_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_ant_9.dds"
+	}
+			
+	SpriteType = {
+		name = "GFX_SOV_bba_improved_transport_plane_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_li_2.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_bba_strategic_airlifter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_il_12d.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_transport_plane_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_an_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_transport_plane_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_an_8.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_transport_plane_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_an_12.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_SOV_transport_plane_equipment_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_ant_9.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_transport_plane_equipment_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_li_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_transport_plane_equipment_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_il_12d.dds"
+	}
+	 
+	SpriteType = {
+		name = "GFX_SOV_transport_plane_equipment_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_an_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_transport_plane_equipment_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_an_8.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_transport_plane_equipment_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_an_12.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_SOV_cv_CAS4_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_CAS4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_jet_strategic_bomber4_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_strategic_bomber4.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_mach2stratbomber_medium"
+		texturefile = "gfx/interface/technologies/SOV_mach2stratbomber.dds"
+	}	
+	
+	### NAVAL
+
+	SpriteType = {	
+		name = "GFX_SOV_early_ship_hull_light_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_1_Fidonisi.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_basic_ship_hull_light_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_2_Leningrad.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_improved_ship_hull_light_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_3_Tashkent.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_advanced_ship_hull_light_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_4_Kiev.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_light_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_5_Skoryi.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_light_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_6_Kotlin.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_light_7_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_7_Kanin.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_light_converted_missile_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DDGC/SOV_DDG_1_Kildin.dds"
+	}
+		
+	SpriteType = {	
+		name = "GFX_SOV_ship_sam_missile_battery_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/DDGC/SOV_DDG_1_Kildin.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_super_heavy_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_SHBB_1_Project_23_final_design.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_super_heavy_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_SHBB_2_Project_24.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_SOV_early_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_1_Marat.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_basic_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_2_Project_21.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_improved_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_3_UP_41.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_advanced_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_4_Type_A_KB_4_Project_23.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_heavy_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_5_Sovetsky_Soyuz_BBG.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_early_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_1_Svetlana.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_basic_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_2_Kirov.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_improved_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_3_Chapayev.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_advanced_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_4_Project_94.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_cruiser_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_1_Svetlana.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_cruiser_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_2_Kirov.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_cruiser_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_3_Chapayev.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_cruiser_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_4_Project_94.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_cruiser_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_5_Sverdlov.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_cruiser_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_6_Project_65.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_cruiser_7_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_7_Kynda.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_7_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_7_Project_1126.dds"
+	}	
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_6_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_6_Project_66.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_5_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_5_Project_82.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_4_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_4_Project_83I.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_3_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_3_Project_Kh.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_2_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_2_Project_26bis.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_1_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_1_Krasnyi_Kavkaz.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_early_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_1_BB_Izmail.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_ship_hull_carrier_conversion_bb_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_1_BB_Izmail.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_ship_hull_carrier_conversion_ca_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_1_CA_Frunze.dds"
+	}
+		
+	SpriteType = {	
+		name = "GFX_SOV_basic_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_2_Project_71.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_improved_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_3_Kostromitinov.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_advanced_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_4_Project_72.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_carrier_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_5_Project_69AV.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_ship_hull_helicopter_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CVH/SOV_CVH_1_Moskva.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_ship_hull_mega_carrier"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CVH/SOV_CVH_1_Moskva.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_ship_hull_mega_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CVH/SOV_CVH_1_Moskva.png"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_carrier_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_6_Project_85.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_carrier_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_7_Oryol.dds"
+	}
+		
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_submarine_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_1_Dekabrist.dds"
+	}
+		
+	SpriteType = {	
+		name = "GFX_SOV_early_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_1_Dekabrist.dds"
+	}
+		
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_submarine_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_1_Schuka.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_basic_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_1_Schuka.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_submarine_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_2_S_class.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_improved_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_2_S_class.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_submarine_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_5_Quebec.dds"
+	} 
+	
+	SpriteType = {	
+		name = "GFX_SOV_advanced_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_5_Quebec.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_submarine_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_5_Whale.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_attack_boat_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_5_Whale.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_fleet_submarine_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_4_Whiskey.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_fleet_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_4_Whiskey.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_fleet_submarine_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_5_Zulu.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_fleet_submarine_2"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_5_Zulu.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_fleet_submarine_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_6_Foxtrot.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_fleet_submarine_3"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_6_Foxtrot.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_rocket_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SSG/SOV_SSG_1_Juliett.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_SOV_rocket_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SSG/SOV_SSG_1_Juliett.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SSG/SOV_SSG_1_Hotel.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_missile_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SSG/SOV_SSG_1_Hotel.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_nuclear_attack_sub_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_6_November.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_submarine_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_6_November.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_midget_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SSM/SOV_SSM_1_Malyutka.dds"
+	} 
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_midget_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SSM/SOV_SSM_1_Malyutka.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_cruiser_submarines_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SSC/SOV_SSC_1_K_class.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_cruiser_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SSC/SOV_SSC_1_K_class.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_SOV_tanker_submarines_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SST/SOV_SST_1_Pravda.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_tanker_submarine_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SST/SOV_SST_1_Pravda.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_carrier_submarine"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SSV/SOV_SSV_1_Fictional.dds"
+	}
+ 
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_carrier_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SSV/SOV_SSV_1_Fictional.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_carrier_submarine_2"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SSV/SOV_SSV_2_Fictional.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_carrier_submarine_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/SSV/SOV_SSV_2_Fictional.dds"
+	}
+		
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_cruiser_panzerschiff_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/PzSC/SOV_PzSc_1_Project_X.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_torpedo_cruiser_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CT/SOV_CT_1_Kirov_Torpedo_Cruiser.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_escort_carrier"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_1_CVE_Fictional.dds"
+	}  
+	
+	SpriteType = {	
+		name = "GFX_SOV_ship_hull_escort_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_1_CVE_Fictional.dds"
+	}
+ 
+	#TANKS
+		
+	SpriteType = {
+		name = "GFX_SOV_main_battle_tank2_medium"
+		texturefile = "gfx/interface/technologies/SOV_main_battle_tank2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_SOV_main_battle_tank3_medium"
+		texturefile = "gfx/interface/technologies/SOV_main_battle_tank3.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_SOV_main_battle_tank4_medium"
+		texturefile = "gfx/interface/technologies/SOV_main_battle_tank4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_heavy_tank4_medium"
+		texturefile = "gfx/interface/technologies/SOV_heavy_tank4.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_heavy_tank5_medium"
+		texturefile = "gfx/interface/technologies/SOV_heavy_tank5.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_light_tank_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_light_tank_3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_amphibious_tank_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_amphibious_tank_3.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_SOV_mechanised_infantry4_medium"
+		texturefile = "gfx/interface/technologies/SOV_mechanized_equipment_4.dds"
+	}		
+
+	SpriteType = {
+		name = "GFX_SOV_mechanised_infantry5_medium"
+		texturefile = "gfx/interface/technologies/SOV_mechanized_equipment_5b.dds"
+	}		
+
+	SpriteType = {
+		name = "GFX_SOV_mechanised_infantry6_medium"
+		texturefile = "gfx/interface/technologies/land/SOV/SOV_Zil_153.png"
+	}		 
+	
+	SpriteType = {
+		name = "GFX_SOV_mechanised_infantry7_medium"
+		texturefile = "gfx/interface/technologies/SOV_mechanized_equipment_7.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_SOV_infantry_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/SOV_infantry_equipment_4.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_SOV_infantry_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/SOV_infantry_equipment_5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_amphibious_mechanized_infantry_medium"
+		texturefile = "gfx/interface/technologies/SOV_amph_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_amphibious_mechanized_infantry_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_amph_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_amphibious_mechanized_infantry_3_medium"
+		texturefile = "gfx/interface/technologies/sov_amphibious_mech_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_heavy_fighter1_medium"
+		texturefile = "gfx/interface/technologies/SOV_heavy_fighter3.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_SOV_heavy_fighter2_medium"
+		texturefile = "gfx/interface/technologies/SOV_heavy_fighter1.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_SOV_heavy_fighter3_medium"
+		texturefile = "gfx/interface/technologies/SOV_heavy_fighter2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_SOV_heavy_fighter4_medium"
+		texturefile = "gfx/interface/technologies/SOV_heavy_fighter4.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_utility_helicopter_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_utility_helicopter_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_utility_helicopter_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_utility_helicopter_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_naval_helicopter_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_naval_helicopter_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_naval_helicopter_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_naval_helicopter_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_cargo_helicopter_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_cargo_helicopter_1.dds"
+	}	
+	
+	
+	### ART
+		
+	SpriteType = {
+		name = "GFX_SOV_rocket_artillery5_medium"
+		texturefile = "gfx/interface/technologies/SOV_sp_rocket_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_rocket_artillery6_medium"
+		texturefile = "gfx/interface/technologies/SOV_sp_rocket_3.dds"
+	}
+	
+	 SpriteType = {
+		name = "GFX_SOV_rocket_artillery7_medium"
+		texturefile = "gfx/interface/technologies/SOV_sp_rocket_4.dds"
+	}
+	
+	 SpriteType = {
+		name = "GFX_SOV_rocket_artillery8_medium"
+		texturefile = "gfx/interface/technologies/SOV_sp_rocket_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_night_fighter1_medium"
+		texturefile = "gfx/interface/technologies/SOV_night_fighter1.dds"
+	}		
+
+	SpriteType = {
+		name = "GFX_SOV_night_fighter2_medium"
+		texturefile = "gfx/interface/technologies/SOV_night_fighter2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_SOV_night_fighter3_medium"
+		texturefile = "gfx/interface/technologies/SOV_night_fighter3.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_SOV_night_fighter4_medium"
+		texturefile = "gfx/interface/technologies/SOV_night_fighter4.dds"
+	}	
+	
+	
+	SpriteType = {
+		name = "GFX_SOV_scout_plane3_medium"
+		texturefile = "gfx/interface/technologies/SOV_scout_plane_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_scout_plane4_medium"
+		texturefile = "gfx/interface/technologies/SOV_scout_plane_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_scout_plane5_medium"
+		texturefile = "gfx/interface/technologies/SOV_scout_plane_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_scout_plane6_medium"
+		texturefile = "gfx/interface/technologies/SOV_scout_plane_6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_scout_plane7_medium"
+		texturefile = "gfx/interface/technologies/SOV_scout_plane_7.dds"
+	}
+	
+	#### SCOUT CAR
+	
+	
+	SpriteType = {
+		name = "GFX_SOV_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/sov_armored_car_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/sov_armored_car_equipment_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/sov_armored_car_equipment_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_armored_car4_medium"
+	texturefile = "gfx/interface/technologies/denxson/SOV_ac4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_armored_car5_medium"
+		texturefile = "gfx/interface/technologies/SOV_armored_car_equipment_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_armored_car6_medium"
+		texturefile = "gfx/interface/technologies/SOV_armored_car_equipment_6.dds"
+	}
+	
+	# SpriteType = {
+		# name = "GFX_SOV_armored_car_at_upgrade_medium"
+		# texturefile = "gfx/interface/technologies/SOV_ac3at.dds"
+	# }
+	
+	SpriteType = {
+		name = "GFX_SOV_armored_car_at_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_ac3at.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_armored_car_at_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_armored_car_at_equipment_2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_SOV_armored_car_at_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_armored_car_at_equipment_3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_rocket_interceptor_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_rocket_interceptor_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_rocket_interceptor_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_rocket_interceptor_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_rocket_interceptor_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_rocket_interceptor_3.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_SOV_heavy_tank_artillery_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_heavy_tank_artillery_equipment_1.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_SOV_heavy_tank_artillery_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_heavy_tank_artillery_equipment_2.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_SOV_heavy_tank_artillery_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_heavy_tank_artillery_equipment_3.dds"
+	}
+				
+	SpriteType = {
+		name = "GFX_SOV_heavy_tank_destroyer_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_heavy_tank_destroyer_equipment_1.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_SOV_heavy_tank_destroyer_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_heavy_tank_destroyer_equipment_2.dds"
+	}		
+		
+	SpriteType = {
+		name = "GFX_SOV_heavy_tank_destroyer_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_heavy_tank_destroyer_equipment_3.dds"
+	}		
+				
+	SpriteType = {
+		name = "GFX_SOV_heavy_tank_aa_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_heavy_tank_aa_equipment_1.dds"
+	}
+				
+	SpriteType = {
+		name = "GFX_SOV_heavy_tank_aa_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_heavy_tank_aa_equipment_2.dds"
+	}
+				
+	SpriteType = {
+		name = "GFX_SOV_heavy_tank_aa_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_heavy_tank_aa_equipment_3.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_SOV_light_tank_artillery_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_light_tank_artillery_equipment_1.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_SOV_light_tank_artillery_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_light_tank_artillery_equipment_2.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_SOV_light_tank_artillery_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_light_tank_artillery_equipment_3.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_SOV_light_tank_destroyer_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_light_tank_destroyer_equipment_1.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_SOV_light_tank_destroyer_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_light_tank_destroyer_equipment_2.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_SOV_light_tank_destroyer_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_light_tank_destroyer_equipment_3.dds"
+	}	
+				
+	SpriteType = {
+		name = "GFX_SOV_light_tank_aa_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_light_tank_aa_equipment_1.dds"
+	}
+				
+	SpriteType = {
+		name = "GFX_SOV_light_tank_aa_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_light_tank_aa_equipment_2.dds"
+	}
+				
+	SpriteType = {
+		name = "GFX_SOV_light_tank_aa_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_light_tank_aa_equipment_3.dds"
+	}
+			
+	SpriteType = {
+		name = "GFX_SOV_medium_tank_destroyer_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_medium_tank_destroyer_equipment_1.dds"
+	}	
+			
+	SpriteType = {
+		name = "GFX_SOV_medium_tank_destroyer_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_medium_tank_destroyer_equipment_2.dds"
+	}		
+			
+	SpriteType = {
+		name = "GFX_SOV_medium_tank_destroyer_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_medium_tank_destroyer_equipment_3.dds"
+	}	
+				
+	SpriteType = {
+		name = "GFX_SOV_medium_tank_aa_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_medium_tank_aa_equipment_1.dds"
+	}		
+				
+	SpriteType = {
+		name = "GFX_SOV_medium_tank_aa_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_medium_tank_aa_equipment_2.dds"
+	}			
+				
+	SpriteType = {
+		name = "GFX_SOV_medium_tank_aa_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_medium_tank_aa_equipment_3.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_SOV_medium_tank_artillery_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_medium_tank_artillery_equipment_1.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_SOV_medium_tank_artillery_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_medium_tank_artillery_equipment_2.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_SOV_medium_tank_artillery_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_medium_tank_artillery_equipment_3.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_SOV_super_heavy_tank_aa_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_super_heavy_tank_aa_equipment_1.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_SOV_super_heavy_tank_destroyer_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_super_heavy_tank_destroyer_equipment_1.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_SOV_super_heavy_tank_artillery_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_super_heavy_tank_artillery_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_tank_artillery_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_modern_tank_artillery_equipment_1.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_SOV_modern_tank_artillery_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_modern_tank_artillery_equipment_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_tank_artillery_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_selfpropart_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_tank_artillery_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/SOV_selfpropart_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_tank_aa_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_modern_tank_aa_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_tank_aa_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_sp_aa_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_tank_aa_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_modern_tank_aa_equipment_3.dds"
+	}
+	
+	 SpriteType = {
+		name = "GFX_SOV_modern_tank_aa_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/SOV_modern_tank_aa_equipment_4.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_tank_destroyer_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_modern_tank_destroyer_equipment_1.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_SOV_modern_tank_destroyer_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_modern_tank_destroyer_equipment_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_tank_destroyer_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_modern_tank_destroyer_equipment_3.dds"
+	}
+	
+	 SpriteType = {
+		name = "GFX_SOV_modern_tank_destroyer_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/SOV_modern_tank_destroyer_equipment_4.dds"
+	}
+		
+	# SpriteType = {
+		# name = "GFX_SOV_guided_missile_equipment_1_medium"
+		# texturefile = "gfx/interface/technologies/SOV_guided_missile_1.dds"
+	# }	
+		
+	# SpriteType = {
+		# name = "GFX_SOV_guided_missile_equipment_2_medium"
+		# texturefile = "gfx/interface/technologies/SOV_guided_missile_2.dds"
+	# }	
+		
+	# SpriteType = {
+		# name = "GFX_SOV_guided_missile_equipment_3_medium"
+		# texturefile = "gfx/interface/technologies/SOV_guided_missile_3.dds"
+	# }		
+		
+	# SpriteType = {
+		# name = "GFX_SOV_guided_missile_equipment_4_medium"
+		# texturefile = "gfx/interface/technologies/SOV_guided_missile_4.dds"
+	# }		
+		
+	# SpriteType = {
+		# name = "GFX_SOV_guided_missile_equipment_5_medium"
+		# texturefile = "gfx/interface/technologies/SOV_guided_missile_5.dds"
+	# }		
+		
+	# SpriteType = {
+		# name = "GFX_SOV_guided_missile_equipment_6_medium"
+		# texturefile = "gfx/interface/technologies/SOV_guided_missile_6.dds"
+	# }		
+		
+	SpriteType = {
+		name = "GFX_SOV_artillery6_medium"
+		texturefile = "gfx/interface/technologies/SOV_artillery_equipment_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_artillery7_medium"
+		texturefile = "gfx/interface/technologies/SOV_artillery_equipment_5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_artillery8_medium"
+		texturefile = "gfx/interface/technologies/SOV_artillery_equipment_6.dds"
+	}
+	
+	# SpriteType = {
+		# name = "GFX_SOV_antiair6_medium"
+		# texturefile = "gfx/interface/technologies/sp_aa_2.dds"
+	# }
+	
+	# SpriteType = {
+		# name = "GFX_SOV_antiair7_medium"
+		# texturefile = "gfx/interface/technologies/sp_aa_3.dds"
+	# }
+	
+	 SpriteType = {
+		name = "GFX_SOV_antiair_f_medium"
+		texturefile = "gfx/interface/technologies/land/SOV/S_125.dds"
+	} 
+
+	# SpriteType = {
+		# name = "GFX_SOV_antitank6_medium"
+		# texturefile = "gfx/interface/technologies/sp_at_2.dds"
+	# }
+	
+	# SpriteType = {
+		# name = "GFX_SOV_antitank7_medium"
+		# texturefile = "gfx/interface/technologies/sp_at_3.dds"
+	# }
+	
+	 # SpriteType = {
+		# name = "GFX_SOV_antitank8_medium"
+		# texturefile = "gfx/interface/technologies/sp_at_4.dds"
+	# }
+	
+	 # SpriteType = {
+		# name = "GFX_SOV_antitank9_medium"
+		# texturefile = "gfx/interface/technologies/sp_at_4.dds"
+	# }
+	
+
+	SpriteType = {
+		name = "GFX_SOV_heavy_fighter5_medium"
+		texturefile = "gfx/interface/technologies/SOV_heavy_fighter5.dds"
+	}				
+
+	SpriteType = {
+		name = "GFX_SOV_cv_heavy_fighter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_heavy_fighter_equipment_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_fighter_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/SOV_early_fighter.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_fighter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_fighter1_cv.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_fighter_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_fighter2_cv.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_fighter_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_fighter3_cv.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_cv_fighter_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/SOV_fighter4_cv.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_naval_bomber4_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_naval_bomber4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_naval_bomber5_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_naval_bomber5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_naval_bomber6_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_naval_bomber6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_jet_fighter1_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_jet_fighter1.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_SOV_cv_jet_fighter2_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_jet_fighter2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_cv_jet_fighter3_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_jet_fighter3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_cv_jet_fighter4_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_jet_fighter4.dds"
+	}				
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_jet_CAS1_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_jet_CAS1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_jet_CAS2_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_jet_CAS2.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_jet_CAS3_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_jet_CAS3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_jet_CAS4_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_jet_CAS4.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_nav_bomber_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_naval_bomber1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_cv_nav_bomber_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_naval_bomber2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_cv_nav_bomber_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_naval_bomber3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_cv_nav_bomber_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_naval_bomber4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_cv_nav_bomber_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_naval_bomber5.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_cv_nav_bomber_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_naval_bomber6.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_CAS1_medium"
+		texturefile = "gfx/interface/technologies/SOV_CAS1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_cv_CAS_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_CAS1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_cv_CAS_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_CAS2_cv.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_cv_CAS_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_CAS3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_cv_CAS_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/SOV_CAS4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_jet_fighter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_jet_fighter1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_cv_jet_fighter_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_jet_fighter2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_cv_jet_fighter_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_jet_fighter3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_cv_jet_fighter_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/SOV_cv_jet_fighter4.dds"
+	}
+	
+			
+	SpriteType = {
+		name = "GFX_SOV_naval_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_naval_helicopter_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_naval_helicopter_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_naval_helicopter_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_utility_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_utility_helicopter_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_utility_helicopter_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_utility_helicopter_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_cargo_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_cargo_helicopter_1.dds"
+	}		
+		
+	# SpriteType = {
+		# name = "GFX_SOV_rocket_engines_medium"
+		# texturefile = "gfx/interface/technologies/SOV_guided_missile_1.dds"
+	# }		
+		
+	# SpriteType = {
+		# name = "GFX_SOV_improved_rocket_engines_medium"
+		# texturefile = "gfx/interface/technologies/SOV_guided_missile_2.dds"
+	# }		
+		
+	# SpriteType = {
+		# name = "GFX_SOV_advanced_rocket_engines_medium"
+		# texturefile = "gfx/interface/technologies/SOV_guided_missile_3.dds"
+	# }	
+		
+	# SpriteType = {
+		# name = "GFX_SOV_rocket_engines_4_medium"
+		# texturefile = "gfx/interface/technologies/SOV_guided_missile_4.dds"
+	# }		
+		
+	# SpriteType = {
+		# name = "GFX_SOV_rocket_engines_5_medium"
+		# texturefile = "gfx/interface/technologies/SOV_guided_missile_5.dds"
+	# }		
+		
+	# SpriteType = {
+		# name = "GFX_SOV_rocket_engines_6_medium"
+		# texturefile = "gfx/interface/technologies/SOV_guided_missile_6.dds"
+	# }		
+		
+	SpriteType = {
+		name = "GFX_SOV_theater_missiles_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_theater_missile_equipment_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_theater_missiles_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_theater_missile_equipment_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_theater_missile_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_theater_missile_equipment_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_theater_missile_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_theater_missile_equipment_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_manpad_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_manpad_equipment_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_infantry_aa_medium"
+		texturefile = "gfx/interface/technologies/SOV_manpad_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_motorized_rocket_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_sp_rocket_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_motorized_rocket_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_sp_rocket_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_scout_helicopter_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_scout_helicopter_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_scout_helicopter_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_scout_helicopter_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_scout_helicopter_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_scout_helicopter_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_scout_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_scout_helicopter_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_scout_helicopter_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_scout_helicopter_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_scout_helicopter_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_scout_helicopter_3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_iw_large_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/large_0/sov_tb_3_4m_17f.dds"
+	}
+			 
+	SpriteType = {
+		name = "GFX_SOV_basic_large_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/large_1/sov_pe_8.dds"
+	}
+			 
+	SpriteType = {
+		name = "GFX_SOV_improved_large_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/large_2/sov_aircraft_64.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_advanced_large_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/large_3/sov_tu_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_large_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_tu_85.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_large_airframe_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/medium_4/sov_tu_16.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_large_airframe_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/large_4/sov_m_4.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_large_airframe_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/large/strat_55/tu95m.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_large_airframe_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/large/strat_60/m50.dds"
+	}	 
+				 
+	SpriteType = {
+		name = "GFX_SOV_iw_medium_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/medium_1/sov_db_3t.dds"
+	}
+			 
+	SpriteType = {
+		name = "GFX_SOV_basic_medium_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/medium_1/sov_il_4.dds"
+	}
+			 
+	SpriteType = {
+		name = "GFX_SOV_improved_medium_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/medium_1/sov_pe_2.dds"
+	}
+			
+	SpriteType = {
+		name = "GFX_SOV_advanced_medium_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/medium_3/sov_tu_10.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_medium_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/medium_3/sov_tu_12.dds"
+	}		
+					
+	SpriteType = {
+		name = "GFX_SOV_modern_medium_airframe_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/medium_4/sov_il_28.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_medium_airframe_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/medium_4/sov_tu_14.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_medium_airframe_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/bomber_55/yak28.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_medium_airframe_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/bomber_60/r020.dds"
+	}	
+			  
+	SpriteType = {
+		name = "GFX_SOV_iw_small_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_1/sov_i_16_type_17.dds"
+	}
+			 
+	SpriteType = {
+		name = "GFX_SOV_basic_small_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_1/sov_lagg_3_serires_4.dds"
+	}
+			 
+	SpriteType = {
+		name = "GFX_SOV_improved_small_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_2/sov_la_5f.dds"
+	}
+			 
+	SpriteType = {
+		name = "GFX_SOV_advanced_small_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_1/sov_yak_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_small_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_4/sov_mig_9.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_small_airframe_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_4/sov_mig_15bis.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_small_airframe_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_5/sov_mig_19.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_small_airframe_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_55/su9.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_modern_small_airframe_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_60/mig21.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_SOV_ifv_infantry_medium"
+		texturefile = "gfx/interface/technologies/land/SOV/Object914.png"
+	}
+	
+	spriteType = {
+		name = "GFX_SOV_tech_fleet_oiler_1_medium"
+		textureFile = "gfx/interface/equipmentdesigner/ships/SOV/FO/SOV_FO_1_Polyarnik.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_SOV_tech_fleet_oiler_2_medium"
+		textureFile = "gfx/interface/equipmentdesigner/ships/SOV/FO/SOV_FO_2_Khobi.dds"
+		legacy_lazy_load = no
+	}
+
+	# spriteType = {
+		# name = "GFX_tech_fleet_oiler_3_medium"
+		# textureFile = "gfx/interface/equipmentdesigner/ships/SOV/FO/GEN_FO_3_Tanker.dds"
+		# legacy_lazy_load = no
+	# }
+	
+	spriteType = {
+		name = "GFX_SOV_convoy_1_medium"
+		textureFile = "gfx/interface/equipmentdesigner/ships/SOV/Convoy/SOV_convoy_2.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SOV_convoy_2_medium"
+		textureFile = "gfx/interface/equipmentdesigner/ships/SOV/Convoy/SOV_convoy_2.dds"
+		legacy_lazy_load = no
+	}
+ 
+	# spriteType = {
+		# name = "GFX_convoy_3_medium"
+		# textureFile = "gfx/interface/technologies/convoy_3.dds"
+		# legacy_lazy_load = no
+	# } 
+
+	spriteType = {
+		name = "GFX_SOV_convoy_4_medium"
+		textureFile = "gfx/interface/equipmentdesigner/ships/SOV/Convoy/SOV_convoy_4.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SOV_wartime_convoy_medium"
+		textureFile = "gfx/interface/equipmentdesigner/ships/SOV/Convoy/SOV_convoy_2.dds"
+		legacy_lazy_load = no
+	}
+
+	# spriteType = {
+		# name = "GFX_SOV_converted_container_ship_medium"
+		# textureFile = "gfx/interface/technologies/convoy_3.dds"
+		# legacy_lazy_load = no
+	# }
+
+	spriteType = {
+		name = "GFX_SOV_container_ship_medium"
+		textureFile = "gfx/interface/equipmentdesigner/ships/SOV/Convoy/SOV_convoy_4.dds"
+		legacy_lazy_load = no
+	}
+			
+	# SpriteType = {
+		# name = "GFX_SOV_motorised_infantry_medium"
+		# texturefile = "gfx/interface/technologies/land/SOV/SOV_tc1.dds"
+	# }
+		
+	SpriteType = {
+		name = "GFX_SOV_motorised_infantry_2_medium"
+		texturefile = "gfx/interface/technologies/land/SOV/SOV_Zil_151.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_SOV_motorised_infantry_3_medium"
+		texturefile = "gfx/interface/technologies/land/SOV/SOV_Zil_157.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_rocket_artillery_f_medium"
+		texturefile = "gfx/interface/technologies/land/SOV/2K6Luna.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_SOV_post_war_diesel_locomotives_medium"
+		texturefile = "gfx/interface/technologies/land/trains/SOV_train_3.dds"
+	} 
+		
+	SpriteType = {
+		name = "GFX_SOV_diesel_electric_locomotives_medium"
+		texturefile = "gfx/interface/technologies/land/trains/SOV_train_4.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_train_equipment_2_d_medium"
+		texturefile = "gfx/interface/technologies/land/trains/SOV_train_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_train_equipment_2_de_medium"
+		texturefile = "gfx/interface/technologies/land/trains/SOV_train_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_armored_recovery_vehicle_1_medium"
+		texturefile = "gfx/interface/technologies/land/SOV/sov_t32t.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_armored_recovery_vehicle_2_medium"
+		texturefile = "gfx/interface/technologies/land/SOV/SOV_tt34.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_armored_recovery_vehicle_3_medium"
+		texturefile = "gfx/interface/technologies/land/SOV/SOV_spk_5.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_armored_recovery_vehicle_4_medium"
+		texturefile = "gfx/interface/technologies/land/SOV/SOV_bts_4a.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_armored_recovery_vehicle_5_medium"
+		texturefile = "gfx/interface/technologies/land/SOV/SOV_bts_4b.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_armored_recovery_vehicle_6_medium"
+		texturefile = "gfx/interface/technologies/land/SOV/SOV_T55_IMR.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_armored_recovery_vehicle_7_medium"
+		texturefile = "gfx/interface/technologies/land/SOV/SOV_bts_4v.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_vtol_plane_airframe_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_60/SOV_yak_36.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_mothership_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/SOV_mothership.dds"
+	}
+	 
+	SpriteType = {
+		name = "GFX_SOV_mothership_equipment_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/mothership/SOV_mothership_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_mothership_equipment_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_zveno_10.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_mothership_equipment_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/mothership/SOV_mothership_3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_mothership_aircraft_tech_0_medium"
+		texturefile = "gfx/interface/technologies/SOV_mothership.dds"
+	} 
+
+	SpriteType = {
+		name = "GFX_SOV_mothership_aircraft_tech_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/mothership/SOV_mothership_1.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_mothership_aircraft_tech_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_zveno_10.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_mothership_aircraft_tech_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/mothership/SOV_mothership_3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_mothership_airframe_0_medium"
+		texturefile = "gfx/interface/technologies/SOV_mothership.dds"
+	} 
+
+	SpriteType = {
+		name = "GFX_SOV_mothership_airframe_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/mothership/SOV_mothership_1.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_mothership_airframe_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_zveno_10.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_mothership_airframe_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/mothership/SOV_mothership_3.dds"
+	}	
+	 
+	SpriteType = {
+		name = "GFX_SOV_small_plane_airframe_0_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_0/sov_i_15.dds"
+	}
+	 
+	SpriteType = {
+		name = "GFX_SOV_small_plane_airframe_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_1/sov_lagg_1.dds"
+	}
+	 
+	SpriteType = {
+		name = "GFX_SOV_small_plane_airframe_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_2/sov_la_5.dds"
+	}
+	 
+	SpriteType = {
+		name = "GFX_SOV_small_plane_airframe_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_1/sov_yak_3.dds"
+	}
+	 
+	SpriteType = {
+		name = "GFX_SOV_small_plane_airframe_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_4/sov_mig_15.dds"
+	}
+	 
+	SpriteType = {
+		name = "GFX_SOV_small_plane_airframe_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_5/sov_mig_19.dds"
+	}
+	 
+	SpriteType = {
+		name = "GFX_SOV_medium_plane_airframe_0_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/medium_1/sov_db_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_cv_small_plane_airframe_0_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/carrier_0/sov_i_15k.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_small_plane_airframe_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/carrier_1/sov_yak_1k.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_small_plane_airframe_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/carrier_2/sov_yak_9km.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_small_plane_airframe_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/carrier_3/sov_la_9p.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_small_plane_airframe_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_4/sov_yak_15.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_small_plane_airframe_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_47/yak19.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_cv_small_plane_airframe_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_4/sov_mig_17.dds"
+	}
+	 
+	SpriteType = {
+		name = "GFX_SOV_cv_small_plane_airframe_7_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_55/su7k.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_cv_small_plane_airframe_8_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_60/migye8.dds"
+	}
+	 
+	SpriteType = {
+		name = "GFX_SOV_antipodal_bomber_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/air/SOV/SOV_mig_105.dds" 
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_expendable_recon_satellite_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/air/SOV/SOV_Zenit.dds" 
+	}
+
+	spriteType = { 
+		name = "GFX_SOV_pacv_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/SOV/kasatka.dds"
+	}     
+	
+	SpriteType = {
+		name = "GFX_SOV_airlifter_equipment_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_t_117.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_airlifter_equipment_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_tu_75.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_SOV_airlifter_equipment_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/sov_tu_107.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_airlifter_equipment_7_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/SOV_an_22.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_transport_plane_7_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/other/SOV_an_22.dds"
+	}
+		
+} 

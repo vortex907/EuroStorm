@@ -1,0 +1,161 @@
+spriteTypes = {	
+
+### guns ###
+	
+	SpriteType = {
+	name = "GFX_USA_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/USA_1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_USA_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/denxson/USA_2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_USA_improved_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/USA_3.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_USA_advanced_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/USA_4.dds"
+	} 
+	
+### Arty ###
+ 
+	SpriteType = {
+	name = "GFX_USA_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/USA_iwa.dds"
+	}
+	 
+	SpriteType = {
+	name = "GFX_USA_adv_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/USA_a2.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_USA_artillery3_medium"
+	texturefile = "gfx/interface/technologies/denxson/USA_a3.dds"
+	}	 
+	
+	SpriteType = {
+	name = "GFX_USA_artillery_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/denxson/USA_iwa.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_USA_artillery_equipment_3_medium"
+	texturefile = "gfx/interface/technologies/denxson/USA_a3.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_USA_artillery_equipment_2_medium"
+	texturefile = "gfx/interface/technologies/denxson/USA_a2.dds"
+	}	
+### Anti-air ###
+
+	SpriteType = {
+	name = "GFX_USA_interwar_antiair_medium"
+	texturefile = "gfx/interface/technologies/denxson/USA_aa1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_USA_antiair2_medium"
+	texturefile = "gfx/interface/technologies/denxson/USA_aa2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_USA_antiair5_medium"
+	texturefile = "gfx/interface/technologies/denxson/USA_aa3.dds"
+	}
+
+### Anti-tank ###
+
+	SpriteType = {
+	name = "GFX_USA_interwar_antitank_medium"
+	texturefile = "gfx/interface/technologies/denxson/USA_at1.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_USA_antitank2_medium"
+	texturefile = "gfx/interface/technologies/denxson/USA_at2.dds"
+	}	
+	
+    SpriteType = {
+	name = "GFX_USA_antitank5_medium"
+	texturefile = "gfx/interface/technologies/denxson/USA_at3.dds"
+	}
+
+### armoured cars ###
+
+	# SpriteType = {
+	# name = "GFX_USA_armored_car1_medium"
+	# texturefile = "gfx/interface/technologies/denxson/USA_ac1.dds"
+	# }
+	
+	# SpriteType = {
+	# name = "GFX_USA_armored_car2_medium"
+	# texturefile = "gfx/interface/technologies/denxson/USA_ac2.dds"
+	# }
+	
+	# SpriteType = {
+	# name = "GFX_USA_armored_car3_medium"
+	# texturefile = "gfx/interface/technologies/denxson/USA_ac3.dds"
+	# }	
+	
+# ### troop_carriers ###
+
+    # SpriteType = {
+	# name = "GFX_USA_motorized_equipment_1_medium"
+	# texturefile = "gfx/interface/technologies/denxson/USA_tc1.dds"
+	# }
+	
+	# SpriteType = {
+	# name = "GFX_USA_motorised_infantry_medium"
+	# texturefile = "gfx/interface/technologies/denxson/USA_tc1.dds"
+	# }
+	
+	# SpriteType = {
+	# name = "GFX_USA_motorised_equipment_medium"
+	# texturefile = "gfx/interface/technologies/denxson/USA_tc1.dds"
+	# }
+	
+	# SpriteType = {
+	# name = "GFX_USA_mechanised_infantry3_medium"
+	# texturefile = "gfx/interface/technologies/denxson/USA_tc4.dds"
+	# }
+
+	# SpriteType = {
+	# name = "GFX_USA_mechanised_infantry2_medium"
+	# texturefile = "gfx/interface/technologies/denxson/USA_tc3.dds"
+	# }
+
+	# SpriteType = {
+	# name = "GFX_USA_mechanised_infantry_medium"
+	# texturefile = "gfx/interface/technologies/denxson/USA_tc2.dds"
+	# }
+	
+### Rocket Arty ###
+
+	SpriteType = {
+	name = "GFX_USA_rocket_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/USA_ra1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_USA_rocket_artillery3_medium_medium"
+	texturefile = "gfx/interface/technologies/denxson/USA_ra2.dds"
+	}	
+	
+	# SpriteType = {
+	# name = "GFX_USA_rocket_artillery_c_medium"
+	# texturefile = "gfx/interface/technologies/denxson/USA_a3.dds"
+	# }
+	
+	# SpriteType = {
+	# name = "GFX_USA_rocket_artillery_f_medium"
+	# texturefile = "gfx/interface/technologies/denxson/USA_a4.png"
+	# }
+
+}

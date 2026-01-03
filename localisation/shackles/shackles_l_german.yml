@@ -1,0 +1,15 @@
+l_german:
+remove_shackles:0 "Fesseln entfernen"
+remove_shackles_desc:0 "Um das Spiel bis in die 1960er Jahre spielbar zu machen, wurde die Fähigkeit kleinerer Mächte eingeschränkt, riesige Armeen aufzustellen und massive Mengen an Ausrüstung zu produzieren. Wenn du mit einer kleinen oder mittelgroßen Macht spielen möchtest, die in irgendeiner Weise eingeschränkt wurde, wird diese Entscheidung diese Fesseln entfernen."
+
+shackles.1.t:0 "KI-Fesseln"
+shackles.1.d:0 "Das späte Spiel in HoI4 ist berüchtigt für seine Lags. Dies wird durch KI-gesteuerte Nationen verursacht, die enorme Mengen an militärischer Ausrüstung produzieren und riesige Armeen ausbilden, selbst in kleinen Nationen. Dieses Problem wird gegen Ende der 1940er Jahre deutlich und verschärft sich in den 1950er Jahren, was die Spielleistung erheblich beeinträchtigt. Der Mod AI Shackles fügt diesen kleineren Ländern Produktions- und Rekrutierungsbeschränkungen hinzu, um ein spielbares Erlebnis zu gewährleisten. Einige Länder, wie Brasilien und Argentinien, die über eine vernünftige Industrie verfügten, sich jedoch wenig um Konflikte im Ausland kümmerten (bis sie, wie im Fall von Brasilien, hineingezogen wurden), haben nur eine Begrenzung der rekrutierbaren Arbeitskräfte, während andere (wie El Salvador) sowohl bei der Arbeitskraft als auch bei der Industrie begrenzt sind.\n\nWenn du dich entscheidest, diese Einschränkungen, die sogenannten Fesseln, der KI aufzuerlegen, können sie durch eine Entscheidung (ohne politische Punkte zu kosten) entfernt werden, falls du mit einer kleinen Nation spielen möchtest. Nationen mit Fesseln, gegen die ein Kriegsgrund gerechtfertigt wird oder die sich bereits im Krieg befinden, verlieren sofort ihre Fesseln und kehren zu normalen Mobilisierungs- und Wirtschaftsgesetzen zurück. Du kannst auch wählen, ohne diese Einschränkungen von Anfang an für alle Länder zu spielen, aber dies wird die Spielleistung mit Sicherheit negativ beeinflussen. Die Wahl liegt bei dir.\n\nIch lade dich ein, den Mod Extended Tech Tree 1960 auf Steam auszuprobieren, um weit über das normale Enddatum hinaus mit neuen Inhalten zu spielen."
+shackles.1.b:0 "Ich möchte die KI nicht einschränken."
+shackles.1.b.d:0 "Kleine Länder erhalten keine Einschränkungen."
+shackles.1.a:0 "KI einschränken"
+shackles.1.a.d:0 "Kleine Länder werden eingeschränkt."
+
+unindustrialized:0 "Deindustrialisiert"
+uninterested:0 "Desinteressiert"
+
+unshackle_congo: "Entfernt die Fesseln des Kongo"

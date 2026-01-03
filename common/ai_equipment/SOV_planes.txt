@@ -1,0 +1,8419 @@
+# AI plane design for testing
+
+SOV_fighter = {
+	category = air
+
+	blocked_for = {}
+
+	available_for = {SOV}
+
+	roles = {
+		air_fighter
+	}
+
+	priority = {
+		factor = 1000
+		modifier = {
+			has_War = yes
+			factor = 2
+		}
+	}
+
+	great_war_fighter_default = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = basic_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		
+		name = "I-16 Type 17"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_i_16_type_17"
+
+		target_variant = {
+			match_value = 100
+			type = small_plane_airframe_0
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_main_weapon_slot = light_mg_2x
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
+				engine_type_slot = radial_engine_1_1x
+			}
+		}
+
+		allowed_modules = {
+			engine_1_1x
+			light_mg_2x
+			light_mg_4x
+		}
+	}
+
+	great_war_fighter_b = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = basic_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		
+		name = "I-16 Type 4"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_i_16_type_4"
+
+		target_variant = {
+			match_value = 100
+			type = small_plane_airframe_0
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_fuel_type_slot = low_octane_fuel
+				fixed_main_weapon_slot = light_mg_2x
+				engine_type_slot = radial_engine_1_1x
+			}
+		}
+
+		allowed_modules = {
+			engine_1_1x
+			light_mg_2x
+			light_mg_4x
+		}
+	}
+
+	great_war_fighter_c = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = basic_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		
+		name = "I-16 Type 5"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_i_16_type_5"
+
+		target_variant = {
+			match_value = 100
+			type = small_plane_airframe_0
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_main_weapon_slot = light_mg_2x
+				engine_type_slot = radial_engine_1_1x
+			}
+		}
+
+		allowed_modules = {
+			engine_1_1x
+			light_mg_2x
+			light_mg_4x
+		}
+	}
+
+	great_war_fighter_d = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = basic_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		
+		name = "I-16 Type 10"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_i_16_type_10"
+
+		target_variant = {
+			match_value = 100
+			type = small_plane_airframe_0
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_main_weapon_slot = light_mg_4x
+				engine_type_slot = radial_engine_1_1x
+			}
+		}
+
+		allowed_modules = {
+			engine_1_1x
+			light_mg_2x
+			light_mg_4x
+		}
+	}
+
+	great_war_fighter_e = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = basic_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		
+		name = "I-16 Type 24"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_i_16_type_24"
+
+		target_variant = {
+			match_value = 100
+			type = small_plane_airframe_0
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_main_weapon_slot = light_mg_4x
+				fixed_auxiliary_weapon_slot_1 = rocket_rails
+				engine_type_slot = radial_engine_2_1x
+			}
+		}
+
+		allowed_modules = {
+			engine_1_1x
+			light_mg_2x
+			light_mg_4x
+		}
+	}
+
+	great_war_fighter_f = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = basic_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		
+		name = "I-16 Type 29"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_i_16_type_29"
+
+		target_variant = {
+			match_value = 100
+			type = small_plane_airframe_0
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_main_weapon_slot = light_mg_4x
+				fixed_auxiliary_weapon_slot_1 = { any_of = { rocket_rails bomb_locks } }
+				engine_type_slot = radial_engine_2_1x
+			}
+		}
+
+		allowed_modules = {
+			engine_1_1x
+			light_mg_2x
+			light_mg_4x
+		}
+	}
+
+	great_war_fighter_g = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = basic_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		
+		name = "I-15"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_i_15"
+
+		target_variant = {
+			match_value = 100
+			type = small_plane_airframe_0
+			modules = {
+				fixed_wing_slot = biplane_wing
+				fixed_main_weapon_slot = light_mg_4x
+				fixed_fuel_type_slot = low_octane_fuel
+				engine_type_slot = radial_engine_1_1x
+			}
+		}
+
+		allowed_modules = {
+			engine_1_1x
+			light_mg_2x
+			light_mg_4x
+		}
+	}
+
+	great_war_fighter_h = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = basic_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		
+		name = "I-15bis"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_i_15bis"
+
+		target_variant = {
+			match_value = 100
+			type = small_plane_airframe_0
+			modules = {
+				fixed_wing_slot = biplane_wing
+				fixed_main_weapon_slot = light_mg_4x
+				engine_type_slot = radial_engine_1_1x
+			}
+		}
+
+		allowed_modules = {
+			engine_1_1x
+			light_mg_2x
+			light_mg_4x
+		}
+	}
+
+	great_war_fighter_i = {
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = basic_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		
+		name = "I-153"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_i_153"
+
+		target_variant = {
+			match_value = 100
+			type = small_plane_airframe_0
+			modules = {
+				fixed_wing_slot = biplane_wing
+				fixed_main_weapon_slot = light_mg_4x
+				fixed_auxiliary_weapon_slot_1 = { any_of = { rocket_rails bomb_locks } }
+				engine_type_slot = radial_engine_1_1x
+			}
+		}
+
+		allowed_modules = {
+			engine_1_1x
+			light_mg_2x
+			light_mg_4x
+		}
+	}
+
+	basic_fighter_default = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = improved_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "LaGG-3 Series 4"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_lagg_3_serires_4"
+		target_variant = {
+			match_value = 1000
+			type = small_plane_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_main_weapon_slot = engine_cannon_1_1x
+				fixed_auxiliary_weapon_slot_1 = light_mg_2x
+				fixed_auxiliary_weapon_slot_2 = heavy_mg_2x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = non_strategic_materials_small
+			}
+		}
+
+		allowed_modules = {
+			aircraft_cannon_1_2x
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			armor_plate_small
+			straight_wing			
+		}
+	}
+
+	basic_fighter_b = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = improved_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "LaGG-3 Series 1"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_lagg_3_serires_1"
+		target_variant = {
+			match_value = 1000
+			type = small_plane_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_main_weapon_slot = engine_cannon_1_1x
+				fixed_auxiliary_weapon_slot_1 = light_mg_2x
+				fixed_auxiliary_weapon_slot_2 = heavy_mg_2x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = non_strategic_materials_small
+				special_type_slot_2 = armor_plate_small
+			}
+		}
+
+		allowed_modules = {
+			aircraft_cannon_1_2x
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			armor_plate_small
+			straight_wing			
+		}
+	}
+
+	basic_fighter_c = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = improved_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "LaGG-3 Series 29"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_lagg_3_serires_29"
+		target_variant = {
+			match_value = 1000
+			type = small_plane_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = engine_cannon_1_1x
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = non_strategic_materials_small
+			}
+		}
+
+		allowed_modules = {
+			aircraft_cannon_1_2x
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			armor_plate_small
+			straight_wing			
+		}
+	}
+
+	basic_fighter_d = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = improved_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "LaGG-3 Series 66"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_lagg_3_serires_66"
+		target_variant = {
+			match_value = 1000
+			type = small_plane_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_main_weapon_slot = engine_cannon_1_1x
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				engine_type_slot = engine_3_1x
+				special_type_slot_1 = non_strategic_materials_small
+			}
+		}
+
+		allowed_modules = {
+			aircraft_cannon_1_2x
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			armor_plate_small
+			straight_wing			
+		}
+	}
+
+	basic_fighter_e = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = improved_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "LaGG-1"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_lagg_1"
+		target_variant = {
+			match_value = 1000
+			type = small_plane_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_main_weapon_slot = engine_cannon_1_1x
+				fixed_fuel_type_slot = low_octane_fuel
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				fixed_auxiliary_weapon_slot_2 = light_mg_2x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = {
+			aircraft_cannon_1_2x
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			armor_plate_small
+			straight_wing			
+		}
+	}
+
+	basic_fighter_f = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = improved_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Yak-1"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_yak_1"
+		target_variant = {
+			match_value = 1000
+			type = small_plane_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = engine_cannon_1_1x
+				fixed_auxiliary_weapon_slot_1 = light_mg_2x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = non_strategic_materials_small
+			}
+		}
+
+		allowed_modules = {
+			aircraft_cannon_1_2x
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			armor_plate_small
+			straight_wing			
+		}
+	}
+
+	basic_fighter_g = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = improved_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Yak-1b"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_yak_1b"
+		target_variant = {
+			match_value = 1000
+			type = small_plane_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = engine_cannon_1_1x
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = non_strategic_materials_small
+				special_type_slot_2 = armor_plate_small
+			}
+		}
+
+		allowed_modules = {
+			aircraft_cannon_1_2x
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			armor_plate_small
+			straight_wing			
+		}
+	}
+
+	basic_fighter_h = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = improved_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "MiG-1"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_mig_1"
+		target_variant = {
+			match_value = 1000
+			type = small_plane_airframe_1
+			modules = {
+				fixed_wing_slot = high_altitude_straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = light_mg_2x
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				engine_type_slot = engine_2_1x
+			}
+		}
+
+		allowed_modules = {
+			aircraft_cannon_1_2x
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			armor_plate_small
+			straight_wing			
+		}
+	}
+
+	basic_fighter_i = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = improved_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "MiG-3"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_mig_3"
+		target_variant = {
+			match_value = 1000
+			type = small_plane_airframe_1
+			modules = {
+				fixed_wing_slot = high_altitude_straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = engine_cannon_1_1x
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				engine_type_slot = engine_2_1x
+			}
+		}
+
+		allowed_modules = {
+			aircraft_cannon_1_2x
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			armor_plate_small
+			straight_wing			
+		}
+	}
+
+	improved_fighter_default = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = advanced_small_airframe 
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "La-5F"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_la_5f"
+		target_variant = {
+			match_value = 2000
+			type = small_plane_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_aux_prop_slot = injection_system
+				fixed_main_weapon_slot = aircraft_cannon_1_2x
+				engine_type_slot = radial_engine_3_1x
+				special_type_slot_1 = non_strategic_materials_small
+				special_type_slot_2 = armor_plate_small	
+			}
+		}
+
+		allowed_modules = {
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			engine_cannon_1_1x
+			aircraft_cannon_1_2x
+			radial_engine_3_1x
+			engine_3_1x
+			turbocharger
+			supercharger
+			reflex_gunsight
+			semielliptical_wing
+			straight_wing
+		}
+	}
+
+	improved_fighter_b = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = advanced_small_airframe 
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "La-5"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_la_5"
+		target_variant = {
+			match_value = 2000
+			type = small_plane_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = aircraft_cannon_1_2x
+				engine_type_slot = radial_engine_3_1x
+				special_type_slot_1 = non_strategic_materials_small
+			}
+		}
+
+		allowed_modules = {
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			engine_cannon_1_1x
+			aircraft_cannon_1_2x
+			radial_engine_3_1x
+			engine_3_1x
+			turbocharger
+			supercharger
+			reflex_gunsight
+			semielliptical_wing
+			straight_wing
+		}
+	}
+
+	improved_fighter_c = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = advanced_small_airframe 
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "La-5FN"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_la_5fn"
+		target_variant = {
+			match_value = 2000
+			type = small_plane_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = aircraft_cannon_1_2x
+				engine_type_slot = radial_engine_4_1x
+				special_type_slot_1 = non_strategic_materials_small
+			}
+		}
+
+		allowed_modules = {
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			engine_cannon_1_1x
+			aircraft_cannon_1_2x
+			radial_engine_3_1x
+			engine_3_1x
+			turbocharger
+			supercharger
+			reflex_gunsight
+			semielliptical_wing
+			straight_wing
+		}
+	}
+
+	improved_fighter_d = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = advanced_small_airframe 
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Yak-7A"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_yak_7a"
+		target_variant = {
+			match_value = 2000
+			type = small_plane_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = engine_cannon_1_1x
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				fixed_auxiliary_weapon_slot_2 = light_mg_2x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = non_strategic_materials_small
+				special_type_slot_2 = armor_plate_small
+				special_type_slot_3 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = {
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			engine_cannon_1_1x
+			aircraft_cannon_1_2x
+			radial_engine_3_1x
+			engine_3_1x
+			turbocharger
+			supercharger
+			reflex_gunsight
+			semielliptical_wing
+			straight_wing
+		}
+	}
+
+	improved_fighter_e = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = advanced_small_airframe 
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Yak-7B"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_yak_7b"
+		target_variant = {
+			match_value = 2000
+			type = small_plane_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = engine_cannon_1_1x
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = non_strategic_materials_small
+				special_type_slot_2 = armor_plate_small
+				special_type_slot_3 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = {
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			engine_cannon_1_1x
+			aircraft_cannon_1_2x
+			radial_engine_3_1x
+			engine_3_1x
+			turbocharger
+			supercharger
+			reflex_gunsight
+			semielliptical_wing
+			straight_wing
+		}
+	}
+
+	improved_fighter_f = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = advanced_small_airframe 
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Yak-7-37"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_yak_7_37"
+		target_variant = {
+			match_value = 2000
+			type = small_plane_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = bomber_buster_1
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = non_strategic_materials_small
+				special_type_slot_2 = armor_plate_small
+				special_type_slot_3 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = {
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			engine_cannon_1_1x
+			aircraft_cannon_1_2x
+			radial_engine_3_1x
+			engine_3_1x
+			turbocharger
+			supercharger
+			reflex_gunsight
+			semielliptical_wing
+			straight_wing
+		}
+	}
+
+	improved_fighter_g = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = advanced_small_airframe 
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Yak-9"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_yak_9"
+		target_variant = {
+			match_value = 2000
+			type = small_plane_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = engine_cannon_1_1x
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = non_strategic_materials_small
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = {
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			engine_cannon_1_1x
+			aircraft_cannon_1_2x
+			radial_engine_3_1x
+			engine_3_1x
+			turbocharger
+			supercharger
+			reflex_gunsight
+			semielliptical_wing
+			straight_wing
+		}
+	}
+
+	improved_fighter_h = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = advanced_small_airframe 
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Yak-9B"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_yak_9b"
+		target_variant = {
+			match_value = 2000
+			type = small_plane_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = engine_cannon_1_1x
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				fixed_auxiliary_weapon_slot_2 = small_bomb_bay
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = non_strategic_materials_small
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = {
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			engine_cannon_1_1x
+			aircraft_cannon_1_2x
+			radial_engine_3_1x
+			engine_3_1x
+			turbocharger
+			supercharger
+			reflex_gunsight
+			semielliptical_wing
+			straight_wing
+		}
+	}
+
+	improved_fighter_i = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = advanced_small_airframe 
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Yak-9T"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_yak_9t"
+		target_variant = {
+			match_value = 2000
+			type = small_plane_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = bomber_buster_2
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = non_strategic_materials_small
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = {
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			engine_cannon_1_1x
+			aircraft_cannon_1_2x
+			radial_engine_3_1x
+			engine_3_1x
+			turbocharger
+			supercharger
+			reflex_gunsight
+			semielliptical_wing
+			straight_wing
+		}
+	}
+
+	improved_fighter_j = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = advanced_small_airframe 
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Yak-9K"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_yak_9k"
+		target_variant = {
+			match_value = 2000
+			type = small_plane_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = bomber_buster_3
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = non_strategic_materials_small
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = {
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			engine_cannon_1_1x
+			aircraft_cannon_1_2x
+			radial_engine_3_1x
+			engine_3_1x
+			turbocharger
+			supercharger
+			reflex_gunsight
+			semielliptical_wing
+			straight_wing
+		}
+	}
+
+	improved_fighter_k = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = advanced_small_airframe 
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Yak-9U"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_yak_9u"
+		target_variant = {
+			match_value = 2000
+			type = small_plane_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_aux_prop_slot = injection_system
+				fixed_main_weapon_slot = engine_cannon_2_1x
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				engine_type_slot = engine_3_1x
+				special_type_slot_1 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = {
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			engine_cannon_1_1x
+			aircraft_cannon_1_2x
+			radial_engine_3_1x
+			engine_3_1x
+			turbocharger
+			supercharger
+			reflex_gunsight
+			semielliptical_wing
+			straight_wing
+		}
+	}
+
+	improved_fighter_l = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = advanced_small_airframe 
+				factor = 0 #let's not waste XP here
+			}
+		}
+		name = "Yak-9UT"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_yak_9ut"
+		target_variant = {
+			match_value = 2000
+			type = small_plane_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_aux_prop_slot = injection_system
+				fixed_main_weapon_slot = bomber_buster_1
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_2x
+				engine_type_slot = engine_3_1x
+				special_type_slot_1 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = {
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			engine_cannon_1_1x
+			aircraft_cannon_1_2x
+			radial_engine_3_1x
+			engine_3_1x
+			turbocharger
+			supercharger
+			reflex_gunsight
+			semielliptical_wing
+			straight_wing
+		}
+	}
+
+
+	advanced_fighter_default = {
+		priority = {
+			factor = 100
+		}
+		name = "Yak-3"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_yak_3"
+		target_variant = {
+			match_value = 3000
+			type = small_plane_airframe_3
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_radar_slot = empty
+				fixed_aux_prop_slot = injection_system
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = {
+					any_of = { 
+						engine_cannon_3_1x 
+						engine_cannon_2_1x 
+						engine_cannon_1_1x
+					}
+				}
+				fixed_auxiliary_weapon_slot_1 = {
+					any_of = { 
+						heavy_mg_2_2x 
+						heavy_mg_2x 
+					}
+				}
+				fixed_auxiliary_weapon_slot_3 = empty
+				engine_type_slot = engine_4_1x
+				special_type_slot_1 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			heavy_mg_4x
+			heavy_mg_2x
+			light_mg_2x
+			aircraft_cannon_1_2x
+			radial_engine_4_1x
+			engine_4_1x
+			turbocharger
+			supercharger
+			reflex_gunsight
+			semielliptical_wing
+			straight_wing
+			laminar_flow_straight_wing
+			plane_optics
+			bomb_locks
+			rocket_rails
+			engine_cannon_2_1x 
+			engine_cannon_1_1x
+		}
+	}
+
+	advanced_fighter_default_02 = {
+	
+		name = "La-7"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_la_7"
+		
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 3000
+			type = small_plane_airframe_3
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_radar_slot = empty
+				fixed_aux_prop_slot = injection_system
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_engine_mod_slot = supercharger
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = aircraft_cannon_1_2x
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_1x
+				engine_type_slot = radial_engine_4_1x
+				special_type_slot_1 = self_sealing_fuel_tanks_small
+				special_type_slot_2 = non_strategic_materials_small
+			}
+		}
+
+		allowed_modules = { 
+			heavy_mg_4x
+			heavy_mg_2x
+			aircraft_cannon_1_2x
+			radial_engine_4_1x
+			engine_4_1x
+			turbocharger
+			supercharger
+			reflex_gunsight
+			semielliptical_wing
+			straight_wing
+			laminar_flow_straight_wing
+			plane_optics
+			bomb_locks
+			rocket_rails
+		}
+	}
+
+	advanced_fighter_default_03 = {
+	
+		name = "La-9"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_la_9"
+		
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 3000
+			type = small_plane_airframe_3
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_radar_slot = empty
+				fixed_aux_prop_slot = injection_system
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_engine_mod_slot = supercharger
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = aircraft_cannon_3_2x
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				engine_type_slot = radial_engine_4_1x
+				special_type_slot_1 = self_sealing_fuel_tanks_small
+				special_type_slot_2 = fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			heavy_mg_4x
+			heavy_mg_2x
+			aircraft_cannon_1_2x
+			radial_engine_4_1x
+			engine_4_1x
+			turbocharger
+			supercharger
+			reflex_gunsight
+			semielliptical_wing
+			straight_wing
+			laminar_flow_straight_wing
+			plane_optics
+			bomb_locks
+			rocket_rails
+		}
+	}
+
+	advanced_fighter_default_04 = {
+	
+		name = "La-11"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_la_11"
+		
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 3000
+			type = small_plane_airframe_3
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_radar_slot = empty
+				fixed_aux_prop_slot = injection_system
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_engine_mod_slot = supercharger
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = aircraft_cannon_3_1x
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = radial_engine_4_1x
+				special_type_slot_1 = self_sealing_fuel_tanks_small
+				special_type_slot_2 = fuel_tanks_small
+				special_type_slot_3 = fuel_tanks_small
+				special_type_slot_4 = fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			heavy_mg_4x
+			heavy_mg_2x
+			aircraft_cannon_1_2x
+			radial_engine_4_1x
+			engine_4_1x
+			turbocharger
+			supercharger
+			reflex_gunsight
+			semielliptical_wing
+			straight_wing
+			laminar_flow_straight_wing
+			plane_optics
+			bomb_locks
+			rocket_rails
+		}
+	}
+	
+	jet_fighter_default = {
+	
+		name = "Mig-9"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_mig_9"
+	
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 4000
+			type = small_plane_airframe_4
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_radar_slot = empty
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_engine_mod_slot = empty
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = bomber_buster_1
+				fixed_auxiliary_weapon_slot_1 = {
+					any_of = { 
+						aircraft_cannon_3_2x 
+						aircraft_cannon_2_2x 
+						aircraft_cannon_1_2x 
+					}
+				}
+				engine_type_slot = jet_engine_2x
+				special_type_slot_1 = g_suit_1
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			g_suit_type
+			g_suit_1
+		}
+	}
+	
+	jet_fighter_default_2 = {
+	
+		name = "Yak-15"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_yak_15"
+	
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 4000
+			type = small_plane_airframe_4
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_radar_slot = empty
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_engine_mod_slot = empty
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = {
+					any_of = { 
+						aircraft_cannon_3_2x 
+						aircraft_cannon_2_2x 
+						aircraft_cannon_1_2x 
+					}
+				}
+				engine_type_slot = jet_engine_1x
+				special_type_slot_1 = g_suit_1
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			g_suit_type
+			g_suit_1
+		}
+	}
+	
+	jet_fighter_default_c = {
+	
+		name = "Yak-17"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_yak_17"
+	
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 4000
+			type = small_plane_airframe_4
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_radar_slot = empty
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_engine_mod_slot = empty
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = {
+					any_of = { 
+						aircraft_cannon_3_2x 
+						aircraft_cannon_2_2x 
+						aircraft_cannon_1_2x 
+					}
+				}
+				fixed_auxiliary_weapon_slot_1 = drop_tanks
+				engine_type_slot = jet_engine_1x
+				special_type_slot_1 = g_suit_1
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+				special_type_slot_3 = fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			g_suit_type
+			g_suit_1
+		}
+	}
+	
+	jet_fighter_default_02 = {
+	
+		name = "Mig-15bis"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_mig_15bis"
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 5000
+			type = small_plane_airframe_5
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = empty
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_main_weapon_slot = bomber_buster_1
+				fixed_auxiliary_weapon_slot_1 = {
+					any_of = { 
+						aircraft_cannon_3_2x 
+						aircraft_cannon_2_2x 
+						aircraft_cannon_1_2x 
+					}
+				}
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = jet_engine_2_1x
+				special_type_slot_1 = {
+					any_of = { 
+						g_suit_3
+						g_suit_2
+						g_suit_1
+					}
+				}
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+				special_type_slot_3 = armor_plate_small
+				special_type_slot_4 = fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			g_suit_type
+		}
+	}
+	
+	jet_fighter_default_02b = {
+	
+		name = "Mig-15"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_mig_15"
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 5000
+			type = small_plane_airframe_5
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = empty
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_main_weapon_slot = bomber_buster_1
+				fixed_auxiliary_weapon_slot_1 = {
+					any_of = { 
+						aircraft_cannon_3_2x 
+						aircraft_cannon_2_2x 
+						aircraft_cannon_1_2x 
+					}
+				}
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = jet_engine_2_1x
+				special_type_slot_1 = {
+					any_of = { 
+						g_suit_3
+						g_suit_2
+						g_suit_1
+					}
+				}
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			g_suit_type
+		}
+	}
+	
+	jet_fighter_default_02c = {
+	
+		name = "Mig-15Pbis"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_mig_15pbis"
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 5000
+			type = small_plane_airframe_5
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = {
+					any_of = { 
+						air_air_radar_4 
+						air_air_radar_3 
+						air_air_radar_2 
+					}
+				}
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_main_weapon_slot = bomber_buster_1
+				fixed_auxiliary_weapon_slot_1 = {
+					any_of = { 
+						aircraft_cannon_3_2x 
+						aircraft_cannon_2_2x 
+						aircraft_cannon_1_2x 
+					}
+				}
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = jet_engine_2_1x
+				special_type_slot_1 = {
+					any_of = { 
+						g_suit_3
+						g_suit_2
+						g_suit_1
+					}
+				}
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+				special_type_slot_3 = armor_plate_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			g_suit_type
+		}
+	}
+	
+	jet_fighter_default_02d = {
+	
+		name = "La-15"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_la_15"
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 5000
+			type = small_plane_airframe_5
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = empty
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_main_weapon_slot = {
+					any_of = { 
+						aircraft_cannon_3_1x 
+						aircraft_cannon_2_1x 
+						aircraft_cannon_1_1x 
+					}
+				}
+				fixed_auxiliary_weapon_slot_1 = {
+					any_of = { 
+						aircraft_cannon_3_2x 
+						aircraft_cannon_2_2x 
+						aircraft_cannon_1_2x 
+					}
+				}
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = jet_engine_2_1x
+				special_type_slot_1 = {
+					any_of = { 
+						g_suit_3
+						g_suit_2
+						g_suit_1
+					}
+				}
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			g_suit_type
+		}
+	}
+	
+	jet_fighter_default_02E = {
+	
+		name = "Yak-23"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_yak_23"
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 5000
+			type = small_plane_airframe_5
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_radar_slot = empty
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_main_weapon_slot = {
+					any_of = { 
+						aircraft_cannon_3_2x 
+						aircraft_cannon_2_2x 
+						aircraft_cannon_1_2x 
+					}
+				}
+				fixed_auxiliary_weapon_slot_1 = drop_tanks
+				engine_type_slot = jet_engine_2_1x
+				special_type_slot_1 = {
+					any_of = { 
+						g_suit_3
+						g_suit_2
+						g_suit_1
+					}
+				}
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			g_suit_type
+		}
+	}
+		
+	jet_fighter_default_03 = {
+	
+		name = "Mig-19"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_mig_19"
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 6000
+			type = small_plane_airframe_6
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = empty
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_engine_mod_slot = afterburner
+				fixed_main_weapon_slot = {
+					any_of = { 
+						aircraft_cannon_3_1x 
+						aircraft_cannon_2_1x 
+					}
+				}
+				fixed_auxiliary_weapon_slot_1 = {
+					any_of = { 
+						aircraft_cannon_3_2x 
+						aircraft_cannon_2_2x
+					}
+				}
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = second_gen_jet_engine_1x
+				special_type_slot_1 = {
+					any_of = { 
+						g_suit_3
+						g_suit_2
+						g_suit_1
+					}
+				}
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			aircraft_cannon_3_2x
+			aircraft_cannon_4_2x
+			aircraft_cannon_4_1x
+			aircraft_cannon_3_1x 
+			aircraft_cannon_2_1x 
+			second_gen_jet_engine_1x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			plane_special_module_air_air_radar
+			g_suit_type
+			cas_weapon
+			air_air_ir_missile_1_module
+			air_air_ir_missile_2_module
+		}
+	}
+		
+	jet_fighter_default_03b = {
+	
+		name = "Mig-19P"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_mig_19p"
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 6000
+			type = small_plane_airframe_6
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = {
+					any_of = { 
+						air_air_radar_5 
+						air_air_radar_4
+						air_air_radar_3
+					}
+				}
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_engine_mod_slot = afterburner
+				fixed_main_weapon_slot = {
+					any_of = { 
+						aircraft_cannon_3_1x 
+						aircraft_cannon_2_1x 
+					}
+				}
+				fixed_auxiliary_weapon_slot_1 = {
+					any_of = { 
+						aircraft_cannon_3_2x 
+						aircraft_cannon_2_2x
+					}
+				}
+				fixed_auxiliary_weapon_slot_2 = air_air_missile_2_module
+				fixed_auxiliary_weapon_slot_3 = drop_tanks
+				engine_type_slot = second_gen_jet_engine_1x
+				special_type_slot_1 = {
+					any_of = { 
+						g_suit_3
+						g_suit_2
+						g_suit_1
+					}
+				}
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			aircraft_cannon_3_2x
+			aircraft_cannon_4_2x
+			aircraft_cannon_4_1x
+			aircraft_cannon_3_1x 
+			aircraft_cannon_2_1x 
+			second_gen_jet_engine_1x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			plane_special_module_air_air_radar
+			g_suit_type
+			cas_weapon
+			air_air_ir_missile_1_module
+			air_air_ir_missile_2_module
+		}
+	}
+		
+	jet_fighter_default_03c = {
+	
+		name = "Mig-19S"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_mig_19s"
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 6000
+			type = small_plane_airframe_6
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = empty
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_engine_mod_slot = afterburner
+				fixed_main_weapon_slot = aircraft_cannon_4_1x 
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_4_2x 
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = second_gen_jet_engine_1x
+				special_type_slot_1 = {
+					any_of = { 
+						g_suit_3
+						g_suit_2
+						g_suit_1
+					}
+				}
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			aircraft_cannon_3_2x
+			aircraft_cannon_4_2x
+			aircraft_cannon_4_1x
+			aircraft_cannon_3_1x 
+			aircraft_cannon_2_1x 
+			second_gen_jet_engine_1x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			plane_special_module_air_air_radar
+			g_suit_type
+			cas_weapon
+			air_air_ir_missile_1_module
+			air_air_ir_missile_2_module
+		}
+	}
+		
+	jet_fighter_default_03d = {
+	
+		name = "Mig-17"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_mig_17"
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 6000
+			type = small_plane_airframe_6
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = empty
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				#fixed_engine_mod_slot = afterburner
+				fixed_main_weapon_slot = bomber_buster_1 
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x 
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = second_gen_jet_engine_1x
+				special_type_slot_1 = {
+					any_of = { 
+						g_suit_3
+						g_suit_2
+						g_suit_1
+					}
+				}
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			aircraft_cannon_3_2x
+			aircraft_cannon_4_2x
+			aircraft_cannon_4_1x
+			aircraft_cannon_3_1x 
+			aircraft_cannon_2_1x 
+			second_gen_jet_engine_1x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			plane_special_module_air_air_radar
+			g_suit_type
+			cas_weapon
+			air_air_ir_missile_1_module
+			air_air_ir_missile_2_module
+		}
+	}
+		
+	jet_fighter_default_03e = {
+	
+		name = "Mig-17F"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_mig_17f"
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 6000
+			type = small_plane_airframe_6
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = empty
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_engine_mod_slot = afterburner
+				fixed_main_weapon_slot = bomber_buster_1 
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x 
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = second_gen_jet_engine_1x
+				special_type_slot_1 = {
+					any_of = { 
+						g_suit_3
+						g_suit_2
+						g_suit_1
+					}
+				}
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			aircraft_cannon_3_2x
+			aircraft_cannon_4_2x
+			aircraft_cannon_4_1x
+			aircraft_cannon_3_1x 
+			aircraft_cannon_2_1x 
+			second_gen_jet_engine_1x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			plane_special_module_air_air_radar
+			g_suit_type
+			cas_weapon
+			air_air_ir_missile_1_module
+			air_air_ir_missile_2_module
+		}
+	}
+		
+	jet_fighter_default_03f = {
+	
+		name = "Mig-17PF"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_mig_17pf"
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 6000
+			type = small_plane_airframe_6
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = {
+					any_of = { 
+						air_air_radar_5 
+						air_air_radar_4
+						air_air_radar_3
+					}
+				}
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_engine_mod_slot = afterburner
+				fixed_main_weapon_slot = aircraft_cannon_3_1x 
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x 
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = second_gen_jet_engine_1x
+				special_type_slot_1 = {
+					any_of = { 
+						g_suit_3
+						g_suit_2
+						g_suit_1
+					}
+				}
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			aircraft_cannon_3_2x
+			aircraft_cannon_4_2x
+			aircraft_cannon_4_1x
+			aircraft_cannon_3_1x 
+			aircraft_cannon_2_1x 
+			second_gen_jet_engine_1x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			plane_special_module_air_air_radar
+			g_suit_type
+			cas_weapon
+			air_air_ir_missile_1_module
+			air_air_ir_missile_2_module
+		}
+	}
+		
+	jet_fighter_default_04 = {
+	
+		name = "Su-7"
+		history = yes
+		override_sprite = "GFX_SOV_Su_7"
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 7000
+			type = small_plane_airframe_7
+			modules = {
+				fixed_wing_slot = swept_wing
+				# fixed_radar_slot = {
+					# any_of = { 
+						# air_air_radar_5
+						# air_air_radar_4 
+						# air_air_radar_3 
+					# }
+				# }
+				fixed_optics_slot = {
+					any_of = { 
+						hud_module
+						gyro_gunsight 						
+					}
+				}
+				fixed_engine_mod_slot = afterburner
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = aircraft_cannon_4_2x
+				fixed_auxiliary_weapon_slot_1 = air_air_ir_missile_1_module
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = second_gen_jet_engine_1x
+				special_type_slot_1 = {
+					any_of = { 
+						g_suit_3
+						g_suit_2
+						g_suit_1
+					}
+				}
+				special_type_slot_2 = module_countermeasure_dispenser_small	
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			aircraft_cannon_3_2x
+			aircraft_cannon_4_2x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			plane_special_module_air_air_radar
+			g_suit_type
+			air_air_missile_2_module
+			air_air_missile_1_module
+			air_air_radar_5
+			air_air_radar_4 
+			air_air_radar_3 
+			air_air_radar_2 
+		}
+	}
+		
+	jet_fighter_default_04b = {
+	
+		name = "Su-9"
+		history = yes
+		override_sprite = "GFX_SOV_Su_9"
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 7000
+			type = small_plane_airframe_7
+			modules = {
+				fixed_wing_slot = tailed_delta_wing
+				fixed_radar_slot = {
+					any_of = { 
+						air_air_radar_5
+						air_air_radar_4 
+						air_air_radar_3 
+					}
+				}
+				fixed_optics_slot = {
+					any_of = { 
+						hud_module
+						gyro_gunsight 						
+					}
+				}
+				fixed_engine_mod_slot = mach_2_afterburner
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = air_air_missile_2_module
+				fixed_auxiliary_weapon_slot_1 = air_air_missile_1_module
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = third_gen_jet_engine_1x
+				special_type_slot_1 = {
+					any_of = { 
+						g_suit_3
+						g_suit_2
+						g_suit_1
+					}
+				}
+				special_type_slot_2 = module_countermeasure_dispenser_small	
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			aircraft_cannon_3_2x
+			aircraft_cannon_4_2x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			plane_special_module_air_air_radar
+			g_suit_type
+			air_air_missile_2_module
+			air_air_missile_1_module
+			air_air_radar_5
+			air_air_radar_4 
+			air_air_radar_3 
+			air_air_radar_2 
+		}
+	}
+		
+	jet_fighter_default_04c = {
+	
+		name = "La-250"
+		history = yes
+		override_sprite = "GFX_SOV_La_250"
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 7000
+			type = small_plane_airframe_7
+			modules = {
+				fixed_wing_slot = tailed_delta_wing
+				fixed_radar_slot = {
+					any_of = { 
+						air_air_radar_5
+						air_air_radar_4 
+						air_air_radar_3 
+					}
+				}
+				fixed_optics_slot = {
+					any_of = { 
+						hud_module
+						gyro_gunsight 						
+					}
+				}
+				fixed_engine_mod_slot = mach_2_afterburner
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = air_air_missile_3_module
+				fixed_auxiliary_weapon_slot_1 = air_air_missile_2_module
+				fixed_auxiliary_weapon_slot_2 = air_air_missile_1_module
+				fixed_auxiliary_weapon_slot_3 = drop_tanks
+				engine_type_slot = third_gen_jet_engine_2x
+				special_type_slot_1 = {
+					any_of = { 
+						g_suit_3
+						g_suit_2
+						g_suit_1
+					}
+				}
+				special_type_slot_2 = fuel_tanks_small
+				special_type_slot_3 = fuel_tanks_small
+				special_type_slot_4 = armor_plate_small
+				special_type_slot_5 = module_countermeasure_dispenser_small	
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			aircraft_cannon_3_2x
+			aircraft_cannon_4_2x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			plane_special_module_air_air_radar
+			g_suit_type
+			air_air_missile_2_module
+			air_air_missile_1_module
+			air_air_radar_5
+			air_air_radar_4 
+			air_air_radar_3 
+			air_air_radar_2 
+		}
+	}
+	
+	jet_fighter_default_05 = {
+	
+		name = "Mig-21"
+		history = yes
+		override_sprite = "GFX_SOV_Mig_21"
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 8000
+			type = small_plane_airframe_8
+			modules = {
+				fixed_wing_slot = tailed_delta_wing
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = {
+					any_of = { 
+						hud_module
+						gyro_gunsight 						
+					}
+				}
+				fixed_engine_mod_slot = mach_2_afterburner
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = {
+					any_of = { 
+						air_air_ir_missile_2_module 
+						air_air_ir_missile_1_module
+					}
+				}
+				fixed_auxiliary_weapon_slot_1 = {
+					any_of = { 
+						air_air_ir_missile_2_module
+						air_air_ir_missile_1_module
+					}
+				}
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = third_gen_jet_engine_1x
+				special_type_slot_1 = {
+					any_of = { 
+						g_suit_3
+						g_suit_2
+						g_suit_1
+					}
+				}
+				special_type_slot_2 = self_sealing_fuel_tanks_small	
+				special_type_slot_3 = module_countermeasure_dispenser_small	
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			aircraft_cannon_3_2x
+			aircraft_cannon_4_2x
+			aircraft_cannon_4_1x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			plane_special_module_air_air_radar
+			g_suit_type
+			air_air_missile_2_module
+			air_air_missile_1_module
+		}
+	}
+	
+	# jet_fighter_default_05B = {
+	
+		# name = "Tu-28"
+		# history = yes
+		# override_sprite = "GFX_SOV_Tu_28"
+		# priority = {
+			# factor = 100
+		# }
+
+		# target_variant = {
+			# match_value = 8000
+			# type = small_plane_airframe_8
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = {
+					# any_of = { 
+						# air_air_radar_6
+						# air_air_radar_5 
+						# air_air_radar_4 
+					# }
+				# }
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = {
+					# any_of = { 
+						# hud_module
+						# gyro_gunsight 						
+					# }
+				# }
+				# fixed_engine_mod_slot = mach_2_afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = {
+					# any_of = { 
+						# air_air_missile_4_module
+						# air_air_missile_3_module
+						# air_air_missile_2_module
+					# }
+				# }
+				# fixed_auxiliary_weapon_slot_1 = {
+					# any_of = { 
+						# air_air_missile_4_module
+						# air_air_missile_3_module
+						# air_air_missile_2_module
+					# }
+				# }
+				# engine_type_slot = third_gen_jet_engine_2x
+				# special_type_slot_1 = {
+					# any_of = { 
+						# g_suit_3
+						# g_suit_2
+						# g_suit_1
+					# }
+				# }
+				# special_type_slot_2 = fuel_tanks_small	
+				# special_type_slot_3 = fuel_tanks_small	
+				# special_type_slot_4 = fuel_tanks_small	
+				# special_type_slot_5 = fuel_tanks_small	
+				# special_type_slot_6 = module_countermeasure_dispenser_small	
+			# }
+		# }
+
+		# allowed_modules = { 
+			# aircraft_cannon_2_2x
+			# aircraft_cannon_1_2x
+			# aircraft_cannon_3_2x
+			# aircraft_cannon_4_2x
+			# aircraft_cannon_4_1x
+			# jet_engine_2x
+			# armor_plate_small
+			# straight_wing
+			# plane_optics
+			# reflex_gunsight
+			# heavy_mg_4x
+			# heavy_mg_2x
+			# drop_tanks
+			# bomb_locks
+			# rocket_rails
+			# plane_special_module_air_air_radar
+			# g_suit_type
+			# air_air_missile_2_module
+			# air_air_missile_1_module
+			# air_air_missile_4_module
+			# air_air_missile_3_module
+			# air_air_missile_2_module
+			# aircraft_cannon_5_1x
+		# }
+	# }
+	
+	jet_fighter_default_05B = {
+	
+		name = "Mig Ye-8"
+		history = yes
+		override_sprite = "GFX_SOV_Mig_Ye_8"
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 8000
+			type = small_plane_airframe_8
+			modules = {
+				fixed_wing_slot = tailed_delta_wing
+				fixed_radar_slot = {
+					any_of = { 
+						air_air_radar_6
+						air_air_radar_5 
+						air_air_radar_4 
+					}
+				}
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = {
+					any_of = { 
+						hud_module
+						gyro_gunsight 						
+					}
+				}
+				fixed_engine_mod_slot = mach_2_afterburner
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = aircraft_cannon_5_1x
+				fixed_auxiliary_weapon_slot_1 = {
+					any_of = { 
+						air_air_missile_4_module
+						air_air_missile_3_module
+						air_air_missile_2_module
+					}
+				}
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = third_gen_jet_engine_1x
+				special_type_slot_2 = {
+					any_of = { 
+						g_suit_3
+						g_suit_2
+						g_suit_1
+					}
+				}
+				fixed_body_modifications_slot = canard	
+				special_type_slot_3 = module_countermeasure_dispenser_small	
+				special_type_slot_4 = self_sealing_fuel_tanks_small	
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			aircraft_cannon_3_2x
+			aircraft_cannon_4_2x
+			aircraft_cannon_4_1x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			plane_special_module_air_air_radar
+			g_suit_type
+			air_air_missile_2_module
+			air_air_missile_1_module
+			air_air_missile_4_module
+			air_air_missile_3_module
+			air_air_missile_2_module
+			aircraft_cannon_5_1x
+		}
+	}
+}
+
+SOV_cas = {
+	category = air
+
+	blocked_for = {}
+
+	available_for = {SOV}
+
+	roles = {
+		air_cas
+	}
+
+	priority = {
+		factor = 100
+	}
+	cas_0 = {
+		priority = {
+			factor = 100	
+		}
+	
+		name = "I-4"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_i_4"
+		target_variant = {
+			match_value = 500
+			type = small_plane_cas_airframe_0
+			modules = {				
+				fixed_wing_slot = biplane_wing
+				fixed_main_weapon_slot = { any_of = { bomb_locks } }
+				fixed_auxiliary_weapon_slot_1 = light_mg_2x
+				engine_type_slot = radial_engine_1_1x
+				special_type_slot_1 = twin_lmg_defense_gunner
+			}
+			
+		}
+
+		allowed_modules = {
+			bomb_locks
+			engine_2_1x
+			armor_plate_small
+			fuel_tanks_small
+			reflex_gunsight
+			radial_engine_2_1x
+			straight_wing
+		}
+	}
+	cas_0b = {
+		priority = {
+			factor = 100	
+		}
+	
+		name = "I-3"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_i_3"
+		target_variant = {
+			match_value = 500
+			type = small_plane_cas_airframe_0
+			modules = {				
+				fixed_wing_slot = biplane_wing
+				fixed_main_weapon_slot = { any_of = { bomb_locks } }
+				fixed_auxiliary_weapon_slot_1 = light_mg_2x
+				engine_type_slot = engine_1_1x
+				special_type_slot_1 = twin_lmg_defense_gunner
+			}
+			
+		}
+
+		allowed_modules = {
+			bomb_locks
+			engine_2_1x
+			armor_plate_small
+			fuel_tanks_small
+			reflex_gunsight
+			radial_engine_2_1x
+			straight_wing
+		}
+	}
+	cas_1 = {
+		priority = {
+			factor = 100	
+		}
+	
+		name = "Su-2"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_su_2"
+		
+		target_variant = {
+			match_value = 1000
+			type = small_plane_cas_airframe_1
+			modules = {				
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = small_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = bomb_locks
+				fixed_auxiliary_weapon_slot_2 = light_mg_4x
+				engine_type_slot = radial_engine_2_1x
+				special_type_slot_1 = twin_lmg_defense_gunner
+			}
+			
+		}
+
+		allowed_modules = {
+			bomb_locks
+			engine_2_1x
+			armor_plate_small
+			fuel_tanks_small
+			reflex_gunsight
+			radial_engine_2_1x
+			straight_wing
+		}
+	}
+	cas_1b = {
+		priority = {
+			factor = 100	
+		}
+	
+		name = "KhAI-52"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_r_10"
+		
+		target_variant = {
+			match_value = 1000
+			type = small_plane_cas_airframe_1
+			modules = {				
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = small_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = bomb_locks
+				fixed_auxiliary_weapon_slot_2 = light_mg_2x
+				engine_type_slot = radial_engine_2_1x
+				special_type_slot_1 = lmg_defense_gunner
+			}
+			
+		}
+
+		allowed_modules = {
+			bomb_locks
+			engine_2_1x
+			armor_plate_small
+			fuel_tanks_small
+			reflex_gunsight
+			radial_engine_2_1x
+			straight_wing
+		}
+	}
+	cas_2 = {
+		priority = {
+			factor = 10	
+		}
+	
+		name = "Il-2m"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_il_2m"
+		
+		target_variant = {
+			match_value = 1000
+			type = small_plane_cas_airframe_2
+			modules = {				
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_aux_prop_slot = injection_system
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { rocket_rails bomb_locks } }
+				fixed_auxiliary_weapon_slot_3 = { any_of = { bomb_locks rocket_rails } }
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
+				fixed_auxiliary_weapon_slot_2 = light_mg_2x
+				engine_type_slot = engine_3_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = hmg_defense_gunner
+			}
+			
+		}
+
+		allowed_modules = {
+			bomb_locks
+			engine_2_1x
+			armor_plate_small
+			fuel_tanks_small
+			reflex_gunsight
+			radial_engine_3_1x
+			straight_wing
+		}
+	}
+	cas_2b = {
+		priority = {
+			factor = 10	
+		}
+	
+		name = "Il-2"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_il_2"
+		
+		target_variant = {
+			match_value = 1000
+			type = small_plane_cas_airframe_2
+			modules = {				
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				#fixed_aux_prop_slot = injection_system
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { rocket_rails bomb_locks } }
+				fixed_auxiliary_weapon_slot_3 = { any_of = { bomb_locks rocket_rails } }
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
+				fixed_auxiliary_weapon_slot_2 = light_mg_2x
+				engine_type_slot = engine_3_1x
+				special_type_slot_1 = armor_plate_small
+			}
+			
+		}
+
+		allowed_modules = {
+			bomb_locks
+			engine_2_1x
+			armor_plate_small
+			fuel_tanks_small
+			reflex_gunsight
+			radial_engine_3_1x
+			straight_wing
+		}
+	}
+	cas_2c = {
+		priority = {
+			factor = 10	
+		}
+	
+		name = "Il-2m3"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_il_2m3"
+		
+		target_variant = {
+			match_value = 1000
+			type = small_plane_cas_airframe_2
+			modules = {				
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				#fixed_aux_prop_slot = injection_system
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { rocket_rails bomb_locks } }
+				fixed_auxiliary_weapon_slot_3 = { any_of = { bomb_locks rocket_rails } }
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				fixed_auxiliary_weapon_slot_2 = light_mg_2x
+				engine_type_slot = engine_3_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = armor_plate_small	
+				special_type_slot_3 = hmg_defense_gunner
+			}
+			
+		}
+
+		allowed_modules = {
+			bomb_locks
+			engine_2_1x
+			armor_plate_small
+			fuel_tanks_small
+			reflex_gunsight
+			radial_engine_3_1x
+			straight_wing
+		}
+	}
+	cas_3 = {
+		priority = {
+			factor = 200
+		}
+	
+		name = "Il-10"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_il_10"
+		
+		target_variant = {
+			match_value = 1500
+			type = small_plane_cas_airframe_3
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				#fixed_aux_prop_slot = injection_system
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { rocket_rails bomb_locks } }
+				fixed_auxiliary_weapon_slot_3 = { any_of = { bomb_locks rocket_rails } }
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				fixed_auxiliary_weapon_slot_2 = aircraft_cannon_3_2x
+				engine_type_slot = engine_4_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = armor_plate_small	
+				special_type_slot_3 = self_sealing_fuel_tanks_small	
+				special_type_slot_4 = cannon_defense_gunner_1	
+			}
+		}
+		allowed_modules = {
+			small_bomb_bay
+			bomb_locks
+			engine_2_2x
+			engine_3_2x
+			armor_plate_small
+			fuel_tanks_small
+			reflex_gunsight
+			straight_wing
+		}
+	}
+	cas_4 = {
+		priority = {
+			factor = 200
+		}
+		name = "Il-16"
+		history = yes
+		override_sprite="GFX_SOV_Il_16"
+		target_variant = {
+			match_value = 2500
+			type = small_plane_cas_airframe_4
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { rocket_rails bomb_locks } }
+				fixed_auxiliary_weapon_slot_3 = { any_of = { bomb_locks rocket_rails } }
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				fixed_auxiliary_weapon_slot_2 = aircraft_cannon_3_2x
+				engine_type_slot = engine_5_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = armor_plate_small	
+				special_type_slot_3 = self_sealing_fuel_tanks_small	
+				special_type_slot_4 = hmg_defense_gunner_2	
+			}
+		}
+
+		allowed_modules = {
+			small_bomb_bay
+			bomb_locks
+			rocket_rails
+			engine_3_2x
+			fuel_tanks_small
+			reflex_gunsight
+			engine_4_1x
+			armor_plate_small
+			imp_rocket_rails
+		}
+	}
+	
+	cas_5 = {
+		priority = {
+			factor = 50
+		}
+		name = "Yak-23"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_yak_23"
+		target_variant = {
+			match_value = 3500
+			type = small_plane_cas_airframe_5
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = empty
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = empty
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = bomb_locks
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				fixed_auxiliary_weapon_slot_2 = imp_rocket_rails
+				fixed_auxiliary_weapon_slot_3 = drop_tanks
+				engine_type_slot = jet_engine_2_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = fuel_tanks_small	
+				special_type_slot_2 = self_sealing_fuel_tanks_small	
+			}
+		}
+
+		allowed_modules = {
+			small_bomb_bay
+			bomb_locks
+			rocket_rails
+			engine_3_2x
+			fuel_tanks_small
+			reflex_gunsight
+			engine_4_1x
+			armor_plate_small
+			imp_rocket_rails
+			swept_wing
+		}
+	}
+	cas_6 = {
+		priority = {
+			factor = 50
+		}
+		name = "Il-40"
+		history = yes
+		override_sprite="GFX_SOV_Il_40"
+		target_variant = {
+			match_value = 6000
+			type = small_plane_cas_airframe_6
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = empty
+				fixed_optics_slot = gyro_gunsight
+				fixed_engine_mod_slot = afterburner
+				fixed_main_weapon_slot = imp_bomb_locks
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_4_2x
+				fixed_auxiliary_weapon_slot_2 = aircraft_cannon_4_2x
+				fixed_auxiliary_weapon_slot_3 = aircraft_cannon_4_2x
+				fixed_auxiliary_weapon_slot_4 = rocket_pod_module
+				engine_type_slot = second_gen_jet_engine_2x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = fuel_tanks_small	
+				special_type_slot_3 = cannon_remote_turret_1
+				special_type_slot_4 = self_sealing_fuel_tanks_small		
+			}
+		}
+
+		allowed_modules = {
+			small_bomb_bay
+			bomb_locks
+			rocket_rails
+			engine_3_2x
+			fuel_tanks_small
+			reflex_gunsight
+			engine_4_1x
+			armor_plate_small
+			imp_rocket_rails
+			second_gen_jet_engine_1x
+			swept_wing
+		}
+	}
+	cas_7 = {
+		priority = {
+			factor = 50
+		}
+		name = "Il-102"
+		history = yes
+		override_sprite="GFX_SOV_Il_102"
+		target_variant = {
+			match_value = 7000
+			type = small_plane_cas_airframe_7
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = air_ground_radar_4
+				fixed_optics_slot = toss_computer
+				fixed_main_weapon_slot = imp_bomb_locks
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_5_1x
+				fixed_auxiliary_weapon_slot_2 = imp_bomb_locks
+				fixed_auxiliary_weapon_slot_3 = rocket_pod_module
+				fixed_auxiliary_weapon_slot_4 = module_ecm_pod_1
+				engine_type_slot = jet_engine_2_2x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = armor_plate_small
+				special_type_slot_3 = fuel_tanks_small	
+				special_type_slot_4 = self_sealing_fuel_tanks_small
+				special_type_slot_5 = cannon_remote_turret_1	
+			}
+		}
+
+		allowed_modules = {
+			small_bomb_bay
+			bomb_locks
+			rocket_rails
+			engine_3_2x
+			fuel_tanks_small
+			reflex_gunsight
+			engine_4_1x
+			armor_plate_small
+			imp_rocket_rails
+			second_gen_jet_engine_1x
+			swept_wing
+			toss_computer
+			aircraft_cannon_3_2x
+		}
+	}
+	
+	cas_8 = {
+		priority = {
+			factor = 200
+		}
+		name = "Su-7B"
+		history = yes
+		override_sprite="GFX_SOV_Su_7B"
+		target_variant = {
+			match_value = 8000
+			type = small_plane_cas_airframe_8
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = air_air_radar_6
+				fixed_optics_slot = toss_computer
+				fixed_engine_mod_slot = afterburner
+				fixed_main_weapon_slot = imp_bomb_locks
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_4_2x				
+				fixed_auxiliary_weapon_slot_2 = rocket_pod_module
+				fixed_auxiliary_weapon_slot_3 = drop_tanks
+				fixed_auxiliary_weapon_slot_4 = anti_tank_missile_module
+				engine_type_slot = third_gen_jet_engine_1x
+				special_type_slot_1 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = {
+			small_bomb_bay
+			bomb_locks
+			rocket_rails
+			engine_3_2x
+			fuel_tanks_small
+			reflex_gunsight
+			engine_4_1x
+			armor_plate_small
+			imp_rocket_rails
+			second_gen_jet_engine_1x
+			swept_wing
+			toss_computer
+			imp_bomb_locks
+			rocket_pod_module
+			third_gen_jet_engine_1x
+			aircraft_cannon_5_1x
+			air_air_ir_missile_2_module 
+			air_air_ir_missile_1_module
+			air_air_missile_4_module
+			air_air_missile_3_module
+		}
+	}
+}
+
+SOV_naval_bomber = {
+	category = air
+
+	blocked_for = {}
+
+	available_for = {SOV}
+
+	roles = {
+		air_naval_bomber
+	}
+	priority = {
+		factor = 500
+	}
+	naval_bomber_1 = {
+	
+		name = "LBShK"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_LBShK"
+		
+		priority = {
+			factor = 100
+		}
+		target_variant = {
+			match_value = 1000
+			type = small_plane_naval_bomber_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_engine_mod_slot = supercharger
+				fixed_optics_slot = reflex_gunsight
+				fixed_main_weapon_slot = torpedo_mounting
+				engine_type_slot = radial_engine_2_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = lmg_defense_gunner
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+		}
+	}
+	naval_bomber_2 = {
+	
+		name = "Il-2T"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_il_2t"
+		
+		priority = {
+			factor = 200
+		}
+		target_variant = {
+			match_value = 1500
+			type = small_plane_naval_bomber_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_aux_prop_slot = injection_system
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { torpedo_mounting_2 torpedo_mounting } }
+				engine_type_slot = engine_3_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = hmg_defense_gunner
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			lmg_defense_turret
+			bomb_locks
+			engine_2_2x
+			straight_wing
+			nav_bomber_weapon
+			small_bomb_bay
+			radial_engine_3_1x
+			hmg_defense_turret
+			fuel_tanks_small
+			armor_plate_small
+		}
+	}
+
+	naval_bomber_3 = {
+	
+		name = "Be-4"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_be_4"
+		
+		priority = {
+			factor = 200
+		}
+		target_variant = {
+			match_value = 2000
+			type = small_plane_naval_bomber_airframe_3
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				engine_type_slot = radial_engine_2_1x
+				special_type_slot_1 = floats
+				special_type_slot_2 = non_strategic_materials_small
+				special_type_slot_3 = lmg_defense_gunner
+				special_type_slot_4 = self_sealing_fuel_tanks_small
+			}
+
+		}
+
+		allowed_modules = {
+			torpedo_mounting
+			bomb_locks
+			engine_3_1x
+			lmg_defense_turret
+			straight_wing
+			air_ground_radar_2
+			nav_bomber_weapon
+			small_bomb_bay
+			heavy_mg_2x
+			radial_engine_4_1x
+			hmg_defense_turret
+			fuel_tanks_small
+			armor_plate_small
+			lmg_defense_turret
+		}
+	}
+
+	naval_bomber_4 = {
+	
+		name = "MBR-7"
+		history = yes
+		override_sprite="GFX_SOV_MBR_7"
+		
+		priority = {
+			factor = 200
+		}
+		target_variant = {
+			match_value = 2500
+			type = small_plane_naval_bomber_airframe_4
+			modules = {
+				fixed_wing_slot = straight_wing				
+				fixed_engine_mod_slot = supercharger	
+				fixed_main_weapon_slot = { any_of = { torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				engine_type_slot = radial_engine_2_1x
+				special_type_slot_1 = floats
+				special_type_slot_2 = non_strategic_materials_small
+				special_type_slot_3 = lmg_defense_gunner
+				special_type_slot_4 = self_sealing_fuel_tanks_small
+			}
+
+		}
+
+		allowed_modules = {
+			torpedo_mounting
+			bomb_locks
+			engine_3_1x
+			lmg_defense_turret
+			straight_wing
+			air_ground_radar_2
+			nav_bomber_weapon
+			small_bomb_bay
+			heavy_mg_2x
+			radial_engine_4_1x
+			hmg_defense_turret
+			fuel_tanks_small
+			armor_plate_small
+			lmg_defense_turret
+			contra_rotating_props
+			cas_weapon
+		}
+	}
+
+	naval_bomber_5 = {
+	
+		name = "Be-8"
+		history = yes
+		override_sprite="GFX_SOV_Be_8b"
+		priority = {
+			factor = 200
+		}
+		target_variant = {
+			match_value = 3000
+			type = small_plane_naval_bomber_airframe_5
+			modules = {
+				fixed_wing_slot = straight_wing				
+				fixed_engine_mod_slot = supercharger	
+				fixed_main_weapon_slot = { any_of = { guided_anti_ship_missile_2 torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				engine_type_slot = radial_engine_2_1x
+				special_type_slot_1 = floats
+				special_type_slot_2 = non_strategic_materials_small
+				special_type_slot_3 = lmg_defense_gunner
+				special_type_slot_4 = self_sealing_fuel_tanks_small
+			}
+
+		}
+
+		allowed_modules = {
+			torpedo_mounting
+			bomb_locks
+			engine_3_1x
+			lmg_defense_turret
+			straight_wing
+			air_ground_radar_2
+			air_ground_radar_3
+			nav_bomber_weapon
+			small_bomb_bay
+			heavy_mg_2x
+			radial_engine_4_1x
+			hmg_defense_turret
+			fuel_tanks_small
+			armor_plate_small
+			lmg_defense_turret
+			contra_rotating_props
+			aircraft_cannon_3_2x
+			cas_weapon
+		}
+	}
+
+	naval_bomber_6 = {
+	
+		name = "R-1"
+		history = yes
+		override_sprite="GFX_SOV_R_1"
+		
+		priority = {
+			factor = 200
+		}
+		target_variant = {
+			match_value = 3500
+			type = small_plane_naval_bomber_airframe_6
+			modules = {
+				fixed_wing_slot = swept_wing				
+				fixed_radar_slot = air_ground_radar_4
+				fixed_main_weapon_slot = { any_of = { guided_anti_ship_missile_2 torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				engine_type_slot = second_gen_jet_engine_2x
+				special_type_slot_1 = floats
+				special_type_slot_2 = dual_cannon_remote_turret_1
+			}
+
+		}
+
+		allowed_modules = {
+			torpedo_mounting
+			bomb_locks
+			engine_3_1x
+			lmg_defense_turret
+			straight_wing
+			air_ground_radar_2
+			air_ground_radar_3
+			nav_bomber_weapon
+			small_bomb_bay
+			heavy_mg_2x
+			radial_engine_4_1x
+			hmg_defense_turret
+			fuel_tanks_small
+			armor_plate_small
+			lmg_defense_turret
+			contra_rotating_props
+			aircraft_cannon_3_2x
+			cas_weapon
+			plane_special_module_air_ground_radar
+		}
+	}
+
+	naval_bomber_7 = {
+		#name = "S-2 Tracker"
+		priority = {
+			factor = 200
+		}
+		
+		name = "TsAGI 4221"
+		history = yes
+		override_sprite="GFX_SOV_Tsagi_4221"
+		
+		target_variant = {
+			match_value = 4000
+			type = small_plane_naval_bomber_airframe_7
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = air_ground_radar_5
+				fixed_engine_mod_slot = afterburner		
+				fixed_main_weapon_slot = { any_of = { guided_anti_ship_missile_2 torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				fixed_electronics_slot = improved_radar_warning_system
+				engine_type_slot = second_gen_jet_engine_1x
+				special_type_slot_1 = floats
+				special_type_slot_2 = armor_plate_small
+				special_type_slot_3 = self_sealing_fuel_tanks_small
+			}
+
+		}
+
+		allowed_modules = {
+			torpedo_mounting
+			bomb_locks
+			engine_3_1x
+			lmg_defense_turret
+			straight_wing
+			air_ground_radar_2
+			air_ground_radar_3
+			nav_bomber_weapon
+			small_bomb_bay
+			heavy_mg_2x
+			radial_engine_4_1x
+			hmg_defense_turret
+			fuel_tanks_small
+			armor_plate_small
+			lmg_defense_turret
+			contra_rotating_props
+			aircraft_cannon_3_2x
+			cas_weapon
+			plane_special_module_air_ground_radar
+		}
+	}
+
+	naval_bomber_8 = {
+		
+		name = "TsAGI 5202"
+		history = yes
+		override_sprite="GFX_SOV_Tsagi_4221"
+		
+		priority = {
+			factor = 200
+		}
+		target_variant = {
+			match_value = 4500
+			type = small_plane_naval_bomber_airframe_8
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = air_ground_radar_6
+				fixed_engine_mod_slot = afterburner		
+				fixed_main_weapon_slot = { any_of = { guided_anti_ship_missile_4 guided_anti_ship_missile_2 torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				fixed_electronics_slot = improved_radar_warning_system
+				engine_type_slot = third_gen_jet_engine_2x
+				special_type_slot_1 = floats
+				special_type_slot_2 = armor_plate_small
+				special_type_slot_3 = self_sealing_fuel_tanks_small
+			}
+
+		}
+
+		allowed_modules = {
+			torpedo_mounting
+			bomb_locks
+			engine_3_1x
+			lmg_defense_turret
+			straight_wing
+			air_ground_radar_2
+			air_ground_radar_3
+			nav_bomber_weapon
+			small_bomb_bay
+			heavy_mg_2x
+			radial_engine_4_1x
+			hmg_defense_turret
+			fuel_tanks_small
+			armor_plate_small
+			lmg_defense_turret
+			contra_rotating_props
+			aircraft_cannon_3_2x
+			cas_weapon
+			plane_special_module_air_ground_radar
+		}
+	}
+}
+
+SOV_cv_fighter = {
+	category = air
+
+	#blocked_for = {  ENG SOV FRA JAP }
+
+	available_for = {SOV}
+
+	roles = {
+		air_cv_fighter
+	}
+
+	priority = {
+		factor = 1000
+		modifier = {
+			has_navy_size = {
+				unit = carrier
+ 	  			size < 1
+			}
+			factor = 0
+		}
+		modifier = {
+			has_war_with = JAP
+			factor = 2
+		}
+	}
+
+	great_war_cv_fighter_default = {
+		
+		name = "I-15K"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_i_15k"
+	
+		priority = {
+			factor = 1
+			modifier = { 
+				has_tech = basic_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		
+		target_variant = {
+			match_value = 1000
+			type = cv_small_plane_airframe_0
+			modules = {
+				fixed_wing_slot = biplane_wing
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = light_mg_4x
+				engine_type_slot = engine_1_1x				
+			}
+		}
+
+		allowed_modules = {
+			biplane_wing
+			engine_1_1x
+			light_mg_2x
+			light_mg_4x
+		}
+	}
+
+	basic_cv_fighter_default = {
+		priority = {
+			factor = 100
+		}
+		name = "Yak-1K"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_yak_1k"
+		target_variant = {
+			match_value = 2000
+			type = cv_small_plane_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = engine_cannon_1_1x
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = non_strategic_materials_small
+				special_type_slot_2 = armor_plate_small
+			}
+		}
+
+		allowed_modules = {
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			engine_2_1x
+			armor_plate_small
+			straight_wing	
+		}
+	}
+
+	improved_cv_fighter_default = {
+		priority = {
+			factor = 10
+		}
+		name = "Yak-9KM"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_yak_9km"
+		target_variant = {
+			match_value = 2500
+			type = cv_small_plane_airframe_2
+			modules = {				
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_aux_prop_slot = injection_system
+				fixed_main_weapon_slot = engine_cannon_2_1x
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_2x
+				engine_type_slot = engine_3_1x
+				special_type_slot_1 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = {
+			heavy_mg_4x
+			heavy_mg_2x
+			aircraft_cannon_1_2x
+			radial_engine_3_1x
+			engine_3_1x
+			turbocharger
+			supercharger
+			reflex_gunsight
+			semielliptical_wing
+			straight_wing
+		}
+	}
+
+	advanced_cv_fighter_default = {
+		priority = {
+			factor = 10
+		}
+		name = "La-9P"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_la_9p"
+		target_variant = {
+			match_value = 3000
+			type = cv_small_plane_airframe_3
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_radar_slot = empty
+				fixed_aux_prop_slot = injection_system
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_engine_mod_slot = supercharger
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = aircraft_cannon_3_2x
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				engine_type_slot = radial_engine_4_1x
+				special_type_slot_1 = self_sealing_fuel_tanks_small
+				special_type_slot_2 = fuel_tanks_small	
+			}
+		}
+
+		allowed_modules = { 
+			heavy_mg_4x
+			heavy_mg_2x
+			aircraft_cannon_1_2x
+			radial_engine_4_1x
+			engine_4_1x
+			turbocharger
+			supercharger
+			reflex_gunsight
+			semielliptical_wing
+			straight_wing
+			laminar_flow_straight_wing
+			plane_optics
+			bomb_locks
+			rocket_rails
+		}
+	}
+	jet_cv_fighter_default = {
+		priority = {
+			factor = 10
+		}
+		name = "Yak-15K"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_yak_15K"
+		target_variant = {
+			match_value = 4000
+			type = cv_small_plane_airframe_4
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_main_weapon_slot = {
+					any_of = { 
+						aircraft_cannon_3_2x 
+						aircraft_cannon_2_2x 
+						aircraft_cannon_1_2x 
+					}
+				}
+				engine_type_slot = jet_engine_1x
+				special_type_slot_1 = g_suit_1
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			jet_engine_2x
+			radial_engine_4_1x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			g_suit_type
+		}
+	}
+	jet_cv_fighter_2 = {
+		priority = {
+			factor = 10
+		}
+		name = "Yak-19K"
+		history = yes
+		override_sprite="GFX_SOV_Yak_19"
+		target_variant = {
+			match_value = 5000
+			type = cv_small_plane_airframe_5
+			modules = {				
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_main_weapon_slot = aircraft_cannon_3_2x
+				fixed_auxiliary_weapon_slot_1 = aa_rocket_pods
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = jet_engine_2_1x
+				special_type_slot_1 = pressurized_cabin_small
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+				special_type_slot_3 = armor_plate_small
+				special_type_slot_4 = fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			g_suit_type
+		}
+	}
+	jet_cv_fighter_3 = {
+		priority = {
+			factor = 10
+		}
+		name = "Mig-17K"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_mig_17pfk"
+		target_variant = {
+			match_value = 6000
+			type = cv_small_plane_airframe_6
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = {
+					any_of = { 
+						air_air_radar_5 
+						air_air_radar_4
+						air_air_radar_3
+					}
+				}
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_engine_mod_slot = afterburner
+				fixed_main_weapon_slot = aircraft_cannon_3_1x 
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x 
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = second_gen_jet_engine_1x
+				special_type_slot_1 = {
+					any_of = { 
+						g_suit_3
+						g_suit_2
+						g_suit_1
+					}
+				}
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			aircraft_cannon_3_2x
+			aircraft_cannon_4_2x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			plane_special_module_air_air_radar
+			g_suit_type
+			cas_weapon
+			air_air_ir_missile_1_module
+			air_air_ir_missile_2_module
+		}
+	}
+	jet_cv_fighter_4 = {
+		priority = {
+			factor = 10
+		}
+		name = "Su-7K"
+		history = yes
+		override_sprite="GFX_SOV_Su_7K"
+		target_variant = {
+			match_value = 7000
+			type = cv_small_plane_airframe_7
+			modules = {				
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = air_air_radar_6
+				fixed_optics_slot = toss_computer
+				fixed_engine_mod_slot = afterburner
+				fixed_main_weapon_slot = aircraft_cannon_4_2x
+				fixed_auxiliary_weapon_slot_1 = aa_rocket_pods				
+				fixed_auxiliary_weapon_slot_3 = air_air_ir_missile_1_module
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = third_gen_jet_engine_1x
+				special_type_slot_1 = self_sealing_fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			aircraft_cannon_3_2x
+			aircraft_cannon_4_2x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			plane_special_module_air_air_radar
+			g_suit_type
+			air_air_missile_2_module
+			air_air_missile_1_module
+		}
+	}
+	jet_cv_fighter_5 = {
+		priority = {
+			factor = 10
+		}
+		name = "Mig Ye-8K"
+		history = yes
+		override_sprite="GFX_SOV_Mig_Ye_8"
+		target_variant = {
+			match_value = 8000
+			type = cv_small_plane_airframe_8
+			modules = {
+				fixed_wing_slot = tailed_delta_wing
+				fixed_radar_slot = {
+					any_of = { 
+						air_air_radar_6
+						air_air_radar_5 
+						air_air_radar_4 
+					}
+				}
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = {
+					any_of = { 
+						hud_module
+						gyro_gunsight 						
+					}
+				}
+				fixed_engine_mod_slot = mach_2_afterburner
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = aircraft_cannon_5_1x
+				fixed_auxiliary_weapon_slot_1 = {
+					any_of = { 
+						air_air_missile_4_module
+						air_air_missile_3_module
+						air_air_missile_2_module
+					}
+				}
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = third_gen_jet_engine_1x
+				special_type_slot_2 = {
+					any_of = { 
+						g_suit_3
+						g_suit_2
+						g_suit_1
+					}
+				}
+				fixed_body_modifications_slot = canard	
+				special_type_slot_3 = module_countermeasure_dispenser_small	
+				special_type_slot_4 = self_sealing_fuel_tanks_small	
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			aircraft_cannon_3_2x
+			aircraft_cannon_4_2x
+			aircraft_cannon_4_1x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			plane_special_module_air_air_radar
+			g_suit_type
+			air_air_missile_2_module
+			air_air_missile_1_module
+		}
+	}
+}
+
+SOV_cv_cas = {
+	category = air
+
+	#blocked_for = { ENG SOV FRA JAP }
+
+	available_for = {SOV}
+
+	roles = {
+		air_cv_cas
+	}
+
+	priority = {
+		factor = 100
+		modifier = {
+			has_navy_size = {
+				unit = carrier
+ 	  			size < 1
+			}
+			factor = 0
+		}
+	}
+	cv_cas_0 = {
+		priority = {
+			factor = 100
+			
+		}
+		name = "TsKB-23 ShON"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tskb_23"
+		target_variant = {
+			match_value = 500
+			type = cv_small_plane_cas_airframe_0
+			modules = {
+				fixed_wing_slot = biplane_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { armor_piercing_bomb_locks bomb_locks } }
+				fixed_auxiliary_weapon_slot_1 = light_mg_2x
+				engine_type_slot = engine_1_1x
+				special_type_slot_1 = lmg_defense_gunner
+			}
+			
+		}
+
+		allowed_modules = {
+			bomb_locks
+			engine_2_1x
+			armor_plate_small
+			fuel_tanks_small
+			reflex_gunsight
+			radial_engine_2_1x
+			straight_wing
+		}
+	}
+	cv_cas_1 = {
+		priority = {
+			factor = 100
+			
+		}
+		name = "Su-2K"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_su_2k"
+		target_variant = {
+			match_value = 1000
+			type = cv_small_plane_cas_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { armor_piercing_bomb_locks bomb_locks } }
+				fixed_auxiliary_weapon_slot_1 = light_mg_4x
+				engine_type_slot = radial_engine_2_1x
+				special_type_slot_1 = twin_lmg_defense_gunner	
+			}
+			
+		}
+
+		allowed_modules = {
+			bomb_locks
+			engine_2_1x
+			armor_plate_small
+			fuel_tanks_small
+			reflex_gunsight
+			radial_engine_2_1x
+			straight_wing
+		}
+	}
+	cv_cas_2 = {
+		priority = {
+			factor = 200
+			
+		}
+		name = "Il-2P"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_il_2p"
+		target_variant = {
+			match_value = 1500
+			type = cv_small_plane_cas_airframe_2
+			modules = {				
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				#fixed_aux_prop_slot = injection_system
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { rocket_rails armor_piercing_bomb_locks bomb_locks } }
+				fixed_auxiliary_weapon_slot_1 = { any_of = { armor_piercing_bomb_locks rocket_rails } }
+				fixed_auxiliary_weapon_slot_2 = aircraft_cannon_3_2x
+				engine_type_slot = engine_3_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = armor_plate_small	
+				special_type_slot_3 = hmg_defense_gunner	
+			}
+		}
+
+		allowed_modules = {
+			bomb_locks
+			engine_2_1x
+			armor_plate_small
+			fuel_tanks_small
+			reflex_gunsight
+			radial_engine_3_1x
+			straight_wing
+		}
+	}
+	cv_cas_3 = {
+		priority = {
+			factor = 200
+			
+		}
+		name = "Il-10P"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_il_10p"
+		target_variant = {
+			match_value = 2500
+			type = cv_small_plane_cas_airframe_3
+			modules = {				
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				#fixed_aux_prop_slot = injection_system
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { rocket_rails armor_piercing_bomb_locks bomb_locks } }
+				fixed_auxiliary_weapon_slot_3 = { any_of = { armor_piercing_bomb_locks rocket_rails bomb_locks } }
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				fixed_auxiliary_weapon_slot_2 = aircraft_cannon_3_2x
+				engine_type_slot = engine_4_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = armor_plate_small	
+				special_type_slot_3 = self_sealing_fuel_tanks_small	
+				special_type_slot_4 = cannon_defense_gunner_1	
+			}
+		}
+
+		allowed_modules = {
+			small_bomb_bay
+			bomb_locks
+			engine_2_2x
+			engine_3_2x
+			armor_plate_small
+			fuel_tanks_small
+			reflex_gunsight
+			straight_wing
+		}
+	}
+	cv_cas_4 = {
+		priority = {
+			factor = 200
+			
+		}
+		name = "Il-16K"
+		history = yes
+		override_sprite="GFX_SOV_Il_16K"
+		target_variant = {
+			match_value = 3000
+			type = cv_small_plane_cas_airframe_4
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { rocket_rails armor_piercing_bomb_locks bomb_locks } }
+				fixed_auxiliary_weapon_slot_3 = { any_of = { armor_piercing_bomb_locks bomb_locks rocket_rails } }
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				fixed_auxiliary_weapon_slot_2 = aircraft_cannon_3_2x
+				engine_type_slot = engine_5_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = armor_plate_small	
+				special_type_slot_3 = self_sealing_fuel_tanks_small	
+				special_type_slot_4 = hmg_defense_gunner_2	
+			}
+		}
+
+		allowed_modules = {
+			small_bomb_bay
+			bomb_locks
+			imp_rocket_rails
+			rocket_rails
+			engine_3_2x
+			fuel_tanks_small
+			reflex_gunsight
+			engine_4_1x
+			armor_plate_small
+			aircraft_cannon_2_2x
+			heavy_bomb_locks
+		}
+	}
+	cv_cas_5 = {
+		priority = {
+			factor = 200
+			
+		}
+		name = "Il-20K"
+		history = yes
+		override_sprite="GFX_SOV_Il_20K"
+		target_variant = {
+			match_value = 3500
+			type = cv_small_plane_cas_airframe_5
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = toss_computer
+				fixed_aux_prop_slot = injection_system
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = small_bomb_bay_2
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				fixed_auxiliary_weapon_slot_2 = aircraft_cannon_3_2x
+				fixed_auxiliary_weapon_slot_3 = imp_bomb_locks
+				engine_type_slot = radial_engine_5_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = armor_plate_small
+				special_type_slot_3 = cannon_defense_turret_3
+				special_type_slot_4 = self_sealing_fuel_tanks_small	
+			}
+		}
+
+		allowed_modules = {
+			small_bomb_bay
+			bomb_locks
+			rocket_rails
+			engine_3_2x
+			fuel_tanks_small
+			reflex_gunsight
+			engine_4_1x
+			armor_plate_small
+			imp_rocket_rails
+			swept_wing
+		}
+	}
+	cv_cas_6 = {
+		priority = {
+			factor = 200
+			
+		}
+		name = "Il-40K"
+		history = yes
+		override_sprite="GFX_SOV_Il_40K"
+		target_variant = {
+			match_value = 4000
+			type = cv_small_plane_cas_airframe_6
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = empty
+				fixed_optics_slot = gyro_gunsight
+				fixed_engine_mod_slot = afterburner
+				fixed_main_weapon_slot = imp_bomb_locks
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_4_2x
+				fixed_auxiliary_weapon_slot_2 = aircraft_cannon_4_2x
+				fixed_auxiliary_weapon_slot_3 = aircraft_cannon_4_2x
+				fixed_auxiliary_weapon_slot_4 = rocket_pod_module
+				engine_type_slot = second_gen_jet_engine_2x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = fuel_tanks_small	
+				special_type_slot_3 = cannon_remote_turret_1
+				special_type_slot_4 = self_sealing_fuel_tanks_small		
+			}
+		}
+
+		allowed_modules = {
+			small_bomb_bay
+			bomb_locks
+			rocket_rails
+			engine_3_2x
+			fuel_tanks_small
+			reflex_gunsight
+			engine_4_1x
+			armor_plate_small
+			imp_rocket_rails
+			second_gen_jet_engine_1x
+			swept_wing
+		}
+	}
+	cv_cas_7 = {
+		priority = {
+			factor = 200
+			
+		}
+		name = "Il-102K"
+		history = yes
+		override_sprite="GFX_SOV_Il_102"
+		target_variant = {
+			match_value = 4500
+			type = cv_small_plane_cas_airframe_7
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = air_ground_radar_4
+				fixed_optics_slot = toss_computer
+				fixed_main_weapon_slot = imp_bomb_locks
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_5_1x
+				fixed_auxiliary_weapon_slot_2 = imp_bomb_locks
+				fixed_auxiliary_weapon_slot_3 = rocket_pod_module
+				fixed_auxiliary_weapon_slot_4 = module_ecm_pod_1
+				engine_type_slot = jet_engine_2_2x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = armor_plate_small
+				special_type_slot_3 = fuel_tanks_small	
+				special_type_slot_4 = self_sealing_fuel_tanks_small
+				special_type_slot_5 = cannon_remote_turret_1		
+			}
+		}
+
+		allowed_modules = {
+			small_bomb_bay
+			bomb_locks
+			rocket_rails
+			engine_3_2x
+			fuel_tanks_small
+			reflex_gunsight
+			engine_4_1x
+			armor_plate_small
+			imp_rocket_rails
+			second_gen_jet_engine_1x
+			swept_wing
+			toss_computer
+			aircraft_cannon_3_2x
+		}
+	}
+	cv_cas_8 = {
+		priority = {
+			factor = 200
+			
+		}
+		name = "Tu-91"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tu_91"
+		target_variant = {
+			match_value = 5000
+			type = cv_small_plane_cas_airframe_8
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = toss_computer
+				fixed_aux_prop_slot = contra_rotating_props
+				fixed_radar_slot = air_ground_radar_5
+				fixed_main_weapon_slot = imp_bomb_locks
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				fixed_auxiliary_weapon_slot_2 = rocket_pod_module
+				#fixed_auxiliary_weapon_slot_3 = anti_tank_missile_module
+				engine_type_slot = turboprop_engine_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = armor_plate_small
+				special_type_slot_3 = self_sealing_fuel_tanks_small
+				special_type_slot_4 = cannon_remote_turret_1
+				special_type_slot_5 = cannon_remote_turret_1		
+			}
+		}
+
+		allowed_modules = {
+			small_bomb_bay
+			bomb_locks
+			rocket_rails
+			engine_3_2x
+			fuel_tanks_small
+			reflex_gunsight
+			engine_4_1x
+			armor_plate_small
+			imp_rocket_rails
+			second_gen_jet_engine_1x
+			swept_wing
+			toss_computer
+			imp_bomb_locks
+			rocket_pod_module
+			third_gen_jet_engine_1x
+			aircraft_cannon_5_1x
+			air_air_ir_missile_2_module 
+			air_air_ir_missile_1_module
+			air_air_missile_4_module
+			air_air_missile_3_module
+		}
+	}
+}
+
+SOV_cv_naval_bomber = {
+	category = air
+
+	#blocked_for = {  ENG SOV FRA JAP }
+
+	available_for = {SOV}
+
+	roles = {
+		air_cv_naval_bomber
+	}
+
+	priority = {
+		factor = 500
+		modifier = {
+			has_navy_size = {
+				unit = carrier
+ 	  			size < 1
+			}
+			factor = 0
+		}
+	}
+	cv_naval_bomber_0 = {
+	
+		name = "R-5TP"
+		history = yes
+		override_sprite="GFX_SOV_R_5"
+		
+		priority = {
+			factor = 100
+		}
+		target_variant = {
+			match_value = 1000
+			type = cv_small_plane_naval_bomber_airframe_0
+			modules = {
+				fixed_wing_slot = biplane_wing
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = torpedo_mounting
+				fixed_auxiliary_weapon_slot_1 = light_mg_1x
+				engine_type_slot = engine_1_1x
+				special_type_slot_1 = lmg_defense_gunner
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+		}
+	}
+	cv_naval_bomber_1 = {
+	
+		name = "Su-2T"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_su_2t"
+		
+		priority = {
+			factor = 100
+		}
+		target_variant = {
+			match_value = 1000
+			type = cv_small_plane_naval_bomber_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { torpedo_mounting_2 torpedo_mounting } }
+				fixed_auxiliary_weapon_slot_1 = light_mg_4x
+				engine_type_slot = radial_engine_2_1x
+				special_type_slot_1 = twin_lmg_defense_gunner	
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+		}
+	}
+	cv_naval_bomber_2 = {
+	
+		name = "Il-2PT"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_il_2pt"
+		
+		priority = {
+			factor = 200
+		}
+		target_variant = {
+			match_value = 1500
+			type = cv_small_plane_naval_bomber_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_aux_prop_slot = injection_system
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				engine_type_slot = radial_engine_3_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+				special_type_slot_3 = cannon_defense_turret_3
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			lmg_defense_turret
+			bomb_locks
+			engine_2_2x
+			straight_wing
+			nav_bomber_weapon
+			small_bomb_bay
+			radial_engine_3_1x
+			hmg_defense_turret
+			fuel_tanks_small
+			armor_plate_small
+		}
+	}
+
+	cv_naval_bomber_3 = {
+	
+		name = "PT-I"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_pt_1"
+		
+		priority = {
+			factor = 200
+		}
+		target_variant = {
+			match_value = 2000
+			type = cv_small_plane_naval_bomber_airframe_3
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_aux_prop_slot = injection_system
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				engine_type_slot = radial_engine_4_1x
+				special_type_slot_1 = hmg_defense_gunner
+				special_type_slot_2 = cannon_defense_turret
+				special_type_slot_3 = self_sealing_fuel_tanks_small	
+			}
+
+		}
+
+		allowed_modules = {
+			torpedo_mounting
+			bomb_locks
+			engine_3_1x
+			lmg_defense_turret
+			straight_wing
+			air_ground_radar_2
+			nav_bomber_weapon
+			small_bomb_bay
+			heavy_mg_2x
+			radial_engine_4_1x
+			hmg_defense_turret
+			fuel_tanks_small
+			armor_plate_small
+			lmg_defense_turret
+		}
+	}
+
+	cv_naval_bomber_4 = {
+	
+		name = "Il-16T"
+		history = yes
+		override_sprite="GFX_SOV_Il_16T"
+		
+		priority = {
+			factor = 200
+		}
+		target_variant = {
+			match_value = 2500
+			type = cv_small_plane_naval_bomber_airframe_4
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { guided_anti_ship_missile_2 guided_anti_ship_missile torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				engine_type_slot = engine_5_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = armor_plate_small	
+				special_type_slot_3 = self_sealing_fuel_tanks_small	
+				special_type_slot_4 = hmg_defense_gunner_2	
+			}
+
+		}
+
+		allowed_modules = {
+			torpedo_mounting
+			bomb_locks
+			engine_3_1x
+			lmg_defense_turret
+			straight_wing
+			air_ground_radar_2
+			nav_bomber_weapon
+			small_bomb_bay
+			heavy_mg_2x
+			radial_engine_4_1x
+			hmg_defense_turret
+			fuel_tanks_small
+			armor_plate_small
+			lmg_defense_turret
+			contra_rotating_props
+			cas_weapon
+		}
+	}
+
+	cv_naval_bomber_5 = {
+	
+		name = "Il-20T"
+		history = yes
+		override_sprite="GFX_SOV_Il_20T"
+		
+		priority = {
+			factor = 200
+		}
+		target_variant = {
+			match_value = 3000
+			type = cv_small_plane_naval_bomber_airframe_5
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = toss_computer
+				fixed_aux_prop_slot = injection_system
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { guided_anti_ship_missile_2 guided_anti_ship_missile torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				engine_type_slot = radial_engine_5_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = armor_plate_small
+				special_type_slot_3 = cannon_defense_turret_3
+				special_type_slot_4 = self_sealing_fuel_tanks_small	
+			}
+
+		}
+
+		allowed_modules = {
+			torpedo_mounting
+			bomb_locks
+			engine_3_1x
+			lmg_defense_turret
+			straight_wing
+			air_ground_radar_2
+			air_ground_radar_3
+			nav_bomber_weapon
+			small_bomb_bay
+			heavy_mg_2x
+			radial_engine_4_1x
+			hmg_defense_turret
+			fuel_tanks_small
+			armor_plate_small
+			lmg_defense_turret
+			contra_rotating_props
+			aircraft_cannon_3_2x
+			cas_weapon
+		}
+	}
+
+	cv_naval_bomber_6 = {
+	
+		name = "Il-40T"
+		history = yes
+		override_sprite="GFX_SOV_Il_40T"
+		
+		priority = {
+			factor = 200
+		}
+		target_variant = {
+			match_value = 3500
+			type = cv_small_plane_naval_bomber_airframe_6
+			modules = {
+				fixed_wing_slot = swept_wing
+				#fixed_optics_slot = gyro_gunsight
+				fixed_engine_mod_slot = afterburner
+				fixed_main_weapon_slot = { any_of = { guided_anti_ship_missile_2 guided_anti_ship_missile torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				engine_type_slot = second_gen_jet_engine_2x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = fuel_tanks_small	
+				special_type_slot_3 = cannon_remote_turret_1
+				special_type_slot_4 = self_sealing_fuel_tanks_small	
+			}
+
+		}
+
+		allowed_modules = {
+			torpedo_mounting
+			bomb_locks
+			engine_3_1x
+			lmg_defense_turret
+			straight_wing
+			air_ground_radar_2
+			air_ground_radar_3
+			nav_bomber_weapon
+			small_bomb_bay
+			heavy_mg_2x
+			radial_engine_4_1x
+			hmg_defense_turret
+			fuel_tanks_small
+			armor_plate_small
+			lmg_defense_turret
+			contra_rotating_props
+			aircraft_cannon_3_2x
+			cas_weapon
+			plane_special_module_air_ground_radar
+		}
+	}
+
+	# cv_naval_bomber_7 = {
+	
+		# name = "Il-40T"
+		# history = yes
+		# override_sprite="GFX_SOV_Il_40T"
+		
+		# priority = {
+			# factor = 200
+		# }
+		# target_variant = {
+			# match_value = 4000
+			# type = cv_small_plane_naval_bomber_airframe_7
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = plane_special_module_air_ground_radar
+				
+				# fixed_aux_prop_slot = empty				
+				# fixed_optics_slot = empty				
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = nav_bomber_weapon
+				# fixed_auxiliary_weapon_slot_1 = cas_weapon				
+				# fixed_auxiliary_weapon_slot_2 = cas_weapon
+				# fixed_auxiliary_weapon_slot_3 = empty				
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = radial_engine_4_1x
+				# special_type_slot_1 = fuel_tanks_small
+				# special_type_slot_2 = armor_plate_small
+				# special_type_slot_3 = empty
+				# special_type_slot_4 = empty
+			# }
+
+		# }
+
+		# allowed_modules = {
+			# torpedo_mounting
+			# bomb_locks
+			# engine_3_1x
+			# lmg_defense_turret
+			# straight_wing
+			# air_ground_radar_2
+			# air_ground_radar_3
+			# nav_bomber_weapon
+			# small_bomb_bay
+			# heavy_mg_2x
+			# radial_engine_4_1x
+			# hmg_defense_turret
+			# fuel_tanks_small
+			# armor_plate_small
+			# lmg_defense_turret
+			# contra_rotating_props
+			# aircraft_cannon_3_2x
+			# cas_weapon
+			# plane_special_module_air_ground_radar
+		# }
+	# }
+
+	cv_naval_bomber_8 = {
+	
+		name = "Tu-91T"
+		history = yes
+		override_sprite="GFX_SOV_Tu_91"
+		
+		priority = {
+			factor = 200
+		}
+		target_variant = {
+			match_value = 4500
+			type = cv_small_plane_naval_bomber_airframe_8
+			modules = {				
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = toss_computer
+				fixed_aux_prop_slot = contra_rotating_props
+				fixed_radar_slot = air_ground_radar_5
+				fixed_main_weapon_slot = { any_of = { guided_anti_ship_missile_4 guided_anti_ship_missile_2 guided_anti_ship_missile torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				engine_type_slot = turboprop_engine_1x
+				special_type_slot_1 = armor_plate_small
+				special_type_slot_2 = armor_plate_small
+				special_type_slot_3 = self_sealing_fuel_tanks_small
+				special_type_slot_4 = cannon_remote_turret_1
+				special_type_slot_5 = cannon_remote_turret_1	
+			}
+
+		}
+
+		allowed_modules = {
+			torpedo_mounting
+			bomb_locks
+			engine_3_1x
+			lmg_defense_turret
+			straight_wing
+			air_ground_radar_2
+			air_ground_radar_3
+			nav_bomber_weapon
+			small_bomb_bay
+			heavy_mg_2x
+			radial_engine_4_1x
+			hmg_defense_turret
+			fuel_tanks_small
+			armor_plate_small
+			lmg_defense_turret
+			contra_rotating_props
+			aircraft_cannon_3_2x
+			cas_weapon
+			plane_special_module_air_ground_radar
+		}
+	}
+}
+
+
+
+SOV_tactical_bomber = {
+	category = air
+
+	blocked_for = {}
+
+	available_for = {SOV}
+
+	roles = {
+		air_tactical_bomber
+	}
+
+	priority = {
+		factor = 2000
+		modifier = {
+			num_of_factories < 100
+			factor = 0.5
+		}
+		modifier = {
+			num_of_factories < 50
+			factor = 0
+		}
+	}
+
+	gw_tac_bomber_default = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = basic_medium_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+	
+		name = "DB-3"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_db_3"
+
+		target_variant = {
+			match_value = 2000
+			type = medium_plane_airframe_0
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_0
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = empty
+				engine_type_slot = radial_engine_1_2x
+				special_type_slot_1 = lmg_defense_turret
+				special_type_slot_2 = lmg_defense_gunner_2x	
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			engine_1_2x
+			
+		}
+	}
+
+	gw_tac_bomber_b = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = basic_medium_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+	
+		name = "DB-3B"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_db_3b"
+
+		target_variant = {
+			match_value = 2000
+			type = medium_plane_airframe_0
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_engine_mod_slot = supercharger
+				fixed_optics_slot = bomb_sights_0
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = empty
+				engine_type_slot = radial_engine_1_2x
+				special_type_slot_1 = lmg_defense_turret
+				special_type_slot_2 = lmg_defense_gunner_2x	
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			engine_1_2x
+			
+		}
+	}
+
+	gw_tac_bomber_c = {
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = basic_medium_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+	
+		name = "TB-1"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tb_1"
+
+		target_variant = {
+			match_value = 2000
+			type = medium_plane_airframe_0
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_engine_mod_slot = supercharger
+				fixed_optics_slot = bomb_sights_0
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = empty
+				engine_type_slot = engine_1_2x
+				special_type_slot_1 = lmg_defense_gunner_3x
+				special_type_slot_2 = lmg_defense_gunner_4x	
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			engine_1_2x
+			
+		}
+	}
+
+	tac_bomber_1_default = {
+		priority = {
+			factor = 100
+	
+		}
+	
+		name = "Il-4"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_il_4"
+
+		target_variant = {
+			match_value = 3000
+			type = medium_plane_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_1
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+				engine_type_slot = radial_engine_2_2x
+				special_type_slot_1 = fuel_tanks_medium
+				special_type_slot_2 = hmg_defense_turret
+				special_type_slot_3 = lmg_defense_gunner_2x
+			}
+			
+		}
+
+		allowed_modules = {
+			straight_wing
+			medium_bomb_bay
+			radial_engine_2_2x
+			lmg_defense_turret
+			hmg_defense_turret
+			bomb_sights_1
+			fuel_tanks_medium
+		}
+	}
+
+	tac_bomber_1_b = {
+		priority = {
+			factor = 100
+	
+		}
+	
+		name = "SB-2M-100"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_sb_2m_100"
+
+		target_variant = {
+			match_value = 3000
+			type = medium_plane_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_1
+				#fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = medium_bomb_bay
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = twin_lmg_defense_gunner
+				special_type_slot_2 = lmg_defense_gunner_2x
+			}
+			
+		}
+
+		allowed_modules = {
+			straight_wing
+			medium_bomb_bay
+			radial_engine_2_2x
+			lmg_defense_turret
+			hmg_defense_turret
+			bomb_sights_1
+			fuel_tanks_medium
+		}
+	}
+
+	tac_bomber_1_c = {
+		priority = {
+			factor = 100
+	
+		}
+	
+		name = "SB-2M-100A"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_sb_2m_100a"
+
+		target_variant = {
+			match_value = 3000
+			type = medium_plane_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_1
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = medium_bomb_bay
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = twin_lmg_defense_gunner
+				special_type_slot_2 = lmg_defense_gunner_2x
+			}
+			
+		}
+
+		allowed_modules = {
+			straight_wing
+			medium_bomb_bay
+			radial_engine_2_2x
+			lmg_defense_turret
+			hmg_defense_turret
+			bomb_sights_1
+			fuel_tanks_medium
+		}
+	}
+
+	tac_bomber_1_d = {
+		priority = {
+			factor = 100
+	
+		}
+	
+		name = "SB-2M-103"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_sb_2m_103"
+
+		target_variant = {
+			match_value = 3000
+			type = medium_plane_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_1
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = medium_bomb_bay
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = twin_lmg_defense_gunner
+				special_type_slot_2 = lmg_defense_gunner_2x
+				special_type_slot_3 = armor_plate_medium
+			}
+			
+		}
+
+		allowed_modules = {
+			straight_wing
+			medium_bomb_bay
+			radial_engine_2_2x
+			lmg_defense_turret
+			hmg_defense_turret
+			bomb_sights_1
+			fuel_tanks_medium
+		}
+	}
+
+	tac_bomber_1_e = {
+		priority = {
+			factor = 100
+	
+		}
+	
+		name = "Ar-2"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_ar_2"
+
+		target_variant = {
+			match_value = 3000
+			type = medium_plane_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_1
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = bomb_locks
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = lmg_defense_gunner_3x
+				special_type_slot_2 = dive_brakes_medium
+			}
+			
+		}
+
+		allowed_modules = {
+			straight_wing
+			medium_bomb_bay
+			radial_engine_2_2x
+			lmg_defense_turret
+			hmg_defense_turret
+			bomb_sights_1
+			fuel_tanks_medium
+		}
+	}
+	
+	tac_bomber_2_default = {
+		priority = {
+			factor = 100
+		
+		}
+	
+		name = "Pe-2"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_pe_2"
+		
+		
+		target_variant = {
+			match_value = 3500
+			type = medium_plane_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_2
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = light_mg_1x
+				fixed_auxiliary_weapon_slot_2 = bomb_locks
+				fixed_tail_modifications_slot = twin_tail
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_medium
+				special_type_slot_2 = lmg_defense_gunner_3x
+				special_type_slot_3 = dive_brakes_medium
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			bomb_locks
+			engine_3_2x
+			hmg_defense_turret_2x
+			hmg_defense_turret
+			radial_engine_3_2x
+			fuel_tanks_medium
+			heavy_mg_4x
+			bomb_sights_1
+		}
+	}
+	
+	tac_bomber_2_b = {
+		priority = {
+			factor = 100
+		
+		}
+	
+		name = "Pe-2FT"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_pe_2ft"
+		
+		
+		target_variant = {
+			match_value = 3500
+			type = medium_plane_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_2
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = light_mg_1x
+				fixed_auxiliary_weapon_slot_2 = bomb_locks
+				fixed_tail_modifications_slot = twin_tail
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_medium
+				special_type_slot_2 = hmg_defense_gunner_2x
+				special_type_slot_3 = dive_brakes_medium
+				special_type_slot_4 = lmg_defense_gunner
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			bomb_locks
+			engine_3_2x
+			hmg_defense_turret_2x
+			hmg_defense_turret
+			radial_engine_3_2x
+			fuel_tanks_medium
+			heavy_mg_4x
+			bomb_sights_1
+		}
+	}
+	
+	tac_bomber_2_c = {
+		priority = {
+			factor = 100
+		
+		}
+	
+		name = "Pe-4"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_pe_4"
+		
+		
+		target_variant = {
+			match_value = 3500
+			type = medium_plane_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_2
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = light_mg_1x
+				fixed_auxiliary_weapon_slot_2 = bomb_locks
+				fixed_tail_modifications_slot = twin_tail
+				engine_type_slot = engine_3_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_medium
+				special_type_slot_2 = hmg_defense_gunner_2x
+				special_type_slot_3 = dive_brakes_medium
+				special_type_slot_4 = lmg_defense_gunner
+				special_type_slot_5 = armor_plate_medium
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			bomb_locks
+			engine_3_2x
+			hmg_defense_turret_2x
+			hmg_defense_turret
+			radial_engine_3_2x
+			fuel_tanks_medium
+			heavy_mg_4x
+			bomb_sights_1
+		}
+	}
+	
+	tac_bomber_2_c = {
+		priority = {
+			factor = 100
+		
+		}
+	
+		name = "Yer-2"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_yer_2"
+		
+		
+		target_variant = {
+			match_value = 3500
+			type = medium_plane_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_2
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = light_mg_1x
+				fixed_auxiliary_weapon_slot_2 = bomb_locks
+				fixed_tail_modifications_slot = twin_tail
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = non_strategic_materials_medium
+				special_type_slot_2 = hmg_defense_gunner_2x
+				special_type_slot_3 = lmg_defense_gunner
+				special_type_slot_4 = fuel_tanks_medium
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			bomb_locks
+			engine_3_2x
+			hmg_defense_turret_2x
+			hmg_defense_turret
+			radial_engine_3_2x
+			fuel_tanks_medium
+			heavy_mg_4x
+			bomb_sights_1
+		}
+	}
+	
+	tac_bomber_2_d = {
+		priority = {
+			factor = 100
+		
+		}
+	
+		name = "Yer-2/ACh-30B"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_yer_2_ach_30b"
+				
+		target_variant = {
+			match_value = 3500
+			type = medium_plane_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_2
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = light_mg_1x
+				fixed_auxiliary_weapon_slot_2 = bomb_locks
+				fixed_tail_modifications_slot = twin_tail
+				engine_type_slot = engine_3_2x
+				special_type_slot_1 = non_strategic_materials_medium
+				special_type_slot_2 = hmg_defense_gunner_2x
+				special_type_slot_3 = lmg_defense_gunner
+				special_type_slot_4 = fuel_tanks_medium
+				special_type_slot_5 = fuel_tanks_medium
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			bomb_locks
+			engine_3_2x
+			hmg_defense_turret_2x
+			hmg_defense_turret
+			radial_engine_3_2x
+			fuel_tanks_medium
+			heavy_mg_4x
+			bomb_sights_1
+		}
+	}
+
+	tac_bomber_3_default = {
+		priority = {
+			factor = 100
+		}
+	
+		name = "Tu-2"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tu_10"
+				
+		target_variant = {
+			match_value = 3500
+			type = medium_plane_airframe_3
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_2
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+				fixed_tail_modifications_slot = twin_tail
+				engine_type_slot = engine_4_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_medium
+				special_type_slot_2 = hmg_defense_gunner_3x
+				special_type_slot_3 = lmg_defense_gunner_2x
+				special_type_slot_4 = empty	
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			bomb_locks
+			torpedo_mounting
+			engine_4_2x
+			lmg_defense_turret_2x
+			bomb_sights_1
+			radial_engine_4_2x
+			fuel_tanks_medium
+			hmg_defense_turret_2x
+			hmg_defense_turret
+		}
+	}
+
+	tac_bomber_3_b = {
+		priority = {
+			factor = 100
+		}
+	
+		name = "Tu-2S"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tu_2s"
+				
+		target_variant = {
+			match_value = 3500
+			type = medium_plane_airframe_3
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_2
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+				fixed_tail_modifications_slot = twin_tail
+				engine_type_slot = engine_4_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_medium
+				special_type_slot_2 = hmg_defense_gunner_3x
+				special_type_slot_3 = lmg_defense_gunner_2x
+				special_type_slot_4 = armor_plate_medium	
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			bomb_locks
+			torpedo_mounting
+			engine_4_2x
+			lmg_defense_turret_2x
+			bomb_sights_1
+			radial_engine_4_2x
+			fuel_tanks_medium
+			hmg_defense_turret_2x
+			hmg_defense_turret
+		}
+	}
+
+	tac_bomber_3_c = {
+		priority = {
+			factor = 100
+		}
+	
+		name = "Tu-2D"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tu_2d"
+				
+		target_variant = {
+			match_value = 3500
+			type = medium_plane_airframe_3
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_2
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_tail_modifications_slot = twin_tail
+				#fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+				engine_type_slot = engine_4_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_medium
+				special_type_slot_2 = hmg_defense_gunner_3x
+				special_type_slot_3 = lmg_defense_gunner_2x
+				special_type_slot_4 = fuel_tanks_medium	
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			bomb_locks
+			torpedo_mounting
+			engine_4_2x
+			lmg_defense_turret_2x
+			bomb_sights_1
+			radial_engine_4_2x
+			fuel_tanks_medium
+			hmg_defense_turret_2x
+			hmg_defense_turret
+		}
+	}
+
+	tac_bomber_3_d = {
+		priority = {
+			factor = 100
+		}
+	
+		name = "Tu-2DB"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tu_2db"
+				
+		target_variant = {
+			match_value = 3500
+			type = medium_plane_airframe_3
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_2
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = wet_wing
+				fixed_tail_modifications_slot = twin_tail
+				engine_type_slot = engine_4_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_medium
+				special_type_slot_2 = hmg_defense_gunner_3x
+				special_type_slot_3 = lmg_defense_gunner_2x
+				special_type_slot_4 = fuel_tanks_medium	
+				special_type_slot_5 = fuel_tanks_medium	
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			bomb_locks
+			torpedo_mounting
+			engine_4_2x
+			lmg_defense_turret_2x
+			bomb_sights_1
+			radial_engine_4_2x
+			fuel_tanks_medium
+			hmg_defense_turret_2x
+			hmg_defense_turret
+		}
+	}
+
+	tac_bomber_3_e = {
+		priority = {
+			factor = 100
+		}
+	
+		name = "Tu-10"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tu_10"
+				
+		target_variant = {
+			match_value = 3500
+			type = medium_plane_airframe_3
+			modules = {
+				
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_2
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+				fixed_tail_modifications_slot = twin_tail
+				engine_type_slot = engine_4_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_medium
+				special_type_slot_2 = hmg_defense_gunner_3x
+				special_type_slot_3 = lmg_defense_gunner_2x
+				special_type_slot_4 = armor_plate_medium
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			bomb_locks
+			torpedo_mounting
+			engine_4_2x
+			lmg_defense_turret_2x
+			bomb_sights_1
+			radial_engine_4_2x
+			fuel_tanks_medium
+			hmg_defense_turret_2x
+			hmg_defense_turret
+		}
+	}
+	jet_tac_bomber_default = {
+		priority = {
+			factor = 100
+		}
+	
+		name = "Tu-12"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tu_12"
+
+		target_variant = {
+			match_value = 4000
+			type = medium_plane_airframe_4
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_2
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_tail_modifications_slot = twin_tail
+				engine_type_slot = jet_engine_2x
+				special_type_slot_1 = fuel_tanks_medium
+				special_type_slot_2 = cannon_defense_gunner_1_2x
+				special_type_slot_3 = cannon_defense_turret
+					
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			bomb_locks
+			jet_engine_2x
+			fuel_tanks_small
+			bomb_sights_2
+			hmg_defense_turret
+		}
+	}
+	jet_tac_bomber_b = {
+		priority = {
+			factor = 100
+		}
+	
+		name = "Il-22"
+		history = yes
+		override_sprite="GFX_IL_22"
+
+		target_variant = {
+			match_value = 4000
+			type = medium_plane_airframe_4
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_2
+				fixed_main_weapon_slot = medium_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+				engine_type_slot = jet_engine_4x
+				special_type_slot_1 = fuel_tanks_medium
+				special_type_slot_2 = cannon_defense_gunner_1_2x
+				special_type_slot_3 = cannon_defense_turret
+				special_type_slot_4 = cannon_defense_gunner_1
+					
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			bomb_locks
+			jet_engine_2x
+			fuel_tanks_small
+			bomb_sights_2
+			hmg_defense_turret
+		}
+	}
+	jet_tac_bomber_2_default = {
+		priority = {
+			factor = 100
+		}
+	
+		name = "Il-28"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_il_28"
+
+		target_variant = {
+			match_value = 5000
+			type = medium_plane_airframe_5
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_2
+				fixed_main_weapon_slot = medium_bomb_bay_2
+				fixed_auxiliary_weapon_slot_1 = medium_bomb_bay_2
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				fixed_auxiliary_weapon_slot_3 = empty
+				engine_type_slot = jet_engine_2_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_medium
+				special_type_slot_2 = pressurized_cabin_medium
+				special_type_slot_3 = cannon_remote_turret_1
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			bomb_locks
+			fuel_tanks_medium
+			jet_engine_2x
+			bomb_sights_2
+			hmg_defense_turret
+			air_ground_radar_2
+			air_ground_radar_1
+			air_ground_radar_3
+		}
+	}
+	jet_tac_bomber_2_b = {
+		priority = {
+			factor = 100
+		}
+	
+		name = "Il-30"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_il_30"
+
+		target_variant = {
+			match_value = 5000
+			type = medium_plane_airframe_5
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_optics_slot = bomb_sights_2
+				fixed_main_weapon_slot = medium_bomb_bay_2
+				fixed_auxiliary_weapon_slot_1 = medium_bomb_bay_2
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				fixed_auxiliary_weapon_slot_3 = empty
+				engine_type_slot = second_gen_jet_engine_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_medium
+				special_type_slot_2 = pressurized_cabin_medium
+				special_type_slot_3 = cannon_remote_turret_1
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			bomb_locks
+			fuel_tanks_medium
+			jet_engine_2x
+			bomb_sights_2
+			hmg_defense_turret
+			air_ground_radar_2
+			air_ground_radar_1
+			air_ground_radar_3
+		}
+	}
+	jet_tac_bomber_3_default = {
+		priority = {
+			factor = 100
+		}
+	
+		name = "Tu-14"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tu_14"
+
+
+		target_variant = {
+			match_value = 6000
+			type = medium_plane_airframe_6
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_2
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = medium_bomb_bay_2
+				#fixed_auxiliary_weapon_slot_1 = medium_bomb_bay_2
+				engine_type_slot = second_gen_jet_engine_2x
+				special_type_slot_1 = fuel_tanks_medium
+				special_type_slot_2 = cannon_defense_turret_2
+				special_type_slot_3 = armor_plate_medium
+				special_type_slot_4 = self_sealing_fuel_tanks_medium		
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			bomb_locks
+			fuel_tanks_medium
+			jet_engine_2x
+			bomb_sights_2
+			hmg_defense_turret
+			air_ground_radar_2
+			air_ground_radar_1
+			air_ground_radar_3
+			cannon_defense_turret
+			second_gen_jet_engine_4x
+		}
+	}
+	jet_tac_bomber_4_default = {
+		priority = {
+			factor = 100
+		}
+	
+		name = "Yak-28"
+		history = yes
+		override_sprite="GFX_SOV_Yak_28"
+
+		target_variant = {
+			match_value = 7000
+			type = medium_plane_airframe_7
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = empty
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = bomb_sights_2
+				fixed_engine_mod_slot = empty
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = medium_bomb_bay_2
+				fixed_auxiliary_weapon_slot_1 = medium_bomb_bay_2
+				engine_type_slot = second_gen_jet_engine_2x
+				special_type_slot_1 = cannon_defense_turret_2
+				special_type_slot_2 = armor_plate_medium
+				special_type_slot_3 = self_sealing_fuel_tanks_medium			
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			bomb_locks
+			fuel_tanks_medium
+			jet_engine_2x
+			bomb_sights_2
+			hmg_defense_turret
+			air_ground_radar_2
+			air_ground_radar_1
+			air_ground_radar_3
+			cannon_defense_turret
+			second_gen_jet_engine_4x
+		}
+	}
+	jet_tac_bomber_4_b = {
+		priority = {
+			factor = 100
+		}
+	
+		name = "Tu-98"
+		history = yes
+		override_sprite="GFX_SOV_Tu_98"
+
+		target_variant = {
+			match_value = 7000
+			type = medium_plane_airframe_7
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = empty
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = bomb_sights_2
+				fixed_engine_mod_slot = afterburner
+				fixed_main_weapon_slot = medium_bomb_bay_2
+				fixed_auxiliary_weapon_slot_1 = medium_bomb_bay_2
+				fixed_electronics_slot = basic_radar_jammer
+				engine_type_slot = second_gen_jet_engine_2x
+				special_type_slot_1 = pressurized_cabin_medium
+				special_type_slot_2 = cannon_defense_turret_2
+				special_type_slot_3 = armor_plate_medium
+				special_type_slot_4 = self_sealing_fuel_tanks_medium			
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			bomb_locks
+			fuel_tanks_medium
+			jet_engine_2x
+			bomb_sights_2
+			hmg_defense_turret
+			air_ground_radar_2
+			air_ground_radar_1
+			air_ground_radar_3
+			cannon_defense_turret
+			second_gen_jet_engine_4x
+		}
+	}
+	jet_tac_bomber_5_default = {
+		priority = {
+			factor = 100
+		}
+	
+		name = "Tu-22"
+		history = yes
+		override_sprite="GFX_SOV_Tu_22"
+
+		target_variant = {
+			match_value = 8000
+			type = medium_plane_airframe_8
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = air_ground_radar_4
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = bomb_sights_5
+				fixed_engine_mod_slot = afterburner
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = medium_bomb_bay_2
+				fixed_auxiliary_weapon_slot_1 = medium_bomb_bay_2
+				fixed_auxiliary_weapon_slot_2 = medium_bomb_bay_2
+				fixed_electronics_slot = basic_radar_jammer
+				engine_type_slot = third_gen_jet_engine_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_medium
+				special_type_slot_2 = armor_plate_medium
+				special_type_slot_3 = cannon_defense_turret_3
+				special_type_slot_4 = basic_radar_warning_system
+			}
+			
+		}
+
+		allowed_modules = {
+			medium_bomb_bay
+			bomb_locks
+			fuel_tanks_medium
+			jet_engine_2x
+			fuel_tanks_small
+			bomb_sights_2
+			hmg_defense_turret
+			air_ground_radar_2
+			air_ground_radar_1
+			air_ground_radar_3
+			air_ground_radar_4
+			cannon_defense_turret
+			second_gen_jet_engine_4x
+		}
+	}
+}
+
+SOV_heavy_fighter = {
+	category = air
+
+	blocked_for = {}
+
+	available_for = {SOV}
+
+	roles = {
+		air_heavy_fighter
+	}
+
+	priority = {
+		factor = 10
+		
+	}
+	
+	heavy_fighter_0 = {
+		priority = {
+			factor = 100
+		}
+			
+		name = "DI-8"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_di_8"
+
+		target_variant = {
+			match_value = 1000
+			type = medium_plane_fighter_airframe_0
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = light_mg_2x
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
+				engine_type_slot = radial_engine_1_2x
+				special_type_slot_1 = lmg_defense_gunner
+				special_type_slot_2 = non_strategic_materials_medium
+			}
+			
+		}
+
+		allowed_modules = {
+			heavy_mg_4x
+			aircraft_cannon_1_2x
+			engine_2_2x
+			straight_wing
+			reflex_gunsight
+			turbocharger
+			heavy_mg_2x
+			engine_2_2x
+		}
+	}
+	
+	heavy_fighter_1 = {
+		priority = {
+			factor = 100
+		}
+			
+		name = "G-38"
+		history = yes
+		override_sprite="GFX_SOV_G_38"
+
+		target_variant = {
+			match_value = 1000
+			type = medium_plane_fighter_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = light_mg_4x
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
+				fixed_tail_modifications_slot = twin_boom
+				engine_type_slot = radial_engine_2_2x
+				special_type_slot_1 = lmg_defense_gunner
+				special_type_slot_2 = non_strategic_materials_medium
+			}			
+		}
+
+		allowed_modules = {
+			heavy_mg_4x
+			aircraft_cannon_1_2x
+			engine_2_2x
+			straight_wing
+			reflex_gunsight
+			turbocharger
+			heavy_mg_2x
+			engine_2_2x
+		}
+	}
+
+	heavy_fighter_2 = {
+		priority = {
+			factor = 200
+		}
+			
+		name = "Pe-3"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_pe_3"
+
+		target_variant = {
+			match_value = 1500
+			type = medium_plane_fighter_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_tail_modifications_slot = twin_tail
+				fixed_main_weapon_slot = heavy_mg_2x
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_1x
+				engine_type_slot = engine_3_2x
+				special_type_slot_1 = lmg_defense_gunner
+			}
+			
+		}
+
+		allowed_modules = {
+			heavy_mg_4x
+			aircraft_cannon_1_2x
+			engine_2_2x
+			straight_wing
+			reflex_gunsight
+			turbocharger
+			heavy_mg_2x
+			engine_2_2x
+			hmg_defense_turret_2x
+			engine_3_2x
+		}
+	}
+
+	heavy_fighter_2_b = {
+		priority = {
+			factor = 200
+		}
+			
+		name = "Pe-3bis"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_pe_3bis"
+
+		target_variant = {
+			match_value = 1500
+			type = medium_plane_fighter_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = supercharger
+				fixed_tail_modifications_slot = twin_tail
+				fixed_main_weapon_slot = heavy_mg_2x
+				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
+				engine_type_slot = engine_3_2x
+				special_type_slot_1 = hmg_defense_gunner
+				special_type_slot_2 = self_sealing_fuel_tanks_medium
+				special_type_slot_3 = armor_plate_medium
+			}
+			
+		}
+
+		allowed_modules = {
+			heavy_mg_4x
+			aircraft_cannon_1_2x
+			engine_2_2x
+			straight_wing
+			reflex_gunsight
+			turbocharger
+			heavy_mg_2x
+			engine_2_2x
+			hmg_defense_turret_2x
+			engine_3_2x
+		}
+	}
+
+	heavy_fighter_3 = {
+		priority = {
+			factor = 200
+			
+		}
+		
+		name = "Mig-5"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_mig_5"
+		
+		target_variant = {
+			match_value = 2000
+			type = medium_plane_fighter_airframe_3
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = turbocharger
+				fixed_fuel_type_slot = empty
+				fixed_tail_modifications_slot = twin_tail
+				fixed_main_weapon_slot = aircraft_cannon_2_2x
+				fixed_auxiliary_weapon_slot_1 = light_mg_2x
+				engine_type_slot = engine_4_2x
+				special_type_slot_1 = hmg_defense_gunner
+				special_type_slot_2 = self_sealing_fuel_tanks_medium
+				special_type_slot_3 = empty
+				special_type_slot_4 = empty	
+			}
+			
+		}
+		
+
+		allowed_modules = {
+			aircraft_cannon_2_2x
+			air_air_radar_1
+			air_air_radar_2
+			air_air_radar_3
+			engine_4_2x
+			straight_wing
+			reflex_gunsight
+			turbocharger
+			hmg_defense_turret_2x
+		}
+	}
+
+	heavy_fighter_3_b = {
+		priority = {
+			factor = 200
+			
+		}
+		
+		name = "TIS"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tis"
+		
+		target_variant = {
+			match_value = 2000
+			type = medium_plane_fighter_airframe_3
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = turbocharger
+				fixed_fuel_type_slot = empty
+				fixed_tail_modifications_slot = twin_tail
+				fixed_main_weapon_slot = aircraft_cannon_2_2x
+				fixed_auxiliary_weapon_slot_1 = bomber_buster_2
+				fixed_auxiliary_weapon_slot_2 = bomber_buster_2
+				fixed_auxiliary_weapon_slot_3 = empty
+				fixed_auxiliary_weapon_slot_4 = empty
+				engine_type_slot = engine_4_2x
+				special_type_slot_1 = hmg_defense_gunner
+				special_type_slot_2 = self_sealing_fuel_tanks_medium
+				special_type_slot_3 = empty
+				special_type_slot_4 = empty	
+			}
+			
+		}
+		
+
+		allowed_modules = {
+			aircraft_cannon_2_2x
+			air_air_radar_1
+			air_air_radar_2
+			air_air_radar_3
+			engine_4_2x
+			straight_wing
+			reflex_gunsight
+			turbocharger
+			hmg_defense_turret_2x
+		}
+	}
+
+	heavy_fighter_4 = {
+		priority = {
+			factor = 200
+			
+		}
+		
+		name = "Tu-1"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tu_1"
+		
+		target_variant = {
+			match_value = 2500
+			type = medium_plane_fighter_airframe_4
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_radar_slot = air_air_radar_2
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = reflex_gunsight
+				fixed_engine_mod_slot = turbocharger
+				fixed_fuel_type_slot = high_octane_fuel
+				fixed_tail_modifications_slot = twin_tail
+				fixed_main_weapon_slot = aircraft_cannon_3_2x
+				fixed_auxiliary_weapon_slot_1 = bomber_buster_2
+				fixed_auxiliary_weapon_slot_2 = bomber_buster_2
+				fixed_auxiliary_weapon_slot_3 = empty
+				fixed_auxiliary_weapon_slot_4 = empty
+				engine_type_slot = engine_5_2x
+				special_type_slot_1 = hmg_defense_gunner_2x
+				special_type_slot_2 = self_sealing_fuel_tanks_medium
+				special_type_slot_3 = armor_plate_medium
+			}
+			
+		}
+
+		allowed_modules = {
+			aircraft_cannon_2_2x
+			air_air_radar_1
+			air_air_radar_2
+			air_air_radar_3
+			engine_4_2x
+			straight_wing
+			reflex_gunsight
+			turbocharger
+			hmg_defense_turret_2x
+			laminar_flow_straight_wing
+			heavy_mg_2x
+			heavy_mg_4x
+			gyro_gunsight
+		}
+	}
+
+	heavy_fighter_5 = {
+		priority = {
+			factor = 200
+			
+		}
+		
+		name = "Mig I-320"
+		history = yes
+		override_sprite="GFX_SOV_Mig_I320"
+		
+		target_variant = {
+			match_value = 3000
+			type = medium_plane_fighter_airframe_5
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = air_air_radar_3
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = gyro_gunsight
+				fixed_engine_mod_slot = afterburner
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = aircraft_cannon_2_2x
+				fixed_auxiliary_weapon_slot_1 = bomber_buster_1
+				engine_type_slot = jet_engine_2_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_medium
+				special_type_slot_2 = pressurized_cabin_medium
+				special_type_slot_3 = armor_plate_medium
+			}
+			
+		}
+
+		allowed_modules = {
+			aircraft_cannon_2_2x
+			air_air_radar_1
+			air_air_radar_2
+			air_air_radar_3
+			engine_4_2x
+			straight_wing
+			reflex_gunsight
+			turbocharger
+			hmg_defense_turret_2x
+			laminar_flow_straight_wing
+			heavy_mg_2x
+			heavy_mg_4x
+			gyro_gunsight
+			jet_engine_4x
+		}
+	}
+
+	heavy_fighter_6 = {
+		priority = {
+			factor = 200
+			
+		}
+		name = "La-200"
+		history = yes
+		override_sprite="GFX_SOV_La_200"
+		
+		target_variant = {
+			match_value = 3500
+			type = medium_plane_fighter_airframe_6
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = air_air_radar_4
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = gyro_gunsight
+				fixed_engine_mod_slot = afterburner
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = bomber_buster_2
+				fixed_auxiliary_weapon_slot_1 = bomber_buster_2
+				fixed_auxiliary_weapon_slot_2 = aircraft_cannon_4_1x
+				fixed_auxiliary_weapon_slot_3 = drop_tanks
+				engine_type_slot = second_gen_jet_engine_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_medium
+			}
+			
+		}
+
+		allowed_modules = {
+			aircraft_cannon_2_2x
+			air_air_radar_1
+			air_air_radar_2
+			air_air_radar_3
+			engine_4_2x
+			straight_wing
+			reflex_gunsight
+			turbocharger
+			hmg_defense_turret_2x
+			laminar_flow_straight_wing
+			heavy_mg_2x
+			heavy_mg_4x
+			gyro_gunsight
+			jet_engine_4x
+		}
+	}
+
+	heavy_fighter_7 = {
+		priority = {
+			factor = 200
+			
+		}
+		name = "La-250"
+		history = yes
+		override_sprite="GFX_SOV_La_250"
+		
+		target_variant = {
+			match_value = 4000
+			type = medium_plane_fighter_airframe_7
+			modules = {
+				fixed_wing_slot = tailed_delta_wing
+				fixed_radar_slot = air_air_radar_5
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = gyro_gunsight
+				fixed_engine_mod_slot = afterburner
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = air_air_missile_3_module
+				fixed_auxiliary_weapon_slot_1 = drop_tanks
+				engine_type_slot = second_gen_jet_engine_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_medium
+			}
+			
+		}
+
+		allowed_modules = {
+			aircraft_cannon_2_2x
+			air_air_radar_1
+			air_air_radar_2
+			air_air_radar_3
+			engine_4_2x
+			straight_wing
+			reflex_gunsight
+			turbocharger
+			hmg_defense_turret_2x
+			laminar_flow_straight_wing
+			heavy_mg_2x
+			heavy_mg_4x
+			gyro_gunsight
+			jet_engine_4x
+		}
+	}
+	
+				
+	heavy_fighter_8 = {
+		priority = {
+			factor = 200
+			
+		}
+		name = "Tu-28"
+		history = yes
+		override_sprite="GFX_SOV_Tu_28"
+		
+		target_variant = {
+			match_value = 4500
+			type = medium_plane_fighter_airframe_8
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_radar_slot = {
+					any_of = { 
+						air_air_radar_6
+						air_air_radar_5						
+					}
+				}
+				fixed_optics_slot = hud_module
+				fixed_engine_mod_slot = mach_2_afterburner
+				fixed_main_weapon_slot = air_air_missile_4_module				
+				fixed_auxiliary_weapon_slot_1 = air_air_missile_4_module
+				engine_type_slot = third_gen_jet_engine_2x
+				special_type_slot_1 = fuel_tanks_medium
+			}
+			
+		}
+
+		allowed_modules = {
+			aircraft_cannon_2_2x
+			air_air_radar_1
+			air_air_radar_2
+			air_air_radar_3
+			engine_4_2x
+			straight_wing
+			reflex_gunsight
+			turbocharger
+			hmg_defense_turret_2x
+			laminar_flow_straight_wing
+			heavy_mg_2x
+			heavy_mg_4x
+			gyro_gunsight
+			jet_engine_4x
+			hud_module
+			fly_by_wire
+		}
+	}
+}
+
+SOV_strategic_bomber = {
+	category = air
+
+	blocked_for = {}
+
+	available_for = {SOV}
+
+	roles = {
+		air_strategic_bomber
+	}
+
+	priority = {
+		factor = 200
+		modifier = {
+			date > "1940.1.1"
+			factor = 5
+		}
+		modifier = {
+			has_war = yes
+			factor = 4
+		}
+	}
+
+	strat_bomber_0_default = {
+		priority = {
+			factor = 100
+		}
+		name = "TB-3-4M-17F"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tb_3_4m_17f"
+		target_variant = {
+			match_value = 500
+			type = large_plane_airframe_0
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_radar_slot = empty
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = bomb_sights_0
+				fixed_engine_mod_slot = supercharger
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = large_bomb_bay
+				engine_type_slot = engine_1_4x
+				special_type_slot_1 = lmg_defense_gunner_2x
+				special_type_slot_2 = lmg_defense_gunner_3x
+				special_type_slot_3 = empty
+				special_type_slot_4 = empty	
+			}
+			
+		}
+
+		allowed_modules = {
+			large_bomb_bay
+			engine_2_4x
+			lmg_defense_turret_2x
+			lmg_defense_turret
+			hmg_defense_turret_2x
+			hmg_defense_turret
+			straight_wing
+			bomb_sights_1
+		}
+	}
+
+	strat_bomber_0_b = {
+		priority = {
+			factor = 100
+		}
+		name = "TB-3-4M-34FRN"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tb_3_4m_34frn"
+		target_variant = {
+			match_value = 500
+			type = large_plane_airframe_0
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_radar_slot = empty
+				fixed_aux_prop_slot = empty
+				fixed_optics_slot = bomb_sights_0
+				fixed_engine_mod_slot = supercharger
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = large_bomb_bay
+				#fixed_auxiliary_weapon_slot_1 = large_bomb_bay
+				engine_type_slot = engine_1_4x
+				special_type_slot_1 = lmg_defense_gunner_3x
+				special_type_slot_2 = lmg_defense_gunner_3x
+				special_type_slot_3 = empty
+				special_type_slot_4 = empty	
+			}
+			
+		}
+
+		allowed_modules = {
+			large_bomb_bay
+			engine_2_4x
+			lmg_defense_turret_2x
+			lmg_defense_turret
+			hmg_defense_turret_2x
+			hmg_defense_turret
+			straight_wing
+			bomb_sights_1
+		}
+	}
+
+	strat_bomber_1_default = {
+		priority = {
+			factor = 100
+		}
+		
+		name = "Pe-8"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_pe_8"
+		
+		target_variant = {
+			match_value = 1000
+			type = large_plane_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_1
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = large_bomb_bay
+				engine_type_slot = engine_2_4x
+				special_type_slot_1 = cannon_defense_turret_0_2x
+				special_type_slot_2 = cannon_defense_turret_0
+				special_type_slot_3 = hmg_defense_gunner_3x
+			}
+			
+		}
+
+		allowed_modules = {
+			large_bomb_bay
+			engine_2_4x
+			lmg_defense_turret_2x
+			lmg_defense_turret
+			hmg_defense_turret_2x
+			hmg_defense_turret
+			straight_wing
+			bomb_sights_1
+		}
+	}
+
+	strat_bomber_2_default = {
+		priority = {
+			factor = 100
+		}
+		
+		name = "ANT-64"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_aircraft_64"
+		
+		target_variant = {
+			match_value = 2000
+			type = large_plane_airframe_2
+			modules = {
+				fixed_wing_slot = high_altitude_straight_wing
+				fixed_optics_slot = bomb_sights_2
+				fixed_engine_mod_slot = turbocharger
+				fixed_tail_modifications_slot = twin_tail
+				fixed_main_weapon_slot = large_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = large_bomb_bay
+				engine_type_slot = engine_3_4x
+				special_type_slot_1 = lmg_defense_turret_2x
+				special_type_slot_2 = hmg_defense_turret_2x
+				special_type_slot_3 = self_sealing_fuel_tanks_large
+				special_type_slot_4 = fuel_tanks_large
+				special_type_slot_5 = hmg_defense_gunner_2x
+			}
+			
+		}
+
+		allowed_modules = {
+			large_bomb_bay
+			engine_3_4x
+			air_ground_radar_2
+			air_ground_radar_1
+			bomb_sights_2
+			bomb_sights_1
+			hmg_defense_turret_2x
+		}
+	}
+
+	strat_bomber_3_default = {
+		priority = {
+			factor = 10
+		}
+		
+		name = "Tu-4"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tu_4"
+		
+		target_variant = {
+			match_value = 3000
+			type = large_plane_airframe_3
+			modules = {
+				fixed_wing_slot = high_altitude_straight_wing
+				#fixed_aux_prop_slot = injection_system
+				fixed_radar_slot = air_ground_radar_1
+				fixed_optics_slot = bomb_sights_2
+				fixed_engine_mod_slot = turbocharger
+				fixed_main_weapon_slot = large_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = large_bomb_bay
+				#fixed_auxiliary_weapon_slot_2 = large_bomb_bay
+				fixed_electronics_slot = early_radar_jammer
+				engine_type_slot = radial_engine_4_4x
+				special_type_slot_1 = cannon_remote_turret_1_2x	
+				special_type_slot_2 = pressurized_cabin_large
+				special_type_slot_3 = cannon_remote_turret_1_2x
+				special_type_slot_4 = cannon_remote_turret_1_2x
+				special_type_slot_5 = self_sealing_fuel_tanks_large
+				special_type_slot_6 = early_radar_warning_system
+			}
+			
+		}
+
+		allowed_modules = {
+			large_bomb_bay
+			engine_4_4x
+			air_ground_radar_2
+			air_ground_radar_1
+			fuel_tanks_large
+			bomb_sights_2
+			bomb_sights_1
+			cannon_defense_turret_2x
+			hmg_defense_turret_2x
+		}
+	}
+
+	strat_bomber_4_default = {
+		priority = {
+			factor = 10
+		}
+		
+		name = "Tu-85"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tu_85"
+		
+		target_variant = {
+			match_value = 4000
+			type = large_plane_airframe_4
+			modules = {
+				fixed_wing_slot = high_altitude_straight_wing
+				fixed_radar_slot = air_ground_radar_3
+				fixed_aux_prop_slot = injection_system
+				fixed_optics_slot = bomb_sights_2
+				fixed_engine_mod_slot = turbocharger
+				fixed_main_weapon_slot = large_bomb_bay
+				fixed_auxiliary_weapon_slot_1 = large_bomb_bay
+				fixed_auxiliary_weapon_slot_2 = wet_wing
+				# fixed_auxiliary_weapon_slot_3 = wet_wing
+				# fixed_auxiliary_weapon_slot_4 = empty
+				fixed_electronics_slot = early_radar_jammer
+				engine_type_slot = engine_5_4x
+				special_type_slot_1 = dual_cannon_remote_turret_1_3x
+				special_type_slot_2 = dual_cannon_remote_turret_1_3x
+				special_type_slot_3 = pressurized_cabin_large
+				special_type_slot_4 = self_sealing_fuel_tanks_large
+				special_type_slot_5 = early_radar_warning_system	
+			}
+			
+		}
+
+		allowed_modules = {
+			large_bomb_bay
+			engine_4_4x
+			air_ground_radar_3
+			air_ground_radar_2
+			air_ground_radar_1
+			fuel_tanks_large
+			bomb_sights_2
+			bomb_sights_1
+			cannon_defense_turret_2x
+			hmg_defense_turret_2x
+			injection_system
+			supercharger
+			cannon_defense_turret
+		}
+	}
+
+	strat_bomber_5_default = {
+		priority = {
+			factor = 10
+		}
+		
+		name = "Tu-16"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tu_16"
+		
+		target_variant = {
+			match_value = 5000
+			type = large_plane_airframe_5
+			modules = {
+				fixed_wing_slot = high_altitude_swept_wing
+				fixed_radar_slot = air_ground_radar_3
+				fixed_optics_slot = bomb_sights_2
+				#fixed_engine_mod_slot = supercharger
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = large_bomb_bay_2
+				#fixed_auxiliary_weapon_slot_1 = large_bomb_bay_2
+				fixed_electronics_slot = early_radar_jammer
+				engine_type_slot = jet_engine_2_4x
+				special_type_slot_1 = dual_cannon_remote_turret_1_3x
+				special_type_slot_2 = pressurized_cabin_large
+				special_type_slot_3 = self_sealing_fuel_tanks_large
+				special_type_slot_4 = early_radar_warning_system	
+			}
+			
+		}
+
+		allowed_modules = {
+			large_bomb_bay
+			engine_4_4x
+			air_ground_radar_3
+			air_ground_radar_2
+			air_ground_radar_1
+			fuel_tanks_large
+			bomb_sights_2
+			bomb_sights_1
+			cannon_defense_turret_2x
+			hmg_defense_turret_2x
+			injection_system
+			supercharger
+			cannon_defense_turret
+			pressurized_cabin_large
+			aux_jet_engine_4x
+			straight_wing
+			engine_4_6x
+			module_ecm_pod_1
+		}
+	}
+
+	strat_bomber_6_default = {
+		priority = {
+			factor = 10
+		}
+		
+		name = "3M"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_3m"
+		
+		target_variant = {
+			match_value = 6000
+			type = large_plane_airframe_6
+			modules = {
+				fixed_wing_slot = high_altitude_swept_wing
+				fixed_radar_slot = air_ground_radar_4
+				fixed_optics_slot = bomb_sights_3
+				fixed_engine_mod_slot = afterburner
+				fixed_main_weapon_slot = large_bomb_bay_2
+				fixed_auxiliary_weapon_slot_1 = large_bomb_bay_2
+				fixed_auxiliary_weapon_slot_2 = wet_wing
+				#fixed_auxiliary_weapon_slot_3 = large_bomb_bay_2
+				fixed_auxiliary_weapon_slot_4 = empty
+				fixed_electronics_slot = basic_radar_jammer
+				engine_type_slot = second_gen_jet_engine_4x
+				special_type_slot_1 = dual_cannon_remote_turret_1_3x
+				special_type_slot_2 = pressurized_cabin_large
+				special_type_slot_3 = self_sealing_fuel_tanks_large
+				special_type_slot_4 = basic_radar_warning_system	
+				special_type_slot_5 = fuel_tanks_large	
+			}
+			
+		}
+
+		allowed_modules = {
+			large_bomb_bay
+			engine_4_4x
+			air_ground_radar_4
+			air_ground_radar_3
+			air_ground_radar_2
+			air_ground_radar_1
+			fuel_tanks_large
+			bomb_sights_2
+			bomb_sights_1
+			cannon_defense_turret_2x
+			hmg_defense_turret_2x
+			injection_system
+			supercharger
+			cannon_defense_turret
+			pressurized_cabin_large
+			aux_jet_engine_4x
+			swept_wing
+			engine_4_6x
+			module_ecm_pod_1
+		}
+	}
+
+	strat_bomber_6_b = {
+		priority = {
+			factor = 10
+		}
+		
+		name = "M-4"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_m_4"
+		
+		target_variant = {
+			match_value = 6000
+			type = large_plane_airframe_6
+			modules = {
+				fixed_wing_slot = high_altitude_swept_wing
+				fixed_radar_slot = air_ground_radar_4
+				fixed_optics_slot = bomb_sights_3
+				fixed_main_weapon_slot = large_bomb_bay_2
+				fixed_auxiliary_weapon_slot_1 = large_bomb_bay_2
+				#fixed_auxiliary_weapon_slot_2 = large_bomb_bay_2
+				#fixed_auxiliary_weapon_slot_3 = large_bomb_bay_2
+				fixed_auxiliary_weapon_slot_4 = empty
+				fixed_electronics_slot = basic_radar_jammer
+				engine_type_slot = second_gen_jet_engine_4x
+				special_type_slot_1 = dual_cannon_remote_turret_1_3x
+				special_type_slot_2 = pressurized_cabin_large
+				special_type_slot_3 = self_sealing_fuel_tanks_large
+				special_type_slot_4 = basic_radar_warning_system	
+			}
+			
+		}
+
+		allowed_modules = {
+			large_bomb_bay
+			engine_4_4x
+			air_ground_radar_4
+			air_ground_radar_3
+			air_ground_radar_2
+			air_ground_radar_1
+			fuel_tanks_large
+			bomb_sights_2
+			bomb_sights_1
+			cannon_defense_turret_2x
+			hmg_defense_turret_2x
+			injection_system
+			supercharger
+			cannon_defense_turret
+			pressurized_cabin_large
+			aux_jet_engine_4x
+			swept_wing
+			engine_4_6x
+			module_ecm_pod_1
+		}
+	}
+
+	strat_bomber_7_default = {
+		priority = {
+			factor = 10
+		}
+		
+		name = "Tu-95"
+		history = yes
+		override_sprite="GFX_SOV_Tu_95M"
+		
+		target_variant = {
+			match_value = 7000
+			type = large_plane_airframe_7
+			modules = {
+				fixed_wing_slot = high_altitude_swept_wing
+				fixed_radar_slot = air_ground_radar_5
+				fixed_optics_slot = bomb_sights_4
+				fixed_aux_prop_slot = contra_rotating_props
+				fixed_main_weapon_slot = large_bomb_bay_2
+				fixed_auxiliary_weapon_slot_1 = large_bomb_bay_2
+				fixed_auxiliary_weapon_slot_2 = wet_wing
+				fixed_electronics_slot = improved_radar_jammer
+				engine_type_slot = turboprop_engine_4x
+				special_type_slot_1 = dual_cannon_remote_turret_1_4x
+				special_type_slot_2 = self_sealing_fuel_tanks_large
+				special_type_slot_3 = pressurized_cabin_large
+				special_type_slot_4 = improved_radar_warning_system
+			}
+			
+		}
+
+		allowed_modules = {
+			large_bomb_bay
+			engine_4_4x
+			air_ground_radar_5
+			air_ground_radar_4
+			air_ground_radar_3
+			air_ground_radar_2
+			air_ground_radar_1
+			fuel_tanks_large
+			bomb_sights_2
+			bomb_sights_1
+			cannon_defense_turret_2x
+			hmg_defense_turret_2x
+			injection_system
+			supercharger
+			cannon_defense_turret
+			pressurized_cabin_large
+			aux_jet_engine_4x
+			swept_wing
+			engine_4_6x
+			module_ecm_pod_1
+			
+			second_gen_jet_engine_4x
+		}
+	}
+
+	strat_bomber_7_b = {
+		priority = {
+			factor = 10
+		}
+		
+		name = "Tu-95K"
+		history = yes
+		override_sprite="GFX_SOV_Tu_95MS"
+		
+		target_variant = {
+			match_value = 7000
+			type = large_plane_airframe_7
+			modules = {
+				fixed_wing_slot = high_altitude_swept_wing
+				fixed_radar_slot = air_ground_radar_6
+				fixed_optics_slot = bomb_sights_5
+				fixed_aux_prop_slot = contra_rotating_props
+				fixed_main_weapon_slot = modern_rocket_propelled_bombs
+				fixed_auxiliary_weapon_slot_1 = modern_rocket_propelled_bombs
+				fixed_auxiliary_weapon_slot_2 = modern_rocket_propelled_bombs
+				fixed_auxiliary_weapon_slot_3 = wet_wing
+				fixed_auxiliary_weapon_slot_4 = module_ecm_pod_1
+				fixed_electronics_slot = improved_radar_jammer
+				engine_type_slot = turboprop_engine_4x
+				special_type_slot_1 = cannon_defense_turret_3
+				special_type_slot_2 = self_sealing_fuel_tanks_large
+				special_type_slot_3 = pressurized_cabin_large
+				special_type_slot_4 = improved_radar_warning_system
+				special_type_slot_5 = inertial_navigation_system_1
+			}
+			
+		}
+
+		allowed_modules = {
+			large_bomb_bay
+			engine_4_4x
+			air_ground_radar_5
+			air_ground_radar_4
+			air_ground_radar_3
+			air_ground_radar_2
+			air_ground_radar_1
+			fuel_tanks_large
+			bomb_sights_2
+			bomb_sights_1
+			cannon_defense_turret_2x
+			hmg_defense_turret_2x
+			injection_system
+			supercharger
+			cannon_defense_turret
+			pressurized_cabin_large
+			aux_jet_engine_4x
+			swept_wing
+			engine_4_6x
+			module_ecm_pod_1
+			
+			second_gen_jet_engine_4x
+		}
+	}
+
+	strat_bomber_8_default = {
+		priority = {
+			factor = 10
+		}
+		
+		name = "M-50"
+		history = yes
+		override_sprite="GFX_SOV_M_50"
+		
+		target_variant = {
+			match_value = 8000
+			type = large_plane_airframe_8
+			modules = {
+				fixed_wing_slot = tailed_delta_wing
+				fixed_radar_slot = air_ground_radar_5
+				fixed_optics_slot = bomb_sights_5
+				fixed_engine_mod_slot = afterburner
+				fixed_main_weapon_slot = large_bomb_bay_2
+				fixed_auxiliary_weapon_slot_1 = large_bomb_bay_2
+				fixed_auxiliary_weapon_slot_2 = large_bomb_bay_2
+				fixed_electronics_slot = improved_radar_jammer
+				engine_type_slot = third_gen_jet_engine_4x
+				special_type_slot_1 = self_sealing_fuel_tanks_large
+				special_type_slot_2 = pressurized_cabin_large
+				special_type_slot_3 = cannon_defense_turret_4
+				special_type_slot_4 = improved_radar_warning_system	
+				special_type_slot_5 = inertial_navigation_system_2
+			}
+			
+		}
+
+		allowed_modules = {
+			large_bomb_bay
+			engine_4_4x
+			air_ground_radar_5
+			air_ground_radar_4
+			air_ground_radar_3
+			air_ground_radar_2
+			air_ground_radar_1
+			fuel_tanks_large
+			bomb_sights_2
+			bomb_sights_1
+			cannon_defense_turret_2x
+			hmg_defense_turret_2x
+			injection_system
+			supercharger
+			cannon_defense_turret
+			pressurized_cabin_large
+			aux_jet_engine_4x
+			swept_wing
+			engine_4_6x
+			module_ecm_pod_1
+			
+			second_gen_jet_engine_4x
+		}
+	}
+
+	strat_bomber_8_b = {
+		priority = {
+			factor = 10
+		}
+		
+		name = "M-50B"
+		history = yes
+		override_sprite="GFX_SOV_M_50B"
+		
+		target_variant = {
+			match_value = 8000
+			type = large_plane_airframe_8
+			modules = {
+				fixed_wing_slot = tailed_delta_wing
+				fixed_radar_slot = air_ground_radar_5
+				fixed_optics_slot = bomb_sights_5
+				fixed_engine_mod_slot = mach_2_afterburner
+				fixed_main_weapon_slot = large_bomb_bay_2
+				fixed_auxiliary_weapon_slot_1 = large_bomb_bay_2
+				fixed_auxiliary_weapon_slot_2 = large_bomb_bay_2
+				fixed_electronics_slot = improved_radar_jammer
+				engine_type_slot = third_gen_jet_engine_4x
+				special_type_slot_1 = self_sealing_fuel_tanks_large
+				special_type_slot_2 = pressurized_cabin_large
+				special_type_slot_3 = cannon_defense_turret_4
+				special_type_slot_4 = improved_radar_warning_system	
+				special_type_slot_5 = armor_plate_large	
+				special_type_slot_6 = fuel_tanks_large	
+			}
+			
+		}
+
+		allowed_modules = {
+			large_bomb_bay
+			engine_4_4x
+			air_ground_radar_5
+			air_ground_radar_4
+			air_ground_radar_3
+			air_ground_radar_2
+			air_ground_radar_1
+			fuel_tanks_large
+			bomb_sights_2
+			bomb_sights_1
+			cannon_defense_turret_2x
+			hmg_defense_turret_2x
+			injection_system
+			supercharger
+			cannon_defense_turret
+			pressurized_cabin_large
+			aux_jet_engine_4x
+			swept_wing
+			engine_4_6x
+			module_ecm_pod_1
+			
+			second_gen_jet_engine_4x
+		}
+	}
+
+	strat_bomber_8_c = {
+		priority = {
+			factor = 10
+		}
+		
+		name = "M-52"
+		history = yes
+		override_sprite="GFX_SOV_M_52"
+		
+		target_variant = {
+			match_value = 8000
+			type = large_plane_airframe_8
+			modules = {
+				fixed_wing_slot = tailed_delta_wing
+				fixed_radar_slot = air_ground_radar_5
+				fixed_optics_slot = bomb_sights_5
+				fixed_engine_mod_slot = mach_2_afterburner
+				fixed_main_weapon_slot = large_bomb_bay_2
+				fixed_auxiliary_weapon_slot_1 = large_bomb_bay_2
+				fixed_auxiliary_weapon_slot_2 = large_bomb_bay_2
+				fixed_auxiliary_weapon_slot_3 = wet_wing
+				fixed_electronics_slot = improved_radar_jammer
+				engine_type_slot = third_gen_jet_engine_4x
+				special_type_slot_1 = self_sealing_fuel_tanks_large
+				special_type_slot_2 = pressurized_cabin_large
+				special_type_slot_3 = cannon_defense_turret_4
+				special_type_slot_4 = improved_radar_warning_system	
+				special_type_slot_5 = armor_plate_large	
+				special_type_slot_6 = fuel_tanks_very_large	
+			}
+			
+		}
+
+		allowed_modules = {
+			large_bomb_bay
+			engine_4_4x
+			air_ground_radar_5
+			air_ground_radar_4
+			air_ground_radar_3
+			air_ground_radar_2
+			air_ground_radar_1
+			fuel_tanks_large
+			bomb_sights_2
+			bomb_sights_1
+			cannon_defense_turret_2x
+			hmg_defense_turret_2x
+			injection_system
+			supercharger
+			cannon_defense_turret
+			pressurized_cabin_large
+			aux_jet_engine_4x
+			swept_wing
+			engine_4_6x
+			module_ecm_pod_1
+			
+			second_gen_jet_engine_4x
+		}
+	}
+
+	strat_bomber_8_d = {
+		priority = {
+			factor = 10
+		}
+		
+		name = "M-54"
+		history = yes
+		override_sprite="GFX_SOV_M_54"
+		
+		target_variant = {
+			match_value = 8000
+			type = large_plane_airframe_8
+			modules = {
+				fixed_wing_slot = delta_wing
+				fixed_radar_slot = air_ground_radar_5
+				fixed_optics_slot = bomb_sights_5
+				fixed_engine_mod_slot = compressor_bleed_afterburner
+				fixed_main_weapon_slot = large_bomb_bay_2
+				fixed_auxiliary_weapon_slot_1 = large_bomb_bay_2
+				fixed_auxiliary_weapon_slot_2 = large_bomb_bay_2
+				fixed_auxiliary_weapon_slot_3 = wet_wing
+				fixed_electronics_slot = improved_radar_jammer
+				engine_type_slot = third_gen_jet_engine_4x
+				special_type_slot_1 = self_sealing_fuel_tanks_large
+				special_type_slot_2 = pressurized_cabin_large
+				special_type_slot_3 = improved_radar_warning_system	
+				special_type_slot_4 = inertial_navigation_system_2
+			}
+			
+		}
+
+		allowed_modules = {
+			large_bomb_bay
+			engine_4_4x
+			air_ground_radar_5
+			air_ground_radar_4
+			air_ground_radar_3
+			air_ground_radar_2
+			air_ground_radar_1
+			fuel_tanks_large
+			bomb_sights_2
+			bomb_sights_1
+			cannon_defense_turret_2x
+			hmg_defense_turret_2x
+			injection_system
+			supercharger
+			cannon_defense_turret
+			pressurized_cabin_large
+			aux_jet_engine_4x
+			swept_wing
+			engine_4_6x
+			module_ecm_pod_1
+			
+			second_gen_jet_engine_4x
+		}
+	}
+}
+
+SOV_maritime_patrol = {
+	category = air
+
+	blocked_for = {}
+
+	available_for = {SOV}
+
+	roles = {
+		air_maritime_patrol
+	}
+
+	priority = {
+		factor = 200
+		modifier = {
+			has_war_with = JAP
+			factor = 2
+		}
+	}
+
+	# maritime_patrol_1_default = {
+		# priority = {
+			# factor = 10
+		# }
+
+		# target_variant = {
+			# match_value = 1000
+			# type = large_plane_maritime_patrol_plane_airframe_1
+			# modules = {
+				# fixed_main_weapon_slot = nav_bomber_weapon
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# engine_type_slot = engine_1_4x
+				# special_type_slot_1 = lmg_defense_turret_2x
+				# special_type_slot_2 = fuel_tanks_large
+				# special_type_slot_3 = flying_boat_large
+			# }
+			
+		# }
+
+		# allowed_modules = {
+			# torpedo_mounting
+			# engine_1_4x
+			# fuel_tanks_large
+			# flying_boat_large
+			# lmg_defense_turret
+		# }
+	# }
+
+	# maritime_patrol_2_default = {
+		# priority = {
+			# factor = 10
+			
+		# }
+
+		# target_variant = {
+			# match_value = 2000
+			# type = large_plane_maritime_patrol_plane_airframe_2
+			# modules = {
+				# fixed_main_weapon_slot = nav_bomber_weapon
+				# fixed_auxiliary_weapon_slot_1 = nav_bomber_weapon
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# engine_type_slot = engine_2_4x
+				# special_type_slot_1 = hmg_defense_turret_2x
+				# special_type_slot_2 = fuel_tanks_large
+				# special_type_slot_3 = fuel_tanks_large
+				# special_type_slot_4 = flying_boat_large
+			# }
+			
+		# }
+
+		# allowed_modules = {
+			# torpedo_mounting
+			# engine_2_4x
+			# hmg_defense_turret_2x
+			# lmg_defense_turret_2x
+			# fuel_tanks_large
+			# flying_boat_large
+		# }
+	# }
+
+	maritime_patrol_3_default = {
+		priority = {
+			factor = 10
+		}
+		
+		name = "Tu-4K"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tu_4k"
+		
+
+		target_variant = {
+			match_value = 4000
+			type = large_plane_maritime_patrol_plane_airframe_3
+			modules = {
+				fixed_wing_slot = high_altitude_straight_wing
+				#fixed_aux_prop_slot = injection_system
+				fixed_radar_slot = air_ground_radar_2
+				#fixed_optics_slot = bomb_sights_2
+				fixed_engine_mod_slot = turbocharger
+				fixed_main_weapon_slot = guided_anti_ship_missile_3
+				fixed_auxiliary_weapon_slot_1 = guided_anti_ship_missile_3
+				#fixed_auxiliary_weapon_slot_2 = large_bomb_bay
+				fixed_electronics_slot = early_radar_jammer
+				engine_type_slot = radial_engine_4_4x
+				special_type_slot_1 = cannon_remote_turret_1_2x	
+				special_type_slot_2 = pressurized_cabin_large
+				special_type_slot_3 = cannon_remote_turret_1_2x
+				special_type_slot_4 = cannon_remote_turret_1_2x
+				special_type_slot_5 = self_sealing_fuel_tanks_large
+				special_type_slot_6 = early_radar_warning_system
+			}
+			
+		}
+
+		allowed_modules = {
+			torpedo_mounting
+			engine_4_4x
+			cannon_defense_turret_2x
+			hmg_defense_turret_2x
+			air_ground_radar_2
+			air_ground_radar_1
+			recon_camera
+			fuel_tanks_large
+			flying_boat_large
+		}
+	}
+
+	maritime_patrol_4_default = {
+		priority = {
+			factor = 10
+		}
+		
+		name = "Tu-504"
+		history = yes
+		override_sprite="GFX_SOV_tu_504"
+		
+		target_variant = {
+			match_value = 5000
+			type = large_plane_maritime_patrol_plane_airframe_4
+			modules = {
+				fixed_wing_slot = high_altitude_straight_wing
+				fixed_radar_slot = air_ground_radar_3
+				fixed_main_weapon_slot = torpedo_mounting_3
+				fixed_auxiliary_weapon_slot_1 = guided_anti_ship_missile_2
+				#fixed_auxiliary_weapon_slot_2 = guided_anti_ship_missile_2
+				fixed_auxiliary_weapon_slot_3 = wet_wing
+				fixed_electronics_slot = basic_radar_jammer
+				engine_type_slot = { any_of = { turboprop_engine_4x radial_engine_5_4x  } }
+				special_type_slot_1 = flying_boat_large
+				special_type_slot_2 = { any_of = { mad_2 mad_1 } }
+				special_type_slot_3 = { any_of = { sonobuoys_2 sonobuoys_1 } }
+				special_type_slot_4 = cannon_defense_turret_2
+				special_type_slot_5 = self_sealing_fuel_tanks_large
+				special_type_slot_6 = pressurized_cabin_large
+			}
+			
+		}
+
+		allowed_modules = {
+			torpedo_mounting
+			engine_4_4x
+			cannon_defense_turret_2x
+			hmg_defense_turret_2x
+			air_ground_radar_2
+			air_ground_radar_1
+			recon_camera
+			fuel_tanks_large
+			flying_boat_large
+		}
+	}
+
+	maritime_patrol_5_default = {
+		priority = {
+			factor = 10
+		}
+		
+		name = "Tu-16K-10"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_tu_16k_10"
+		
+
+		target_variant = {
+			match_value = 6000
+			type = large_plane_maritime_patrol_plane_airframe_5
+			modules = {
+				fixed_wing_slot = high_altitude_swept_wing
+				fixed_radar_slot = air_ground_radar_3
+				#fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = guided_anti_ship_missile_3
+				#fixed_auxiliary_weapon_slot_1 = guided_anti_ship_missile_2
+				fixed_electronics_slot = early_radar_jammer
+				engine_type_slot = jet_engine_2_4x
+				special_type_slot_1 = dual_cannon_remote_turret_1_3x
+				special_type_slot_2 = pressurized_cabin_large
+				special_type_slot_3 = self_sealing_fuel_tanks_large
+				special_type_slot_4 = early_radar_warning_system	
+			}
+			
+		}
+
+		allowed_modules = {
+			torpedo_mounting
+			engine_4_4x
+			cannon_defense_turret_2x
+			hmg_defense_turret_2x
+			air_ground_radar_2
+			air_ground_radar_1
+			recon_camera
+			fuel_tanks_large
+			flying_boat_large
+		}
+	}
+
+	maritime_patrol_6_default = {
+		priority = {
+			factor = 10
+		}
+		
+		name = "3M-M"
+		history = yes
+		override_sprite="GFX_SOV_LAMP_3mm"
+		
+
+		target_variant = {
+			match_value = 7000
+			type = large_plane_maritime_patrol_plane_airframe_6
+			modules = {
+				fixed_wing_slot = high_altitude_swept_wing
+				fixed_radar_slot = air_ground_radar_4
+				fixed_engine_mod_slot = afterburner
+				fixed_main_weapon_slot = guided_anti_ship_missile_3
+				fixed_auxiliary_weapon_slot_1 = guided_anti_ship_missile_3
+				fixed_auxiliary_weapon_slot_2 = wet_wing
+				fixed_electronics_slot = basic_radar_jammer
+				engine_type_slot = second_gen_jet_engine_4x
+				special_type_slot_1 = dual_cannon_remote_turret_1_3x
+				special_type_slot_2 = pressurized_cabin_large
+				special_type_slot_3 = self_sealing_fuel_tanks_large
+				special_type_slot_4 = basic_radar_warning_system	
+				special_type_slot_5 = fuel_tanks_large	
+				special_type_slot_6 = flying_boat_large	
+			}
+			
+		}
+
+		allowed_modules = {
+			torpedo_mounting
+			engine_4_4x
+			cannon_defense_turret_2x
+			hmg_defense_turret_2x
+			air_ground_radar_2
+			air_ground_radar_1
+			recon_camera
+			fuel_tanks_large
+			flying_boat_large
+		}
+	}
+
+	maritime_patrol_7_default = {
+		priority = {
+			factor = 10
+		}
+		
+		name = "Tu-142"
+		history = yes
+		override_sprite="GFX_SOV_Tu_142"
+		
+		target_variant = {
+			match_value = 7000
+			type = large_plane_maritime_patrol_plane_airframe_7
+			modules = {
+				fixed_wing_slot = high_altitude_swept_wing
+				fixed_radar_slot = air_ground_radar_6
+				fixed_aux_prop_slot = contra_rotating_props
+				fixed_main_weapon_slot = { any_of = { guided_anti_ship_missile_4 guided_anti_ship_missile_3 } }
+				fixed_auxiliary_weapon_slot_1 = { any_of = { guided_anti_ship_missile_4 guided_anti_ship_missile_3 } }
+				#fixed_auxiliary_weapon_slot_2 = { any_of = { guided_anti_ship_missile_4 guided_anti_ship_missile_3 } }
+				fixed_auxiliary_weapon_slot_3 = wet_wing
+				fixed_auxiliary_weapon_slot_4 = module_ecm_pod_1
+				fixed_electronics_slot = improved_radar_jammer
+				engine_type_slot = turboprop_engine_4x
+				special_type_slot_1 = cannon_defense_turret_3
+				special_type_slot_2 = self_sealing_fuel_tanks_large
+				special_type_slot_3 = pressurized_cabin_large
+				special_type_slot_4 = improved_radar_warning_system
+				special_type_slot_5 = { any_of = { mad_2 mad_1 } }
+				special_type_slot_6 = { any_of = { sonobuoys_2 sonobuoys_1 } }
+			}
+			
+		}
+
+		allowed_modules = {
+			torpedo_mounting
+			engine_4_4x
+			cannon_defense_turret_2x
+			hmg_defense_turret_2x
+			air_ground_radar_2
+			air_ground_radar_1
+			recon_camera
+			fuel_tanks_large
+			flying_boat_large
+		}
+	}
+
+	maritime_patrol_8 = {
+		priority = {
+			factor = 10
+		}
+		
+		name = "A-57"
+		history = yes
+		override_sprite="GFX_SOV_A_57"
+		
+		target_variant = {
+			match_value = 8000
+			type = large_plane_maritime_patrol_plane_airframe_8
+			modules = {
+				fixed_wing_slot = blended_wing
+				fixed_radar_slot = air_ground_radar_6
+				fixed_engine_mod_slot = compressor_bleed_afterburner
+				fixed_main_weapon_slot = { any_of = { guided_anti_ship_missile_4 guided_anti_ship_missile_3 } }
+				fixed_auxiliary_weapon_slot_1 = { any_of = { guided_anti_ship_missile_4 guided_anti_ship_missile_3 } }
+				fixed_auxiliary_weapon_slot_2 = { any_of = { guided_anti_ship_missile_4 guided_anti_ship_missile_3 } }
+				fixed_auxiliary_weapon_slot_3 = { any_of = { guided_anti_ship_missile_4 guided_anti_ship_missile_3 } }
+				fixed_auxiliary_weapon_slot_4 = module_ecm_pod_1
+				fixed_electronics_slot = improved_radar_jammer
+				engine_type_slot = third_gen_jet_engine_6x
+				special_type_slot_1 = flying_boat_large
+				special_type_slot_2 = pressurized_cabin_large
+				special_type_slot_3 = improved_radar_warning_system
+				special_type_slot_4 = fuel_tanks_very_large
+				special_type_slot_5 = fuel_tanks_very_large
+				special_type_slot_6 = inertial_navigation_system_2
+			}
+			
+		}
+
+		allowed_modules = {
+			torpedo_mounting
+			engine_4_4x
+			cannon_defense_turret_2x
+			hmg_defense_turret_2x
+			air_ground_radar_2
+			air_ground_radar_1
+			recon_camera
+			fuel_tanks_large
+			flying_boat_large
+		}
+	}
+
+	maritime_patrol_8_b = {
+		priority = {
+			factor = 10
+		}
+		
+		name = "M-70"
+		history = yes
+		override_sprite="GFX_SOV_M_70"
+		
+		target_variant = {
+			match_value = 7000
+			type = large_plane_maritime_patrol_plane_airframe_8
+			modules = {
+				fixed_wing_slot = tailed_delta_wing
+				fixed_radar_slot = air_ground_radar_5
+				fixed_engine_mod_slot = mach_2_afterburner
+				fixed_main_weapon_slot = { any_of = { guided_anti_ship_missile_4 guided_anti_ship_missile_3 } }
+				fixed_auxiliary_weapon_slot_1 = { any_of = { guided_anti_ship_missile_4 guided_anti_ship_missile_3 } }
+				fixed_auxiliary_weapon_slot_2 = { any_of = { guided_anti_ship_missile_4 guided_anti_ship_missile_3 } }
+				fixed_auxiliary_weapon_slot_3 = { any_of = { guided_anti_ship_missile_4 guided_anti_ship_missile_3 } }
+				fixed_auxiliary_weapon_slot_4 = module_ecm_pod_1
+				fixed_electronics_slot = improved_radar_jammer
+				engine_type_slot = third_gen_jet_engine_4x
+				special_type_slot_1 = flying_boat_large
+				special_type_slot_2 = pressurized_cabin_large
+				special_type_slot_3 = improved_radar_warning_system
+				special_type_slot_4 = fuel_tanks_very_large
+				special_type_slot_5 = fuel_tanks_very_large
+				special_type_slot_6 = inertial_navigation_system_2
+			}
+			
+		}
+
+		allowed_modules = {
+			torpedo_mounting
+			engine_4_4x
+			cannon_defense_turret_2x
+			hmg_defense_turret_2x
+			air_ground_radar_2
+			air_ground_radar_1
+			recon_camera
+			fuel_tanks_large
+			flying_boat_large
+		}
+	}
+}
+
+SOV_med_naval_bomber = {
+	category = air
+
+	blocked_for = {}
+
+	available_for = {SOV}
+
+	roles = {
+		air_naval_bomber
+	}
+	
+	priority = {
+		factor = 500
+	}
+	
+	gw_naval_bomber = {	
+	
+		name = "DB-4T"
+		override_sprite = "GFX_SOV_LAMP_db_4t"
+		history = yes
+		
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = basic_medium_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		target_variant = {
+			match_value = 500
+			type = medium_plane_naval_bomber_airframe_0
+			modules = {
+			fixed_wing_slot = straight_wing
+				fixed_engine_mod_slot = supercharger
+				#fixed_optics_slot = bomb_sights_0
+				fixed_main_weapon_slot = torpedo_mounting
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = lmg_defense_gunner_2x
+				special_type_slot_2 = hmg_defense_gunner
+				special_type_slot_3 = flying_boat_medium
+				special_type_slot_4 = fuel_tanks_medium
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+			self_sealing_fuel_tanks_small
+			high_octane_fuel
+			air_ground_radar_1
+			air_ground_radar_2
+			air_ground_radar_3
+			air_ground_radar_4
+		}
+	}	
+	
+	gw_naval_bomber_b = {	
+	
+		name = "MR-6"
+		override_sprite = "GFX_SOV_LAMP_mr_6"
+		history = yes
+		
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = basic_medium_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		target_variant = {
+			match_value = 500
+			type = medium_plane_naval_bomber_airframe_0
+			modules = {
+			fixed_wing_slot = straight_wing
+				fixed_engine_mod_slot = supercharger
+				#fixed_optics_slot = bomb_sights_0
+				fixed_main_weapon_slot = torpedo_mounting
+				engine_type_slot = engine_1_2x
+				special_type_slot_1 = armor_plate_medium
+				special_type_slot_2 = lmg_defense_gunner_4x	
+				special_type_slot_3 = flying_boat_medium	
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+			self_sealing_fuel_tanks_small
+			high_octane_fuel
+			air_ground_radar_1
+			air_ground_radar_2
+			air_ground_radar_3
+			air_ground_radar_4
+		}
+	}
+	
+	gw_naval_bomber_c = {	
+	
+		name = "TB-1P"
+		override_sprite = "GFX_SOV_LAMP_tb_1p"
+		history = yes
+		
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = basic_medium_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		target_variant = {
+			match_value = 500
+			type = medium_plane_naval_bomber_airframe_0
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_engine_mod_slot = supercharger
+				#fixed_optics_slot = bomb_sights_0
+				fixed_main_weapon_slot = torpedo_mounting
+				engine_type_slot = engine_1_2x
+				special_type_slot_1 = lmg_defense_gunner_3x
+				special_type_slot_2 = lmg_defense_gunner_4x	
+				special_type_slot_3 = flying_boat_medium
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+			self_sealing_fuel_tanks_small
+			high_octane_fuel
+			air_ground_radar_1
+			air_ground_radar_2
+			air_ground_radar_3
+			air_ground_radar_4
+		}
+	}	
+	
+	gw_naval_bomber_d = {	
+	
+		name = "DB-3T"
+		override_sprite = "GFX_SOV_LAMP_db_3t"
+		history = yes
+		
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = basic_medium_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		target_variant = {
+			match_value = 500
+			type = medium_plane_naval_bomber_airframe_0
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = torpedo_mounting
+				engine_type_slot = radial_engine_1_2x
+				special_type_slot_1 = lmg_defense_turret
+				special_type_slot_2 = lmg_defense_gunner_2x	
+				special_type_slot_3 = self_sealing_fuel_tanks_medium	
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+			self_sealing_fuel_tanks_small
+			high_octane_fuel
+			air_ground_radar_1
+			air_ground_radar_2
+			air_ground_radar_3
+			air_ground_radar_4
+		}
+	}	
+		
+	naval_bomber_1 = {	
+	
+		name = "Il-4T"
+		override_sprite = "GFX_SOV_LAMP_il_4t"
+		history = yes
+		
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = improved_medium_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		target_variant = {
+			match_value = 1000
+			type = medium_plane_naval_bomber_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_optics_slot = bomb_sights_0
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = torpedo_mounting
+				fixed_auxiliary_weapon_slot_1 = torpedo_mounting
+				engine_type_slot = radial_engine_2_2x
+				special_type_slot_1 = fuel_tanks_medium
+				special_type_slot_2 = hmg_defense_turret
+				special_type_slot_3 = lmg_defense_gunner_2x
+				special_type_slot_4 = self_sealing_fuel_tanks_medium
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+			self_sealing_fuel_tanks_small
+			high_octane_fuel
+			air_ground_radar_1
+			air_ground_radar_2
+			air_ground_radar_3
+			air_ground_radar_4
+		}
+	}	
+		
+	naval_bomber_1_b = {	
+	
+		name = "MTB-1"
+		override_sprite = "GFX_SOV_LAMP_mtb_1"
+		history = yes
+		
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = improved_medium_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		target_variant = {
+			match_value = 1000
+			type = medium_plane_naval_bomber_airframe_1
+			modules = {
+				fixed_main_weapon_slot = torpedo_mounting
+				fixed_auxiliary_weapon_slot_1 = torpedo_mounting
+				engine_type_slot = engine_2_2x
+				special_type_slot_1 = flying_boat_medium
+				special_type_slot_2 = lmg_defense_gunner_3x
+				special_type_slot_3 = lmg_defense_gunner_3x
+				fixed_wing_slot = straight_wing
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+			self_sealing_fuel_tanks_small
+			high_octane_fuel
+			air_ground_radar_1
+			air_ground_radar_2
+			air_ground_radar_3
+			air_ground_radar_4
+		}
+	}	
+		
+	naval_bomber_2 = {	
+	
+		name = "MDR-6A"
+		override_sprite = "GFX_SOV_LAMP_mdr_6a"
+		history = yes
+		
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = improved_medium_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		target_variant = {
+			match_value = 1000
+			type = medium_plane_naval_bomber_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				fixed_auxiliary_weapon_slot_1 = { any_of = { torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				engine_type_slot = engine_3_2x
+				fixed_tail_modifications_slot = twin_tail
+				special_type_slot_1 = fuel_tanks_medium
+				special_type_slot_2 = hmg_defense_gunner
+				special_type_slot_3 = lmg_defense_gunner_2x
+				special_type_slot_4 = self_sealing_fuel_tanks_medium
+				special_type_slot_5 = flying_boat_medium
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+			self_sealing_fuel_tanks_small
+			high_octane_fuel
+			air_ground_radar_1
+			air_ground_radar_2
+			air_ground_radar_3
+			air_ground_radar_4
+		}
+	}	
+		
+	naval_bomber_2_b = {	
+	
+		name = "MDR-6"
+		override_sprite = "GFX_SOV_LAMP_mdr_6"
+		history = yes
+		
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = improved_medium_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		target_variant = {
+			match_value = 1000
+			type = medium_plane_naval_bomber_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				fixed_auxiliary_weapon_slot_1 = { any_of = { torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				engine_type_slot = engine_3_2x
+				special_type_slot_1 = fuel_tanks_medium
+				special_type_slot_2 = flying_boat_medium
+				special_type_slot_3 = lmg_defense_gunner_3x
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+			self_sealing_fuel_tanks_small
+			high_octane_fuel
+			air_ground_radar_1
+			air_ground_radar_2
+			air_ground_radar_3
+			air_ground_radar_4
+		}
+	}	
+		
+	naval_bomber_3 = {	
+	
+		name = "Tu-2T"
+		override_sprite = "GFX_SOV_LAMP_tu_2t"
+		history = yes
+		
+		priority = {
+			factor = 100
+			modifier = { 
+				has_tech = improved_medium_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}
+		target_variant = {
+			match_value = 2000
+			type = medium_plane_naval_bomber_airframe_3
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_engine_mod_slot = supercharger
+				fixed_main_weapon_slot = { any_of = { torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				fixed_auxiliary_weapon_slot_1 = { any_of = { torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				fixed_tail_modifications_slot = twin_tail
+				engine_type_slot = engine_4_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_medium
+				special_type_slot_2 = hmg_defense_gunner_3x
+				special_type_slot_3 = lmg_defense_gunner_2x
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+			self_sealing_fuel_tanks_small
+			high_octane_fuel
+			air_ground_radar_1
+			air_ground_radar_2
+			air_ground_radar_3
+			air_ground_radar_4
+		}
+	}	
+		
+	naval_bomber_6 = {	
+	
+		name = "Be-6"
+		override_sprite = "GFX_SOV_LAMP_be_6"
+		history = yes
+		
+		priority = {
+			factor = 10
+		}
+		target_variant = {
+			match_value = 5000
+			type = medium_plane_naval_bomber_airframe_6
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_engine_mod_slot = turbocharger
+				fixed_radar_slot = air_ground_radar_4
+				fixed_main_weapon_slot = { any_of = { guided_anti_ship_missile_2 guided_anti_ship_missile torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				fixed_auxiliary_weapon_slot_1 = { any_of = { guided_anti_ship_missile_2 guided_anti_ship_missile torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				fixed_tail_modifications_slot = twin_tail
+				fixed_electronics_slot = basic_radar_jammer
+				engine_type_slot = radial_engine_5_2x
+				special_type_slot_1 = flying_boat_medium
+				special_type_slot_2 = self_sealing_fuel_tanks_medium
+				special_type_slot_3 = sonobuoys_1
+				special_type_slot_4 = mad_1
+				special_type_slot_5 = hmg_defense_turret_4x
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+			self_sealing_fuel_tanks_small
+			high_octane_fuel
+			air_ground_radar_1
+			air_ground_radar_2
+			air_ground_radar_3
+			air_ground_radar_4
+		}
+	}	
+		
+	naval_bomber_6_b = {	
+	
+		name = "Tu-14T"
+		override_sprite = "GFX_SOV_LAMP_tu_14t"
+		history = yes
+		
+		priority = {
+			factor = 10
+		}
+		target_variant = {
+			match_value = 5000
+			type = medium_plane_naval_bomber_airframe_6
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_radar_slot = air_ground_radar_4
+				fixed_fuel_type_slot = empty
+				fixed_main_weapon_slot = { any_of = { guided_anti_ship_missile_3 guided_anti_ship_missile_2 torpedo_mounting_3 } }
+				#fixed_auxiliary_weapon_slot_1 = { any_of = { guided_anti_ship_missile_2 guided_anti_ship_missile torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				engine_type_slot = second_gen_jet_engine_2x
+				special_type_slot_1 = fuel_tanks_medium
+				special_type_slot_2 = cannon_defense_turret_2
+				special_type_slot_3 = armor_plate_medium
+				special_type_slot_4 = self_sealing_fuel_tanks_medium	
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+			self_sealing_fuel_tanks_small
+			high_octane_fuel
+			air_ground_radar_1
+			air_ground_radar_2
+			air_ground_radar_3
+			air_ground_radar_4
+		}
+	}	
+		
+	naval_bomber_7 = {	
+	
+		name = "Be-10"
+		override_sprite = "GFX_SOV_Be_10"
+		history = yes
+		
+		priority = {
+			factor = 10
+		}
+		target_variant = {
+			match_value = 6000
+			type = medium_plane_naval_bomber_airframe_7
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_engine_mod_slot = afterburner
+				fixed_radar_slot = air_ground_radar_4
+				fixed_main_weapon_slot = { any_of = { guided_anti_ship_missile_3 guided_anti_ship_missile_2  } }
+				fixed_auxiliary_weapon_slot_1 = { any_of = { guided_anti_ship_missile_3 guided_anti_ship_missile_2  } }
+				fixed_electronics_slot = basic_radar_jammer
+				engine_type_slot = second_gen_jet_engine_2x
+				special_type_slot_1 = flying_boat_medium
+				special_type_slot_2 = self_sealing_fuel_tanks_medium
+				special_type_slot_3 = cannon_defense_gunner_1_2x
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+			self_sealing_fuel_tanks_small
+			high_octane_fuel
+			air_ground_radar_1
+			air_ground_radar_2
+			air_ground_radar_3
+			air_ground_radar_4
+		}
+	}	
+		
+	naval_bomber_8 = {	
+	
+		name = "Be-12"
+		override_sprite = "GFX_SOV_Be_12"
+		history = yes
+		
+		priority = {
+			factor = 10
+		}
+		target_variant = {
+			match_value = 7000
+			type = medium_plane_naval_bomber_airframe_8
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_radar_slot = air_ground_radar_5
+				fixed_main_weapon_slot = { any_of = { guided_anti_ship_missile_4 guided_anti_ship_missile_3 } }
+				#fixed_auxiliary_weapon_slot_1 = { any_of = { guided_anti_ship_missile_2 guided_anti_ship_missile torpedo_mounting_3 torpedo_mounting_2 torpedo_mounting } }
+				fixed_electronics_slot = improved_radar_jammer
+				engine_type_slot = turboprop_engine_2x
+				special_type_slot_1 = flying_boat_medium
+				special_type_slot_2 = self_sealing_fuel_tanks_medium
+				special_type_slot_3 = mad_2
+				special_type_slot_4 = sonobuoys_2
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+			self_sealing_fuel_tanks_small
+			high_octane_fuel
+			air_ground_radar_1
+			air_ground_radar_2
+			air_ground_radar_3
+			air_ground_radar_4
+		}
+	}	
+}
+
+SOV_recon = {
+	category = air
+
+	blocked_for = {}
+
+	available_for = {SOV}
+
+	roles = {
+		air_recon		
+	}
+	
+	priority = {
+		factor = 10		
+	}
+	
+	light_recon_1 = { 
+	
+		name = "Po-2"
+		override_sprite = "GFX_SOV_Po_2"
+		history = yes
+		
+		priority = {
+			factor = 10
+		}
+		target_variant = {
+			match_value = 100
+			type = small_plane_scout_plane_airframe_0
+			modules = {
+				fixed_wing_slot = biplane_wing
+				fixed_main_weapon_slot = recon_camera
+				engine_type_slot = radial_engine_1_1x
+				special_type_slot_1 = lmg_defense_gunner
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+			self_sealing_fuel_tanks_small
+			high_octane_fuel
+			air_ground_radar_1
+			air_ground_radar_2
+			air_ground_radar_3
+			air_ground_radar_4
+		}
+	}	
+	
+	light_recon_1_b = {
+	
+		name = "R-5"
+		override_sprite = "GFX_SOV_LAMP_r_5"
+		history = yes
+		
+		priority = {
+			factor = 10
+		}
+		target_variant = {
+			match_value = 100
+			type = small_plane_scout_plane_airframe_0
+			modules = {
+				fixed_wing_slot = biplane_wing
+				fixed_main_weapon_slot = recon_camera
+				engine_type_slot = engine_1_1x
+				special_type_slot_1 = lmg_defense_gunner
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+			self_sealing_fuel_tanks_small
+			high_octane_fuel
+			air_ground_radar_1
+			air_ground_radar_2
+			air_ground_radar_3
+			air_ground_radar_4
+		}
+	}	
+	
+	light_recon_2 = {	
+	
+		name = "R-10"
+		override_sprite = "GFX_SOV_LAMP_r_10"
+		history = yes
+		
+		priority = {
+			factor = 10
+		}
+		target_variant = {
+			match_value = 200
+			type = small_plane_scout_plane_airframe_1
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_main_weapon_slot = recon_camera
+				engine_type_slot = radial_engine_1_1x
+				special_type_slot_1 = twin_lmg_defense_gunner
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+			self_sealing_fuel_tanks_small
+			high_octane_fuel
+			air_ground_radar_1
+			air_ground_radar_2
+			air_ground_radar_3
+			air_ground_radar_4
+		}
+	}	
+	
+	light_recon_2 = { 	
+	
+		name = "Yak-2"
+		override_sprite = "GFX_SOV_LAMP_yak_2"
+		history = yes
+		
+		priority = {
+			factor = 10
+		}
+		target_variant = {
+			match_value = 300
+			type = small_plane_scout_plane_airframe_2
+			modules = {
+				fixed_wing_slot = straight_wing
+				fixed_main_weapon_slot = recon_camera
+				engine_type_slot = engine_3_2x
+				special_type_slot_1 = twin_lmg_defense_gunner
+			}
+		}
+		allowed_modules = {
+			torpedo_mounting
+			engine_2_1x
+			straight_wing
+			radial_engine_2_1x
+			nav_bomber_weapon
+			fuel_tanks_small
+			self_sealing_fuel_tanks_small
+			high_octane_fuel
+			air_ground_radar_1
+			air_ground_radar_2
+			air_ground_radar_3
+			air_ground_radar_4
+		}
+	}	
+	
+	light_recon_5 = {
+	
+		name = "Mig-15bisR"
+		history = yes
+		override_sprite = "GFX_SOV_LAMP_mig_15bisr"
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 5000
+			type = small_plane_scout_plane_airframe_5
+			modules = {
+				fixed_wing_slot = swept_wing
+				fixed_optics_slot = {
+					any_of = { 
+						gyro_gunsight 
+						reflex_gunsight 
+					}
+				}
+				fixed_main_weapon_slot = recon_camera
+				fixed_auxiliary_weapon_slot_2 = drop_tanks
+				engine_type_slot = jet_engine_2_1x
+				special_type_slot_2 = self_sealing_fuel_tanks_small
+				special_type_slot_3 = armor_plate_small
+				special_type_slot_4 = fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			g_suit_type
+		}
+	}
+	
+	light_recon_5 = {
+	
+		name = "M-17"
+		history = yes
+		override_sprite = "GFX_SOV_M_17b"
+		priority = {
+			factor = 100
+		}
+
+		target_variant = {
+			match_value = 5000
+			type = small_plane_scout_plane_airframe_7
+			modules = {
+				fixed_wing_slot = high_altitude_straight_wing
+				fixed_main_weapon_slot = recon_camera
+				fixed_auxiliary_weapon_slot_1 = wet_wing
+				fixed_tail_modifications_slot = twin_boom
+				fixed_electronics_slot = improved_radar_jammer
+				engine_type_slot = second_gen_jet_engine_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_small
+				special_type_slot_2 = fuel_tanks_small
+				special_type_slot_3 = fuel_tanks_small
+				special_type_slot_4 = fuel_tanks_small
+				special_type_slot_5 = fuel_tanks_small
+				special_type_slot_6 = fuel_tanks_small
+			}
+		}
+
+		allowed_modules = { 
+			aircraft_cannon_2_2x
+			aircraft_cannon_1_2x
+			jet_engine_2x
+			armor_plate_small
+			straight_wing
+			plane_optics
+			reflex_gunsight
+			heavy_mg_4x
+			heavy_mg_2x
+			drop_tanks
+			bomb_locks
+			rocket_rails
+			g_suit_type
+		}
+	}
+}

@@ -1,0 +1,3715 @@
+#SHIPS 
+default = {	
+	ship_hull_carrier = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CVH/GER_CVH_1_HC800.png"
+				"gfx/interface/equipmentdesigner/ships/JAP/CVH/JAP_CVH_1_Hyuga.png"
+				"gfx/interface/equipmentdesigner/ships/JAP/CVH/JAP_CVH_1_Shirane.png"
+				"gfx/interface/equipmentdesigner/ships/JAP/CVH/JAP_CVH_1_Haruna.png"
+				"gfx/interface/equipmentdesigner/ships/SOV/CVH/SOV_CVH_1_Kiev.png"
+				"gfx/interface/equipmentdesigner/ships/SOV/CVH/SOV_CVH_1_Moskva.png"
+				"gfx/interface/equipmentdesigner/ships/ENG/CVH/ENG_CVH_1_Bulwark.png"
+				"gfx/interface/equipmentdesigner/ships/FRA/CVH/FRA_CVH_1_Jeanne_DArc.png"
+				"gfx/interface/equipmentdesigner/ships/ITA/CVH/ITA_CVH_1_Vittorio_Veneto.png"
+				"gfx/interface/equipmentdesigner/ships/ITA/CVH/ITA_CVH_1_Andrea_Doria.png"
+				"gfx/interface/equipmentdesigner/ships/USA/CVH/USA_CVH_1_Iwo_Jima.png"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_1_BB_Independence.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_1_BB_Lexington.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_BB_Shinano.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_BB_Akagi.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_BB_Kaga.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_1_BB_Izmail.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_BB_Grossflugzeugkreuzer_A.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_BB_Bismarck_conversion.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_BB_Jade.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_1_BB_Eagle.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_1_BB_Courageous.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_1_BB_Francesco_Caracciolo.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_1_BB_Bonfiglietti_design.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_1_BB_Béarn.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_1_CA_Saipan.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_CA_Chitose.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_CA_Ibuki.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_CA_Ryuho.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_Hosho.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_Ryūjō.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_CA_Zuiho.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_1_CA_Frunze.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_CA_Ausonia.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_CA_Seydlitz.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_1_CA_Hermes.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_1_CA_Sparviero.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_1_CA_Duquesne.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_2_Yorktown.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_2_Ranger.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_2_Sōryū.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_2_Hiryū.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_2_Project_71.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_2_Flugzeugtrager_15k.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_2_Ark_Royal.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_2_Aquila.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_2_Joffre.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_3_Wasp.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_3_Essex.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_3_Taiho.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_3_Shokaku.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_3_Kostromitinov.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_3_Graf_Zeppelin.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_3_Illustrious.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_3_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_3_Painlévé.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_4_Midway.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_4_Kai_Taiho.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_4_Unryu.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_4_Project_72.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_4_Europa.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_4_Malta.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_4_Implacable.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_4_Colossus.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_4_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_4_Jean_Bart.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_5_United_States.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_5_Hayataka.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_5_Project_69AV.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_5_fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_5_Majestic.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_5_Audacious.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_5_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_5_PA28.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_6_Forrestal.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_6_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_6_Project_85.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_6_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_6_Centaur.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_6_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_6_Clemenceau.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_7_Enterprise.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_7_Kitty_Hawk.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_7_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_7_Oryol.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_7_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_7_Queen_Elizabeth.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_7_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_7_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_7_PA58.dds"
+			}
+		}
+		pool = {
+			models = { 
+				carrier_entity
+				ship_hull_super_carrier_entity
+			 }
+		}
+	}
+	ship_hull_mega_carrier = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CVH/GER_CVH_1_HC800.png"
+				"gfx/interface/equipmentdesigner/ships/JAP/CVH/JAP_CVH_1_Hyuga.png"
+				"gfx/interface/equipmentdesigner/ships/JAP/CVH/JAP_CVH_1_Shirane.png"
+				"gfx/interface/equipmentdesigner/ships/JAP/CVH/JAP_CVH_1_Haruna.png"
+				"gfx/interface/equipmentdesigner/ships/SOV/CVH/SOV_CVH_1_Kiev.png"
+				"gfx/interface/equipmentdesigner/ships/SOV/CVH/SOV_CVH_1_Moskva.png"
+				"gfx/interface/equipmentdesigner/ships/ENG/CVH/ENG_CVH_1_Bulwark.png"
+				"gfx/interface/equipmentdesigner/ships/FRA/CVH/FRA_CVH_1_Jeanne_DArc.png"
+				"gfx/interface/equipmentdesigner/ships/ITA/CVH/ITA_CVH_1_Vittorio_Veneto.png"
+				"gfx/interface/equipmentdesigner/ships/ITA/CVH/ITA_CVH_1_Andrea_Doria.png"
+				"gfx/interface/equipmentdesigner/ships/USA/CVH/USA_CVH_1_Iwo_Jima.png"
+			}
+		}
+		pool = {
+			models = { 
+				carrier_entity
+			 }
+		}
+	}
+	fleet_oiler_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/FO/USA_FO_1_Kaweah.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/FO/JAP_FO_1_Kazahaya.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/FO/SOV_FO_1_Polyarnik.dds"
+			}
+		}
+	}	
+	fleet_oiler_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/FO/USA_FO_2_Cimarron.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/FO/SOV_FO_2_Khobi.dds"
+			}
+		}
+	}		
+	fleet_oiler_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/FO/USA_FO_3_Neosho.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/FO/JAP_FO_3_Aikoku_Maru.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/FO/GER_FO_3_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/FO/FRA_FO_3_Durance.dds"
+			}
+		}
+	}
+	ship_hull_light_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_1_Caldwell.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_1_Clemson.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_1_Wickes.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_1_Farragut.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Mutsuki.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Minekaze.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Kamikaze.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Hatsuharu.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Fubuki.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Akatsuki.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_1_Fidonisi.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_1_Zerstorer_1934.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_1_V_and_W.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_1_S.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_1_Town.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_1_A_and_B.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_1_E_and_F.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_1_Navigatori.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_1_Folgore.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_1_Freccia.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_1_Bourrasque.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_1_Guepard.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_1_Vauquelin.dds"
+			}
+		}
+	}
+	ship_hull_light_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_2_Bagley.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_2_Benham.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_2_Mahan.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_2_Porter.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_2_Sims.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_2_Somers.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_2_Shiratsuyu.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_2_Asashio.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_2_Gnenvy.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_2_Leningrad.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_2_Zerstorer_1938.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_2_Zerstorer_1936.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_2_Tribal.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_2_J_K_and_N.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_2_I_class.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_2_G_and_H.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_2_Soldati.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_2_Alfredo_Oriani.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_2_Le_Fantasque.dds"
+			}
+		}
+	}
+	ship_hull_light_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_3_Allen_M_Sumner.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_3_Benson.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_3_Fletcher.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_3_Gleaves.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_3_Yugumo.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_3_Shimakaze.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_3_Kagero.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_3_Akizuki.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_3_Ognevoy.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_3_Storozhevoy.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_3_Tashkent.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_3_Zerstorer_1942.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_3_O_and_P.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_3_L_and_M.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_3_C_class.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_3_Hunt.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_3_Ansaldo_1939_design.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_3_Mogador.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_3_Le_Hardi.dds"
+			}
+		}
+	}
+	ship_hull_light_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_4_Gearing.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_4_Shimakaze_Kai.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_4_Matsu.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_4_Akizuki_Kai.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_4_Kiev.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_4_Zerstorer_1945.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_4_Zerstorer_1944.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_4_Weapon.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_4_Battle.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_4_Comandanti_Medaglia_d'Oro.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_4_Project_148A.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_4_Improved_Mogador.dds"
+			}
+		}
+	}
+	ship_hull_light_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_5_Norfolk.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_5_Mitscher.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_5_Harukaze.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_5_Skoryi.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_5_Koln.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_5_Daring.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_5_San_Giorgio.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_5_T_47.dds"
+			}
+		}
+	}
+	ship_hull_light_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_6_Forrest_Sherman.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_6_Ayanami.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_6_Akizuki.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_6_Neustrashimy.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_6_Kotlin.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_6_Hamburg.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_6_Super_Daring.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_6_Impetuoso.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_6_T_53.dds"
+			}
+		}
+	}
+	ship_hull_light_converted_missile = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/DDGC/USA_DDG_1_Forrest_Sherman.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DDGC/JAP_DDG_1_Amatsukaze.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/DDGC/SOV_DDG_1_Kildin.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/DDGC/GER_DDG_1_Hamburg.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DDGC/ENG_DDG_1_Daring_Conversion.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/DDGC/ITA_DDG_1_Impetuoso.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/DDGC/FRA_DDG_1_T_56.dds"
+			}
+		}
+	}
+	ship_hull_light_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_7_Farragut.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_7_Charles_F_Adams.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_7_Takatsuki.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_7_Kashin.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_7_Kanin.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_7_Lutjens.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_7_GW24.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_7_County.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_7_Impavido.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_7_Suffren.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_1_Omaha.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_1_Northampton.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_1_Pensacola.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_1_Portland.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_1_Yubari.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_1_Tenryu.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_1_Sendai.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_1_Nagara.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_1_Kuma.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_1_Furutaka.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_1_Aoba.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_1_Myoko.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_1_Takao.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_1_Krasnyi_Kavkaz.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_1_Admiral_Nakhimov.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_1_Svetlana.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_1_D_class.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_1_Emdem.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_1_Konigsberg.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_1_York.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_1_Hawkins.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_1_County.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_1_Arethusa.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_1_C_class.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_1_Danae.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_1_Emerald.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_1_Leander.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_1_Trento.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_1_Bolzano.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_1_Condottieri.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_1_Suffren.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_1_Duquesne.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_1_Jeanne_DArc.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_1_Duguay_Trouin.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_2_Brooklyn.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_2_St_Louis.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_2_New_Orleans.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_2_Kumano_AA_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_2_C_39.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_2_Suzuya_AA_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_2_Tone.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_2_Mogami.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_2_Project_26bis.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_2_Kirov.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_2_Admiral_Hipper.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_2_Spähkreuzer_1938.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_2_Leipzig.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_2_Design_II_Armoured_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_2_Design_I_Armoured_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_2_Town.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_2_Dido.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_2_Ansaldo_Project_770.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_2_Zara.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_2_Capitani_Romani.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_2_Algerie.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_2_La_Galissoriere.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_2_Emile_Bertin.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_3_Cleveland.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_3_Oakland.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_3_Wichita.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_3_Oyodo.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_3_Fictional_AA.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_3_Agano.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_3_Zao.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_3_Project_Kh.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_3_Project_68I.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_3_Chapayev.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_3_P_class.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_3_Eendracht.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_3_M_class.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_3_Design_A_Heavy_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_3_Fiji.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_3_Ansaldo_UP102.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_3_OTO_Scout_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_3_Etna.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_3_C5SA1.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_3_De_Grasse.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_4_Fargo.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_4_Juneau.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_4_Oregon_City.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_4_Baltimore.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_4_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_4_Agano_Kai.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_4_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_4_Project_83I.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_4_Project_94.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_4_Handelszerstörer_Entwurf_III.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_4_Motorkreuzer_1938.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_4_Churchill_Design_E.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_4_Minotaur_1943.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_4_Neptune.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_4_Ansaldo_9x203.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_4_Ansaldo_12x152.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_4_Saint_Louis.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_4_De_Grasse_Late.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_5_CL_154.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_5_Worcester.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_5_S_511_64.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_5_Des_Moines.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_5_Fictional_2.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_5_Fictional_1.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_5_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_5_Project_82.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_5_Sverdlov.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_5_Handelszerstörer_KIG.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_5_Q_class.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_5_Admiral.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_5_Minotaur.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_5_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_5_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_5_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_5_De_Grasse_Rebuild.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_6_Galveston.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_6_Providence.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_6_Boston.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_6_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_6_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_6_Project_66.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_6_Project_65.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_6_fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_6_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_6_GW1.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_6_Tiger.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_6_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_6_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_6_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_6_Colbert.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_7_Bainbridge.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_7_Belknap.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_7_Leahy.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_7_Albany.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_7_Long_Beach.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_7_Fictional_2.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_7_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_7_Fictional_2.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_7_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_7_Project_1126.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_7_Project_68U2.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_7_Kynda.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_7_fictional_CAG.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_7_Fictional_CLG.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_7_GW95.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_7_Tiger_CLG.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_7_GW96.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_7_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_7_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_7_Duca_degli_Abruzzi_CLG.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_7_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_7_Colbert_CLG.dds"
+			}
+		}
+	}
+	ship_hull_pre_dreadnought = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_0_Deutschland.dds"
+			}
+		}
+	}
+	ship_hull_heavy = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_1_Lexington.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Wyoming_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Tennessee_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Pennsylvania_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_New_York_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_New_Mexico_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Nevada_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Colorado_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_South_Dakota_class.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_1_Amagi.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_1_Kongo.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Kongo.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Kawachi.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Fusō.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Fusō_pre37.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Ise.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Nagato.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Nagato_late.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Tosa.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Kii.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_No13_Design_M.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_1_Izmail.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_1_Marat.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_1_Schlachtkreuzer_1928.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_1_L28.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_1_Admiral.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_1_Renown.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_1_Hood.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_1_G3.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_King_George_V.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_Iron_Duke.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_Queen_Elizabeth.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_Revenge.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_Nelson.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_1_OTO_Livorno_23K.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_1_Caio_Duilio.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_1_Conti_di_Cavour.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_1_37000-tonnes_B1.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_1_Courbet.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_1_Bretagne.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_2_Design_8_Cruiser_Killer.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_2_1938_proposal.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_BB_55_Scheme_B.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_BB_55_Scheme_C.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_BB_55_Scheme_D.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_South_Dakota.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_North_Carolina.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_2_1929_30000T.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_2_Design_X.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_2_Kronshtadt.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_2_Project_21.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_2_Scharnhorst_28cm_B.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_2_Scharnhorst_28cm.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_2_Scharnhorst.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_2_Scharnhorst_38cm.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_2_10in_Large_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_2_King_George_V.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_2_OTO_Livorno_26.5K.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_2_Littorio.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_2_Dunkerque.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_2_Richelieu.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_3_CA_2D.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_3_S_511_6.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_3_Iowa.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_3_B_65_late.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_3_B_65_early.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_3_A_140D.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_3_Project_22.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_3_UP_41.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_3_Schlachtschiff_F.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_3_Bismarck.dds.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_3_12in_Large_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_3_Lion.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_3_Ansaldo_Big_Gun_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_3_Ansaldo_UP41.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_3_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_3_Alsace_design_3.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_4_Alaska.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_4_Kentucky_AA_BB.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_4_Missouri.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_4_fictional_B_65_refit.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_4_A_140J3.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_4_Stalingrad.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_4_Type_A_KB_4_Project_23.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_4_Schlachtkreuzer_O.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_4_H_39.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_4_Design_14A_38.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_4_Vanguard.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_4_Pansarskepp_Ansaldo.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_4_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_4_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_4_Alsace_final_design.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_5_Hawaii_BCG_Conversion.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_5_Kentucky_BBG.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_5_B_65_BCG_Conversion.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_5_fictional_BBG.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_5_Stalingrad_BCG.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_5_Sovetsky_Soyuz_BBG.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_5_Schlachtkreuzer_P_BCG.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_5_H_39_BBG.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_5_Lion_BBG_Conversion.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_5_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_5_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_5_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_5_Fictional.dds"
+			}
+		}
+	}
+	ship_hull_heavy_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_1_Lexington.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Wyoming_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Tennessee_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Pennsylvania_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_New_York_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_New_Mexico_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Nevada_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Colorado_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_South_Dakota_class.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_1_Amagi.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_1_Kongo.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Kongo.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Kawachi.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Fusō.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Fusō_pre37.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Ise.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Nagato.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Nagato_late.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Tosa.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Kii.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_No13_Design_M.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_1_Izmail.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_1_Marat.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_1_Schlachtkreuzer_1928.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_1_L28.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_1_Admiral.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_1_Renown.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_1_Hood.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_1_G3.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_King_George_V.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_Iron_Duke.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_Queen_Elizabeth.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_Revenge.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_Nelson.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_1_OTO_Livorno_23K.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_1_Caio_Duilio.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_1_Conti_di_Cavour.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_1_37000-tonnes_B1.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_1_Courbet.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_1_Bretagne.dds"
+			}
+		}
+	}
+	ship_hull_heavy_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_2_Design_8_Cruiser_Killer.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_2_1938_proposal.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_BB_55_Scheme_B.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_BB_55_Scheme_C.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_BB_55_Scheme_D.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_South_Dakota.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_North_Carolina.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_2_1929_30000T.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_2_Design_X.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_2_Kronshtadt.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_2_Project_21.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_2_Scharnhorst_28cm_B.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_2_Scharnhorst_28cm.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_2_Scharnhorst.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_2_Scharnhorst_38cm.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_2_10in_Large_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_2_King_George_V.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_2_OTO_Livorno_26.5K.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_2_Littorio.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_2_Dunkerque.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_2_Richelieu.dds"
+			}
+		}
+	}
+	ship_hull_heavy_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_3_CA_2D.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_3_S_511_6.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_3_Iowa.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_3_B_65_late.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_3_B_65_early.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_3_A_140D.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_3_Project_22.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_3_UP_41.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_3_Schlachtschiff_F.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_3_Bismarck.dds.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_3_12in_Large_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_3_Lion.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_3_Ansaldo_Big_Gun_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_3_Ansaldo_UP41.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_3_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_3_Alsace_design_3.dds"
+			}
+		}
+	}
+	ship_hull_heavy_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_4_Alaska.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_4_Kentucky_AA_BB.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_4_Missouri.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_4_fictional_B_65_refit.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_4_A_140J3.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_4_Stalingrad.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_4_Type_A_KB_4_Project_23.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_4_Schlachtkreuzer_O.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_4_H_39.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_4_Design_14A_38.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_4_Vanguard.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_4_Pansarskepp_Ansaldo.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_4_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_4_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_4_Alsace_final_design.dds"
+			}
+		}
+	}
+	ship_hull_heavy_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_5_Hawaii_BCG_Conversion.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_5_Kentucky_BBG.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_5_B_65_BCG_Conversion.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_5_fictional_BBG.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_5_Stalingrad_BCG.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_5_Sovetsky_Soyuz_BBG.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_5_Schlachtkreuzer_P_BCG.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_5_H_39_BBG.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_5_Lion_BBG_Conversion.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_5_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_5_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_5_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_5_Fictional.dds"
+			}
+			models = {
+				ship_hull_modern_super_battleship_entity
+			}
+		}
+	}
+	ship_hull_super_heavy = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_SHBB_1_Montana.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_SHBB_1_BB_57_Study_II.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_SHBB_1_Yamato.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_SHBB_1_Project_23_final_design.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_SHBB_1_H_40.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_SHBB_1_Design_O3.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_SHBB_1_Cassone_design.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_SHBB_1_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_SHBB_2_Montana_2.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_SHBB_2_A_150.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_SHBB_2_Project_24.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_SHBB_2_H_41.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_SHBB_2_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_SHBB_2_fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_SHBB_2_fictional.dds"
+			}
+		}
+	}
+	ship_hull_super_heavy_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_SHBB_1_Montana.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_SHBB_1_BB_57_Study_II.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_SHBB_1_Yamato.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_SHBB_1_Project_23_final_design.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_SHBB_1_H_40.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_SHBB_1_Design_O3.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_SHBB_1_Cassone_design.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_SHBB_1_Fictional.dds"
+			}
+		}
+	}
+	ship_hull_super_heavy_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_SHBB_2_Montana_2.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_SHBB_2_A_150.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_SHBB_2_Project_24.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_SHBB_2_H_41.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_SHBB_2_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_SHBB_2_fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_SHBB_2_fictional.dds"
+			}
+		}
+	}
+	ship_hull_submarine_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_1_S.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_1_Porpoise.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_1_Barracuda.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_1_Cachalot.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_1_I_51_Kaidai.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_1_Schuka.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_1_Leninets.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_1_Dekabrist.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_1_Type_II.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_1_Grampus.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_1_S_class.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_1_River.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_1_O_class.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/SS/ITA_SS_1_Argonauta.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Saphir.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Requin.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Redoutable.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Orion.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Diane.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Argonaute.dds"
+			}
+		}
+	}
+	ship_hull_submarine_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_2_Tambor.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_2_Salmon.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_2_Type_B.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_2_S_class.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_2_Type_VII.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_2_U_class.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_2_T_class.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/SS/ITA_SS_2_Perla.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_2_Minerve.dds"
+			}
+		}
+	}
+	ship_hull_submarine_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_3_Mackarel.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_3_Balao.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_3_Gato.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_3_Type_C.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_3_Ro_100.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_3_S_class_XI_Series.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_3_Type_IX.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_3_V_class.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_3_Aurore.dds"
+			}
+		}
+	}
+	ship_hull_submarine_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_4_Tench.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_4_I_201.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_4_Ha_201.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_4_Whiskey.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_4_Type_XXI.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_4_Amphion.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/SS/ITA_SS_4_Flutto.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_4_Narval.dds"
+			}
+		}
+	}
+	ship_hull_submarine_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_5_Barracuda.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_5_Tang.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_5_Oyashio.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_5_Zulu.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_5_Quebec.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_5_Type_XXIII.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_5_Explorer.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/SS/ITA_SS_5_Toti.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_5_Aréthuse.dds"
+			}
+		}
+	}
+	ship_hull_submarine_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/SSG/USA_SSG_1_Grayback.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SSG/USA_SSG_1_Halibut.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SSG/USA_SSG_1_George_Washington.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_6_Seawolf.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_6_Nautilus.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_6_Barbel.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_6_Darter.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SSG/JAP_SSG_1_Fictional_B.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SSG/JAP_SSG_1_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_6_Hayashio.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SSG/SOV_SSG_1_Juliett.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_6_November.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_6_Romeo.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_6_Foxtrot.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/SSG/GER_SSG_1_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_6_Type_CCIX.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_6_Type_CCVI.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_6_Type_CCV.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SSG/ENG_SSG_1_Resolution.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_6_Dreadnought.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_6_Oberon.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/SSG/ITA_SSG_1_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/SS/ITA_SS_6_Sauro.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SSG/FRA_SSG_1_Redoutable.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_6_Daphné.dds"
+			}
+			models = {
+				ship_hull_nuclear_powered_submarine_entity
+			}
+		}
+	}
+	ship_hull_carrier_conversion_bb = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_1_BB_Independence.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_1_BB_Lexington.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_BB_Shinano.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_BB_Akagi.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_BB_Kaga.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_1_BB_Izmail.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_BB_Grossflugzeugkreuzer_A.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_BB_Bismarck_conversion.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_BB_Jade.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_1_BB_Eagle.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_1_BB_Courageous.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_1_BB_Francesco_Caracciolo.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_1_BB_Bonfiglietti_design.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_1_BB_Béarn.dds"
+			}
+		}
+	}
+	ship_hull_carrier_conversion_ca = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_1_CA_Saipan.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_CA_Chitose.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_CA_Ibuki.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_CA_Ryuho.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_Hosho.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_Ryūjō.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_CA_Zuiho.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_1_CA_Frunze.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_CA_Ausonia.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_CA_Seydlitz.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_1_CA_Hermes.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_1_CA_Sparviero.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_1_CA_Duquesne.dds"
+			}
+		}
+	}
+	ship_hull_carrier_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_2_Yorktown.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_2_Ranger.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_2_Sōryū.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_2_Hiryū.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_2_Project_71.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_2_Flugzeugtrager_15k.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_2_Ark_Royal.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_2_Aquila.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_2_Joffre.dds"
+			}
+		}
+	}
+	ship_hull_carrier_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_3_Wasp.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_3_Essex.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_3_Taiho.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_3_Shokaku.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_3_Kostromitinov.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_3_Graf_Zeppelin.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_3_Illustrious.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_3_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_3_Painlévé.dds"
+			}
+		}
+	}
+	ship_hull_carrier_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_4_Midway.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_4_Kai_Taiho.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_4_Unryu.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_4_Project_72.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_4_Europa.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_4_Malta.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_4_Implacable.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_4_Colossus.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_4_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_4_Jean_Bart.dds"
+			}
+		}
+	}
+	ship_hull_carrier_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_5_United_States.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_5_Hayataka.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_5_Project_69AV.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_5_fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_5_Majestic.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_5_Audacious.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_5_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_5_PA28.dds"
+			}
+		}
+	}
+	ship_hull_carrier_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_6_Forrestal.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_6_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_6_Project_85.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_6_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_6_Centaur.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_6_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_6_Clemenceau.dds"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_carrier_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_7_Enterprise.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_7_Kitty_Hawk.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_7_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_7_Oryol.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_7_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_7_Queen_Elizabeth.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_7_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_7_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_7_PA58.dds"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_torpedo_cruiser = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CT/USA_CT_1_Torpedo_Atlanta.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CT/JAP_CT_1_Kitakami.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CT/SOV_CT_1_Kirov_Torpedo_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CT/GER_CT_1_Torpedo_Spähkreuzer_1938.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CT/ENG_CT_1_Danae_Torpedo.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CT/ITA_CT_1_Capitani_Romani_Torpedo.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CT/FRA_CT_1_Emile_Bertin_Torpedo.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_panzerschiff = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/PzSc/USA_PsSc_1_S_511_14.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/PzSc/JAP_PzSc_1_Yuzuru_20KT_Var_B.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/PzSc/SOV_PzSc_1_Project_X.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/PzSc/GER_PzSc_Deutschland.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/PzSc/ENG_PzSc_1_Lilicrap_20K.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/PzSc/ITA_1_PsSC_Ansaldo_UP_707.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/PzSc/FRA_PzSc_1_Croiseur_Protégé_de_23690.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/SSC/USA_SSC_1_Narwhal.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SSC/JAP_SSC_1_Type_A.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SSC/JAP_SSC_1_Junsen.dds"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_2_Type_B.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SSC/SOV_SSC_1_K_class.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/SSC/GER_SSC_1_Type_XI.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SSC/ENG_SSC_1_X1_class.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/SSC/ITA_SSC_1_Ettore_Fieramosca.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SSC/FRA_SSC_1_Surcouf.dds"
+			}
+		}
+	}
+	ship_hull_midget_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/SSM/USA_MSS_1_O_class.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SSM/JAP_SSM_1_Type_A.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SSM/JAP_SSM_1_Kairyū.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SSM/SOV_SSM_1_Malyutka.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SSM/SOV_SSM_1_M_400_Blokha.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/SSM/GER_SSM_1_Biber.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SSM/ENG_SSM_1_X_class.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/SSM/ITA_SSM_1_CB.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SSM/FRA_SSM_1_S_622_Seehund.dds"
+			}
+		}
+	}
+	ship_hull_tanker_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/SST/USA_SST_1_Guavina.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SST/JAP_SST_1_I_351.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SST/JAP_SST_1_I_361.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SST/SOV_SST_1_Pravda.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/SST/GER_SST_1_Type_XIV.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SST/ENG_SST_1_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/SST/ITA_SST_1_1934_Tanker_design.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SST/FRA_SST_1_Surcouf_tanker.dds"
+			}
+		}
+	}
+}
+
+USA = {
+	ship_hull_mega_carrier = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CVH/USA_CVH_1_Iwo_Jima.png"
+			}
+		}
+	}
+	fleet_oiler_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/FO/USA_FO_1_Kaweah.dds"
+			}
+		}
+	}	
+	fleet_oiler_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/FO/USA_FO_2_Cimarron.dds"
+			}
+		}
+	}		
+	fleet_oiler_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/FO/USA_FO_3_Neosho.dds"
+			}
+		}
+	}
+	ship_hull_light_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_1_Caldwell.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_1_Clemson.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_1_Wickes.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_1_Farragut.dds"
+			}
+		}
+	}
+	ship_hull_light_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_2_Bagley.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_2_Benham.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_2_Mahan.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_2_Porter.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_2_Sims.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_2_Somers.dds"
+			}
+		}
+	}
+	ship_hull_light_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_3_Allen_M_Sumner.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_3_Benson.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_3_Fletcher.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_3_Gleaves.dds"
+			}
+		}
+	}
+	ship_hull_light_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_4_Gearing.dds"
+			}
+		}
+	}
+	ship_hull_light_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_5_Norfolk.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_5_Mitscher.dds"
+			}
+		}
+	}
+	ship_hull_light_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_6_Forrest_Sherman.dds"
+			}
+		}
+	}
+	ship_hull_light_converted_missile = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/DDGC/USA_DDG_1_Forrest_Sherman.dds"
+			}
+		}
+	}
+	ship_hull_light_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_7_Farragut.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/DD/USA_DD_7_Charles_F_Adams.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_1_Omaha.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_1_Northampton.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_1_Pensacola.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_1_Portland.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_2_Brooklyn.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_2_St_Louis.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_2_New_Orleans.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_3_Cleveland.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_3_Oakland.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_3_Wichita.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_4_Fargo.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_4_Juneau.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_4_Oregon_City.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_4_Baltimore.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_5_CL_154.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_5_Worcester.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_5_S_511_64.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_5_Des_Moines.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_6_Galveston.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_6_Providence.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_6_Boston.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_7_Bainbridge.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_7_Belknap.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CL/USA_CL_7_Leahy.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_7_Albany.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CA/USA_CA_7_Long_Beach.dds"
+			}
+		}
+	}
+	ship_hull_heavy_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_1_Lexington.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Wyoming_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Tennessee_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Pennsylvania_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_New_York_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_New_Mexico_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Nevada_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_Colorado_class.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_1_South_Dakota_class.dds"
+			}
+		}
+	}
+	ship_hull_heavy_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_2_Design_8_Cruiser_Killer.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_2_1938_proposal.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_BB_55_Scheme_B.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_BB_55_Scheme_C.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_BB_55_Scheme_D.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_South_Dakota.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_2_North_Carolina.dds"
+			}
+		}
+	}
+	ship_hull_heavy_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_3_CA_2D.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_3_S_511_6.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_3_Iowa.dds"
+			}
+		}
+	}
+	ship_hull_heavy_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_4_Alaska.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_4_Kentucky_AA_BB.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_4_Missouri.dds"
+			}
+		}
+	}
+	ship_hull_heavy_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/BC/USA_BC_5_Hawaii_BCG_Conversion.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_BB_5_Kentucky_BBG.dds"
+			}
+		}
+	}
+	ship_hull_super_heavy_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_SHBB_1_Montana.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_SHBB_1_BB_57_Study_II.dds"
+			}
+		}
+	}
+	ship_hull_super_heavy_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/BB/USA_SHBB_2_Montana_2.dds"
+			}
+		}
+	}
+	ship_hull_submarine_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_1_S.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_1_Porpoise.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_1_Barracuda.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_1_Cachalot.dds"
+			}
+		}
+	}
+	ship_hull_submarine_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_2_Tambor.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_2_Salmon.dds"
+			}
+		}
+	}
+	ship_hull_submarine_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_3_Mackarel.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_3_Balao.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_3_Gato.dds"
+			}
+		}
+	}
+	ship_hull_submarine_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_4_Tench.dds"
+			}
+		}
+	}
+	ship_hull_submarine_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_5_Barracuda.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_5_Tang.dds"
+			}
+		}
+	}
+	ship_hull_submarine_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/SSG/USA_SSG_1_Grayback.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SSG/USA_SSG_1_Halibut.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SSG/USA_SSG_1_George_Washington.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_6_Seawolf.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_6_Nautilus.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_6_Barbel.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/SS/USA_SS_6_Darter.dds"
+			}
+			models = {
+				ship_hull_nuclear_powered_submarine_entity
+			}
+		}
+	}
+	ship_hull_carrier_conversion_bb = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_1_BB_Independence.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_1_BB_Lexington.dds"
+			}
+		}
+	}
+	ship_hull_carrier_conversion_ca = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_1_CA_Saipan.dds"
+			}
+		}
+	}
+	ship_hull_carrier_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_2_Yorktown.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_2_Ranger.dds"
+			}
+		}
+	}
+	ship_hull_carrier_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_3_Wasp.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_3_Essex.dds"
+			}
+		}
+	}
+	ship_hull_carrier_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_4_Midway.dds"
+			}
+		}
+	}
+	ship_hull_carrier_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_5_United_States.dds"
+			}
+		}
+	}
+	ship_hull_carrier_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_6_Forrestal.dds"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_carrier_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_7_Enterprise.dds"
+				"gfx/interface/equipmentdesigner/ships/USA/CV/USA_CV_7_Kitty_Hawk.dds"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_torpedo_cruiser = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/CT/USA_CT_1_Torpedo_Atlanta.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_panzerschiff = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/PzSc/USA_PsSc_1_S_511_14.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/SSC/USA_SSC_1_Narwhal.dds"
+			}
+		}
+	}
+	ship_hull_midget_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/SSM/USA_MSS_1_O_class.dds"
+			}
+		}
+	}
+	ship_hull_tanker_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/USA/SST/USA_SST_1_Guavina.dds"
+			}
+		}
+	}
+}
+
+JAP = {
+	fleet_oiler_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/FO/JAP_FO_1_Kazahaya.dds"
+			}
+		}
+	}	
+	# fleet_oiler_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/JAP/FO/JAP_FO_2_Cimarron.dds"
+			# }
+		# }
+	# }		
+	fleet_oiler_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/FO/JAP_FO_3_Aikoku_Maru.dds"
+			}
+		}
+	}
+	ship_hull_light_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Mutsuki.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Minekaze.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Kamikaze.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Hatsuharu.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Fubuki.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Akatsuki.dds"
+			}
+		}
+	}
+	ship_hull_light_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_2_Shiratsuyu.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_2_Asashio.dds"
+			}
+		}
+	}
+	ship_hull_light_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_3_Yugumo.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_3_Shimakaze.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_3_Kagero.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_3_Akizuki.dds"
+			}
+		}
+	}
+	ship_hull_light_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_4_Shimakaze_Kai.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_4_Matsu.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_4_Akizuki_Kai.dds"
+			}
+		}
+	}
+	ship_hull_light_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_5_Harukaze.dds"
+			}
+		}
+	}
+	ship_hull_light_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_6_Ayanami.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_6_Akizuki.dds"
+			}
+		}
+	}
+	ship_hull_light_converted_missile = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/DDGC/JAP_DDG_1_Amatsukaze.dds"
+			}
+		}
+	}
+	ship_hull_light_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_7_Takatsuki.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_1_Yubari.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_1_Tenryu.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_1_Sendai.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_1_Nagara.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_1_Kuma.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_1_Furutaka.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_1_Aoba.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_1_Myoko.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_1_Takao.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_2_Kumano_AA_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_2_C_39.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_2_Suzuya_AA_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_2_Tone.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_2_Mogami.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_3_Oyodo.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_3_Fictional_AA.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_3_Agano.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_3_Zao.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_4_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_4_Agano_Kai.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_4_Fictional.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_5_Fictional_2.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_5_Fictional_1.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_5_Fictional.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_6_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_6_Fictional.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_7_Fictional_2.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_7_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_7_Fictional_2.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_7_Fictional.dds"
+			}
+		}
+	}
+	ship_hull_heavy_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_1_Amagi.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_1_Kongo.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Kongo.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Kawachi.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Fusō.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Fusō_pre37.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Ise.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Nagato.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Nagato_late.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Tosa.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_Kii.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_No13_Design_M.dds"
+			}
+		}
+	}
+	ship_hull_heavy_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_2_1929_30000T.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_2_Design_X.dds"
+			}
+		}
+	}
+	ship_hull_heavy_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_3_B_65_late.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_3_B_65_early.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_3_A_140D.dds"
+			}
+		}
+	}
+	ship_hull_heavy_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_4_fictional_B_65_refit.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_4_A_140J3.dds"
+			}
+		}
+	}
+	ship_hull_heavy_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/BC/JAP_BC_5_B_65_BCG_Conversion.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_5_fictional_BBG.dds"
+			}
+		}
+	}
+	ship_hull_super_heavy_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_SHBB_1_Yamato.dds"
+			}
+		}
+	}
+	ship_hull_super_heavy_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_SHBB_2_A_150.dds"
+			}
+		}
+	}
+	ship_hull_submarine_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_1_I_51_Kaidai.dds"
+			}
+		}
+	}
+	ship_hull_submarine_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_2_Type_B.dds"
+			}
+		}
+	}
+	ship_hull_submarine_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_3_Type_C.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_3_Ro_100.dds"
+			}
+		}
+	}
+	ship_hull_submarine_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_4_I_201.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_4_Ha_201.dds"
+			}
+		}
+	}
+	ship_hull_submarine_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_5_Oyashio.dds"
+			}
+		}
+	}
+	ship_hull_submarine_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/SSG/JAP_SSG_1_Fictional_B.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SSG/JAP_SSG_1_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_6_Hayashio.dds"
+			}
+			models = {
+				ship_hull_nuclear_powered_submarine_entity
+			}
+		}
+	}
+	ship_hull_carrier_conversion_bb = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_BB_Shinano.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_BB_Akagi.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_BB_Kaga.dds"
+			}
+		}
+	}
+	ship_hull_carrier_conversion_ca = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_CA_Chitose.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_CA_Ibuki.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_CA_Ryuho.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_Hosho.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_Ryūjō.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_CA_Zuiho.dds"
+			}
+		}
+	}
+	ship_hull_carrier_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_2_Sōryū.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_2_Hiryū.dds"
+			}
+		}
+	}
+	ship_hull_carrier_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_3_Taiho.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_3_Shokaku.dds"
+			}
+		}
+	}
+	ship_hull_carrier_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_4_Kai_Taiho.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_4_Unryu.dds"
+			}
+		}
+	}
+	ship_hull_carrier_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_5_Hayataka.dds"
+			}
+		}
+	}
+	ship_hull_carrier_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_6_Fictional.dds"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_carrier_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_7_Fictional.dds"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_torpedo_cruiser = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/CT/JAP_CT_1_Kitakami.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_panzerschiff = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/PzSc/JAP_PzSc_1_Yuzuru_20KT_Var_B.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/SSC/JAP_SSC_1_Type_A.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SSC/JAP_SSC_1_Junsen.dds"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_2_Type_B.dds"
+			}
+		}
+	}
+	ship_hull_midget_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/SSM/JAP_SSM_1_Type_A.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SSM/JAP_SSM_1_Kairyū.dds"
+			}
+		}
+	}
+	ship_hull_tanker_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/SST/JAP_SST_1_I_351.dds"
+				"gfx/interface/equipmentdesigner/ships/JAP/SST/JAP_SST_1_I_361.dds"
+			}
+		}
+	}
+	ship_hull_mega_carrier = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/JAP/CVH/JAP_CVH_1_Hyuga.png"
+				"gfx/interface/equipmentdesigner/ships/JAP/CVH/JAP_CVH_1_Shirane.png"
+				"gfx/interface/equipmentdesigner/ships/JAP/CVH/JAP_CVH_1_Haruna.png"
+			}
+		}
+	}	
+}
+
+SOV = {
+	ship_hull_mega_carrier = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/CVH/SOV_CVH_1_Kiev.png"
+				"gfx/interface/equipmentdesigner/ships/SOV/CVH/SOV_CVH_1_Moskva.png"
+			}
+		}
+	}	
+	fleet_oiler_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/FO/SOV_FO_1_Polyarnik.dds"
+			}
+		}
+	}	
+	fleet_oiler_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/FO/SOV_FO_2_Khobi.dds"
+			}
+		}
+	}		
+	# fleet_oiler_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/SOV/FO/SOV_FO_3_Aikoku_Maru.dds"
+			# }
+		# }
+	# }
+	ship_hull_light_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_1_Fidonisi.dds"
+			}
+		}
+	}
+	ship_hull_light_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_2_Gnenvy.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_2_Leningrad.dds"
+			}
+		}
+	}
+	ship_hull_light_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_3_Ognevoy.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_3_Storozhevoy.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_3_Tashkent.dds"
+			}
+		}
+	}
+	ship_hull_light_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_4_Kiev.dds"
+			}
+		}
+	}
+	ship_hull_light_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_5_Skoryi.dds"
+			}
+		}
+	}
+	ship_hull_light_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_6_Neustrashimy.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_6_Kotlin.dds"
+			}
+		}
+	}
+	ship_hull_light_converted_missile = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/DDGC/SOV_DDG_1_Kildin.dds"
+			}
+		}
+	}
+	ship_hull_light_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_7_Kashin.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/DD/SOV_DD_7_Kanin.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_1_Krasnyi_Kavkaz.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_1_Admiral_Nakhimov.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_1_Svetlana.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_2_Project_26bis.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_2_Kirov.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_3_Project_Kh.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_3_Project_68I.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_3_Chapayev.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_4_Project_83I.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_4_Project_94.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_5_Project_82.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_5_Sverdlov.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_6_Project_66.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_6_Project_65.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/CA/SOV_CA_7_Project_1126.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_7_Project_68U2.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/CL/SOV_CL_7_Kynda.dds"
+			}
+		}
+	}
+	ship_hull_heavy_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_1_Izmail.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_1_Marat.dds"
+			}
+		}
+	}
+	ship_hull_heavy_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_2_Kronshtadt.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_2_Project_21.dds"
+			}
+		}
+	}
+	ship_hull_heavy_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_3_Project_22.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_3_UP_41.dds"
+			}
+		}
+	}
+	ship_hull_heavy_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_4_Stalingrad.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_4_Type_A_KB_4_Project_23.dds"
+			}
+		}
+	}
+	ship_hull_heavy_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/BC/SOV_BC_5_Stalingrad_BCG.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_BB_5_Sovetsky_Soyuz_BBG.dds"
+			}
+		}
+	}
+	ship_hull_super_heavy_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_SHBB_1_Project_23_final_design.dds"
+			}
+		}
+	}
+	ship_hull_super_heavy_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/BB/SOV_SHBB_2_Project_24.dds"
+			}
+		}
+	}
+	ship_hull_submarine_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_1_Schuka.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_1_Leninets.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_1_Dekabrist.dds"
+			}
+		}
+	}
+	ship_hull_submarine_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_2_S_class.dds"
+			}
+		}
+	}
+	ship_hull_submarine_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_3_S_class_XI_Series.dds"
+			}
+		}
+	}
+	ship_hull_submarine_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_4_Whiskey.dds"
+			}
+		}
+	}
+	ship_hull_submarine_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_5_Zulu.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_5_Quebec.dds"
+			}
+		}
+	}
+	ship_hull_submarine_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/SSG/SOV_SSG_1_Juliett.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_6_November.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_6_Romeo.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SS/SOV_SS_6_Foxtrot.dds"
+			}
+			models = {
+				ship_hull_nuclear_powered_submarine_entity
+			}
+		}
+	}
+	ship_hull_carrier_conversion_bb = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_1_BB_Izmail.dds"
+			}
+		}
+	}
+	ship_hull_carrier_conversion_ca = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_1_CA_Frunze.dds"
+			}
+		}
+	}
+	ship_hull_carrier_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_2_Project_71.dds"
+			}
+		}
+	}
+	ship_hull_carrier_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_3_Kostromitinov.dds"
+			}
+		}
+	}
+	ship_hull_carrier_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_4_Project_72.dds"
+			}
+		}
+	}
+	ship_hull_carrier_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_5_Project_69AV.dds"
+			}
+		}
+	}
+	ship_hull_carrier_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_6_Project_85.dds"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_carrier_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/CV/SOV_CV_7_Oryol.dds"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_torpedo_cruiser = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/CT/SOV_CT_1_Kirov_Torpedo_Cruiser.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_panzerschiff = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/PzSc/SOV_PzSc_1_Project_X.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/SSC/SOV_SSC_1_K_class.dds"
+			}
+		}
+	}
+	ship_hull_midget_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/SSM/SOV_SSM_1_Malyutka.dds"
+				"gfx/interface/equipmentdesigner/ships/SOV/SSM/SOV_SSM_1_M_400_Blokha.dds"
+			}
+		}
+	}
+	ship_hull_tanker_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/SOV/SST/SOV_SST_1_Pravda.dds"
+			}
+		}
+	}
+}
+
+GER = {
+	ship_hull_mega_carrier = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CVH/GER_CVH_1_HC800.png"
+			}
+		}
+	}
+	# fleet_oiler_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/GER/FO/GER_FO_1_Polyarnik.dds"
+			# }
+		# }
+	# }	
+	# fleet_oiler_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/GER/FO/GER_FO_2_Khobi.dds"
+			# }
+		# }
+	# }		
+	fleet_oiler_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/FO/GER_FO_3_Fictional.dds"
+			}
+		}
+	}
+	ship_hull_light_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_1_Zerstorer_1934.dds"
+			}
+		}
+	}
+	ship_hull_light_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_2_Zerstorer_1938.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_2_Zerstorer_1936.dds"
+			}
+		}
+	}
+	ship_hull_light_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_3_Zerstorer_1942.dds"
+			}
+		}
+	}
+	ship_hull_light_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_4_Zerstorer_1945.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_4_Zerstorer_1944.dds"
+			}
+		}
+	}
+	ship_hull_light_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_5_Koln.dds"
+			}
+		}
+	}
+	ship_hull_light_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_6_Hamburg.dds"
+			}
+		}
+	}
+	ship_hull_light_converted_missile = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/DDGC/GER_DDG_1_Hamburg.dds"
+			}
+		}
+	}
+	ship_hull_light_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/DD/GER_DD_7_Lutjens.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_1_D_class.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_1_Emdem.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_1_Konigsberg.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_2_Admiral_Hipper.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_2_Spähkreuzer_1938.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_2_Leipzig.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_3_P_class.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_3_Eendracht.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_3_M_class.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_4_Handelszerstörer_Entwurf_III.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_4_Motorkreuzer_1938.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_5_Handelszerstörer_KIG.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_5_Q_class.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_6_fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_6_Fictional.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CA/GER_CA_7_fictional_CAG.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CL/GER_CL_7_Fictional_CLG.dds"
+			}
+		}
+	}
+	ship_hull_pre_dreadnought = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_0_Deutschland.dds"
+			}
+		}
+	}
+	ship_hull_heavy_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_1_Schlachtkreuzer_1928.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_1_L28.dds"
+			}
+		}
+	}
+	ship_hull_heavy_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_2_Scharnhorst_28cm_B.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_2_Scharnhorst_28cm.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_2_Scharnhorst.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_2_Scharnhorst_38cm.dds"
+			}
+		}
+	}
+	ship_hull_heavy_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_3_Schlachtschiff_F.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_3_Bismarck.dds.dds"
+			}
+		}
+	}
+	ship_hull_heavy_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_4_Schlachtkreuzer_O.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_4_H_39.dds"
+			}
+		}
+	}
+	ship_hull_heavy_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/BC/GER_BC_5_Schlachtkreuzer_P_BCG.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_BB_5_H_39_BBG.dds"
+			}
+		}
+	}
+	ship_hull_super_heavy_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_SHBB_1_H_40.dds"
+			}
+		}
+	}
+	ship_hull_super_heavy_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/BB/GER_SHBB_2_H_41.dds"
+			}
+		}
+	}
+	ship_hull_submarine_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_1_Type_II.dds"
+			}
+		}
+	}
+	ship_hull_submarine_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_2_Type_VII.dds"
+			}
+		}
+	}
+	ship_hull_submarine_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_3_Type_IX.dds"
+			}
+		}
+	}
+	ship_hull_submarine_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_4_Type_XXI.dds"
+			}
+		}
+	}
+	ship_hull_submarine_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_5_Type_XXIII.dds"
+			}
+		}
+	}
+	ship_hull_submarine_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/SSG/GER_SSG_1_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_6_Type_CCIX.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_6_Type_CCVI.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/SS/GER_SS_6_Type_CCV.dds"
+			}
+			models = {
+				ship_hull_nuclear_powered_submarine_entity
+			}
+		}
+	}
+	ship_hull_carrier_conversion_bb = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_BB_Grossflugzeugkreuzer_A.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_BB_Bismarck_conversion.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_BB_Jade.dds"
+			}
+		}
+	}
+	ship_hull_carrier_conversion_ca = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_CA_Ausonia.dds"
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_1_CA_Seydlitz.dds"
+			}
+		}
+	}
+	ship_hull_carrier_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_2_Flugzeugtrager_15k.dds"
+			}
+		}
+	}
+	ship_hull_carrier_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_3_Graf_Zeppelin.dds"
+			}
+		}
+	}
+	ship_hull_carrier_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_4_Europa.dds"
+			}
+		}
+	}
+	ship_hull_carrier_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_5_fictional.dds"
+			}
+		}
+	}
+	ship_hull_carrier_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_6_Fictional.dds"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_carrier_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CV/GER_CV_7_Fictional.dds"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_torpedo_cruiser = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/CT/GER_CT_1_Torpedo_Spähkreuzer_1938.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_panzerschiff = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/PzSc/GER_PzSc_Deutschland.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/SSC/GER_SSC_1_Type_XI.dds"
+			}
+		}
+	}
+	ship_hull_midget_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/SSM/GER_SSM_1_Biber.dds"
+			}
+		}
+	}
+	ship_hull_tanker_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/GER/SST/GER_SST_1_Type_XIV.dds"
+			}
+		}
+	}
+}
+
+ENG = {
+	# fleet_oiler_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/ENG/FO/ENG_FO_1_Polyarnik.dds"
+			# }
+		# }
+	# }	
+	# fleet_oiler_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/ENG/FO/ENG_FO_2_Khobi.dds"
+			# }
+		# }
+	# }		
+	# fleet_oiler_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/ENG/FO/ENG_FO_3_Fictional.dds"
+			# }
+		# }
+	# }	
+	ship_hull_mega_carrier = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/CVH/ENG_CVH_1_Bulwark.png"
+			}
+		}
+	}	
+	ship_hull_light_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_1_V_and_W.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_1_S.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_1_Town.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_1_A_and_B.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_1_E_and_F.dds"
+			}
+		}
+	}
+	ship_hull_light_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_2_Tribal.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_2_J_K_and_N.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_2_I_class.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_2_G_and_H.dds"
+			}
+		}
+	}
+	ship_hull_light_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_3_O_and_P.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_3_L_and_M.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_3_C_class.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_3_Hunt.dds"
+			}
+		}
+	}
+	ship_hull_light_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_4_Weapon.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_4_Battle.dds"
+			}
+		}
+	}
+	ship_hull_light_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_5_Daring.dds"
+			}
+		}
+	}
+	ship_hull_light_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_6_Super_Daring.dds"
+			}
+		}
+	}
+	ship_hull_light_converted_missile = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/DDGC/ENG_DDG_1_Daring_Conversion.dds"
+			}
+		}
+	}
+	ship_hull_light_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_7_GW24.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/DD/ENG_DD_7_County.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_1_York.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_1_Hawkins.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_1_County.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_1_Arethusa.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_1_C_class.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_1_Danae.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_1_Emerald.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_1_Leander.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_2_Design_II_Armoured_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_2_Design_I_Armoured_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_2_Town.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_2_Dido.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_3_Design_A_Heavy_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_3_Fiji.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_4_Churchill_Design_E.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_4_Minotaur_1943.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_4_Neptune.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_5_Admiral.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_5_Minotaur.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_6_GW1.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_6_Tiger.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/CA/ENG_CA_7_GW95.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_7_Tiger_CLG.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CL/ENG_CL_7_GW96.dds"
+			}
+		}
+	}
+	ship_hull_heavy_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_1_Admiral.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_1_Renown.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_1_Hood.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_1_G3.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_King_George_V.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_Iron_Duke.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_Queen_Elizabeth.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_Revenge.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_1_Nelson.dds"
+			}
+		}
+	}
+	ship_hull_heavy_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_2_10in_Large_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_2_King_George_V.dds"
+			}
+		}
+	}
+	ship_hull_heavy_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_3_12in_Large_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_3_Lion.dds"
+			}
+		}
+	}
+	ship_hull_heavy_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/BC/ENG_BC_4_Design_14A_38.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_4_Vanguard.dds"
+			}
+		}
+	}
+	ship_hull_heavy_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_BB_5_Lion_BBG_Conversion.dds"
+			}
+		}
+	}
+	ship_hull_super_heavy_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_SHBB_1_Design_O3.dds"
+			}
+		}
+	}
+	ship_hull_super_heavy_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/BB/ENG_SHBB_2_Fictional.dds"
+			}
+		}
+	}
+	ship_hull_submarine_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_1_Grampus.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_1_S_class.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_1_River.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_1_O_class.dds"
+			}
+		}
+	}
+	ship_hull_submarine_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_2_U_class.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_2_T_class.dds"
+			}
+		}
+	}
+	ship_hull_submarine_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_3_V_class.dds"
+			}
+		}
+	}
+	ship_hull_submarine_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_4_Amphion.dds"
+			}
+		}
+	}
+	ship_hull_submarine_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_5_Explorer.dds"
+			}
+		}
+	}
+	ship_hull_submarine_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/SSG/ENG_SSG_1_Resolution.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_6_Dreadnought.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/SS/ENG_SS_6_Oberon.dds"
+			}
+			models = {
+				ship_hull_nuclear_powered_submarine_entity
+			}
+		}
+	}
+	ship_hull_carrier_conversion_bb = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_1_BB_Eagle.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_1_BB_Courageous.dds"
+			}
+		}
+	}
+	ship_hull_carrier_conversion_ca = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_1_CA_Hermes.dds"
+			}
+		}
+	}
+	ship_hull_carrier_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_2_Ark_Royal.dds"
+			}
+		}
+	}
+	ship_hull_carrier_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_3_Illustrious.dds"
+			}
+		}
+	}
+	ship_hull_carrier_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_4_Malta.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_4_Implacable.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_4_Colossus.dds"
+			}
+		}
+	}
+	ship_hull_carrier_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_5_Majestic.dds"
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_5_Audacious.dds"
+			}
+		}
+	}
+	ship_hull_carrier_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_6_Centaur.dds"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_carrier_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/CV/ENG_CV_7_Queen_Elizabeth.dds"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_torpedo_cruiser = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/CT/ENG_CT_1_Danae_Torpedo.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_panzerschiff = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/PzSc/ENG_PzSc_1_Lilicrap_20K.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/SSC/ENG_SSC_1_X1_class.dds"
+			}
+		}
+	}
+	ship_hull_midget_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/SSM/ENG_SSM_1_X_class.dds"
+			}
+		}
+	}
+	ship_hull_tanker_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ENG/SST/ENG_SST_1_Fictional.dds"
+			}
+		}
+	}
+}
+
+ITA = {
+	ship_hull_mega_carrier = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/CVH/ITA_CVH_1_Vittorio_Veneto.png"
+				"gfx/interface/equipmentdesigner/ships/ITA/CVH/ITA_CVH_1_Andrea_Doria.png"
+			}
+		}
+	}
+	# fleet_oiler_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/ITA/FO/ITA_FO_1_Polyarnik.dds"
+			# }
+		# }
+	# }	
+	# fleet_oiler_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/ITA/FO/ITA_FO_2_Khobi.dds"
+			# }
+		# }
+	# }		
+	# fleet_oiler_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/ITA/FO/ITA_FO_3_Fictional.dds"
+			# }
+		# }
+	# }
+	ship_hull_light_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_1_Navigatori.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_1_Folgore.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_1_Freccia.dds"
+			}
+		}
+	}
+	ship_hull_light_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_2_Soldati.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_2_Alfredo_Oriani.dds"
+			}
+		}
+	}
+	ship_hull_light_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_3_Ansaldo_1939_design.dds"
+			}
+		}
+	}
+	ship_hull_light_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_4_Comandanti_Medaglia_d'Oro.dds"
+			}
+		}
+	}
+	ship_hull_light_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_5_San_Giorgio.dds"
+			}
+		}
+	}
+	ship_hull_light_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_6_Impetuoso.dds"
+			}
+		}
+	}
+	ship_hull_light_converted_missile = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/DDGC/ITA_DDG_1_Impetuoso.dds"
+			}
+		}
+	}
+	ship_hull_light_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/DD/ITA_DD_7_Impavido.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_1_Trento.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_1_Bolzano.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_1_Condottieri.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_2_Ansaldo_Project_770.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_2_Zara.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_2_Capitani_Romani.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_3_Ansaldo_UP102.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_3_OTO_Scout_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_3_Etna.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_4_Ansaldo_9x203.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_4_Ansaldo_12x152.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_5_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_5_Fictional.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_6_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_6_Fictional.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/CA/ITA_CA_7_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_7_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CL/ITA_CL_7_Duca_degli_Abruzzi_CLG.dds"
+			}
+		}
+	}
+	ship_hull_heavy_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_1_OTO_Livorno_23K.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_1_Caio_Duilio.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_1_Conti_di_Cavour.dds"
+			}
+		}
+	}
+	ship_hull_heavy_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_2_OTO_Livorno_26.5K.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_2_Littorio.dds"
+			}
+		}
+	}
+	ship_hull_heavy_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_3_Ansaldo_Big_Gun_Cruiser.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_3_Ansaldo_UP41.dds"
+			}
+		}
+	}
+	ship_hull_heavy_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_4_Pansarskepp_Ansaldo.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_4_Fictional.dds"
+			}
+		}
+	}
+	ship_hull_heavy_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/BC/ITA_BC_5_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_BB_5_Fictional.dds"
+			}
+		}
+	}
+	ship_hull_super_heavy_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_SHBB_1_Cassone_design.dds"
+			}
+		}
+	}
+	ship_hull_super_heavy_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/BB/ITA_SHBB_2_fictional.dds"
+			}
+		}
+	}
+	ship_hull_submarine_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/SS/ITA_SS_1_Argonauta.dds"
+			}
+		}
+	}
+	ship_hull_submarine_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/SS/ITA_SS_2_Perla.dds"
+			}
+		}
+	}
+	ship_hull_submarine_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/SS/ITA_SS_3_Marconi.dds"
+			}
+		}
+	}
+	ship_hull_submarine_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/SS/ITA_SS_4_Flutto.dds"
+			}
+		}
+	}
+	ship_hull_submarine_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/SS/ITA_SS_5_Toti.dds"
+			}
+		}
+	}
+	ship_hull_submarine_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/SSG/ITA_SSG_1_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/SS/ITA_SS_6_Sauro.dds"
+			}
+			models = {
+				ship_hull_nuclear_powered_submarine_entity
+			}
+		}
+	}
+	ship_hull_carrier_conversion_bb = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_1_BB_Francesco_Caracciolo.dds"
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_1_BB_Bonfiglietti_design.dds"
+			}
+		}
+	}
+	ship_hull_carrier_conversion_ca = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_1_CA_Sparviero.dds"
+			}
+		}
+	}
+	ship_hull_carrier_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_2_Aquila.dds"
+			}
+		}
+	}
+	ship_hull_carrier_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_3_Fictional.dds"
+			}
+		}
+	}
+	ship_hull_carrier_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_4_Fictional.dds"
+			}
+		}
+	}
+	ship_hull_carrier_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_5_Fictional.dds"
+			}
+		}
+	}
+	ship_hull_carrier_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_6_Fictional.dds"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_carrier_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/CV/ITA_CV_7_Fictional.dds"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_torpedo_cruiser = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/CT/ITA_CT_1_Capitani_Romani_Torpedo.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_panzerschiff = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/PzSc/ITA_1_PsSC_Ansaldo_UP_707.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/SSC/ITA_SSC_1_Ettore_Fieramosca.dds"
+			}
+		}
+	}
+	ship_hull_midget_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/SSM/ITA_SSM_1_CB.dds"
+			}
+		}
+	}
+	ship_hull_tanker_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/ITA/SST/ITA_SST_1_1934_Tanker_design.dds"
+			}
+		}
+	}
+}
+
+FRA = {
+	ship_hull_mega_carrier = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/CVH/FRA_CVH_1_Jeanne_DArc.png"
+			}
+		}
+	}
+	# fleet_oiler_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/FRA/FO/FRA_FO_1_Polyarnik.dds"
+			# }
+		# }
+	# }	
+	# fleet_oiler_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/ships/FRA/FO/FRA_FO_2_Khobi.dds"
+			# }
+		# }
+	# }		
+	fleet_oiler_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/FO/FRA_FO_3_Durance.dds"
+			}
+		}
+	}
+	ship_hull_light_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_1_Bourrasque.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_1_Guepard.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_1_Vauquelin.dds"
+			}
+		}
+	}
+	ship_hull_light_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_2_Le_Fantasque.dds"
+			}
+		}
+	}
+	ship_hull_light_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_3_Mogador.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_3_Le_Hardi.dds"
+			}
+		}
+	}
+	ship_hull_light_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_4_Project_148A.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_4_Improved_Mogador.dds"
+			}
+		}
+	}
+	ship_hull_light_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_5_T_47.dds"
+			}
+		}
+	}
+	ship_hull_light_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_6_T_53.dds"
+			}
+		}
+	}
+	ship_hull_light_converted_missile = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/DDGC/FRA_DDG_1_T_56.dds"
+			}
+		}
+	}
+	ship_hull_light_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_7_Suffren.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_1_Suffren.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_1_Duquesne.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_1_Jeanne_DArc.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_1_Duguay_Trouin.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_2_Algerie.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_2_La_Galissoriere.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_2_Emile_Bertin.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_3_C5SA1.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_3_De_Grasse.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_4_Saint_Louis.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_4_De_Grasse_Late.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_5_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_5_De_Grasse_Rebuild.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_6_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_6_Colbert.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_7_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_7_Colbert_CLG.dds"
+			}
+		}
+	}
+	ship_hull_heavy_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_1_37000-tonnes_B1.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_1_Courbet.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_1_Bretagne.dds"
+			}
+		}
+	}
+	ship_hull_heavy_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_2_Dunkerque.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_2_Richelieu.dds"
+			}
+		}
+	}
+	ship_hull_heavy_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_3_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_3_Alsace_design_3.dds"
+			}
+		}
+	}
+	ship_hull_heavy_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_4_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_4_Alsace_final_design.dds"
+			}
+		}
+	}
+	ship_hull_heavy_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/BC/FRA_BC_5_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_5_Fictional.dds"
+			}
+		}
+	}
+	ship_hull_super_heavy_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_SHBB_1_Fictional.dds"
+			}
+		}
+	}
+	ship_hull_super_heavy_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_SHBB_2_fictional.dds"
+			}
+		}
+	}
+	ship_hull_submarine_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Saphir.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Requin.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Redoutable.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Orion.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Diane.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Argonaute.dds"
+			}
+		}
+	}
+	ship_hull_submarine_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_2_Minerve.dds"
+			}
+		}
+	}
+	ship_hull_submarine_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_3_Aurore.dds"
+			}
+		}
+	}
+	ship_hull_submarine_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_4_Narval.dds"
+			}
+		}
+	}
+	ship_hull_submarine_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_5_Aréthuse.dds"
+			}
+		}
+	}
+	ship_hull_submarine_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/SSG/FRA_SSG_1_Redoutable.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_6_Daphné.dds"
+			}
+			models = {
+				ship_hull_nuclear_powered_submarine_entity
+			}
+		}
+	}
+	ship_hull_carrier_conversion_bb = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_1_BB_Béarn.dds"
+			}
+		}
+	}
+	ship_hull_carrier_conversion_ca = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_1_CA_Duquesne.dds"
+			}
+		}
+	}
+	ship_hull_carrier_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_2_Joffre.dds"
+			}
+		}
+	}
+	ship_hull_carrier_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_3_Painlévé.dds"
+			}
+		}
+	}
+	ship_hull_carrier_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_4_Jean_Bart.dds"
+			}
+		}
+	}
+	ship_hull_carrier_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_5_PA28.dds"
+			}
+		}
+	}
+	ship_hull_carrier_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_6_Clemenceau.dds"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_carrier_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_7_Fictional.dds"
+				"gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_7_PA58.dds"
+			}
+			models = {
+				ship_hull_super_carrier_entity
+			}
+		}
+	}
+	ship_hull_torpedo_cruiser = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/CT/FRA_CT_1_Emile_Bertin_Torpedo.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_panzerschiff = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/PzSc/FRA_PzSc_1_Croiseur_Protégé_de_23690.dds"
+			}
+		}
+	}
+	ship_hull_cruiser_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/SSC/FRA_SSC_1_Surcouf.dds"
+			}
+		}
+	}
+	ship_hull_midget_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/SSM/FRA_SSM_1_S_622_Seehund.dds"
+			}
+		}
+	}
+	ship_hull_tanker_submarine = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/ships/FRA/SST/FRA_SST_1_Surcouf_tanker.dds"
+			}
+		}
+	}
+}

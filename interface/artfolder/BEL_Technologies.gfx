@@ -1,0 +1,231 @@
+spriteTypes = {	
+
+    SpriteType = {
+	name = "GFX_BEL_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_1.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_BEL_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_BEL_improved_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_3.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_BEL_advanced_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_4.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_COG_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_1.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_COG_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_COG_improved_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_3.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_COG_advanced_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_4.dds"
+	}
+
+
+ ### Arty ###
+
+	SpriteType = {
+	name = "GFX_BEL_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_iwa.dds"
+	}
+	 
+	SpriteType = {
+	name = "GFX_BEL_adv_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_a2.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_BEL_artillery3_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_a3.dds"
+	}	 
+	
+	SpriteType = {
+	name = "GFX_BEL_artillery_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_iwa.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_BEL_artillery_equipment_3_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_a3.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_BEL_artillery_equipment_2_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_a2.dds"
+	}	
+### Anti-tank ###
+
+
+	SpriteType = {
+	name = "GFX_BEL_interwar_antitank_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_at1.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_COG_interwar_antitank_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_at1.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_BEL_antitank2_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_at2.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_COG_antitank2_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_at2.dds"
+	}	
+	
+    SpriteType = {
+	name = "GFX_BEL_antitank5_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_at3.dds"
+	}	
+	
+### Anti-air ###
+	
+	SpriteType = {
+	name = "GFX_BEL_interwar_antiair_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_aa1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_COG_interwar_antiair_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_aa1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_BEL_antiair2_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_aa2.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_COG_antiair2_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_aa2.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_BEL_antiair5_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_aa3.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_COG_antiair5_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_aa3.dds"
+	}
+	
+### light_tanks ###
+	
+	SpriteType = {
+	name = "GFX_BEL_basic_light_tank_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_lt1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_BEL_improved_light_tank_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_lt2.dds"
+	}
+	
+### armoured cars ###
+
+	SpriteType = {
+	name = "GFX_BEL_armored_car1_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_ac1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_BEL_armored_car2_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_ac2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_BEL_armored_car3_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_ac3.dds"
+	}
+	
+### troop_carriers ###
+
+    SpriteType = {
+	name = "GFX_BEL_motorized_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_BEL_motorised_infantry_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_BEL_motorised_equipment_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_tc1.dds"
+	}
+	
+    SpriteType = {
+	name = "GFX_COG_motorized_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_tc1.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_COG_motorised_infantry_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_COG_motorised_equipment_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_BEL_mechanised_infantry_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_tc2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_COG_mechanised_infantry_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_tc2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_BEL_mechanised_infantry2_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_tc3.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_COG_mechanised_infantry2_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_tc3.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_BEL_mechanised_infantry3_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_tc4.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_COG_mechanised_infantry3_medium"
+	texturefile = "gfx/interface/technologies/denxson/BEL_tc4.dds"
+	}
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,6 @@
+
+technology_categories = {
+	mio_cat_tech_modern_armor_and_modules
+	mio_cat_all_rockets
+	cat_home_defense
+}

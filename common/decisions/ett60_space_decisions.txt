@@ -1,0 +1,91 @@
+space_decisions = {
+
+	launch_artificial_satellite = { 
+		
+		icon = sputnik
+
+		# allowed = {
+
+		# }
+
+		available = {
+			has_tech = sp_nuclear_missile_2
+		}
+
+		visible = {
+			has_tech = sp_nuclear_missile_2
+			NOT = { 
+				has_global_flag = sputnik_launched
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 150
+		
+		days_remove = 360
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		remove_effect = {
+			ROOT = {				
+				add_ideas = { 
+					sputnik_idea
+				}
+			}
+			set_global_flag = sputnik_launched
+			set_country_flag = sputnik_launched_first
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	launch_artificial_satellite_second = { 
+		
+		icon = sputnik
+
+		# allowed = {
+
+		# }
+
+		available = {
+			has_tech = sp_nuclear_missile_2
+			has_global_flag = sputnik_launched
+		}
+
+		visible = {
+			has_tech = sp_nuclear_missile_2
+			has_global_flag = sputnik_launched
+			NOT = { 
+				has_country_flag = sputnik_launched_first
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 150
+		
+		days_remove = 360
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		remove_effect = {
+			ROOT = {				
+				add_ideas = { 
+					sputnik_idea_second
+				}
+			}
+			set_country_flag = sputnik_launched_second
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

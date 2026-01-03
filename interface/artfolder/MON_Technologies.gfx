@@ -1,0 +1,22 @@
+SpriteTypes = {	
+
+
+	SpriteType = {
+	name = "GFX_MON_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/EST_1.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_MON_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/denxson/MON_2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_MON_improved_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/MON_3.dds"
+	}
+		
+	SpriteType = {
+	name = "GFX_MON_advanced_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/MON_4.dds"
+	}

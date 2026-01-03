@@ -1,0 +1,1171 @@
+spriteTypes = {
+	
+	SpriteType = {
+		name = "GFX_FRA_CAS4_medium"
+		texturefile = "gfx/interface/technologies/FRA_CAS4.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_jet_CAS1_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_CAS1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_jet_CAS2_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_CAS2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_jet_CAS3_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_CAS3.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_jet_CAS4_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_CAS4.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_cv_jet_CAS1_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_jet_CAS1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_cv_jet_CAS2_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_jet_CAS2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_cv_jet_CAS3_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_jet_CAS3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_cv_jet_CAS4_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_jet_CAS4.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_naval_bomber4_medium"
+		texturefile = "gfx/interface/technologies/FRA_naval_bomber4.dds"
+	}	
+	# SpriteType = {
+		# name = "GFX_FRA_naval_bomber5_medium"
+		# texturefile = "gfx/interface/technologies/FRA_naval_bomber5.dds"
+	# }	
+	SpriteType = {
+		name = "GFX_FRA_naval_bomber6_medium"
+		texturefile = "gfx/interface/technologies/FRA_naval_bomber6.dds"
+	}						
+	# SpriteType = {
+		# name = "GFX_FRA_jet_strategic_bomber1_medium"
+		# texturefile = "gfx/interface/technologies/FRA_jet_strategic_bomber1.dds"
+	# }	
+	
+	# SpriteType = {
+		# name = "GFX_FRA_jet_strategic_bomber2_medium"
+		# texturefile = "gfx/interface/technologies/FRA_jet_strategic_bomber2.dds"
+	# }	
+	
+	SpriteType = {
+		name = "GFX_FRA_jet_strategic_bomber3_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_strategic_bomber3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_tactical_bomber1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_tactical_bomber2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_jet_tactical_bomber3_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_tactical_bomber3.dds"
+	}	
+			
+	SpriteType = {
+		name = "GFX_FRA_jet_fighter1_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_fighter1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_jet_fighter2_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_fighter2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_jet_fighter3_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_fighter3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_jet_fighter4_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_fighter4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_jet_fighter5_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_fighter5.dds"
+	}
+	# SpriteType = {
+		# name = "GFX_FRA_cv_jet_fighter1_medium"
+		# texturefile = "gfx/interface/technologies/FRA_cv_jet_fighter1.dds"
+	# }
+		
+	# SpriteType = {
+		# name = "GFX_FRA_cv_jet_fighter2_medium"
+		# texturefile = "gfx/interface/technologies/FRA_cv_jet_fighter2.dds"
+	# }
+	# SpriteType = {
+		# name = "GFX_FRA_cv_jet_fighter3_medium"
+		# texturefile = "gfx/interface/technologies/FRA_cv_jet_fighter3.dds"
+	# }
+	# SpriteType = {
+		# name = "GFX_FRA_cv_jet_fighter4_medium"
+		# texturefile = "gfx/interface/technologies/FRA_cv_jet_fighter4.dds"
+	# }		
+	SpriteType = {
+		name = "GFX_FRA_jet_interceptor1_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_interceptor1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_jet_interceptor2_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_interceptor2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_jet_interceptor3_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_interceptor3.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_FRA_jet_interceptor4_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_interceptor4.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_FRA_jet_interceptor5_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_interceptor5.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_FRA_interceptor1_medium"
+		texturefile = "gfx/interface/technologies/FRA_interceptor1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_interceptor2_medium"
+		texturefile = "gfx/interface/technologies/FRA_interceptor2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_interceptor3_medium"
+		texturefile = "gfx/interface/technologies/FRA_interceptor3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_early_bomber_medium"
+		texturefile = "gfx/interface/technologies/FRA_early_bomber.dds"
+	}
+		
+	# SpriteType = {
+		# name = "GFX_FRA_transport1_medium"
+		# texturefile = "gfx/interface/technologies/FRA_transport1.dds"
+	# }
+	
+	# SpriteType = {
+		# name = "GFX_FRA_transport2_medium"
+		# texturefile = "gfx/interface/technologies/FRA_transport2.dds"
+	# }
+	# SpriteType = {
+		# name = "GFX_FRA_transport3_medium"
+		# texturefile = "gfx/interface/technologies/FRA_transport3.dds"
+	# }
+	
+	# SpriteType = {
+		# name = "GFX_FRA_transport4_medium"
+		# texturefile = "gfx/interface/technologies/FRA_transport4.dds"
+	# }
+	
+	# SpriteType = {
+		# name = "GFX_FRA_transport5_medium"
+		# texturefile = "gfx/interface/technologies/FRA_transport5.dds"
+	# }
+
+	# SpriteType = {
+		# name = "GFX_FRA_transport6_medium"
+		# texturefile = "gfx/interface/technologies/FRA_transport6.dds"
+	# }
+	
+	SpriteType = {
+		name = "GFX_FRA_cv_naval_bomber1_medium"
+		texturefile = "gfx/interface/technologies/FRA_naval_bomber1_cv.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_cv_naval_bomber2_medium"
+		texturefile = "gfx/interface/technologies/FRA_naval_bomber2_cv.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_cv_naval_bomber3_medium"
+		texturefile = "gfx/interface/technologies/FRA_naval_bomber3_cv.dds"
+	}
+	
+	# SpriteType = {
+		# name = "GFX_FRA_cv_naval_bomber4_medium"
+		# texturefile = "gfx/interface/technologies/FRA_cv_naval_bomber4.dds"
+	# }
+		
+	# SpriteType = {
+		# name = "GFX_FRA_cv_naval_bomber5_medium"
+		# texturefile = "gfx/interface/technologies/FRA_cv_naval_bomber5.dds"
+	# }
+	# SpriteType = {
+		# name = "GFX_FRA_cv_naval_bomber6_medium"
+		# texturefile = "gfx/interface/technologies/FRA_cv_naval_bomber6.dds"
+	# }
+		
+	SpriteType = {
+		name = "GFX_FRA_jet_strategic_bomber4_medium"
+		texturefile = "gfx/interface/technologies/FRA_jet_strategic_bomber4.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_mach2stratbomber_medium"
+		texturefile = "gfx/interface/technologies/FRA_mach2stratbomber.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_cv_fighter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_fighter1.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_FRA_cv_fighter_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_fighter2.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_FRA_cv_fighter_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_fighter3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_fighter3_medium"
+		texturefile = "gfx/interface/technologies/FRA_fighter3b.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_cv_fighter_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_fighter4.dds"
+	}
+	
+	# SpriteType = {
+		# name = "GFX_FRA_cv_fighter_equipment_0_medium"
+		# texturefile = "gfx/interface/technologies/FRA_fighter_cv.dds"
+	# }
+
+	#TANKS
+		
+	SpriteType = {
+		name = "GFX_FRA_main_battle_tank2_medium"
+		texturefile = "gfx/interface/technologies/FRA_main_battle_tank2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_FRA_main_battle_tank3_medium"
+		texturefile = "gfx/interface/technologies/FRA_main_battle_tank3.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_FRA_main_battle_tank4_medium"
+		texturefile = "gfx/interface/technologies/FRA_main_battle_tank4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_heavy_tank4_medium"
+		texturefile = "gfx/interface/technologies/FRA_heavy_tank4.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_heavy_tank5_medium"
+		texturefile = "gfx/interface/technologies/FRA_heavy_tank5.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_light_tank_3_medium"
+		texturefile = "gfx/interface/technologies/FRA_light_tank_3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_amphibious_tank_3_medium"
+		texturefile = "gfx/interface/technologies/FRA_amphibious_tank_3.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_FRA_infantry_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/FRA_infantry_equipment_4.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_FRA_infantry_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/FRA_infantry_equipment_5.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_rocket_interceptor_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/FRA_rocket_interceptor_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_rocket_interceptor_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/FRA_rocket_interceptor_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_rocket_interceptor_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/FRA_rocket_interceptor_3.dds"
+	}			
+		
+### NAVAL
+
+	SpriteType = {	
+		name = "GFX_FRA_early_ship_hull_light_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_1_Guepard.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_basic_ship_hull_light_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_2_Le_Fantasque.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_improved_ship_hull_light_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_3_Mogador.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_advanced_ship_hull_light_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_4_Improved_Mogador.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_light_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_5_T_47.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_light_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_6_T_53.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_light_7_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DD/FRA_DD_7_Suffren.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_light_converted_missile_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DDGC/FRA_DDG_1_T_56.dds"
+	}
+		
+	SpriteType = {	
+		name = "GFX_FRA_ship_sam_missile_battery_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/DDGC/FRA_DDG_1_T_56.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_super_heavy_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_SHBB_1_Fictional.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_super_heavy_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_SHBB_2_Fictional.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_FRA_early_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_1_Bretagne.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_basic_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_2_Richelieu.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_improved_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_3_Alsace_design_3.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_advanced_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_4_Alsace_final_design.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_heavy_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/BB/FRA_BB_5_Fictional.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_early_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_1_Duguay_Trouin.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_basic_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_2_La_Galissoriere.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_improved_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_3_De_Grasse.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_advanced_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_4_De_Grasse_Late.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_cruiser_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_1_Duguay_Trouin.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_cruiser_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_2_La_Galissoriere.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_cruiser_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_3_De_Grasse.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_cruiser_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_4_De_Grasse_Late.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_cruiser_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_5_De_Grasse_Rebuild.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_cruiser_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_6_Colbert.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_cruiser_7_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CL/FRA_CL_7_Colbert_CLG.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_7_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_7_Fictional.dds"
+	}	
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_6_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_6_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_5_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_5_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_4_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_4_Saint_Louis.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_3_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_3_C5SA1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_2_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_2_Algerie.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_1_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CA/FRA_CA_1_Suffren.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_early_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_1_BB_Béarn.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_ship_hull_carrier_conversion_bb_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_1_BB_Béarn.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_ship_hull_carrier_conversion_ca_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_1_CA_Duquesne.dds"
+	}
+		
+	SpriteType = {	
+		name = "GFX_FRA_basic_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_2_Joffre.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_improved_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_3_Painlévé.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_advanced_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_4_Jean_Bart.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_carrier_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_5_PA28.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_ship_hull_helicopter_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CVH/FRA_CVH_1_Jeanne_DArc.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_ship_hull_mega_carrier"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CVH/FRA_CVH_1_Jeanne_DArc.png"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_carrier_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_6_Clemenceau.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_carrier_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CV/FRA_CV_7_PA58.dds"
+	}
+		
+	SpriteType = {	
+		name = "GFX_FRA_early_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_1_Saphir.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_basic_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_2_Minerve.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_improved_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_3_Aurore.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_fleet_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_4_Narval.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_submarine_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_5_Aréthuse.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_submarine_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SS/FRA_SS_6_Daphné.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_cruiser_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SSC/FRA_SSC_1_Surcouf.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_midget_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SSM/FRA_SSM_1_S_622_Seehund.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_cruiser_panzerschiff_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/PzSC/FRA_PzSc_1_Croiseur_Protégé_de_23690.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_torpedo_cruiser_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/CT/FRA_CT_1_Emile_Bertin_Torpedo.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_FRA_tanker_submarines_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SST/FRA_SST_1_Surcouf_tanker.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_FRA_ship_hull_tanker_submarine_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/FRA/SST/FRA_SST_1_Surcouf_tanker.dds"
+	}
+
+		
+	SpriteType = {
+		name = "GFX_FRA_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/FRA_armored_car_equipment_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_armored_car5_medium"
+		texturefile = "gfx/interface/technologies/FRA_armored_car_equipment_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_armored_car6_medium"
+		texturefile = "gfx/interface/technologies/FRA_armored_car_equipment_6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_armored_car_at_upgrade_medium"
+		texturefile = "gfx/interface/technologies/FRA_armored_car_at_equipment.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_armored_car_at_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/FRA_armored_car_at_equipment_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_armored_car_at_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/FRA_armored_car_at_equipment_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_mechanised_infantry5_medium"
+		texturefile = "gfx/interface/technologies/FRA_mechanized_equipment_5.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_FRA_mechanised_infantry6_medium"
+		texturefile = "gfx/interface/technologies/FRA_mechanized_equipment_6.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_FRA_mechanised_infantry7_medium"
+		texturefile = "gfx/interface/technologies/FRA_mechanized_equipment_7.dds"
+	}		
+	SpriteType = {
+		name = "GFX_FRA_cv_nav_bomber_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/FRA_naval_bomber1_cv.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_cv_nav_bomber_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/FRA_naval_bomber2_cv.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_cv_nav_bomber_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/FRA_naval_bomber3_cv.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_cv_nav_bomber_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_naval_bomber4.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_cv_nav_bomber_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_naval_bomber5.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_cv_nav_bomber_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_naval_bomber6.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_cv_CAS_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_CAS1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_cv_CAS_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_CAS2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_cv_CAS_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_CAS3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_cv_CAS_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_CAS4.dds"
+	}
+	
+	SpriteType = {
+		 name = "GFX_FRA_CAS_equipment_4_medium"
+		 texturefile = "gfx/interface/technologies/FRA_CAS4.dds"
+	 }
+	
+	SpriteType = {
+		 name = "GFX_FRA_CAS_equipment_2_medium"
+		 texturefile = "gfx/interface/technologies/FRA_CAS2.dds"
+	 }
+	
+	
+	SpriteType = {
+		name = "GFX_FRA_cv_jet_fighter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_jet_fighter1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_cv_jet_fighter_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_jet_fighter2.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_cv_jet_fighter_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_jet_fighter3.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_cv_jet_fighter_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/FRA_cv_jet_fighter4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_utility_helicopter_1_medium"
+		texturefile = "gfx/interface/technologies/FRA_utility_helicopter_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_utility_helicopter_2_medium"
+		texturefile = "gfx/interface/technologies/FRA_utility_helicopter_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_utility_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/FRA_utility_helicopter_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_utility_helicopter_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/FRA_utility_helicopter_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_naval_helicopter_1_medium"
+		texturefile = "gfx/interface/technologies/FRA_naval_helicopter_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_naval_helicopter_2_medium"
+		texturefile = "gfx/interface/technologies/FRA_naval_helicopter_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_naval_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/FRA_naval_helicopter_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_naval_helicopter_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/FRA_naval_helicopter_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_cargo_helicopter_1_medium"
+		texturefile = "gfx/interface/technologies/FRA_cargo_helicopter_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_cargo_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/FRA_cargo_helicopter_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_bba_early_transport_plane_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/transport/fra_potez650.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_bba_improved_transport_plane_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/transport/fra_mb220.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_bba_strategic_airlifter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/transport/fra_bretagne.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_transport_plane_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/transport/fra_norazur.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_FRA_transport_plane_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/transport/fra_languedoc.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_transport_plane_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/transport/fra_transall.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_FRA_transport_plane_equipment_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/transport/fra_potez650.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_transport_plane_equipment_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/transport/fra_mb220.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_transport_plane_equipment_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/transport/fra_bretagne.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_transport_plane_equipment_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/transport/fra_norazur.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_transport_plane_equipment_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/transport/fra_languedoc.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_transport_plane_equipment_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/transport/fra_transall.dds"
+	} 
+			
+	SpriteType = {
+		name = "GFX_FRA_naval_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/FRA_naval_helicopter_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_naval_helicopter_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/FRA_naval_helicopter_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_utility_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/FRA_utility_helicopter_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_utility_helicopter_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/FRA_utility_helicopter_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_cargo_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/FRA_cargo_helicopter_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_heavy_fighter4_medium"
+		texturefile = "gfx/interface/technologies/FRA_heavy_fighter4.dds"
+	}			
+			
+	SpriteType = {
+		name = "GFX_FRA_heavy_fighter5_medium"
+		texturefile = "gfx/interface/technologies/FRA_heavy_fighter5.dds"
+	}			
+			
+	SpriteType = {
+		name = "GFX_FRA_modern_small_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_45/so6020espadon.dds"
+	}		
+			
+	SpriteType = {
+		name = "GFX_FRA_modern_small_airframe_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_47/mystere.dds"
+	}			
+			
+	SpriteType = {
+		name = "GFX_FRA_modern_small_airframe_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_50/breguet1002.dds"
+	}	
+			
+	SpriteType = {
+		name = "GFX_FRA_modern_small_airframe_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_55/etendardii.dds"
+	}
+			
+	SpriteType = {
+		name = "GFX_FRA_modern_small_airframe_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_60/mirageiiic.dds"
+	}
+			
+	SpriteType = {
+		name = "GFX_FRA_modern_medium_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/medium/bomber_45/nc270.dds"
+	}		
+			
+	SpriteType = {
+		name = "GFX_FRA_modern_medium_airframe_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/medium/bomber_47/grognard.dds"
+	}			
+			
+	SpriteType = {
+		name = "GFX_FRA_modern_medium_airframe_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/medium/bomber_50/vautour.dds"
+	}	
+			
+	SpriteType = {
+		name = "GFX_FRA_modern_medium_airframe_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/medium/bomber_55/vautouriib.dds"
+	}
+			
+	SpriteType = {
+		name = "GFX_FRA_modern_medium_airframe_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/medium/bomber_60/minerve.dds" 
+	}
+		
+	SpriteType = {
+		name = "GFX_FRA_modern_large_airframe_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/large/strat_60/supermirageiv.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_FRA_ifv_infantry_medium"
+		texturefile = "gfx/interface/technologies/FRA_ifv_1.dds"
+	}
+	
+	# #### ARMORED CAR
+		
+	SpriteType = {
+		name = "GFX_FRA_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_Panhard_165.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_AM_39.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_Panhard_178.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_Panhard_201.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_armored_car5_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_Panhard_EBR.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_armored_car6_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_Panhard_AML.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_armored_car_at_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_Panhard_178_AT.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_armored_car_at_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_Panhard_FL_12.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_armored_car_at_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_AML_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_Laffly.dds"
+	}		
+		
+	SpriteType = {
+		name = "GFX_FRA_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_Laffly.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_FRA_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_VUDB.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_FRA_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_SOMUA_MCG.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_VBCP_39L.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_mechanised_infantry4_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_SOMUA_MCL.dds"
+	} 
+		
+	SpriteType = {
+		name = "GFX_FRA_mechanised_infantry5_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_AMI_VTT.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_FRA_mechanised_infantry6_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_AMI_VTP.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_FRA_mechanised_infantry7_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_AMX_VCI.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_FRA_ifv_infantry_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_AMX_VCI_M56.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_FRA_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_M93.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_FRA_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_MAS_36.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_FRA_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_MAS_38.dds.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_FRA_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_MAS_44.dds.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_amphibious_mechanized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_FCM_M1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_amphibious_mechanized_infantry_2_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_Lorraine_Chanillette_Amph.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_amphibious_mechanized_infantry_3_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_Panhard_M3.dds"
+	}
+		
+	# SpriteType = {
+		# name = "GFX_FRA_post_war_diesel_locomotives_medium"
+		# texturefile = "gfx/interface/technologies/land/trains/FRA_train_3.dds"
+	# } 
+		
+	SpriteType = {
+		name = "GFX_FRA_diesel_electric_locomotives_medium"
+		texturefile = "gfx/interface/technologies/land/trains/FRA_train_4.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_FRA_train_equipment_2_de_medium"
+		texturefile = "gfx/interface/technologies/land/trains/FRA_train_4.dds"
+	}
+			
+	SpriteType = {
+		name = "GFX_FRA_modern_large_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/large/strat_45/fictional45.dds"
+	}	 			
+			
+	SpriteType = {
+		name = "GFX_FRA_modern_large_airframe_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/large/strat_47/fictional47.dds"
+	}	 
+			
+	SpriteType = {
+		name = "GFX_FRA_modern_large_airframe_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/large/strat_50/fictional50.dds"
+	} 
+			
+	SpriteType = {
+		name = "GFX_FRA_modern_large_airframe_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/large/strat_55/fictional55.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_scout_helicopter_1_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_alouette1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_scout_helicopter_2_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_djin.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_scout_helicopter_3_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_norelfe.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_scout_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_alouette1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_scout_helicopter_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_djin.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_scout_helicopter_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/land/FRA/FRA_norelfe.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_anti_tank_equipment_5"
+		texturefile = "gfx/interface/technologies/land/USA/USA_MGM21.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_antitank_f_medium"
+		texturefile = "gfx/interface/technologies/land/USA/USA_MGM21.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_FRA_vtol_plane_airframe_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_fighter_60/balzac_v.png"
+	}
+	 
+	SpriteType = {
+		name = "GFX_FRA_antipodal_bomber_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/air/FRA/FRA_star_11.dds" 
+	}  
+	
+	SpriteType = {
+		name = "GFX_FRA_airlifter_equipment_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/transport/fra_noratlas.dds"	
+	}
+	 
+	SpriteType = {
+		name = "GFX_FRA_airlifter_equipment_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/transport/fra_sahara.dds"	
+	} 
+	
+	SpriteType = {
+		name = "GFX_FRA_airlifter_equipment_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/transport/fra_caravelle.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_airlifter_equipment_7_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/transport/fra_br941.dds"	
+	}
+ 
+	SpriteType = {
+		name = "GFX_FRA_transport_plane_7_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/transport/fra_br941.dds"	
+	}
+}  
+
+ 

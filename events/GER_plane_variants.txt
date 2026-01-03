@@ -1,0 +1,3907 @@
+# add_namespace = GER_plane_variants
+
+# country_event = { #Bf 109 E-3
+	# id = GER_plane_variants.1
+	
+	# title = GER_plane_variants.1.t
+	# desc = GER_plane_variants.1.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_small_airframe
+		# has_tech = aa_cannon_1
+		# has_tech = engines_2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Bf 109 E-3"
+			# type = small_plane_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = light_mg_2x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# engine_type_slot = engine_2_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Bf109D
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Bf 109 E-7
+	# id = GER_plane_variants.2
+	
+	# title = GER_plane_variants.2.t
+	# desc = GER_plane_variants.2.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_small_airframe
+		# has_tech = aa_cannon_1
+		# has_tech = range_improvements
+		# has_tech = engines_2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Bf 109 E-7"
+			# type = small_plane_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = engine_cannon_1_1x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
+				# fixed_auxiliary_weapon_slot_2 = light_mg_2x
+				# engine_type_slot = engine_2_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Bf109E
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Bf 109 E-7/B
+	# id = GER_plane_variants.3
+	
+	# title = GER_plane_variants.3.t
+	# desc = GER_plane_variants.3.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_small_airframe
+		# has_tech = aa_cannon_1
+		# has_tech = early_bombs
+		# has_tech = engines_2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Bf 109 E-7/B"
+			# type = small_plane_cas_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = bomb_locks
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
+				# fixed_auxiliary_weapon_slot_2 = light_mg_2x
+				# engine_type_slot = engine_2_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Bf109E7B
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Bf 109 F
+	# id = GER_plane_variants.4
+	
+	# title = GER_plane_variants.4.t
+	# desc = GER_plane_variants.4.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_small_airframe
+		# has_tech = aa_cannon_2
+		# has_tech = engines_3
+		# has_tech = range_improvements
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Bf 109 F"
+			# type = small_plane_airframe_1
+			# modules = {				
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = light_mg_2x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_1x
+				# fixed_auxiliary_weapon_slot_2 = drop_tanks
+				# engine_type_slot = engine_3_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Bf109F
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Bf 109 G
+	# id = GER_plane_variants.5
+	
+	# title = GER_plane_variants.5.t
+	# desc = GER_plane_variants.5.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_small_airframe
+		# has_tech = aa_cannon_2
+		# has_tech = engines_3
+		# has_tech = aa_hmg
+		# has_tech = range_improvements
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Bf 109 G"
+			# type = small_plane_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = engine_cannon_2_1x 
+				# fixed_auxiliary_weapon_slot_1 = drop_tanks
+				# fixed_auxiliary_weapon_slot_2 = heavy_mg_2x
+				# engine_type_slot = engine_3_1x
+				# special_type_slot_1 = armor_plate_small
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Bf109G
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Bf 109 K
+	# id = GER_plane_variants.6
+	
+	# title = GER_plane_variants.6.t
+	# desc = GER_plane_variants.6.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_small_airframe
+		# has_tech = aa_cannon_3
+		# has_tech = engines_4
+		# has_tech = aa_hmg
+		# has_tech = range_improvements
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Bf 109 K"
+			# type = small_plane_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = gyro_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = heavy_mg_2x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_1x
+				# fixed_auxiliary_weapon_slot_2 = drop_tanks
+				# engine_type_slot = engine_4_1x
+				# special_type_slot_1 = armor_plate_small
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Bf109K
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #He 111H
+	# id = GER_plane_variants.7
+	
+	# title = GER_plane_variants.7.t
+	# desc = GER_plane_variants.7.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_medium_airframe
+		# has_tech = engines_2
+		# has_tech = mechanical_computing
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "He 111 H"
+			# type = medium_plane_airframe_1
+			# modules = {
+				# fixed_wing_slot = elliptical_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_1
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_2_2x
+				# special_type_slot_1 = lmg_defense_turret_2x
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+			# }
+			# icon = GFX_GER_LAMP_He111H
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_heinkel_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Ju 88
+	# id = GER_plane_variants.8
+	
+	# title = GER_plane_variants.8.t
+	# desc = GER_plane_variants.8.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_medium_airframe
+		# has_tech = engines_2
+		# has_tech = mechanical_computing
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ju 88 A"
+			# type = medium_plane_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_1
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = bomb_locks
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_2_2x
+				# special_type_slot_1 = lmg_defense_turret_2x
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+			# }
+			# icon = GFX_GER_LAMP_Ju88A1
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_junkers_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Do 217
+	# id = GER_plane_variants.9
+	
+	# title = GER_plane_variants.9.t
+	# desc = GER_plane_variants.9.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = improved_medium_airframe
+		# has_tech = engines_3
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Do 217"
+			# type = medium_plane_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_1
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_3_2x
+				# special_type_slot_1 = lmg_defense_turret_2x
+				# special_type_slot_2 = lmg_defense_turret
+				# special_type_slot_3 = empty
+			# }
+			# icon = GFX_GER_LAMP_Do217K
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_junkers_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Ju 188
+	# id = GER_plane_variants.10
+	
+	# title = GER_plane_variants.10.t
+	# desc = GER_plane_variants.10.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = advanced_medium_airframe
+		# has_tech = engines_3
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ju 188"
+			# type = medium_plane_airframe_3
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = bomb_sights_1
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = radial_engine_3_2x
+				# special_type_slot_1 = lmg_defense_turret_2x
+				# special_type_slot_2 = cannon_defense_turret
+				# special_type_slot_3 = empty
+			# }
+			# icon = GFX_GER_LAMP_Ju188A
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_junkers_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Ju 288
+	# id = GER_plane_variants.11
+	
+	# title = GER_plane_variants.11.t
+	# desc = GER_plane_variants.11.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = advanced_medium_airframe
+		# has_tech = engines_4
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ju 288"
+			# type = medium_plane_airframe_3
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = bomb_sights_1
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_4_2x
+				# special_type_slot_1 = lmg_defense_turret_2x
+				# special_type_slot_2 = cannon_defense_turret
+				# special_type_slot_3 = empty
+			# }
+			# icon = GFX_GER_LAMP_Ju288
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_junkers_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Fw 190 A-4
+	# id = GER_plane_variants.12
+	
+	# title = GER_plane_variants.12.t
+	# desc = GER_plane_variants.12.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = improved_small_airframe
+		# has_tech = aa_cannon_2
+		# has_tech = range_improvements
+		# has_tech = engines_3
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Fw 190 A-4"
+			# type = small_plane_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = light_mg_2x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_2 = drop_tanks
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = radial_engine_3_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Fw190A2
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_focke_wulf_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Fw 190 A-4/B
+	# id = GER_plane_variants.13
+	
+	# title = GER_plane_variants.13.t
+	# desc = GER_plane_variants.13.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = improved_small_airframe
+		# has_tech = aa_cannon_2
+		# has_tech = range_improvements
+		# has_tech = engines_3
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Fw 190 A-4/B"
+			# type = small_plane_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = light_mg_2x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_2 = bomb_locks
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = radial_engine_3_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Fw190A4
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_focke_wulf_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Fw 190 A-6
+	# id = GER_plane_variants.14
+	
+	# title = GER_plane_variants.14.t
+	# desc = GER_plane_variants.14.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = improved_small_airframe
+		# has_tech = aa_cannon_2
+		# has_tech = range_improvements
+		# has_tech = engines_3
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Fw 190 A-6"
+			# type = small_plane_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = light_mg_2x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_2 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_3 = drop_tanks
+				# engine_type_slot = radial_engine_3_1x
+			# }
+			# icon = GFX_GER_LAMP_Fw190A6
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_focke_wulf_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Fw 190 A-6/R11
+	# id = GER_plane_variants.15
+	
+	# title = GER_plane_variants.15.t
+	# desc = GER_plane_variants.15.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = improved_small_airframe
+		# has_tech = aa_cannon_2
+		# has_tech = range_improvements
+		# has_tech = engines_3
+		# has_tech = centimetric_radar
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Fw 190 A-6/R11"
+			# type = small_plane_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = air_air_radar_1
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = light_mg_2x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_2 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_3 = drop_tanks
+				# engine_type_slot = radial_engine_3_1x
+			# }
+			# icon = GFX_GER_Fw_190_A6_NF
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_focke_wulf_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Fw 190 A-8
+	# id = GER_plane_variants.16
+	
+	# title = GER_plane_variants.16.t
+	# desc = GER_plane_variants.16.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = improved_small_airframe
+		# has_tech = aa_hmg
+		# has_tech = range_improvements
+		# has_tech = engines_3
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Fw 190 A-8"
+			# type = small_plane_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = heavy_mg_2x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_2 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_3 = drop_tanks
+				# engine_type_slot = radial_engine_3_1x
+				# special_type_slot_1 = armor_plate_small
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Fw190A8
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_focke_wulf_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Fw 190 F-8
+	# id = GER_plane_variants.17
+	
+	# title = GER_plane_variants.17.t
+	# desc = GER_plane_variants.17.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = improved_small_airframe
+		# has_tech = aa_hmg
+		# has_tech = range_improvements
+		# has_tech = engines_3
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Fw 190 F-8"
+			# type = small_plane_cas_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = bomb_locks
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_2 = heavy_mg_2x
+				# fixed_auxiliary_weapon_slot_3 = bomb_locks
+				# engine_type_slot = radial_engine_3_1x
+				# special_type_slot_1 = armor_plate_small
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Fw190F
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_focke_wulf_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Fw 190 D-9
+	# id = GER_plane_variants.18
+	
+	# title = GER_plane_variants.18.t
+	# desc = GER_plane_variants.18.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = improved_small_airframe
+		# has_tech = aa_hmg
+		# has_tech = range_improvements
+		# has_tech = engines_4
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Fw 190 D-9"
+			# type = small_plane_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = gyro_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = heavy_mg_2x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_2 = bomb_locks
+				# fixed_auxiliary_weapon_slot_3 = drop_tanks
+				# engine_type_slot = engine_4_1x
+				# special_type_slot_1 = armor_plate_small
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Fw190D
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_focke_wulf_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Ta 152
+	# id = GER_plane_variants.19
+	
+	# title = GER_plane_variants.19.t
+	# desc = GER_plane_variants.19.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = advanced_small_airframe
+		# has_tech = aa_hmg
+		# has_tech = aa_cannon_3
+		# has_tech = range_improvements
+		# has_tech = engines_4
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ta 152"
+			# type = small_plane_airframe_3
+			# modules = {
+				# fixed_wing_slot = high_altitude_straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = gyro_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = engine_cannon_3_1x 
+				# fixed_auxiliary_weapon_slot_1 = drop_tanks
+				# fixed_auxiliary_weapon_slot_2 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_4_1x
+				# special_type_slot_1 = armor_plate_small
+				# special_type_slot_2 = fuel_tanks_small	
+				# special_type_slot_3 = fuel_tanks_small	
+			# }
+			# icon = GFX_GER_LAMP_Ta152
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_kurt_tank_design_team
+		# }
+	# }	
+# }
+
+# # country_event = { #Me 309
+	# # id = GER_plane_variants.20
+	
+	# # title = GER_plane_variants.20.t
+	# # desc = GER_plane_variants.20.d
+	# # picture = GFX_report_event_ett60
+	
+	# # fire_only_once = yes
+	# # hidden = yes
+	# # trigger = {
+		# # tag = GER
+		# # is_ai = yes
+		# # has_tech = advanced_small_airframe
+		# # has_tech = aa_hmg
+		# # has_tech = aa_cannon_3
+		# # has_tech = range_improvements
+		# # has_tech = engines_4
+	# # }
+	
+	# # immediate = {
+		# # create_equipment_variant = {
+			# # name = "Me 309"
+			# # type = small_plane_airframe_3
+			# # modules = {
+				# # fixed_main_weapon_slot = aircraft_cannon_2_2x
+				# # fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_1x
+				# # fixed_auxiliary_weapon_slot_2 = heavy_mg_4x
+				# # fixed_aux_prop_slot = injection_system
+				# # engine_type_slot = engine_4_1x
+				# # special_type_slot_1 = drop_tanks
+				# # special_type_slot_2 = armor_plate_small
+				# # fixed_wing_slot = straight_wing
+			# # }
+			# # icon = GFX_GER_Me_309
+		# # }
+	# # }	
+# # }
+
+# country_event = { #Me 262
+	# id = GER_plane_variants.21
+	
+	# title = GER_plane_variants.21.t
+	# desc = GER_plane_variants.21.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe
+		# has_tech = air_improved_construction
+		# has_tech = aa_cannon_3
+		# #has_tech = range_improvements
+		# has_tech = jet_engines
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Me 262"
+			# type = small_plane_airframe_4
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight 
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot =  aircraft_cannon_3_2x 
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x 
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = jet_engine_2x
+				# special_type_slot_1 = armor_plate_small
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Me262A1A
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #He 162
+	# id = GER_plane_variants.22
+	
+	# title = GER_plane_variants.22.t
+	# desc = GER_plane_variants.22.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe
+		# has_tech = aircraft_construction
+		# has_tech = aa_cannon_2
+		# #has_tech = range_improvements
+		# has_tech = jet_engines
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "He 162"
+			# type = small_plane_airframe_4
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight 
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot =  aircraft_cannon_2_2x 
+				# fixed_auxiliary_weapon_slot_1 = empty 
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = jet_engine_1x
+				# special_type_slot_1 = armor_plate_small
+				# special_type_slot_2 = non_strategic_materials_small	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_LAMP_He162
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_heinkel_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Go 299
+	# id = GER_plane_variants.23
+	
+	# title = GER_plane_variants.23.t
+	# desc = GER_plane_variants.23.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe
+		# has_tech = air_improved_construction
+		# has_tech = aa_cannon_3
+		# #has_tech = range_improvements
+		# has_tech = jet_engines
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ho 229"
+			# type = small_plane_airframe_4
+			# modules = {
+				# fixed_wing_slot = flying_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight 
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot =  aircraft_cannon_3_2x 
+				# fixed_auxiliary_weapon_slot_1 = empty 
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = jet_engine_2x
+				# special_type_slot_1 = armor_plate_small
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Ho229
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_horten
+		# }
+	# }	
+# }
+
+# country_event = { #Ta 183
+	# id = GER_plane_variants.24
+	
+	# title = GER_plane_variants.24.t
+	# desc = GER_plane_variants.24.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe_2
+		# has_tech = air_improved_construction
+		# has_tech = aa_cannon_3
+		# has_tech = air_air_missile_1
+		# has_tech = jet_engines
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ta 183"
+			# type = small_plane_airframe_5
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight 
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_3_2x 
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x 
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = jet_engine_2_1x
+				# special_type_slot_1 = armor_plate_small
+				# special_type_slot_2 = g_suit_1	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Ta183
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_kurt_tank_design_team
+		# }
+	# }	
+# }
+
+# country_event = { #me 1101
+	# id = GER_plane_variants.25
+	
+	# title = GER_plane_variants.25.t
+	# desc = GER_plane_variants.25.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe_3
+		# has_tech = postwar_radar_tech_1
+		# has_tech = aa_cannon_3
+		# has_tech = air_air_missile_2
+		# has_tech = second_gen_jet_engines
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Me 1101"
+			# type = small_plane_airframe_6
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = air_air_radar_3
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight 
+				# fixed_engine_mod_slot = afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_4_2x 
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_4_2x 
+				# fixed_auxiliary_weapon_slot_2 = air_air_missile_2_module
+				# fixed_auxiliary_weapon_slot_3 = air_air_missile_2_module
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = second_gen_jet_engine_1x
+				# special_type_slot_1 = armor_plate_small
+				# special_type_slot_2 = g_suit_1	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_LAMP_MeP1101
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #HA300
+	# id = GER_plane_variants.26
+	
+	# title = GER_plane_variants.26.t
+	# desc = GER_plane_variants.26.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe_4
+		# has_tech = air_advanced_construction
+		# has_tech = aa_cannon_4
+		# has_tech = air_air_missile_2
+		# has_tech = second_gen_jet_engines
+		# has_tech = postwar_radar_tech_3
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ta 300"
+			# type = small_plane_airframe_7
+			# modules = {
+				# fixed_wing_slot = delta_wing
+				# fixed_radar_slot = air_air_radar_4
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = hud_module
+				# fixed_engine_mod_slot = afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_4_2x 
+				# fixed_auxiliary_weapon_slot_1 = air_air_missile_2_module 
+				# fixed_auxiliary_weapon_slot_2 = air_air_ir_missile_1_module
+				# fixed_auxiliary_weapon_slot_3 = drop_tanks
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = second_gen_jet_engine_1x
+				# special_type_slot_1 = armor_plate_small
+				# special_type_slot_2 = g_suit_2	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_Ha_300
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_kurt_tank_design_team
+		# }
+	# }	
+# }
+
+# country_event = { #He 31
+	# id = GER_plane_variants.27
+	
+	# title = GER_plane_variants.27.t
+	# desc = GER_plane_variants.27.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe_5
+		# has_tech = air_advanced_construction
+		# has_tech = aa_cannon_4
+		# has_tech = air_air_missile_3
+		# has_tech = third_gen_jet_engines
+		# has_tech = postwar_radar_tech_4
+		# has_tech = air_air_missile_4
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "He 31"
+			# type = small_plane_airframe_7
+			# modules = {
+				# fixed_wing_slot = tailed_delta_wing
+				# fixed_radar_slot = air_air_radar_5
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = hud_module
+				# fixed_engine_mod_slot = mach_2_afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_4_2x 
+				# fixed_auxiliary_weapon_slot_1 = air_air_missile_3_module 
+				# fixed_auxiliary_weapon_slot_2 = air_air_ir_missile_2_module
+				# fixed_auxiliary_weapon_slot_3 = drop_tanks
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = second_gen_jet_engine_1x
+				# special_type_slot_1 = armor_plate_small
+				# special_type_slot_2 = g_suit_3	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_He_31
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_heinkel_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Ju 87
+	# id = GER_plane_variants.28
+	
+	# title = GER_plane_variants.28.t
+	# desc = GER_plane_variants.28.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_small_airframe
+		# has_tech = aa_lmg
+		# has_tech = engines_2
+		# has_tech = early_bombs
+		# has_tech = aircraft_construction
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ju 87"
+			# type = small_plane_cas_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = bomb_locks
+				# fixed_auxiliary_weapon_slot_1 = light_mg_2x
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# engine_type_slot = engine_2_1x
+				# special_type_slot_1 = lmg_defense_turret
+				# special_type_slot_2 = dive_brakes_small	
+			# }
+			# icon = GFX_GER_LAMP_Ju87B
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_junkers_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Ju 87D
+	# id = GER_plane_variants.29
+	
+	# title = GER_plane_variants.29.t
+	# desc = GER_plane_variants.29.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_small_airframe
+		# has_tech = aa_lmg
+		# has_tech = engines_2
+		# has_tech = early_bombs
+		# has_tech = aircraft_construction
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ju 87D"
+			# type = small_plane_cas_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = bomb_locks
+				# fixed_auxiliary_weapon_slot_1 = light_mg_2x
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# engine_type_slot = engine_2_1x
+				# special_type_slot_1 = hmg_defense_turret
+				# special_type_slot_2 = dive_brakes_small	
+			# }
+			# icon = GFX_GER_LAMP_Ju87D
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_junkers_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Ju 87G
+	# id = GER_plane_variants.30
+	
+	# title = GER_plane_variants.30.t
+	# desc = GER_plane_variants.30.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_small_airframe
+		# has_tech = interwar_antitank
+		# has_tech = engines_2
+		# has_tech = early_bombs
+		# has_tech = aircraft_construction
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ju 87G"
+			# type = small_plane_cas_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = bomb_locks
+				# fixed_auxiliary_weapon_slot_1 = tank_buster_1
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# engine_type_slot = engine_2_1x
+				# special_type_slot_1 = hmg_defense_turret
+				# special_type_slot_2 = dive_brakes_small	
+				# special_type_slot_3 = armor_plate_small	
+			# }
+			# icon = GFX_GER_LAMP_Ju87G
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_junkers_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Hs 129
+	# id = GER_plane_variants.31
+	
+	# title = GER_plane_variants.31.t
+	# desc = GER_plane_variants.31.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = improved_small_airframe
+		# #has_tech = interwar_antitank
+		# has_tech = engines_3
+		# has_tech = early_bombs
+		# has_tech = aa_cannon_2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Hs 129"
+			# type = small_plane_cas_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = bomb_locks
+				# fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# engine_type_slot = radial_engine_3_2x
+				# special_type_slot_1 = cannon_defense_turret
+				# special_type_slot_2 = armor_plate_small	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Hs129B1
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_henschel_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Hs 129B-3
+	# id = GER_plane_variants.32
+	
+	# title = GER_plane_variants.32.t
+	# desc = GER_plane_variants.32.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = improved_small_airframe
+		# has_tech = antitank2
+		# has_tech = engines_3
+		# has_tech = early_bombs
+		# has_tech = aa_cannon_2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Hs 129B-3"
+			# type = small_plane_cas_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = bomb_locks
+				# fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
+				# fixed_auxiliary_weapon_slot_2 = tank_buster_2
+				# engine_type_slot = radial_engine_3_2x
+				# special_type_slot_1 = cannon_defense_turret
+				# special_type_slot_2 = armor_plate_small	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Hs129B3
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_henschel_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Ju 187
+	# id = GER_plane_variants.33
+	
+	# title = GER_plane_variants.33.t
+	# desc = GER_plane_variants.33.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = advanced_small_airframe
+		# has_tech = aircraft_construction
+		# has_tech = engines_4
+		# has_tech = early_bombs
+		# has_tech = aa_cannon_2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ju 187"
+			# type = small_plane_cas_airframe_3
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = bomb_locks
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_2 = bomb_locks
+				# engine_type_slot = engine_4_1x
+				# special_type_slot_1 = hmg_defense_turret
+				# special_type_slot_2 = armor_plate_small	
+				# special_type_slot_3 = dive_brakes_small	
+			# }
+			# icon = GFX_GER_LAMP_Ju187
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_junkers_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Hs 132
+	# id = GER_plane_variants.34
+	
+	# title = GER_plane_variants.34.t
+	# desc = GER_plane_variants.34.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe
+		# has_tech = air_improved_construction
+		# has_tech = turboprops
+		# has_tech = early_bombs
+		# has_tech = aa_cannon_3
+		# has_tech = antitank2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Hs 132"
+			# type = small_plane_cas_airframe_4
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = bomb_locks
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# engine_type_slot = jet_engine_1x
+				# special_type_slot_1 = armor_plate_small
+				# special_type_slot_2 = non_strategic_materials_small	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Hs132
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_henschel_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Me 1099
+	# id = GER_plane_variants.35
+	
+	# title = GER_plane_variants.35.t
+	# desc = GER_plane_variants.35.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe_2
+		# has_tech = air_improved_construction
+		# has_tech = jet_engines_2
+		# #has_tech = early_bombs
+		# has_tech = aa_cannon_4
+		# has_tech = antitank2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Me 1099"
+			# type = small_plane_cas_airframe_5
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = tank_buster_2
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_4_2x
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# engine_type_slot = jet_engine_2_2x
+				# special_type_slot_1 = armor_plate_small
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_GER_Me_1099
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Ju 387
+	# id = GER_plane_variants.36
+	
+	# title = GER_plane_variants.36.t
+	# desc = GER_plane_variants.36.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe_3
+		# has_tech = air_improved_construction
+		# has_tech = second_gen_jet_engines
+		# has_tech = imp_bomb_rack
+		# #has_tech = aa_cannon_4
+		# has_tech = antitank2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ju 387"
+			# type = small_plane_cas_airframe_6
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = toss_computer
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = imp_bomb_locks
+				# fixed_auxiliary_weapon_slot_1 = tank_buster_2
+				# fixed_auxiliary_weapon_slot_2 = imp_bomb_locks
+				# fixed_auxiliary_weapon_slot_3 = rocket_pod_module
+				# engine_type_slot = second_gen_jet_engine_2x
+				# special_type_slot_1 = armor_plate_small
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_GER_Ju_387
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_junkers_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Ta 241
+	# id = GER_plane_variants.37
+	
+	# title = GER_plane_variants.37.t
+	# desc = GER_plane_variants.37.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe_4
+		# has_tech = air_improved_construction
+		# has_tech = second_gen_jet_engines
+		# has_tech = imp_bomb_rack
+		# has_tech = aa_cannon_4
+		# has_tech = antitank2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ta 241"
+			# type = small_plane_cas_airframe_7
+			# modules = {
+				# fixed_wing_slot = tailed_delta_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = toss_computer
+				# fixed_engine_mod_slot = afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = imp_bomb_locks
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_4_2x
+				# fixed_auxiliary_weapon_slot_2 = imp_bomb_locks
+				# fixed_auxiliary_weapon_slot_3 = rocket_pod_module
+				# engine_type_slot = second_gen_jet_engine_2x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_GER_Ta_241_Marut
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_kurt_tank_design_team
+		# }
+	# }	
+# }
+
+# country_event = { #Fw 1262
+	# id = GER_plane_variants.38
+	
+	# title = GER_plane_variants.38.t
+	# desc = GER_plane_variants.38.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe_5
+		# has_tech = air_improved_construction
+		# has_tech = third_gen_jet_engines
+		# has_tech = imp_bomb_rack
+		# has_tech = aa_cannon_4
+		# has_tech = antitank2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Fw 1262"
+			# type = small_plane_cas_airframe_8
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = toss_computer
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = imp_bomb_locks
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_4_1x
+				# fixed_auxiliary_weapon_slot_2 = imp_bomb_locks
+				# fixed_auxiliary_weapon_slot_3 = rocket_pod_module
+				# engine_type_slot = third_gen_jet_engine_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_GER_Fw_1262
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_focke_wulf_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Ar 234
+	# id = GER_plane_variants.39
+	
+	# title = GER_plane_variants.39.t
+	# desc = GER_plane_variants.39.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_medium_airframe
+		# has_tech = jet_engines
+		# has_tech = early_bombs
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ar 234"
+			# type = medium_plane_airframe_4
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_1
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = bomb_locks
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = jet_engine_2x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+			# }
+			# icon = GFX_GER_LAMP_Ar234C
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_arado
+		# }
+	# }	
+# }
+
+# country_event = { #He 343
+	# id = GER_plane_variants.40
+	
+	# title = GER_plane_variants.40.t
+	# desc = GER_plane_variants.40.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_medium_airframe_2
+		# has_tech = jet_engines_2
+		# has_tech = early_bombs
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "He 343"
+			# type = medium_plane_airframe_5
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_2
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = jet_engine_2_4x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+			# }
+			# icon = GFX_GER_LAMP_He343
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_heinkel_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Ar 560
+	# id = GER_plane_variants.41
+	
+	# title = GER_plane_variants.41.t
+	# desc = GER_plane_variants.41.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_medium_airframe_4
+		# has_tech = second_gen_jet_engines
+		# has_tech = imp_bomb_rack
+		# has_tech = aa_cannon_4
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ar 560"
+			# type = medium_plane_airframe_7
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_2
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_1 = medium_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = jet_engine_2_4x
+				# special_type_slot_1 = cannon_defense_turret_3
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+			# }
+			# icon = GFX_GER_Ar_560
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_arado
+		# }
+	# }	
+# }
+
+# country_event = { #Sanger 2
+	# id = GER_plane_variants.42
+	
+	# title = GER_plane_variants.42.t
+	# desc = GER_plane_variants.42.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_medium_airframe_5
+		# has_tech = third_gen_jet_engines
+		# has_tech = imp_bomb_rack
+		# has_tech = compressor_bleed_engine_tech
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Sänger 2"
+			# type = medium_plane_airframe_8
+			# modules = {
+				# fixed_wing_slot = blended_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_2
+				# fixed_engine_mod_slot = compressor_bleed_afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = medium_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_1 = medium_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = third_gen_jet_engine_2x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+			# }
+			# icon = GFX_GER_Sanger_2
+			# mark_older_equipment_obsolete = yes
+			# #design_team = mio:GER_arado
+		# }
+	# }	
+# }
+
+# country_event = { #Bf 110
+	# id = GER_plane_variants.43
+	
+	# title = GER_plane_variants.43.t
+	# desc = GER_plane_variants.43.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_medium_airframe
+		# has_tech = engines_2
+		# has_tech = aa_lmg
+		# has_tech = aa_cannon_1
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Bf 110C"
+			# type = medium_plane_fighter_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = light_mg_4x
+				# fixed_auxiliary_weapon_slot_1 = light_mg_2x
+				# fixed_auxiliary_weapon_slot_2 = aircraft_cannon_1_2x
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_2_2x
+				# special_type_slot_1 = lmg_defense_turret
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+			# }
+			# icon = GFX_GER_LAMP_Bf110C
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Bf 110D
+	# id = GER_plane_variants.44
+	
+	# title = GER_plane_variants.44.t
+	# desc = GER_plane_variants.44.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_medium_airframe
+		# has_tech = engines_2
+		# has_tech = aa_lmg
+		# has_tech = aa_cannon_1
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Bf 110D"
+			# type = medium_plane_fighter_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = light_mg_4x
+				# fixed_auxiliary_weapon_slot_1 = bomb_locks
+				# fixed_auxiliary_weapon_slot_2 = aircraft_cannon_1_2x
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_3_2x
+				# special_type_slot_1 = lmg_defense_turret
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+			# }
+			# icon = GFX_GER_LAMP_Bf110D
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Bf 110D
+	# id = GER_plane_variants.45
+	
+	# title = GER_plane_variants.45.t
+	# desc = GER_plane_variants.45.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_medium_airframe
+		# has_tech = engines_3
+		# has_tech = aa_hmg
+		# has_tech = aa_cannon_2
+		# has_tech = centimetric_radar
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Bf 110G"
+			# type = medium_plane_fighter_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = air_air_radar_1
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = heavy_mg_4x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_3_2x
+				# special_type_slot_1 = hmg_defense_turret
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+			# }
+			# icon = GFX_GER_LAMP_Bf110G4
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Me 410
+	# id = GER_plane_variants.46
+	
+	# title = GER_plane_variants.46.t
+	# desc = GER_plane_variants.46.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = improved_medium_airframe
+		# has_tech = engines_3
+		# has_tech = aa_hmg
+		# has_tech = aa_cannon_2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Me 410"
+			# type = medium_plane_fighter_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = light_mg_2x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_2 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_3_2x
+				# special_type_slot_1 = hmg_defense_turret
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+			# }
+			# icon = GFX_GER_LAMP_Me410A
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Ar 240
+	# id = GER_plane_variants.47
+	
+	# title = GER_plane_variants.47.t
+	# desc = GER_plane_variants.47.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = improved_medium_airframe
+		# has_tech = engines_3
+		# has_tech = aa_hmg
+		# has_tech = aa_cannon_2
+		# has_tech = advanced_centimetric_radar
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ar 240"
+			# type = medium_plane_fighter_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = air_air_radar_2
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = light_mg_2x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_2 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_3_2x
+				# special_type_slot_1 = hmg_defense_turret
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+			# }
+			# icon = GFX_GER_LAMP_Ar240A
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_arado
+		# }
+	# }	
+# }
+
+# country_event = { #Do 335
+	# id = GER_plane_variants.48
+	
+	# title = GER_plane_variants.48.t
+	# desc = GER_plane_variants.48.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = advanced_medium_airframe
+		# has_tech = engines_4
+		# has_tech = aa_hmg
+		# has_tech = aa_cannon_4
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Do 335"
+			# type = medium_plane_fighter_airframe_3
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_4_2x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_2 = small_bomb_bay
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_4_2x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+			# }
+			# icon = GFX_GER_LAMP_Do335
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_dornier_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Hs 219
+	# id = GER_plane_variants.49
+	
+	# title = GER_plane_variants.49.t
+	# desc = GER_plane_variants.49.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = advanced_medium_airframe
+		# has_tech = engines_4
+		# has_tech = aa_hmg
+		# has_tech = aa_cannon_3
+		# has_tech = postwar_radar_tech_1
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "He 219"
+			# type = medium_plane_fighter_airframe_3
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = air_air_radar_3
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_3_2x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_2 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_4_2x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+			# }
+			# icon = GFX_GER_LAMP_He219A0
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_arado
+		# }
+	# }	
+# }
+
+# country_event = { #He177
+	# id = GER_plane_variants.50
+	
+	# title = GER_plane_variants.50.t
+	# desc = GER_plane_variants.50.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = improved_large_airframe
+		# has_tech = aa_lmg
+		# has_tech = engines_3
+		# has_tech = early_bombs
+		# has_tech = improved_computing_machine
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "He 177"
+			# type = large_plane_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = bomb_sights_2
+				# fixed_GERine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = large_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = large_bomb_bay
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# GERine_type_slot = engine_3_4x
+				# special_type_slot_1 = hmg_defense_turret
+				# special_type_slot_2 = lmg_defense_turret
+				# special_type_slot_3 = cannon_defense_turret
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_LAMP_He177A5
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_heinkel_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Me 264
+	# id = GER_plane_variants.51
+	
+	# title = GER_plane_variants.51.t
+	# desc = GER_plane_variants.51.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = advanced_large_airframe
+		# has_tech = aa_lmg
+		# has_tech = engines_3
+		# has_tech = early_bombs
+		# has_tech = decimetric_radar
+		# has_tech = improved_computing_machine
+		# has_tech = radar_jammers
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Me 264"
+			# type = large_plane_airframe_3
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = bomb_sights_2
+				# fixed_engine_mod_slot = turbocharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = large_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = large_bomb_bay
+				# fixed_auxiliary_weapon_slot_2 = large_bomb_bay
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = radial_engine_4_4x
+				# special_type_slot_1 = hmg_defense_turret_2x
+				# special_type_slot_2 = hmg_defense_turret_2x
+				# special_type_slot_3 = pressurized_cabin_large
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Me264
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Ar 555
+	# id = GER_plane_variants.52
+	
+	# title = GER_plane_variants.52.t
+	# desc = GER_plane_variants.52.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_large_airframe
+		# has_tech = aa_hmg
+		# has_tech = jet_engines
+		# has_tech = early_bombs
+		# has_tech = improved_computing_machine
+		# #has_tech = radar_jammers
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ar 555"
+			# type = large_plane_airframe_4
+			# modules = {
+				# fixed_wing_slot = flying_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_2
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = large_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = large_bomb_bay
+				# fixed_auxiliary_weapon_slot_2 = large_bomb_bay
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = jet_engine_6x
+				# special_type_slot_1 = pressurized_cabin_large
+				# special_type_slot_2 = hmg_defense_turret_2x
+				# special_type_slot_3 = empty
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_Ar_555
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_arado
+		# }
+	# }	
+# }
+
+# country_event = { #Ho XVIII
+	# id = GER_plane_variants.53
+	
+	# title = GER_plane_variants.53.t
+	# desc = GER_plane_variants.53.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_large_airframe_2
+		# has_tech = aa_hmg
+		# has_tech = jet_engines_2
+		# has_tech = early_bombs
+		# has_tech = improved_computing_machine
+		# #has_tech = radar_jammers
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ho XVIII"
+			# type = large_plane_airframe_5
+			# modules = {
+				# fixed_wing_slot = flying_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_2
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = large_bomb_bay
+				# fixed_auxiliary_weapon_slot_1 = large_bomb_bay
+				# fixed_auxiliary_weapon_slot_2 = large_bomb_bay
+				# fixed_auxiliary_weapon_slot_3 = large_bomb_bay
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = jet_engine_2_6x
+				# special_type_slot_1 = pressurized_cabin_large
+				# special_type_slot_2 = fuel_tanks_large
+				# special_type_slot_3 = fuel_tanks_large
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_LAMP_HoXVIII
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_horten
+		# }
+	# }	
+# }
+
+# country_event = { #Ju EF 132
+	# id = GER_plane_variants.54
+	
+	# title = GER_plane_variants.54.t
+	# desc = GER_plane_variants.54.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_large_airframe_3
+		# has_tech = aa_hmg
+		# has_tech = second_gen_jet_engines
+		# has_tech = imp_bomb_rack
+		# has_tech = improved_computing_machine
+		# has_tech = postwar_radar_tech_3
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ju EF 132"
+			# type = large_plane_airframe_6
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_2
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = large_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_1 = large_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_2 = large_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_3 = large_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = second_gen_jet_engine_6x
+				# special_type_slot_1 = pressurized_cabin_large
+				# special_type_slot_2 = fuel_tanks_large
+				# special_type_slot_3 = fuel_tanks_large
+				# special_type_slot_4 = air_ground_radar_4
+				# special_type_slot_5 = cannon_defense_turret_3
+			# }
+			# icon = GFX_GER_LAMP_JuEF132
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_junkers_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Silbervogel
+	# id = GER_plane_variants.55
+	
+	# title = GER_plane_variants.55.t
+	# desc = GER_plane_variants.55.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_large_airframe_5
+		# has_tech = aa_cannon_4
+		# has_tech = third_gen_jet_engines
+		# has_tech = early_bombs
+		# has_tech = decimetric_radar
+		# has_tech = postwar_radar_tech_5
+		# has_tech = ecm_pod_2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Silbervogel"
+			# type = large_plane_airframe_8
+			# modules = {
+				# fixed_wing_slot = stub_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = aux_rocket_engine
+				# fixed_optics_slot = bomb_sights_2
+				# fixed_engine_mod_slot = compressor_bleed_afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = large_bomb_bay_2
+				# fixed_auxiliary_weapon_slot_1 = bomb_pod_module
+				# fixed_auxiliary_weapon_slot_2 = bomb_pod_module
+				# fixed_auxiliary_weapon_slot_3 = bomb_pod_module
+				# fixed_auxiliary_weapon_slot_4 = bomb_pod_module
+				# engine_type_slot = third_gen_jet_engine_6x
+				# special_type_slot_1 = air_ground_radar_5
+				# special_type_slot_2 = pressurized_cabin_large
+				# special_type_slot_3 = module_ecm_pod_2
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_Silbervogel
+			# mark_older_equipment_obsolete = yes
+			# #design_team = mio:GER_north_american_aviation_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Bv 238
+	# id = GER_plane_variants.56
+	
+	# title = GER_plane_variants.56.t
+	# desc = GER_plane_variants.56.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_large_airframe
+		# #has_tech = aa_hmg
+		# has_tech = turboprops
+		# has_tech = air_torpedoe_3
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Bv 238"
+			# type = large_plane_maritime_patrol_plane_airframe_4
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = empty
+				# fixed_engine_mod_slot = turbocharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = torpedo_mounting_3
+				# fixed_auxiliary_weapon_slot_1 = torpedo_mounting_3
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = radial_engine_5_6x
+				# special_type_slot_1 = flying_boat_large
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Bv238
+			# mark_older_equipment_obsolete = yes
+			# #design_team = mio:GER_martin_aircraft
+		# }
+	# }	
+# }
+
+# country_event = { #Do 214
+	# id = GER_plane_variants.57
+	
+	# title = GER_plane_variants.57.t
+	# desc = GER_plane_variants.57.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = advanced_large_airframe
+		# #has_tech = aa_hmg
+		# has_tech = engines_4
+		# has_tech = air_torpedoe_2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Do 214"
+			# type = large_plane_maritime_patrol_plane_airframe_3
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = empty
+				# fixed_engine_mod_slot = turbocharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = torpedo_mounting_2
+				# fixed_auxiliary_weapon_slot_1 = torpedo_mounting_2
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = radial_engine_4_6x
+				# special_type_slot_1 = flying_boat_large
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_Bv_238
+			# mark_older_equipment_obsolete = yes
+			# #design_team = mio:GER_martin_aircraft
+		# }
+	# }	
+# }
+
+# country_event = { #Bv 222
+	# id = GER_plane_variants.58
+	
+	# title = GER_plane_variants.58.t
+	# desc = GER_plane_variants.58.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = improved_large_airframe
+		# #has_tech = aa_hmg
+		# has_tech = engines_3
+		# has_tech = air_torpedoe_1
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Bv 222"
+			# type = large_plane_maritime_patrol_plane_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = empty
+				# fixed_engine_mod_slot = turbocharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = torpedo_mounting
+				# fixed_auxiliary_weapon_slot_1 = torpedo_mounting
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = radial_engine_3_6x
+				# special_type_slot_1 = flying_boat_large
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Bv222
+			# mark_older_equipment_obsolete = yes
+			# #design_team = mio:GER_focke_wulf_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Fw 200
+	# id = GER_plane_variants.59
+	
+	# title = GER_plane_variants.59.t
+	# desc = GER_plane_variants.59.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_large_airframe
+		# #has_tech = aa_hmg
+		# has_tech = engines_2
+		# has_tech = air_torpedoe_1
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Fw 200"
+			# type = large_plane_maritime_patrol_plane_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = empty
+				# fixed_engine_mod_slot = turbocharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = torpedo_mounting
+				# fixed_auxiliary_weapon_slot_1 = torpedo_mounting
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = radial_engine_2_4x
+				# special_type_slot_1 = lmg_defense_turret_2x
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Fw200C1
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_focke_wulf_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Bf 109 T
+	# id = GER_plane_variants.60
+	
+	# title = GER_plane_variants.60.t
+	# desc = GER_plane_variants.60.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_small_airframe
+		# has_tech = aa_cannon_1
+		# has_tech = range_improvements
+		# has_tech = engines_2
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Bf 109T"
+			# type = cv_small_plane_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = engine_cannon_1_1x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
+				# fixed_auxiliary_weapon_slot_2 = light_mg_2x
+				# engine_type_slot = engine_2_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Bf109T
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Me155
+	# id = GER_plane_variants.61
+	
+	# title = GER_plane_variants.61.t
+	# desc = GER_plane_variants.61.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_small_airframe
+		# has_tech = aa_cannon_2
+		# has_tech = engines_3
+		# has_tech = aa_hmg
+		# has_tech = range_improvements
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Me 155"
+			# type = cv_small_plane_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = engine_cannon_2_1x
+				# fixed_auxiliary_weapon_slot_1 = drop_tanks
+				# fixed_auxiliary_weapon_slot_2 = heavy_mg_2x
+				# engine_type_slot = engine_3_1x
+				# special_type_slot_1 = armor_plate_small
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Me155
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Me 309T
+	# id = GER_plane_variants.62
+	
+	# title = GER_plane_variants.62.t
+	# desc = GER_plane_variants.62.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = advanced_small_airframe
+		# has_tech = aa_cannon_3
+		# has_tech = engines_4
+		# has_tech = aa_hmg
+		# has_tech = range_improvements
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Me 309T"
+			# type = cv_small_plane_airframe_3
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = engine_cannon_3_1x 
+				# fixed_auxiliary_weapon_slot_1 = heavy_mg_4x
+				# fixed_auxiliary_weapon_slot_2 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_3 = drop_tanks
+				# engine_type_slot = engine_4_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_Me309T
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Bv 155
+	# id = GER_plane_variants.63
+	
+	# title = GER_plane_variants.63.t
+	# desc = GER_plane_variants.63.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe
+		# has_tech = aa_cannon_3
+		# has_tech = turboprops
+		# has_tech = aa_hmg
+		# has_tech = range_improvements
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Bv 155T"
+			# type = cv_small_plane_airframe_4
+			# modules = {
+				# fixed_wing_slot = high_altitude_straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = gyro_gunsight
+				# fixed_engine_mod_slot = turbocharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = engine_cannon_3_1x 
+				# fixed_auxiliary_weapon_slot_1 = drop_tanks
+				# fixed_auxiliary_weapon_slot_2 = aircraft_cannon_3_2x
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_5_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Bv155T
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Me 262T
+	# id = GER_plane_variants.64
+	
+	# title = GER_plane_variants.64.t
+	# desc = GER_plane_variants.64.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe
+		# has_tech = aa_cannon_3
+		# has_tech = jet_engines_2
+		# has_tech = heavy_bombs
+		# #has_tech = range_improvements
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Me 262T"
+			# type = cv_small_plane_cas_airframe_4
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = heavy_bomb_locks
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = jet_engine_2_2x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Me262T
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Fw 250
+	# id = GER_plane_variants.65
+	
+	# title = GER_plane_variants.65.t
+	# desc = GER_plane_variants.65.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe_2
+		# has_tech = aa_cannon_3
+		# has_tech = jet_engines_2
+		# has_tech = heavy_bombs
+		# #has_tech = range_improvements
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Fw 250T"
+			# type = cv_small_plane_cas_airframe_5
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = heavy_bomb_locks
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = jet_engine_2_2x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_Fw250T
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_focke_wulf_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Fw P2T
+	# id = GER_plane_variants.66
+	
+	# title = GER_plane_variants.66.t
+	# desc = GER_plane_variants.66.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe
+		# has_tech = aa_cannon_3
+		# has_tech = jet_engines_2
+		# #has_tech = heavy_bombs
+		# #has_tech = range_improvements
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Fw P2T"
+			# type = cv_small_plane_airframe_4
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = jet_engine_2_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_Fw_P2
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_focke_wulf_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Fw PTL8T
+	# id = GER_plane_variants.67
+	
+	# title = GER_plane_variants.67.t
+	# desc = GER_plane_variants.67.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe_2
+		# has_tech = aa_cannon_3
+		# has_tech = jet_engines_2
+		# #has_tech = aa_hmg
+		# #has_tech = range_improvements
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Fw PTL8T"
+			# type = cv_small_plane_airframe_5
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = aux_jet_engine
+				# fixed_optics_slot = gyro_gunsight
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_3_2x
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = turboprop_engine_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_FwPTL8
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_focke_wulf_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Me 262TU
+	# id = GER_plane_variants.68
+	
+	# title = GER_plane_variants.68.t
+	# desc = GER_plane_variants.68.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe
+		# has_tech = aa_cannon_3
+		# has_tech = jet_engines_2
+		# has_tech = air_torpedoe_3
+		# #has_tech = range_improvements
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Me 262TU"
+			# type = cv_small_plane_naval_bomber_airframe_4
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = torpedo_mounting_3
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_3_2x
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = jet_engine_2_2x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_Me262TU
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #me 1110
+	# id = GER_plane_variants.69
+	
+	# title = GER_plane_variants.69.t
+	# desc = GER_plane_variants.69.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe_3
+		# has_tech = postwar_radar_tech_1
+		# has_tech = aa_cannon_3
+		# has_tech = air_air_missile_2
+		# has_tech = second_gen_jet_engines
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Me 1110T"
+			# type = cv_small_plane_airframe_6
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = air_air_radar_3
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight 
+				# fixed_engine_mod_slot = afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_4_2x 
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_4_2x 
+				# fixed_auxiliary_weapon_slot_2 = air_air_missile_2_module
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = second_gen_jet_engine_1x
+				# special_type_slot_1 = g_suit_1
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_Me_1110T
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #He 231
+	# id = GER_plane_variants.70
+	
+	# title = GER_plane_variants.70.t
+	# desc = GER_plane_variants.70.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe_4
+		# #has_tech = postwar_radar_tech_1
+		# has_tech = aa_cannon_3
+		# has_tech = air_air_missile_3
+		# has_tech = second_gen_jet_engines
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "He 231"
+			# type = cv_small_plane_airframe_7
+			# modules = {
+				# fixed_wing_slot = tailed_delta_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight 
+				# fixed_engine_mod_slot = afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_4_2x 
+				# fixed_auxiliary_weapon_slot_1 = air_air_ir_missile_1_module 
+				# fixed_auxiliary_weapon_slot_2 = air_air_ir_missile_1_module
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = second_gen_jet_engine_2x
+				# special_type_slot_1 = g_suit_1
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_He_231
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_heinkel_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Vak 191
+	# id = GER_plane_variants.71
+	
+	# title = GER_plane_variants.71.t
+	# desc = GER_plane_variants.71.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe_5
+		# has_tech = postwar_radar_tech_4
+		# has_tech = aa_cannon_3
+		# has_tech = air_air_missile_4
+		# has_tech = second_gen_jet_engines
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Vak 191"
+			# type = cv_small_plane_airframe_8
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = air_air_radar_5
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight 
+				# fixed_engine_mod_slot = afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = aircraft_cannon_4_2x 
+				# fixed_auxiliary_weapon_slot_1 = air_air_ir_missile_2_module 
+				# fixed_auxiliary_weapon_slot_2 = air_air_ir_missile_2_module
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = second_gen_jet_engine_2x
+				# special_type_slot_1 = g_suit_1
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_Vak_191
+			# mark_older_equipment_obsolete = yes
+			# #design_team = mio:GER_heinkel_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Fw 1262
+	# id = GER_plane_variants.72
+	
+	# title = GER_plane_variants.72.t
+	# desc = GER_plane_variants.72.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe_5
+		# has_tech = air_improved_construction
+		# has_tech = third_gen_jet_engines
+		# has_tech = imp_bomb_rack
+		# has_tech = aa_cannon_4
+		# has_tech = antitank2
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Fw 1262"
+			# type = cv_small_plane_cas_airframe_8
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = toss_computer
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = imp_bomb_locks
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_4_1x
+				# fixed_auxiliary_weapon_slot_2 = imp_bomb_locks
+				# fixed_auxiliary_weapon_slot_3 = rocket_pod_module
+				# engine_type_slot = third_gen_jet_engine_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+			# }
+			# icon = GFX_GER_Fw_1262
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_focke_wulf_organization
+		# }
+	# }
+# }
+
+
+# country_event = { #He 1078
+	# id = GER_plane_variants.73
+	
+	# title = GER_plane_variants.73.t
+	# desc = GER_plane_variants.73.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe_3
+		# has_tech = postwar_radar_tech_1
+		# has_tech = aa_cannon_3
+		# has_tech = heavy_bombs
+		# has_tech = second_gen_jet_engines
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "He 1078T"
+			# type = cv_small_plane_cas_airframe_6
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight 
+				# fixed_engine_mod_slot = afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = heavy_bomb_locks 
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_4_2x 
+				# fixed_auxiliary_weapon_slot_2 = imp_rocket_rails
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = second_gen_jet_engine_1x
+				# special_type_slot_1 = g_suit_1
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_He1078
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_heinkel_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Do 22
+	# id = GER_plane_variants.74
+	
+	# title = GER_plane_variants.74.t
+	# desc = GER_plane_variants.74.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_small_airframe
+		# has_tech = air_torpedoe_1
+		# has_tech = engines_2
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Do 22"
+			# type = small_plane_naval_bomber_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = torpedo_mounting
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# engine_type_slot = engine_2_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Do22
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_dornier_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Do 22
+	# id = GER_plane_variants.75
+	
+	# title = GER_plane_variants.75.t
+	# desc = GER_plane_variants.75.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_small_airframe
+		# has_tech = air_torpedoe_1
+		# has_tech = engines_2
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Fi 167"
+			# type = cv_small_plane_naval_bomber_airframe_1
+			# modules = {
+				# fixed_wing_slot = biplane_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = torpedo_mounting
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# engine_type_slot = engine_2_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Fi167
+			# mark_older_equipment_obsolete = yes
+			# #design_team = mio:GER_f
+		# }
+	# }	
+# }
+
+
+# country_event = { #Ju 87T
+	# id = GER_plane_variants.76
+	
+	# title = GER_plane_variants.76.t
+	# desc = GER_plane_variants.76.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_small_airframe
+		# has_tech = interwar_antitank
+		# has_tech = engines_2
+		# has_tech = early_bombs
+		# has_tech = aircraft_construction
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ju 87T"
+			# type = cv_small_plane_cas_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = bomb_locks
+				# fixed_auxiliary_weapon_slot_1 = tank_buster_1
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# engine_type_slot = engine_2_1x
+				# special_type_slot_1 = hmg_defense_turret
+				# special_type_slot_2 = dive_brakes_small	
+				# special_type_slot_3 = armor_plate_small	
+			# }
+			# icon = GFX_GER_LAMP_Ju87C
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_junkers_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Me 410U
+	# id = GER_plane_variants.77
+	
+	# title = GER_plane_variants.77.t
+	# desc = GER_plane_variants.77.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = aa_hmg
+		# has_tech = improved_small_airframe
+		# has_tech = air_torpedoe_1
+		# has_tech = engines_3
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Me 410U"
+			# type = cv_small_plane_naval_bomber_airframe_2
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = injection_system
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = bomb_locks
+				# fixed_auxiliary_weapon_slot_1 = aircraft_cannon_2_2x
+				# fixed_auxiliary_weapon_slot_2 = bomb_locks
+				# engine_type_slot = engine_4_1x
+				# special_type_slot_1 = hmg_defense_turret
+				# special_type_slot_2 = armor_plate_small	
+				# special_type_slot_3 = dive_brakes_small	
+			# }
+			# icon = GFX_GER_Me410U
+			# mark_older_equipment_obsolete = yes
+			# #design_team = mio:GER_f
+		# }
+	# }	
+# }
+
+# country_event = { #Ta 154TU
+	# id = GER_plane_variants.83
+	
+	# title = GER_plane_variants.83.t
+	# desc = GER_plane_variants.83.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = aa_hmg
+		# has_tech = advanced_small_airframe
+		# has_tech = air_torpedoe_2
+		# has_tech = engines_4
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Bv 155TU"
+			# type = cv_small_plane_naval_bomber_airframe_3
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = torpedo_mounting_2
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# engine_type_slot = engine_4_1x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Bv155TU4
+			# mark_older_equipment_obsolete = yes
+			# #design_team = mio:GER_f
+		# }
+	# }	
+# }
+
+
+# country_event = { #Fw 250TU
+	# id = GER_plane_variants.78
+	
+	# title = GER_plane_variants.78.t
+	# desc = GER_plane_variants.78.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe_2
+		# has_tech = air_air_missile_1
+		# has_tech = jet_engines_2
+		# has_tech = heavy_bombs
+		# #has_tech = range_improvements
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Fw 250TU"
+			# type = cv_small_plane_naval_bomber_airframe_5
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = guided_anti_ship_missile_2
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = jet_engine_2_2x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_Fw250T
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_focke_wulf_organization
+		# } 
+	# }	
+# }
+
+# country_event = { #He 1078TU
+	# id = GER_plane_variants.79
+	
+	# title = GER_plane_variants.79.t
+	# desc = GER_plane_variants.79.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe_3
+		# has_tech = postwar_radar_tech_1
+		# has_tech = air_air_missile_1
+		# has_tech = heavy_bombs
+		# has_tech = second_gen_jet_engines
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "He 1078TU"
+			# type = cv_small_plane_naval_bomber_airframe_6
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight 
+				# fixed_engine_mod_slot = afterburner
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = guided_anti_ship_missile_2 
+				# fixed_auxiliary_weapon_slot_1 = empty 
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = second_gen_jet_engine_1x
+				# special_type_slot_1 = g_suit_1
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_He1078
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_heinkel_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Ju 88D
+	# id = GER_plane_variants.80
+	
+	# title = GER_plane_variants.80.t
+	# desc = GER_plane_variants.80.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = basic_medium_airframe
+		# has_tech = engines_2
+		# has_tech = photo_reconnaisance
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Ju 88D"
+			# type = medium_plane_scout_plane_airframe_1
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = empty
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = recon_camera
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = engine_2_2x
+				# special_type_slot_1 = lmg_defense_turret_2x
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+			# }
+			# icon = GFX_GER_LAMP_Ju88S
+			# mark_older_equipment_obsolete = no
+			# design_team = mio:GER_junkers_organization
+		# }
+	# }	
+# }
+
+# country_event = { #Me 410U
+	# id = GER_plane_variants.81
+	
+	# title = GER_plane_variants.81.t
+	# desc = GER_plane_variants.81.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = aa_hmg
+		# has_tech = improved_small_airframe
+		# has_tech = photo_reconnaisance
+		# has_tech = engines_3
+		# has_navy_size = {
+			# unit = carrier
+			# size > 0
+		# }
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Me 410C"
+			# type = medium_plane_scout_plane_airframe_2
+			# modules = {
+				# fixed_wing_slot = high_altitude_straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = reflex_gunsight
+				# fixed_engine_mod_slot = supercharger
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = recon_camera
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# engine_type_slot = engine_3_2x
+				# special_type_slot_1 = hmg_defense_turret
+				# special_type_slot_2 = empty	
+			# }
+			# icon = GFX_GER_Me410U
+			# mark_older_equipment_obsolete = yes
+			# #design_team = mio:GER_f
+		# }
+	# }	
+# }
+
+# country_event = { #Me 262U-3
+	# id = GER_plane_variants.82
+	
+	# title = GER_plane_variants.82.t
+	# desc = GER_plane_variants.82.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_small_airframe
+		# has_tech = air_improved_construction
+		# has_tech = photo_reconnaisance
+		# #has_tech = range_improvements
+		# has_tech = jet_engines
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "Me 262U-3"
+			# type = small_plane_scout_plane_airframe_4
+			# modules = {
+				# fixed_wing_slot = swept_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = gyro_gunsight 
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot =  recon_camera 
+				# fixed_auxiliary_weapon_slot_1 = empty 
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# fixed_auxiliary_weapon_slot_4 = empty
+				# engine_type_slot = jet_engine_2x
+				# special_type_slot_1 = armor_plate_small
+				# special_type_slot_2 = empty	
+				# special_type_slot_3 = empty	
+				# special_type_slot_4 = empty	
+			# }
+			# icon = GFX_GER_LAMP_Me262A1U3
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_messerschmitt_organization
+		# }
+	# }	
+# }
+
+# country_event = { #He 343
+	# id = GER_plane_variants.84
+	
+	# title = GER_plane_variants.84.t
+	# desc = GER_plane_variants.84.d
+	# picture = GFX_report_event_ett60
+	
+	# fire_only_once = yes
+	# hidden = yes
+	# trigger = {
+		# tag = GER
+		# is_ai = yes
+		# has_tech = modern_medium_airframe_2
+		# has_tech = jet_engines_2
+		# has_tech = photo_reconnaisance
+	# }
+	
+	# immediate = {
+		# create_equipment_variant = {
+			# name = "He 343R"
+			# type = medium_plane_scout_plane_airframe_5
+			# modules = {
+				# fixed_wing_slot = straight_wing
+				# fixed_radar_slot = empty
+				# fixed_aux_prop_slot = empty
+				# fixed_optics_slot = bomb_sights_2
+				# fixed_engine_mod_slot = empty
+				# fixed_fuel_type_slot = empty
+				# fixed_main_weapon_slot = recon_camera
+				# fixed_auxiliary_weapon_slot_1 = empty
+				# fixed_auxiliary_weapon_slot_2 = empty
+				# fixed_auxiliary_weapon_slot_3 = empty
+				# engine_type_slot = jet_engine_2_4x
+				# special_type_slot_1 = empty
+				# special_type_slot_2 = empty
+				# special_type_slot_3 = empty
+			# }
+			# icon = GFX_GER_He_343
+			# mark_older_equipment_obsolete = yes
+			# design_team = mio:GER_heinkel_organization
+		# }
+	# }	
+# }

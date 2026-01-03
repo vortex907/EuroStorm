@@ -1,0 +1,135 @@
+spriteTypes = {	
+	
+	SpriteType = {
+	name = "GFX_ROM_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_1.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_ROM_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_ROM_improved_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_3.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_ROM_advanced_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_4.dds"
+	}
+	
+    ### Arty ###
+
+	SpriteType = {
+	name = "GFX_ROM_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_iwa.dds"
+	}
+	 
+	SpriteType = {
+	name = "GFX_ROM_adv_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_a2.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_ROM_artillery3_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_a3.dds"
+	}	 
+	
+	SpriteType = {
+	name = "GFX_ROM_artillery_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_iwa.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_ROM_artillery_equipment_3_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_a3.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_ROM_artillery_equipment_2_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_a2.dds"
+	}
+	
+    ### Anti-air ###
+
+	SpriteType = {
+	name = "GFX_ROM_interwar_antiair_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_aa1.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_ROM_antiair2_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_aa2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_ROM_antiair5_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_aa3.dds"
+	}
+	
+    ### Anti-tank ###
+
+	SpriteType = {
+	name = "GFX_ROM_interwar_antitank_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_at1.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_ROM_antitank2_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_at2.dds"
+	}	
+	
+    SpriteType = {
+	name = "GFX_ROM_antitank5_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_at3.dds"
+	}		
+
+    ### armoured cars ###
+
+	SpriteType = {
+	name = "GFX_ROM_armored_car1_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_ac1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_ROM_armored_car2_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_ac2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_ROM_armored_car3_medium"
+	texturefile = "gfx/interface/technologies/denxson/ROM_ac3.dds"
+	}
+	
+    ### troop_carriers ###
+
+    SpriteType = {
+		name = "GFX_ROM_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/denxson/ROM_tc1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROM_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/denxson/ROM_tc1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ROM_motorised_equipment_medium"
+		texturefile = "gfx/interface/technologies/denxson/ROM_tc1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ROM_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/denxson/ROM_tc2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ROM_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/denxson/ROM_tc3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ROM_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/denxson/ROM_tc4.dds"
+	}

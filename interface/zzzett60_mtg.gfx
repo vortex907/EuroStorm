@@ -1,0 +1,770 @@
+spriteTypes = { 
+
+	spriteType = {
+		name = "GFX_tanker_submarines_medium"
+		textureFile = "gfx/interface/equipmentdesigner/ships/USA/SST/USA_SST_1_Guavina.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ship_hull_tanker_submarine_1_medium"
+		textureFile = "gfx/interface/equipmentdesigner/ships/USA/SST/USA_SST_1_Guavina.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_tech_fleet_oiler_1_medium"
+		textureFile = "gfx/interface/equipmentdesigner/ships/Generic/FO/GEN_FO_1_Tanker.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_tech_fleet_oiler_2_medium"
+		textureFile = "gfx/interface/equipmentdesigner/ships/Generic/FO/GEN_FO_2_Tanker.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_tech_fleet_oiler_3_medium"
+		textureFile = "gfx/interface/equipmentdesigner/ships/Generic/FO/GEN_FO_3_Tanker.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_convoy_1_medium"
+		textureFile = "gfx/interface/technologies/convoy_1.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_convoy_2_medium"
+		textureFile = "gfx/interface/technologies/convoy_2.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_convoy_3_medium"
+		textureFile = "gfx/interface/technologies/convoy_3.dds"
+		legacy_lazy_load = no
+	} 
+
+	spriteType = {
+		name = "GFX_convoy_4_medium"
+		textureFile = "gfx/interface/technologies/convoy_4.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_wartime_convoy_medium"
+		textureFile = "gfx/interface/technologies/convoy_2.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_converted_container_ship_medium"
+		textureFile = "gfx/interface/technologies/convoy_3.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_container_ship_medium"
+		textureFile = "gfx/interface/technologies/convoy_4.dds"
+		legacy_lazy_load = no
+	}
+	 
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_battery_0_2x"
+		textureFile = "gfx/interface/modules/heavy_turret_0_x2.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_battery_0_4x"
+		textureFile = "gfx/interface/modules/heavy_turret_0_x4.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_battery_1_2x"
+		textureFile = "gfx/interface/modules/heavy_turret_1_x2.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_battery_1_3x"
+		textureFile = "gfx/interface/modules/heavy_turret_1_x3.dds" 
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_battery_1_4x"
+		textureFile = "gfx/interface/modules/heavy_turret_1_x4.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_battery_2_2x"
+		textureFile = "gfx/interface/modules/heavy_turret_2_x2.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_battery_2_3x"
+		textureFile = "gfx/interface/modules/heavy_turret_2_x3.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_battery_2_4x"
+		textureFile = "gfx/interface/modules/heavy_turret_2_x4.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_battery_3_2x"
+		textureFile = "gfx/interface/modules/heavy_turret_3_x2.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_battery_3_3x"
+		textureFile = "gfx/interface/modules/heavy_turret_3_x3.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_battery_3_4x"
+		textureFile = "gfx/interface/modules/heavy_turret_3_x4.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_battery_4_2x"
+		textureFile = "gfx/interface/modules/heavy_turret_4_x2.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_battery_4_3x"
+		textureFile = "gfx/interface/modules/heavy_turret_4_x3.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_battery_4_4x"
+		textureFile = "gfx/interface/modules/heavy_turret_4_x4.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_battery_5_2x"
+		textureFile = "gfx/interface/modules/heavy_turret_5_x2.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_battery_5_3x"
+		textureFile = "gfx/interface/modules/heavy_turret_5_x3.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_battery_5_4x"
+		textureFile = "gfx/interface/modules/heavy_turret_5_x4.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_super_heavy_battery_1_2x"
+		textureFile = "gfx/interface/modules/superheavy_turret_1_x2.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_super_heavy_battery_1_3x"
+		textureFile = "gfx/interface/modules/superheavy_turret_1_x3.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_ship_super_heavy_battery_1_4x"
+		textureFile = "gfx/interface/modules/superheavy_turret_1_x4.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_super_heavy_battery_2_2x"
+		textureFile = "gfx/interface/modules/superheavy_turret_2_x2.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_super_heavy_battery_2_3x"
+		textureFile = "gfx/interface/modules/superheavy_turret_2_x3.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_ship_super_heavy_battery_2_4x"
+		textureFile = "gfx/interface/modules/superheavy_turret_2_x4.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_twin_ship_heavy_battery"
+		textureFile = "gfx/interface/modules/ship_twin_battery.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_triple_ship_heavy_battery"
+		textureFile = "gfx/interface/modules/ship_triple_battery.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_quad_ship_heavy_battery"
+		textureFile = "gfx/interface/modules/ship_quad_battery.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_ship_super_heavy_battery"
+		textureFile = "gfx/interface/modules/ship_sh_battery.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_ship_conning_tower_1"
+		textureFile = "gfx/interface/modules/conning_tower_1.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_ship_conning_tower_2"
+		textureFile = "gfx/interface/modules/conning_tower_2.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_ship_conning_tower_3"
+		textureFile = "gfx/interface/modules/conning_tower_3.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_ship_conning_tower_4"
+		textureFile = "gfx/interface/modules/conning_tower_4.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_steam_turbine"
+		textureFile = "gfx/interface/modules/steam_turbine.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_geared_steam_turbine"
+		textureFile = "gfx/interface/modules/geared_steam_turbine.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_diesel_engine"
+		textureFile = "gfx/interface/modules/diesel_engine.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_gas_turbine"
+		textureFile = "gfx/interface/modules/gas_turbine.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_turbo_electric_drive"
+		textureFile = "gfx/interface/modules/turbo_electric_drive.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_torpedo_protection_1"
+		textureFile = "gfx/interface/modules/torpedo_protection_1.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_torpedo_protection_2"
+		textureFile = "gfx/interface/modules/torpedo_protection_2.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_torpedo_protection_3"
+		textureFile = "gfx/interface/modules/torpedo_protection_3.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_torpedo_protection_4"
+		textureFile = "gfx/interface/modules/torpedo_protection_4.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_heavy_ship_engine_5"
+		textureFile = "gfx/interface/modules/ship_engine_5.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_carrier_ship_engine_5"
+		textureFile = "gfx/interface/modules/ship_engine_5.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_carrier_ship_engine_5"
+		textureFile = "gfx/interface/modules/ship_engine_5.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_submarine_firing_computer_1"
+		textureFile = "gfx/interface/modules/submarine_firing_computer_1.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_submarine_firing_computer_2"
+		textureFile = "gfx/interface/modules/submarine_firing_computer_2.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_submarine_firing_computer_3"
+		textureFile = "gfx/interface/modules/submarine_firing_computer_3.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_submarine_firing_computer_4"
+		textureFile = "gfx/interface/modules/submarine_firing_computer_4.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_submarine_sonar_1"
+		textureFile = "gfx/interface/modules/submarine_sonar_1.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_submarine_sonar_2"
+		textureFile = "gfx/interface/modules/submarine_sonar_2.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_submarine_sonar_3"
+		textureFile = "gfx/interface/modules/submarine_sonar_3.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_anechoic_tiles_1"
+		textureFile = "gfx/interface/modules/anechoic_tiles_1.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_anechoic_tiles_2"
+		textureFile = "gfx/interface/modules/anechoic_tiles_2.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_sub_ship_radar_1"
+		textureFile = "gfx/interface/modules/sub_ship_radar_1.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_sub_ship_radar_2"
+		textureFile = "gfx/interface/modules/sub_ship_radar_2.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_sub_ship_radar_3"
+		textureFile = "gfx/interface/modules/sub_ship_radar_3.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_open_cycle_aip"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/submarine_aip_engine_1.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_closed_cycle_diesel_aip"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/submarine_aip_engine_2.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_closed_cycle_walther_engine"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/submarine_aip_engine_3.dds"
+		legacy_lazy_load = no
+	} 
+ 
+	spriteType = {
+		name = "GFX_EMI_sub_ship_anti_air_1"
+		textureFile = "gfx/interface/modules/sub_ship_anti_air_1.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_sub_ship_anti_air_2"
+		textureFile = "gfx/interface/modules/sub_ship_anti_air_2.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_submarine_sonar_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sonar_icn_1.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_submarine_sonar_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sonar_icn_2.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_submarine_sonar_3"
+		textureFile = "gfx/interface/modules/sonar_icn_3.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_ship_carrier_island_1"
+		textureFile = "gfx/interface/modules/conning_tower_1.dds"
+		legacy_lazy_load = no
+	}
+  
+	spriteType = {
+		name = "GFX_EMI_ship_carrier_island_2"
+		textureFile = "gfx/interface/modules/conning_tower_2.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_ship_carrier_island_3"
+		textureFile = "gfx/interface/modules/conning_tower_3.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_ship_carrier_island_4"
+		textureFile = "gfx/interface/modules/conning_tower_4.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_SMI_ship_deck_space_modern"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/deck_space_icn.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_SMI_sub_engine_type"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_SMI_ship_engine_type"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SMI_sub_reactor_ship_engine_type"
+		textureFile = "gfx/interface/technologies/naval_reactor.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_SMI_heavy_reactor_ship_engine_type"
+		textureFile = "gfx/interface/technologies/naval_reactor.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_SMI_carrier_reactor_ship_engine_type"
+		textureFile = "gfx/interface/technologies/naval_reactor.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_sub_cruise_missile"
+		textureFile = "gfx/interface/modules/sub_cruise_missile.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_sub_cruise_missile_battery_1"
+		textureFile = "gfx/interface/modules/sub_cruise_missile_1.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_sub_cruise_missile_battery_2"
+		textureFile = "gfx/interface/modules/sub_cruise_missile_2.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_s"
+		textureFile = "gfx/interface/modules/single_torpedo_launcher.dds"
+		legacy_lazy_load = no
+	}
+  
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_d"
+		textureFile = "gfx/interface/modules/double_torpedo_launcher.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_1"
+		textureFile = "gfx/interface/modules/triple_torpedo_launcher.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_2"
+		textureFile = "gfx/interface/modules/quadruple_torpedo_launcher.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_3"
+		textureFile = "gfx/interface/modules/quintuple_torpedo_launcher.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_4"
+		textureFile = "gfx/interface/modules/quintuple_torpedo_launcher_2.dds"
+		legacy_lazy_load = no
+	} 
+ 
+	spriteType = { 
+		name = "GFX_SMI_ship_torpedo_5"
+		textureFile = "gfx/interface/modules/asw_torpedo_launcher.png"
+		legacy_lazy_load = no
+	} 
+ 
+	spriteType = {
+		name = "GFX_EMI_ship_carrier_island"
+		textureFile = "gfx/interface/modules/carrier_tower_type.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_ship_helicopter_carrier_island"
+		textureFile = "gfx/interface/modules/cruiser_superstructure_type.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_SMI_ship_cruiser_island_1"
+		textureFile = "gfx/interface/modules/cruiser_superstructure_type.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SMI_ship_destroyer_island_1"
+		textureFile = "gfx/interface/modules/destroyer_superstructure_type.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_ship_sam_missile_battery_1_tech_medium"
+		textureFile = "gfx/interface/modules/tech_ship_sam_missile_battery_1.png"
+		legacy_lazy_load = no
+	} 
+
+	spriteType = {
+		name = "GFX_ship_sam_missile_battery_2_tech_medium"
+		textureFile = "gfx/interface/modules/tech_ship_sam_missile_battery_2.dds"
+		legacy_lazy_load = no
+	} 
+
+	spriteType = {
+		name = "GFX_EMI_ship_sam_missile_battery_1"
+		textureFile = "gfx/interface/modules/ship_sam_missile_battery_1.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_sam_missile_battery_2"
+		textureFile = "gfx/interface/modules/ship_sam_missile_battery_2.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_ship_asm_battery_1_tech_medium"
+		textureFile = "gfx/interface/modules/tech_ship_heavy_asm_battery_1.png"
+		legacy_lazy_load = no
+	} 
+ 
+	spriteType = {
+		name = "GFX_ship_asm_battery_2_tech_medium"
+		textureFile = "gfx/interface/modules/tech_ship_heavy_asm_battery_2.png"
+		legacy_lazy_load = no
+	} 
+
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_asm_battery_1"
+		textureFile = "gfx/interface/modules/ship_heavy_asm_battery_1.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_heavy_asm_battery_2"
+		textureFile = "gfx/interface/modules/ship_heavy_ASM_battery_two.png"
+		legacy_lazy_load = no
+	} 
+
+	spriteType = {
+		name = "GFX_EMI_ship_light_asm_battery_1"
+		textureFile = "gfx/interface/modules/ship_light_ASM_battery_1.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_light_asm_battery_2"
+		textureFile = "gfx/interface/modules/ship_light_ASM_battery_2.png"
+		legacy_lazy_load = no
+	}  
+  
+	spriteType = {
+		name = "GFX_ship_dp_missile_battery_1_tech_medium"
+		textureFile = "gfx/interface/modules/tech_ship_dp_missile_battery_1.dds"
+		legacy_lazy_load = no
+	} 
+  
+	spriteType = {
+		name = "GFX_ship_dp_missile_battery_2_tech_medium"
+		textureFile = "gfx/interface/modules/tech_ship_dp_missile_battery_2.dds"
+		legacy_lazy_load = no
+	} 
+ 
+	spriteType = {
+		name = "GFX_EMI_ship_dp_missile_battery_1"
+		textureFile = "gfx/interface/modules/ship_dp_missile_battery_1.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_dp_missile_battery_2"
+		textureFile = "gfx/interface/modules/ship_dp_missile_battery_2.dds"
+		legacy_lazy_load = no
+	} 
+
+	spriteType = {
+		name = "GFX_EMI_ship_dp_missile_battery_2"
+		textureFile = "gfx/interface/modules/ship_dp_missile_battery_2.dds"
+		legacy_lazy_load = no
+	} 
+
+	spriteType = {
+		name = "GFX_SMI_ship_sam_missile_battery"
+		textureFile = "gfx/interface/modules/ship_sam_missile_battery.dds"
+		legacy_lazy_load = no
+	}  
+
+	spriteType = {
+		name = "GFX_SMI_ship_sam_missile_battery"
+		textureFile = "gfx/interface/modules/ship_sam_missile_battery.dds"
+		legacy_lazy_load = no
+	} 
+
+	spriteType = {
+		name = "GFX_SMI_ship_sam_missile_battery"
+		textureFile = "gfx/interface/modules/ship_sam_missile_battery.dds"
+		legacy_lazy_load = no
+	} 
+
+	spriteType = {
+		name = "GFX_SMI_ship_dp_missile_battery"
+		textureFile = "gfx/interface/modules/ship_dp_missile_battery_1_cat.dds"
+		legacy_lazy_load = no
+	} 
+
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_ASM_battery"
+		textureFile = "gfx/interface/modules/ship_heavy_ASM_battery_1b.dds"
+		legacy_lazy_load = no
+	} 
+
+	spriteType = {
+		name = "GFX_SMI_ship_light_ASM_battery"
+		textureFile = "gfx/interface/modules/ship_light_ASM_battery_1_cat.dds"
+		legacy_lazy_load = no
+	} 
+ 
+	spriteType = {
+		name = "GFX_EMI_ship_deck_gun_sub_1"
+		textureFile = "gfx/interface/modules/deck_gun_1.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_ship_deck_gun_sub_2"
+		textureFile = "gfx/interface/modules/deck_gun_2.dds"
+		legacy_lazy_load = no
+	}
+ 
+	spriteType = {
+		name = "GFX_EMI_ship_deck_gun_sub_3"
+		textureFile = "gfx/interface/modules/deck_gun_3.dds"
+		legacy_lazy_load = no
+	} 
+
+	spriteType = {
+		name = "GFX_SMI_ship_deck_gun_sub_cat"
+		textureFile = "gfx/interface/modules/deck_gun.dds"
+		legacy_lazy_load = no
+	} 
+
+	spriteType = {
+		name = "GFX_EMI_ship_armor_large_cruiser_heavy"
+		textureFile = "gfx/interface/modules/large_cruiser_armor.png"
+		legacy_lazy_load = no
+	}  
+ 
+	spriteType = {
+		name = "GFX_EMI_ship_armor_large_cruiser"
+		textureFile = "gfx/interface/modules/large_cruiser_armor.png"
+		legacy_lazy_load = no
+	}  
+ 
+	spriteType = {
+		name = "GFX_EMI_ship_sub_aa_turret"
+		textureFile = "gfx/interface/modules/sub_aa_turret.png"
+		legacy_lazy_load = no
+	}  
+ 
+	spriteType = {
+		name = "GFX_SMI_sub_ship_anti_air"
+		textureFile = "gfx/interface/modules/sub_aa_turret_cat.png"
+		legacy_lazy_load = no
+	} 
+}        
