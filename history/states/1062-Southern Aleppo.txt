@@ -1,0 +1,27 @@
+state={
+	id=1062
+	name="Homs"
+	provinces={
+		1056 10087 1072
+	}
+	state_category = town
+	manpower=250000
+    resources={
+        oil = 8
+    }
+    history={
+        owner = SYR
+		add_core_of = SYR
+        victory_points = {
+            1056 3
+        }
+		victory_points = {
+            10087 2
+        }
+		
+
+}
+local_supplies=0.0 
+buildings_max_level_factor=1.000
+	state_category=rural
+}

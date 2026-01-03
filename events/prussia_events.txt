@@ -1,0 +1,87 @@
+add_namespace = prussia
+
+country_event = {
+	id = prussia.1
+	title = prussia.1.t
+	desc = prussia.1.d
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prussia.1.a
+		PRE = { country_event = { id = prussia.2 } }
+	}
+	option = {
+		name = prussia.1.b
+		PRE = { country_event = { id = prussia.3 } }
+	}
+	option = {
+		name = prussia.1.c
+		PRE = { country_event = { id = prussia.4 } }
+	}
+	option = {
+		name = prussia.1.e
+		PRE = { country_event = { id = prussia.5 } }
+	}
+	option = {
+		name = prussia.1.f
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = prussia.2
+	title = prussia.2.t
+	desc = prussia.2.d
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prussia.2.a
+		PRE = { country_event = { id = prussia.1 } }
+	}
+}
+
+country_event = {
+	id = prussia.3
+	title = prussia.3.t
+	desc = prussia.3.d
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prussia.3.a
+		PRE = { country_event = { id = prussia.1 } }
+	}
+}
+
+country_event = {
+	id = prussia.4
+	title = prussia.4.t
+	desc = prussia.4.d
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prussia.4.a
+		PRE = { country_event = { id = prussia.1 } }
+	}
+}
+
+country_event = {
+	id = prussia.5
+	title = prussia.5.t
+	desc = prussia.5.d
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prussia.5.a
+		PRE = { country_event = { id = prussia.1 } }
+	}
+}

@@ -1,0 +1,30 @@
+state={
+	id=1071
+	name="Kassel"
+	provinces={
+		564 11533 6549 11445 9524
+	}
+	state_category = town
+	manpower=568000
+    
+    history={
+	buildings = {
+		# Edersee Dam
+			11533 = { dam = 1 }
+			infrastructure = 3
+			industrial_complex = 1
+		
+		}
+        owner = GER
+		add_core_of = GER
+        victory_points = {
+			564 3 # Kassel
+		}
+
+		
+
+}
+local_supplies=0.0 
+buildings_max_level_factor=1.000
+	state_category=rural
+}

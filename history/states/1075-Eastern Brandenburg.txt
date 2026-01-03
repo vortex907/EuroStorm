@@ -1,0 +1,31 @@
+state={
+	id=1075
+	name="Eastern Brandenburg"
+	provinces={
+		11444 9496 11505 9428 478 11415
+	}
+	state_category = city
+	manpower=1500000
+	
+    
+    history={
+		victory_points = {
+			9496 1 # Seelow
+		}
+	buildings = {
+		
+		
+			infrastructure = 3
+			industrial_complex = 1
+		
+		}
+        owner = GER
+		add_core_of = GER
+        
+
+		
+
+}
+local_supplies=0.0 
+buildings_max_level_factor=1.000
+}

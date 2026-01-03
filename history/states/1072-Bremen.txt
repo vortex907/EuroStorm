@@ -1,0 +1,37 @@
+state={
+	id=1072
+	name="Bremen"
+	provinces={
+		3326 374 6349
+	}
+	state_category = city
+	manpower=500000
+	resources = {
+		oil = 2 # was: 4
+	}
+    
+    history={
+	buildings = {
+		374 = { # Cuxhaven
+				naval_base = 1
+			}
+		
+			infrastructure = 3
+			industrial_complex = 1
+		
+		}
+        owner = GER
+		add_core_of = GER
+        victory_points = {
+			3326 5 # Bremen
+		}
+		victory_points = {
+			374 2 # Cuxhaven
+		}
+
+		
+
+}
+local_supplies=0.0 
+buildings_max_level_factor=1.000
+}

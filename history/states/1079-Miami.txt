@@ -1,0 +1,41 @@
+state = {
+	id = 1079
+	name = "Miami"
+	manpower = 140000
+	
+	state_category = city
+	
+	resources = {
+		
+	}
+
+	history = {
+
+		owner = USA
+		add_core_of = USA
+
+		
+		victory_points = {
+			1843 15 
+		}
+		victory_points = {
+			12752 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			1843 = {
+				naval_base = 5
+			}
+			industrial_complex = 1
+			dockyard = 1
+		}
+		
+	}
+
+	provinces = {
+		1843 12752 9834 1913 10489
+	}
+
+	local_supplies = 0.0 
+}

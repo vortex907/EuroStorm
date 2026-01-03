@@ -1,0 +1,25 @@
+state={
+	id=1065
+	name="Eastern Königsberg"
+	provinces={
+		395 3384 281 348
+	}
+	state_category = town
+	manpower=750000
+    
+    history={
+	buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		
+		}
+        owner = PRE
+		add_core_of = PRE
+        
+		
+
+}
+local_supplies=0.0 
+buildings_max_level_factor=1.000
+	state_category=rural
+}

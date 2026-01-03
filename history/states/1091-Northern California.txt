@@ -1,0 +1,41 @@
+state = {
+	id = 1091
+	name = "Northern California"
+	manpower = 2000000
+	
+	state_category = large_city
+	
+	resources = {
+		oil=35
+	}
+
+	history = {
+
+		owner = USA
+		add_core_of = USA
+
+		
+		victory_points = {
+			610 1
+		}
+
+		buildings = {
+			
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+			arms_factory = 1
+			dockyard = 1
+			610 = {
+				naval_base = 1
+			}
+		}
+		
+	}
+
+	provinces = {
+		3644 4331 6665 6482 10159 3588 781 610 9730 6772 768 9697 766 11698 6757 6745 6681 677 11658 9713 710
+	}
+
+	local_supplies = 0.0 
+}

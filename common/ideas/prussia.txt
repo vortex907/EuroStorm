@@ -1,0 +1,71 @@
+ideas = {
+	country = {
+	PRE_industrial_resource_shortage = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = FRA_factory_strikes
+			modifier = {
+				political_power_cost = 0.75
+				trade_laws_cost_factor = 0.5
+				economy_cost_factor = 0.5
+				production_speed_industrial_complex_factor = -0.2
+				production_speed_arms_factory_factor = -0.2
+				consumer_goods_factor = 0.25
+				stability_factor = -0.2
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.25
+				production_factory_efficiency_gain_factor = -0.2
+				production_factory_max_efficiency_factor = -0.2
+				production_factory_start_efficiency_factor = -0.2
+				line_change_production_efficiency_factor = -0.2
+				production_lack_of_resource_penalty_factor = 0.5
+				production_speed_buildings_factor = -0.25
+			}
+		}
+		PRE_legacy_of_german_civil_war = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = ENG_the_war_to_end_all_wars
+			modifier = {
+				conscription = -0.025
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
+				army_morale = -20
+				army_org_regain = -0.25
+				planning_speed = -0.25
+				max_planning = -0.2
+				experience_loss_factor = 0.25
+			}
+		}
+		PRE_bastion_of_anti_communism = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GER_wage_war_on_capitalism
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+	}
+}

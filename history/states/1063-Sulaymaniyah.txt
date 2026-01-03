@@ -1,0 +1,33 @@
+state={
+	id=1063
+	name="Sulaymaniyah"
+	provinces={
+		8123 6826 10793
+	}
+	state_category = town
+	manpower=250000
+    resources={
+        oil = 4
+    }
+    history={
+	buildings = {
+			infrastructure = 2
+		
+		}
+        owner = IRQ
+		add_core_of = IRQ
+		add_core_of = KUR
+		add_core_of = ASY
+        victory_points = {
+            8123 3
+        }
+		victory_points = {
+            6826 2
+        }
+		
+
+}
+local_supplies=0.0 
+buildings_max_level_factor=1.000
+	state_category=rural
+}

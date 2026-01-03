@@ -1,0 +1,27 @@
+
+state={
+	id=1048
+	name="Erzurum"
+	manpower = 102000
+	
+	state_category = rural
+
+	history={
+		set_demilitarized_zone = yes
+		owner = TUR
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+		}
+		add_core_of = TUR
+		add_claim_by = ARM
+	}
+
+	provinces={
+		11853 6976 9886
+	}
+
+	local_supplies=0.0 
+}

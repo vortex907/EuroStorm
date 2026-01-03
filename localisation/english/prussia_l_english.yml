@@ -1,0 +1,31 @@
+﻿l_english:
+
+#IDEAS
+
+PRE_industrial_resource_shortage:0 "Industrial Resource Shortage"
+PRE_industrial_resource_shortage_desc:0 "After the German civil war we found ourselves in this lands but eastern prussia doesnt have enough resources for our industry without coal,steel,tungsten or other industrial resources our Prussian industry can`t find enough resources to grow and develop it self and this will lead to an economic crisis."
+PRE_legacy_of_german_civil_war:0 "Legacy Of German Civil War"
+PRE_legacy_of_german_civil_war_desc:0 "The Blue Army fought well in the German civil war, but it was not enough to defeat the Red Army. When the German civil war ended, we fled to East Prussia with the blue army, but our soldiers were very demoralized and inexperienced, we did not even have enough equipment for our soldiers, and we found ourselves in a military crisis."
+PRE_bastion_of_anti_communism:0 "Bastion Of Anti-Communism"
+PRE_bastion_of_anti_communism_desc:0 "After the German civil war we fortified east Prussia and we make it European bastion of anti-communism."
+
+#EVENTS
+
+prussia.1.t:0 "Stiuation Of Free State Of Prussia"
+prussia.1.d:0 "After losing the Great War communists started a revolution across Germany. Supporters of Kaiser and Liberals formed the Blue Army against Red Army. After years of brutal fighting across every state every city every village in country Reds won the civil war but Blue Army didn`t disarm we flee to Eastern Prussia. With the help of Blue Army and Eastern Prussian civillians we builded a new nation across Eastern Prussia. In 1934 Free State of Prussia officially declared to the world the veterans of Blue Army founded National Congress of Prussia but country was not ready for elections. For 2 years National Council of Prussia governed prussia. Now Prussia is ready for free elections. Prussian politics have 4 main parties."
+prussia.1.a:0 "Kaiserliche Treuepartei"
+prussia.1.b:0 "Preußische Demokratische Union"
+prussia.1.c:0 "Prußia Republikanischer Partei"
+prussia.1.e:0 "Nationale Revolution Partei Prußia"
+prussia.1.f:0 "God Save The Prussia"
+prussia.2.t:0 "Kaiserliche Treuepartei"
+prussia.2.d:0 "The Kaiserliche Treuepartei (KTP) is a monarchist political party that claims to uphold the legal continuity of the German Empire after its collapse. It argues that Germany`s statehood was not abolished but merely interrupted, and that true legitimacy can only be restored through loyalty to the Kaiser and the imperial institution. Rejecting both mass democracy and revolutionary ideologies, the party promotes centralized authority, social hierarchy, and strict civil order. It is primarily supported by former imperial officers, aristocrats, and conservative bureaucrats who view monarchy as a stabilizing framework in an age of political chaos.To its critics, the KTP represents nostalgia and political stagnation; to its supporters, it is the last remaining guardian of legitimacy in a fractured and radicalized Germany."
+prussia.2.a:0 "Für Kaiser,Gott Und Fatherland!"
+prussia.3.t:0 "Preußische Demokratische Union"
+prussia.3.d:0 "The Preußische Demokratische Union (PDU) is a social-liberal party that combines market economics with social responsibility. It supports private enterprise, regulated markets, and free trade, while advocating labor protections, welfare policies, and parliamentary democracy. Positioned against both authoritarian nationalism and revolutionary socialism, the PDU presents itself as a pragmatic force for democratic stability and economic recovery." 
+prussia.3.a:0 "Pink Roses for Prussia!"
+prussia.4.t:0 "Prußia Republikanischer Partei"
+
+#FOCUSES
+situation_of_prussia:0 "Stiuation Of Prussia"
+situation_of_prussia_desc:0 ""
