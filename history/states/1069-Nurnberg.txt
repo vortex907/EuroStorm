@@ -1,0 +1,28 @@
+state={
+	id=1069
+	name="Nürnberg"
+	provinces={
+		11544 561 11529 9572 9416
+	}
+	state_category = city
+	manpower=750000
+    
+    history={
+	buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+		
+		}
+        owner = BAY
+		add_core_of = BAY
+        victory_points = {
+			11544 15 
+		}
+		
+
+}
+local_supplies=0.0 
+buildings_max_level_factor=1.000
+	state_category=rural
+}

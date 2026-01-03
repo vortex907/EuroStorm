@@ -1,0 +1,34 @@
+state={
+	id=1064
+	name="Arbil"
+	provinces={
+		3916 10811 5014
+	}
+	state_category = town
+	manpower=250000
+    resources={
+        oil = 8
+    }
+    history={
+	buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		
+		}
+        owner = IRQ
+		add_core_of = IRQ
+		add_core_of = KUR
+		add_core_of = ASY
+        victory_points = {
+            10811 1
+        }
+		victory_points = {
+            3916 5
+        }
+		
+
+}
+local_supplies=0.0 
+buildings_max_level_factor=1.000
+	state_category=rural
+}

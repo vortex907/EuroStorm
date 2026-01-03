@@ -1,0 +1,41 @@
+state={
+	id=1074
+	name="Berlin"
+	provinces={
+		6521
+	}
+	state_category = megalopolis
+	manpower=3500000
+	
+    
+    history={
+	buildings = {
+		6521 = {
+                landmark_berlin_reichstag = {
+                    level = 1
+                    allowed = {
+                        has_dlc = "Gotterdammerung"
+                    }
+                }
+            }
+		
+		
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 5
+			anti_air_building = 2
+		
+		}
+        owner = GER
+		add_core_of = GER
+        victory_points = {
+			6521 50 # Berlin
+		}
+
+		
+
+}
+local_supplies=0.0 
+buildings_max_level_factor=1.000
+}

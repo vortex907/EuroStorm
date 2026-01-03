@@ -1,0 +1,29 @@
+
+state={
+	id=1050
+	name="Qerekose"
+	manpower = 50000
+	
+	state_category = rural
+
+	history={
+		owner = ARM
+		
+		victory_points = {
+			12376 2
+		}
+		buildings = {
+			infrastructure = 1
+			
+		}
+		add_core_of = ARM
+		add_claim_by = KUR
+		add_claim_by = TUR
+	}
+
+	provinces={
+		12376 4583
+	}
+
+	local_supplies=0.0 
+}

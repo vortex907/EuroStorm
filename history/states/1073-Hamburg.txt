@@ -1,0 +1,35 @@
+state={
+	id=1073
+	name="Hamburg"
+	provinces={
+		9347
+	}
+	state_category = metropolis
+	manpower=2000000
+	
+    
+    history={
+	buildings = {
+		9347 = {
+				naval_base = 4
+			}
+		
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 2
+			air_base = 1
+			arms_factory = 1
+		
+		}
+        owner = GER
+		add_core_of = GER
+        victory_points = {
+			9347 20 # Hamburg
+		}
+
+		
+
+}
+local_supplies=0.0 
+buildings_max_level_factor=1.000
+}

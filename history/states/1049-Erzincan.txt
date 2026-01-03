@@ -1,0 +1,30 @@
+
+state={
+	id=1049
+	name="Erzincan"
+	manpower = 100000
+	
+	state_category = rural
+
+	history={
+		set_demilitarized_zone = yes
+		owner = TUR
+		
+		victory_points = {
+			9868 2
+		}
+		buildings = {
+			infrastructure = 1
+			
+		}
+		add_core_of = TUR
+		add_claim_by = KUR
+		add_claim_by = ARM
+	}
+
+	provinces={
+		9868 11797 9954
+	}
+
+	local_supplies=0.0 
+}

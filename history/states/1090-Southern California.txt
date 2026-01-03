@@ -1,0 +1,41 @@
+state = {
+	id = 1090
+	name = "Sothern California"
+	manpower = 2000000
+	
+	state_category = large_city
+	
+	resources = {
+		oil=35
+	}
+
+	history = {
+
+		owner = USA
+		add_core_of = USA
+
+		
+		victory_points = {
+			1562 25 
+		}
+
+		buildings = {
+			
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+			arms_factory = 1
+			dockyard = 1
+			1562 = {
+				naval_base = 10
+			}
+		}
+		
+	}
+
+	provinces = {
+		1562 7517 823 12374 7986 4727 12303 11795 4657 10387
+	}
+
+	local_supplies = 0.0 
+}

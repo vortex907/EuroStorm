@@ -1,0 +1,28 @@
+state={
+	id=1066
+	name="Ermland"
+	provinces={
+		6375 11245 6402 9346 3351 3380
+	}
+	state_category = town
+	manpower=750000
+    
+    history={
+	buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		
+		}
+        owner = PRE
+		add_core_of = PRE
+        victory_points = {
+			6375 3
+		}
+		
+
+}
+local_supplies=0.0 
+buildings_max_level_factor=1.000
+	state_category=rural
+}

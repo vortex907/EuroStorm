@@ -1,0 +1,32 @@
+
+state={
+	id=1047
+	name="Kars"
+	manpower = 332800
+	
+	state_category = town
+
+	history={
+		owner = ARM
+		
+		
+		victory_points = {
+			10472 5
+		}
+		
+		buildings = {
+			industrial_complex = 1
+			arms_factory = 1
+			infrastructure = 2
+			
+		}
+		add_core_of = ARM
+		add_claim_by = TUR
+	}
+
+	provinces={
+		10472 10403 7454 11753 789 6991
+	}
+
+	local_supplies=0.0 
+}

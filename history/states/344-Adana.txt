@@ -1,0 +1,31 @@
+
+state={
+	id=344
+	name="STATE_344"
+	manpower = 326000
+	
+	state_category = town
+
+	history={
+		owner = TUR
+		
+		victory_points = {
+			7620 10
+		}
+		
+		
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TUR
+		add_claim_by = KUR
+		set_demilitarized_zone = yes
+	}
+
+	provinces={
+		7620 9912
+	}
+
+
+	local_supplies=0.0 
+}

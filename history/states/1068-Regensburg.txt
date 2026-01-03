@@ -1,0 +1,27 @@
+state={
+	id=1068
+	name="Regensburg"
+	provinces={
+		9515 6725 9681
+	}
+	state_category = city
+	manpower=750000
+    
+    history={
+	buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		
+		}
+        owner = BAY
+		add_core_of = BAY
+        victory_points = {
+			9515 4
+		}
+		
+
+}
+local_supplies=0.0 
+buildings_max_level_factor=1.000
+	state_category=rural
+}

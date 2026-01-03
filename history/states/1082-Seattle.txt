@@ -1,0 +1,39 @@
+state = {
+	id = 1082
+	name = "Seattle"
+	manpower = 350000
+	
+	state_category = city
+	
+	resources = {
+		
+	}
+
+	history = {
+
+		owner = USA
+		add_core_of = USA
+
+		
+		victory_points = {
+			7315 20 
+		}
+
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			industrial_complex = 1
+			dockyard = 1
+			7315 = {
+				naval_base = 3
+			}
+		}
+		
+	}
+
+	provinces = {
+		7315 10157 7414 12214
+	}
+
+	local_supplies = 0.0 
+}

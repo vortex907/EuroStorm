@@ -1,0 +1,32 @@
+
+state={
+	id=1053
+	name="Adana"
+	manpower = 300000
+	
+	state_category = town
+
+	history={
+		owner = TUR
+		
+		victory_points = {
+			11746 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			11746 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = TUR
+		add_claim_by = KUR
+	}
+
+	provinces={
+		806 11746 
+	}
+
+
+	local_supplies=0.0 
+}

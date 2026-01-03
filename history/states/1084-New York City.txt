@@ -1,0 +1,50 @@
+state = {
+	id = 1084
+	name = "New York City"
+	manpower = 13481000
+	
+	state_category = megalopolis
+	
+	resources = {
+		
+	}
+
+	history = {
+
+		owner = USA
+		add_core_of = USA
+
+		
+		victory_points = {
+			3878 75 
+		}
+		victory_points = {
+			859 5
+		}
+
+		buildings = {
+			
+			infrastructure = 5
+			air_base = 10
+			industrial_complex = 4
+			arms_factory = 1
+			dockyard = 3
+			3878 = {
+				naval_base = 6
+                landmark_statue_of_liberty = {
+                    level = 1
+                    allowed = {
+                        has_dlc = "Gotterdammerung"
+                    }
+                }
+			}
+		}
+		
+	}
+
+	provinces = {
+		3878 859
+	}
+
+	local_supplies = 0.0 
+}

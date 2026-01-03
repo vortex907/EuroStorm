@@ -1,0 +1,27 @@
+state= {
+	id=1060
+	name="Rosyth"
+	manpower = 400000
+	
+	state_category = rural
+	
+	
+
+	history=
+	{
+		owner = SCO
+		victory_points = { 6300 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			
+		}
+		add_core_of = SCO
+	}
+
+	provinces=
+	{
+6300 9383 159	}
+
+	local_supplies=0.0 
+}

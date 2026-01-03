@@ -1,0 +1,35 @@
+state= {
+	id=1057
+	name="Wrexham"
+	manpower = 800000
+	
+	state_category = city
+	
+	resources={
+		steel=11 # was: 16
+		aluminium=3 # was: 4
+		coal=25
+	}
+
+	history=
+	{
+		owner = WLS
+		
+		victory_points = {
+			311 3 #Wrexham
+		}
+		victory_points = { 377 5 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			
+		}
+		add_core_of = WLS
+	}
+
+	provinces=
+	{
+311 6363 9364 	}
+
+	local_supplies=0.0 
+}

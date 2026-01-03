@@ -1,0 +1,32 @@
+state = {
+	id = 1092
+	name = "Eastern Oregon"
+	manpower = 150000
+	
+	state_category = town
+	
+	
+
+	history = {
+
+		owner = USA
+		add_core_of = USA
+
+		
+		
+
+		buildings = {
+			
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 1
+		}
+		
+	}
+
+	provinces = {
+		10625 7721 12553 7865 4826 10305
+	}
+
+	local_supplies = 0.0 
+}

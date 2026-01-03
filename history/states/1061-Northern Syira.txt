@@ -1,0 +1,30 @@
+state={
+	id=1061
+	name="Northern Syria"
+	provinces={
+		6883 1606 1549 1578 1634 10882 901 
+	}
+	state_category = town
+	manpower=100000
+    resources={
+        oil = 8
+    }
+    history={
+        owner = SYR
+		add_core_of = SYR
+		add_core_of = KUR
+        victory_points = {
+            6883 3
+        }
+		victory_points = {
+            1606 2
+        }
+		victory_points = {
+            1549 1
+        }
+
+}
+local_supplies=0.0 
+buildings_max_level_factor=1.000
+	state_category=rural
+}

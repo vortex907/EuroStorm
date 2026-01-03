@@ -1,0 +1,43 @@
+state = {
+	id = 1080
+	name = "Boston"
+	manpower = 850000
+	
+	state_category = metropolis
+	
+	resources = {
+		
+	}
+
+	history = {
+
+		owner = USA
+		add_core_of = USA
+
+		
+		victory_points = {
+			6732 30 
+		}
+		victory_points = {
+			905 1
+		}
+
+		buildings = {
+			air_base = 10
+			infrastructure = 4
+			6732 = {
+				naval_base = 8
+			}
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+		}
+		
+	}
+
+	provinces = {
+		6732 905 3712 3906
+	}
+
+	local_supplies = 0.0 
+}
