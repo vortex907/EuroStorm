@@ -1,0 +1,55 @@
+﻿l_polish:
+
+CHECK_CORE_STATE_DESC: "§YOblicz koszt§!\n\n£population_icon  §YPopulacja§! /£pol_power_icon §Y[core_state_cost_game_rule]k§!.\nKoszt będzie tańszy §Yo połowę§! jeżeli posiadasz §Yroszczenia§!.\n[check_core_button_enabled_desc]"
+CORE_STATE_DESC: "§YUczyń ten region narodowym§!\n[core_state_claimed]Będzie cię to kosztować£pol_power_icon£§Y[?ROOT.cost_to_core]§! aby uczynić ten region narodowym.\n[core_state_button_desc]"
+
+core_state_req_not_owned_peace: "--------------------------------------------\n§RNie posiadasz tego regionu!§!"
+core_state_req_not_owned_war: "--------------------------------------------\n§RNie kontrolujesz tego regionu!§!"
+core_state_req_already_cored: "--------------------------------------------\n§RTen region jest już twoim regionem narodowym!§!"
+core_state_req_no_compliance_100: "--------------------------------------------\n§RTen region ma mniej niż 100% posłuszeństwa!§!"
+core_state_req_no_compliance_80: "--------------------------------------------\n§RTen region ma mniej niż 80% posłuszeństwa!§!"
+core_state_req_no_compliance_60: "--------------------------------------------\n§RTen region ma mniej niż 60% posłuszeństwa!§!"
+core_state_req_no_compliance_40: "--------------------------------------------\n§RTen region ma mniej niż 40% posłuszeństwa!§!"
+core_state_req_no_compliance_20: "--------------------------------------------\n§RTen region ma mniej niż 20% posłuszeństwa!§!"
+core_state_req_no_pp: "--------------------------------------------\n§RNie masz wystarczająco siły politycznej!§!"
+core_state_req_no_claim: "--------------------------------------------\n§RNie posiadasz roszczeń do tego regionu!§!"
+
+CWC_FORMULA_PP_COST_GROUP: "Core With Compliance++"
+CWC_FORMULA_PP_COST: "Koszt uczyniania regionów narodowymi"
+CWC_COMP_COST: "Wymagane posłuszeństwo"
+CWC_OCCUPY: "Okupacja/pełna kontrola"
+CWC_CLAIM_FOR_CORE: "Tylko uczyń regiony z roszczeniami narodowymi"
+
+core_state_claimed_true: "§CCPosiadasz roszczenia do tego regionu, przez co koszt jest zredukowany o połowę!§!\n"
+
+CWC_FORMULA_PP_COST_5K_NAME: "§YPopulacja§! / §Y5k§!"
+CWC_FORMULA_PP_COST_10K_NAME: "§YPopulacja§! / §Y10k§!"
+CWC_FORMULA_PP_COST_20K_NAME: "§YPopulacja§! / §Y20k§!"
+CWC_FORMULA_PP_COST_40K_NAME: "§YPopulacja§! / §Y40k§!"
+
+CWC_FORMULA_PP_COST_5K_DESC: "Około £pol_power_icon2 §Y4§!  na £manpower_icon2  §Y1k§!.\n\n£population_icon  §YPopulacja§! / £pol_power_icon2 §Y5k§!\n--------------------------------------\n§gKoszt uczyniania regionów narodowymi jest bardzo wysoki.§!"
+CWC_FORMULA_PP_COST_10K_DESC: "Około £pol_power_icon2 §Y2§!  na £manpower_icon2  §Y1k§!.\n\n£population_icon  §YPopulacja§! / £pol_power_icon2 §Y10k§!\n--------------------------------------\n§gKoszt uczyniania regionów narodowymi jest wysoki.§!"
+CWC_FORMULA_PP_COST_20K_DESC: "Około £pol_power_icon2 §Y1§!  na £manpower_icon2  §Y1k§!.\n\n£population_icon  §YPopulacja§! / £pol_power_icon2 §Y20k§!\n--------------------------------------\n§gKoszt uczyniania regionów narodowymi jest niski.§!"
+CWC_FORMULA_PP_COST_40K_DESC: "Około £pol_power_icon2 §Y0.5§!  na £manpower_icon2  §Y1k§!.\n\n£population_icon  §YPopulacja§! / £pol_power_icon2 §Y40k§!\n--------------------------------------\n§gKoszt uczyniania regionów narodowymi jest bardzo niski.§!"
+
+CWC_COMP_COST_20_NAME: "§C20%§! posłuszeństwa"
+CWC_COMP_COST_40_NAME: "§C40%§! posłuszeństwa"
+CWC_COMP_COST_60_NAME: "§C60%§! posłuszeństwa"
+CWC_COMP_COST_80_NAME: "§C80%§! posłuszeństwa"
+CWC_COMP_COST_100_NAME: "§C100%§! posłuszeństwa"
+
+CWC_COMP_COST_20_DESC: "Wymaga £compliance_icon2 §C20%§! aby uczynić region narodowym"
+CWC_COMP_COST_40_DESC: "Wymaga £compliance_icon2 §C40%§! aby uczynić region narodowym"
+CWC_COMP_COST_60_DESC: "Wymaga £compliance_icon2 §C60%§! aby uczynić region narodowym"
+CWC_COMP_COST_80_DESC: "Wymaga £compliance_icon2 §C80%§! aby uczynić region narodowym"
+CWC_COMP_COST_100_DESC: "Wymaga £compliance_icon2 §C100%§! aby uczynić region narodowym"
+
+CWC_OCCUPY_PEACE_NAME: "W pełni kontroluj"
+CWC_OCCUPY_PEACE_DESC: "Pozwala na uczynianie regionów narodowymi tylko jeżeli je §tw pełni kontrolujesz§!"
+CWC_OCCUPY_WAR_NAME: "Okupuj"
+CWC_OCCUPY_WAR_DESC: "Pozwala na uczynianie regionów narodowymi kiedy je §tokupujesz§!"
+
+CWC_NO_CLAIM_FOR_CORE_NAME: "Nie potrzeba roszczeń"
+CWC_NO_CLAIM_FOR_CORE_DESC: "Nie potrzeba §troszczenia§! aby uczynić region narodowym."
+CWC_CLAIM_FOR_CORE_NAME: "Roszczenia potrzebne"
+CWC_CLAIM_FOR_CORE_DESC: "Potrzeba §troszczeń§! aby uczynić region narodowym."

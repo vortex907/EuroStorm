@@ -1,0 +1,6 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_KAZ_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/denxson/EST_infantry_equipment_0.dds"
+	}

@@ -1,0 +1,637 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_PRC_modern_large_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/large/strat_45/tu80.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_PRC_modern_large_airframe_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/large/strat_47/tu16.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_PRC_modern_large_airframe_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/large/strat_50/mya4.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_PRC_modern_large_airframe_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/large/strat_55/tu95m.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_PRC_modern_large_airframe_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/large/strat_60/m50.dds"
+	}	 
+					
+	SpriteType = {
+		name = "GFX_PRC_modern_medium_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/bomber_45/tu12.dds"
+	}		
+					
+	SpriteType = {
+		name = "GFX_PRC_modern_medium_airframe_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/bomber_47/il28.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_PRC_modern_medium_airframe_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/bomber_50/tu14.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_PRC_modern_medium_airframe_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/bomber_55/yak28.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_PRC_modern_medium_airframe_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/bomber_60/r020.dds"
+	}	
+			 
+	SpriteType = {
+		name = "GFX_PRC_modern_small_airframe_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_47/mig15.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_PRC_modern_small_airframe_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_50/mig17.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_PRC_modern_small_airframe_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_55/su9.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_PRC_modern_small_airframe_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_60/mig21.dds"
+	}		
+
+	#(PRC#
+ 
+  #(PRC tank# 
+  
+    #(PRC great war tank#
+		SpriteType = {
+		    name = "GFX_PRC_gwtank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_0/sov_t18_m1927.dds"
+	    }
+	
+        SpriteType = {
+            name = "GFX_PRC_gwtank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_0/sov_t18_m1927.dds"
+        } 
+	#)#	    
+	
+    #(PRC light tank#			
+	    SpriteType = {
+		    name = "GFX_PRC_light_tank_chassis_0_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_0/sov_t18_m1927.dds"
+	    }
+		
+		SpriteType = {
+		    name = "GFX_PRC_basic_light_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_1/sov_t26_tu_m1933.dds"
+	    }
+		
+		SpriteType = {
+		    name = "GFX_PRC_improved_light_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_2/sov_bt7_1.dds"
+	    }
+
+		SpriteType = {
+		    name = "GFX_PRC_advanced_light_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_3/sov_t70.dds"
+	    }
+		
+		SpriteType = {
+            name = "GFX_PRC_basic_light_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_1/sov_t26_tu_m1933.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_PRC_basic_light_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_1/sov_at1.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_basic_light_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_1/sov_su26.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_basic_light_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_1/sov_su6.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_improved_light_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_2/sov_bt7_1.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_PRC_improved_light_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_2/sov_bt7_1.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_improved_light_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_2/sov_bt7a.dds"
+        }
+		
+		SpriteType = {
+            name = "GFX_PRC_improved_light_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_2/sov_bt7_1.dds"
+        }
+
+		SpriteType = {
+            name = "GFX_PRC_advanced_light_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_3/sov_t70.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_PRC_advanced_light_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_3/sov_su57b.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_advanced_light_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_3/sov_su76.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_advanced_light_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_3/sov_zsu37.dds"
+        }
+	#)#	    
+	 
+    #(PRC medium tank#
+		SpriteType = {
+		    name = "GFX_PRC_medium_tank_chassis_0_medium"
+		    texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_0/sov_t12.dds"
+	    }
+
+		SpriteType = {
+		    name = "GFX_PRC_basic_medium_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_1/sov_a20.dds"
+	    }
+		
+		SpriteType = {
+		    name = "GFX_PRC_improved_medium_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_2/sov_t34_76_m1940_41.dds"
+	    }
+		
+		SpriteType = {
+		    name = "GFX_PRC_advanced_medium_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_3/sov_t34_85.dds"
+	    }
+			
+	    SpriteType = {
+            name = "GFX_PRC_basic_medium_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_1/sov_a20.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_PRC_basic_medium_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_1/sov_a20.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_PRC_basic_medium_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_1/sov_a20.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_basic_medium_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_1/sov_a20.dds"
+        }
+
+		SpriteType = {
+            name = "GFX_PRC_improved_medium_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_2/sov_t34_76_m1940_41.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_PRC_improved_medium_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_2/sov_su85.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_improved_medium_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_2/sov_su100.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_improved_medium_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_2/sov_t34_76_m1940_41.dds"
+        }
+
+		SpriteType = {
+            name = "GFX_PRC_advanced_medium_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_3/sov_t34_85.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_PRC_advanced_medium_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_3/sov_u20.dds"
+        }
+		
+		SpriteType = {
+            name = "GFX_PRC_advanced_medium_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_3/sov_su122.dds"
+        }
+		
+		SpriteType = {
+            name = "GFX_PRC_advanced_medium_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_3/sov_t34_85.dds"
+        }
+ 	#)#	    
+	
+    #(PRC heavy tank#
+	    SpriteType = {
+		    name = "GFX_PRC_heavy_tank_chassis_0_medium"
+		    texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_t35_m1935.dds"	
+	    }
+		
+		SpriteType = {
+		    name = "GFX_PRC_basic_heavy_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv1_m1939.dds"
+	    }
+		
+		SpriteType = {
+		    name = "GFX_PRC_improved_heavy_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_2/sov_kv13_version1.dds"	
+	    }
+		
+		SpriteType = {
+		    name = "GFX_PRC_advanced_heavy_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is1.dds"	
+	    }
+
+        SpriteType = {
+            name = "GFX_PRC_basic_heavy_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv1_m1939.dds"
+        }		
+				
+        SpriteType = {
+            name = "GFX_PRC_basic_heavy_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv7.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_basic_heavy_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_su152.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_PRC_basic_heavy_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv1_m1939.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_PRC_improved_heavy_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_2/sov_kv13_version1.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_PRC_improved_heavy_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_2/sov_kv13_version1.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_improved_heavy_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_2/sov_kv13_version1.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_PRC_improved_heavy_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_2/sov_kv13_version1.dds"
+        }
+
+		SpriteType = {
+            name = "GFX_PRC_advanced_heavy_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is2.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_PRC_advanced_heavy_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_isu122.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_advanced_heavy_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is1.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_PRC_advanced_heavy_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is1.dds"
+        }
+	#)#	    
+	
+    #(PRC main battle tank#
+
+        SpriteType = {
+            name = "GFX_PRC_modern_tank_chassis_1_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/modern/sov_t44_100.dds"	
+        }
+		
+        SpriteType = {
+            name = "GFX_PRC_main_battle_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/modern/sov_t44_100.dds"	
+        }
+		
+		SpriteType = {
+            name = "GFX_PRC_main_battle_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/modern/sov_t44_100.dds"	
+        }
+		
+        SpriteType = {
+            name = "GFX_PRC_modern_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/modern/sov_su100p.dds"	
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_modern_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/modern/sov_su101.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_modern_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/modern/sov_t44.dds"
+        }
+	#)#	    
+	
+    #(PRC super heavy tank#
+        SpriteType = {
+            name = "GFX_PRC_super_heavy_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/super_heavy/sov_kv5.dds"	
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_super_heavy_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/super_heavy/sov_kv5.dds"	
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_super_heavy_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/super_heavy/sov_kv5.dds"	
+        }
+		
+        SpriteType = {
+            name = "GFX_PRC_super_heavy_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/super_heavy/sov_kv5.dds"	
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_super_heavy_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/super_heavy/sov_kv5.dds"	
+        }
+	#)#	    
+	
+	SpriteType = {
+		name = "GFX_PRC_advanced_medium_tank_chassis_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_3/sov_t34_85.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_modern_light_tank_chassis_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_4/sov_pt76_m1951.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_main_battle_tank_chassis_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/modern/sov_t44.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_main_battle_tank_chassis_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/modern_2/sov_t54_55.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_main_battle_tank_chassis_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/modern_3/t_55.dds" 
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_modern_tank_chassis_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/modern_3/t_55.dds"  
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_main_battle_tank_chassis_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/modern_4/t_62.dds" 
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_modern_tank_chassis_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/modern_4/t_62.dds" 
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_modern_tank_chassis_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/modern/sov_t44.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_modern_tank_chassis_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/modern_2/sov_t54_55.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_modern_tank_chassis_3_medium"
+		texturefile = "gfx/interface/technologies/t-55.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_PRC_modern_tank_chassis_4_medium"
+		texturefile = "gfx/interface/technologies/t-62.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_heavy_tank_chassis_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_4/sov_is3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_heavy_tank_chassis_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_5/sov_is6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_heavy_tank_chassis_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_6/T_10.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_PRC_ifv_infantry_medium"
+		texturefile = "gfx/interface/technologies/land/PRC/PRC_YW_309.png"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_mechanised_infantry7_medium"
+		texturefile = "gfx/interface/technologies/land/PRC/PRC_type_89.png"
+	}		
+
+	SpriteType = {
+		name = "GFX_PRC_mechanised_infantry6_medium"
+		texturefile = "gfx/interface/technologies/land/PRC/PRC_type_85.png"
+	}		 
+	
+	SpriteType = {
+		name = "GFX_PRC_mechanised_infantry5_medium"
+		texturefile = "gfx/interface/technologies/land/PRC/PRC_type_63.png"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_amphibious_mechanized_infantry_3_medium"
+		texturefile = "gfx/interface/technologies/land/PRC/PRC_type_77.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_iw_small_airframe_medium"
+		texturefile = "gfx/interface/technologies/SOV_early_fighter.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_basic_small_airframe_medium"
+		texturefile = "gfx/interface/technologies/SOV_fighter1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_improved_small_airframe_medium"
+		texturefile = "gfx/interface/technologies/SOV_fighter2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_advanced_small_airframe_medium"
+		texturefile = "gfx/interface/technologies/SOV_fighter3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_modern_small_airframe_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_plane_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_iw_medium_airframe_medium"
+		texturefile = "gfx/interface/technologies/SOV_early_bomber.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_PRC_modern_medium_airframe_medium"
+		texturefile = "gfx/interface/technologies/SOV_jet_medium_plane_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_PRC_iw_large_airframe_medium"
+		texturefile = "gfx/interface/technologies/SOV_transport_plane_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_PRC_basic_large_airframe_medium"
+		texturefile = "gfx/interface/technologies/SOV_strategic_bomber1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_PRC_improved_large_airframe_medium"
+		texturefile = "gfx/interface/technologies/SOV_strategic_bomber2.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_PRC_advanced_large_airframe_medium"
+		texturefile = "gfx/interface/technologies/SOV_strategic_bomber3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_modern_large_airframe_medium"
+		texturefile = "gfx/interface/technologies/SOV_heavy_plane_1.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_PRC_basic_medium_airframe_medium"
+		texturefile = "gfx/interface/technologies/SOV_tactical_bomber1.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_PRC_improved_medium_airframe_medium"
+		texturefile = "gfx/interface/technologies/SOV_tactical_bomber2.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_PRC_advanced_medium_airframe_medium"
+		texturefile = "gfx/interface/technologies/SOV_tactical_bomber3.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_PRC_bba_early_transport_plane_medium"
+		texturefile = "gfx/interface/technologies/SOV_transport1.dds"
+	}
+			 
+	SpriteType = {
+		name = "GFX_PRC_bba_improved_transport_plane_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/transport_43/SOV_yak_16.png"
+	} 
+	
+	SpriteType = {
+		name = "GFX_PRC_bba_strategic_airlifter_medium"
+		texturefile = "gfx/interface/technologies/SOV_transport3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_transport_plane_4_medium"
+		texturefile = "gfx/interface/technologies/SOV_transport4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_transport_plane_5_medium"
+		texturefile = "gfx/interface/technologies/SOV_transport5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_transport_plane_6_medium"
+		texturefile = "gfx/interface/technologies/SOV_transport6.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_PRC_transport_plane_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_transport1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_TB_3"
+		texturefile = "gfx/interface/technologies/SOV_transport_plane_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_transport_plane_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_transport3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_transport_plane_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/SOV_transport4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_transport_plane_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/SOV_transport5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_transport_plane_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/SOV_transport6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_PRC_paradrop_tank_chassis_0_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/airborne_1/sov_t60.dds"
+	}
+
+	spriteType = {
+		name = "GFX_PRC_paradrop_tank_chassis_1_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/airborne_2/sov_asu85.dds" 
+	}
+}

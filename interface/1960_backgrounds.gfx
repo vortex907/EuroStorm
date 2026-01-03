@@ -1,0 +1,123 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_jet_cas_doctrines_bg"
+		textureFile = "gfx//interface//jet_cas_doctrines_bg.dds"
+		alwaystransparent = yes		
+	}
+
+	spriteType = {
+		name = "GFX_jet_fighter_doctrines_bg"
+		textureFile = "gfx//interface//jet_fighter_doctrines_bg.dds"
+		alwaystransparent = yes		
+	}
+
+	spriteType = {
+		name = "GFX_jet_fighter_doctrines_bg"
+		textureFile = "gfx//interface//jet_fighter_doctrines_bg.dds"
+		alwaystransparent = yes		
+	}
+
+	spriteType = {
+		name = "GFX_berlin_path_bg"
+		textureFile = "gfx//interface//GFX_berlin_path_bg.dds"
+		alwaystransparent = yes		
+	}
+
+	spriteType = {
+		name = "GFX_brussels_path_bg"
+		textureFile = "gfx//interface//GFX_brussels_path_bg.dds"
+		alwaystransparent = yes		
+	}
+
+	spriteType = {
+		name = "GFX_global_path_bg"
+		textureFile = "gfx//interface//GFX_global_path_bg.dds"
+		alwaystransparent = yes		
+	}
+
+	spriteType = {
+		name = "GFX_warsaw_path_bg"
+		textureFile = "gfx//interface//GFX_warsaw_path_bg.dds"
+		alwaystransparent = yes		
+	}
+
+	spriteType = {
+		name = "GFX_modern_naval_doctrines_bg"
+		textureFile = "gfx//interface//GFX_modern_naval_doctrines.dds"
+		alwaystransparent = yes		
+	}
+
+	spriteType = {
+		name = "GFX_marines_doctrines_late_bg"
+		textureFile = "gfx//interface//marines_doctrines_late_bg.dds"
+		alwaystransparent = yes 		
+	}	
+
+	spriteType = {
+		name = "GFX_mountaineers_doctrines_late_bg"
+		textureFile = "gfx//interface//mountaineer_doctrines_late_bg.dds"
+		alwaystransparent = yes 		
+	} 
+
+	spriteType = {
+		name = "GFX_paratrooper_doctrines_late_bg"
+		textureFile = "gfx//interface//paratrooper_doctrines_late_bg.dds"
+		alwaystransparent = yes 		
+	} 
+
+	spriteType = {
+		name = "GFX_paratrooper_doctrines_medium_bg"
+		textureFile = "gfx//interface//paratrooper_doctrines_medium_bg.dds"
+		alwaystransparent = yes 		
+	} 
+
+	spriteType = {
+		name = "GFX_marines_doctrines_medium_bg"
+		textureFile = "gfx//interface//marines_doctrines_medium_bg.dds"
+		alwaystransparent = yes 		
+	}  
+
+	spriteType = {
+		name = "GFX_mountaineers_doctrines_medium_bg"
+		textureFile = "gfx//interface//mountain_doctrines_medium_bg.dds"
+		alwaystransparent = yes 		
+	}  
+
+	spriteType = {
+		name = "GFX_defensive_posture_bg"
+		textureFile = "gfx//interface//defensive_posture_bg.dds"
+		alwaystransparent = yes 		
+	} 
+
+	spriteType = {
+		name = "GFX_operation_depth_bg"
+		textureFile = "gfx//interface//operation_depth_bg.dds"
+		alwaystransparent = yes 		
+	} 
+
+	spriteType = {
+		name = "GFX_full_spectrum_bg"
+		textureFile = "gfx//interface//full_spectrum_bg.dds"
+		alwaystransparent = yes 		
+	} 
+
+	spriteType = {
+		name = "GFX_manouver_warfare_bg"
+		textureFile = "gfx//interface//manouver_warfare_bg.dds"
+		alwaystransparent = yes 		
+	}   
+
+	spriteType = { 
+		name = "GFX_rangers_doctrines_medium_bg"
+		textureFile = "gfx//interface//rangers_doctrines_medium_bg.dds"
+		alwaystransparent = yes 		
+	} 
+
+	spriteType = {
+		name = "GFX_rangers_doctrines_late_bg"
+		textureFile = "gfx//interface//rangers_doctrines_late_bg.dds"
+		alwaystransparent = yes 		
+	} 
+}
+ 

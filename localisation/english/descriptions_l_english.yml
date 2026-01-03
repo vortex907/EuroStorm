@@ -1,0 +1,345 @@
+﻿l_english:
+
+ #INFANTRY TECHS
+ 
+ marines_a_desc: "Marines can use dedicated amphibious warfare ships to provide quick and relentless attacks to decisively secure a beach-head."
+ marines_b_desc: "Modern Amphibious Warfare can be made more efficient by not just approaching from the surface, but above and below through swift and combined arms."
+ mountaineers_a_desc: "Soldiers capable of sustaining such difficult terrain need not just better warfighting skills. We can do this by ensuring they know how to recover their wounded regardless of circumstance."
+ mountaineers_b_desc: "Mountainous Terrain is infamous for its difficult communications. Our next priority is to provide reliable means to communicate via courier, radio, and other forms of communication."
+ paratroopers_a_desc: "While larger scale operations were made possible, the use of smaller units with our Airborne Detachments may make infiltration by the sky more likely to succeed."
+ paratroopers_b_desc: "The development of the helicopter means much for the Paratrooper. We're likely to not just be able to make Paratrooper units more mobile, but now they can be supplied and reinforced reliably even if behind enemy lines."
+
+ #SUPPORT TECHS
+
+ tech_recon5_desc: "The use of new reconnaisance gear capable of detecting modern forces more easily will help our soldiers achieve tactical success." 
+ tech_recon6_desc: "Perhaps the use of modern optics in combination with computerized automation in complemt to the development of extended reconnaissance patrols will allow for increased information gathering abilities."
+ tech_logistics_company5_desc: "It is necessary for logistics companies to also move to containerization and start outsourcing to partners in the private sector."
+ tech_logistics_company6_desc: "With the computer age fast approaching, new tabulation and computation methods improve how we orgazine logistics."
+ 
+ #ARMOR TECHS
+ 
+ armor_tech_5_desc:0 "By increasing the hardness of the armor that we use, we can provide additional levels of protection albeit at the cost of weight and speed."
+ armor_tech_6_desc:0 "Aluminium is used when light weight is a necessity. It is most commonly used on APCs and armoured cars. While certainly not the strongest metal, it is cheap, lightweight, and tough enough that it can serve as easy armour."
+ comp_armor_desc: "Composite armour is a type of vehicle armour consisting of layers of different materials such as metals, plastics, ceramics or air. Most composite armours are lighter than their all-metal equivalent, but instead occupy a larger volume for the same resistance to penetration."
+ engine_tech_5_desc:0 "Fuel injection is the introduction of fuel in an internal combustion engine, most commonly automotive engines, by the means of an injector. Fuel injection results in a more efficient use of fuel, reduced fuel consumption, and lower emissions."
+ engine_tech_6_desc:0 "An electronic fuel injection system uses an electronic system to control de process, reaching even better efficiency in fuel burn." 
+ paradrop_tank_chassis_desc: "Light tanks can be dropped as part of an airborne operation. A new tank, designed purely for said purpose, will allow for a more rugged and safer design for operational use."
+ paradrop_tank_chassis_2_desc: "A modern variation of the airdroppable tank. It has increased capability than its previous counterpart by making the design with better materials and engineering expertise."
+ imp_stab_desc: "An improved the stabilizer, still only capable of 1-plane stabilization, by simplifying and better designing the servomechanisms to increase its accuracy."
+ twoplane_stab_desc: "Through the introduction of several gyroscopes regulated by a mechanical computer, the fire control system can now be regulated in vertical and horizontal planes for accurate firing."
+ rangefinder1_desc: "While the accuracy of our gunners cannot be understated, providing a mechanism to accurately measure range gives our gunners a better chance to hit their targets at a distance."
+ rangefinder2_desc: "Through the use of better reflective materials and through decreasing the margin of error, we can create a rangefinder for determining range to targets faster and more accurately."
+ 
+ armor_skirts_2_desc: "An extreme version of the armor skirts of World War II, appliqué armor is intended to extend the service life of older tanks in face of newer cannons and types of ammunitions."
+ aluminium_armor_desc: "Aluminium is used when light weight is a necessity. It is most commonly used on APCs and armoured cars. While certainly not the strongest metal, it is cheap, lightweight, and tough enough that it can serve as easy armour."
+ composite_armor_desc: "Composite armour is a type of vehicle armour consisting of layers of different materials such as metals, plastics, ceramics or air. Most composite armours are lighter than their all-metal equivalent, but instead occupy a larger volume for the same resistance to penetration."
+ tank_light_one_man_tank_turret_p_desc: "A turret barely capable of allowing a single tanker to operate from within it. It severely limits the fighting capability of the turret but makes the tank light enough to paradrop."
+ tank_light_two_man_tank_turret_p_desc: "A turret expanded to now allow two tankers to operate the weapons system in the turret. While still limiting due to its size and air-droppable configuration, its better than the one-man configuration."
+ tank_light_three_man_tank_turret_p_desc: "A turret expanded further to allow for three tankers to operate the weapons system inside. While still limiting due to its size, its likely the largest sized turret that can be implemented while still remaining viable for airborne operations."
+ tank_light_fixed_superstructure_turret_p_desc: "A turret that is fixed in place. While this reduces the maintenance of the tank using said design, it does limit its operational ability for offensive actions."
+ tank_modern_tank_turret_2_desc: "Advanced main battle tanks require a turret designed specifically to integrate modern electronics and survivability necessary to improve its battle effectiveness."
+ tank_heavy_modern_turret_desc: "A well-laid out heavy turret allows three crew members to efficiently operate the main armament and keep track of their surroundings."
+ tank_super_heavy_howitzer_desc: "A patently insanely large gun that can be used to bombard fortified positions but can also be used against practically any target due to its size."
+ tank_super_heavy_fixed_superstructure_turret_desc: "A fixed structure that is capable of mounting weapons systems but the sacrifice of the turret limits the combat capability and reliability of the vehicle."
+ stabilizer_2_desc: "An improved the stabilizer, still only capable of 1-plane stabilization, by simplifying and better designing the servomechanisms to increase its accuracy."
+ stabilizer_3_desc: "Through the introduction of several gyroscopes regulated by a mechanical computer, the fire control system can now be regulated in vertical and horizontal planes for accurate firing."
+ rangefinder_1_desc: "A rangefinder that measures the stereo vision of the operator to accurately identify distance to a target."
+ rangefinder_2_desc: "An improved rangefinder that measures the stereo vision of the operator to accurately identify distance to a target."
+ 
+ light_para_armor_desc: "Lightly armoured tanks capable of being paradropped."
+ super_heavy_armor_desc: "Super heavy tanks capable of absorbing the most brutal beating in the battlefield."
+ 
+ #ARTILLERY TECHS
+ 
+ manpad_equipment_desc: "Man-portable air-defense systems (MANPADS or MPADS) are portable surface-to-air missiles. They are guided weapons and are a threat to low-flying aircraft, especially helicopters. MANPADS were developed to provide military ground forces with protection from jet aircraft, as their high speed made them ever more difficult to shoot down with regular barreled anti-aircraft guns."
+ manpad_cpy_desc: "Man-portable air-defense systems (MANPADS or MPADS) are portable surface-to-air missiles. They are guided weapons and are a threat to low-flying aircraft, especially helicopters. MANPADS were developed to provide military ground forces with protection from jet aircraft, as their high speed made them ever more difficult to shoot down with regular barreled anti-aircraft guns."
+ 
+ heatfs_ammo_desc: "A shell that consists of a warhead that uses an shaped charge to penetrate heavy armor and destroy heavy heavier vehicles without necessitating pure kinetic energy."
+ apfsds_ammo_desc: "A missile launcher that is equipped with a shaped charge which is capable of being guided after launch. This one is equipped on top of the turret as an auxiliary weapon if necessary."
+ tank_ATGM_desc: "A missile launcher for a projectile equipped with a shaped charge which is capable of being guided after launch. This one is equipped as the weapons system in the turret and is incredible in size."
+ aux_atgm_launcher_desc: "A secondary missile launcher for a projectile equipped with a shaped charge which is capable of being guided after launch. This one is equipped as the weapons system in the turret and is incredible in size."
+ tank_high_velocity_cannon_5_desc: "A high velocity gun made with the most advanced metallurgical technologies made available. The cannon is capable of even higher chamber pressures for getting rounds up to extreme velocities."
+ 
+ #NAVAL TECHS
+ 
+ tech_fleet_oiler_1: "Older fleet oilers were used to replenish fleets far from its own shores in calmer times, ensuring a better range. Fleet oilers are slow and vulnerable, so it should be kept far from enemy action."
+ fleet_oiler_1: "Older fleet oilers were used to replenish fleets far from its own shores in calmer times, ensuring a better range. Fleet oilers are slow and vulnerable, so it should be kept far from enemy action."
+ tech_fleet_oiler_2: "Wartime Fleet Oilers have improved speed and survivability to improve their survavibility in combat. It is still not intended as a combat unit, but is at least more surviveable."
+ fleet_oiler_2: "Wartime Fleet Oilers have improved speed and survivability to improve their survavibility in combat. It is still not intended as a combat unit, but is at least more surviveable."
+ tech_fleet_oiler_3: "Modern Fleet Oilers, while still not a frontline unit, are supposed to be employed closer to combat assets and to danger."
+ fleet_oiler_3: "Modern Fleet Oilers, while still not a frontline unit, are supposed to be employed closer to combat assets and to danger."
+ 
+ steam_turbine_desc: "A steam turbine extracts thermal energy from pressurized steam and uses it to do mechanical work on a rotating output shaft. It is an advancement of the original steam engines of the 19th century, being designed for efficiency at higher speeds."
+ geared_steam_turbine_desc: "The addition of reduction gears to the steam turbine improve overall engine power and torque, even at lower speeds, making it overall more reliable."
+ turbo_electric_drive_desc: "The engine uses a steam turbine and an electric motor to convert mechanical energy into power for the drive shafts. It is also able to provide electrical power to the rest of the ship's systems. This design is more efficient and reliable, albeit unable to provide as much raw power to the shafts."
+ diesel_engine_desc: "Marine engines fed by oil fuel, being overall more efficient, achieving high power outputs with less fuel. It is also a more reliable and resistent engine type."
+ 
+ submarine_sonar_1_desc: "The first step in sinking enemy shipping is detecting their vessels in the vast open seas. A hydrophone lets a the operator listen for the engines sounds propagating in water, in order to find its prey."
+ submarine_sonar_2_desc: "An improved hydrophone, white better sensitivity, can detect quieter contacts at greater ranges, improving a submarine's ability to hunt silently."
+ submarine_sonar_3_desc: "Sonar technology can also be employed by submarines, albeit at the cost of limiting its ability to remain silent. Nonetheless, underwater active sonar can be the only way for a submarine to detected the enemy's own underwater threats."
+ 
+ sonobuoys_1_desc: "Ships full of hydrophone operators are being replaced by battery-powered buoys that allow for easier triangulation of the underwater explosions used in surveying and ranging. This can also be used to detect ships and submarines."
+ sonobuoys_2_desc: "Sonobuoys with larger batteries and better sensors can be dropped from ASW aircraft, allowing them to track submarines even when visual contact is lost."
+ 
+ ship_sonar_4_desc: "By towing hydrophones behind the ship rather than mounting them on the hull, ships are able to track submarines bellow thermal layers, increasing their detection at depht."
+
+ torpedo_protection_1_desc: "The torpedo has turned naval combat on its head. Shipwrights have adapted by introducing protective measures such as nets, anti-torpedo bulges, and transverse bulkheads to protect against submarine attack."
+ 
+ early_carrier_deck_desc: "By removing the protruding mast and funnels from a large, obsolete ship, we can create a runway on the ocean."
+ angled_deck_desc: "Designing the flight deck so that airplanes launch at an angle from the ship's centerline makes it much safer to retrieve and launch at the same time."
+ 
+ #NAVAL SUPPORT TECHS
+ 
+ ship_heavy_battery_0_2x_desc: "A set of two cannons in the 12-inch/30cm caliber range dating from before the Great War in an armored turret."
+ ship_heavy_battery_0_4x_desc: "Two sets of two cannon in the 12-inch/30cm caliber range dating from before the Great War in an armored turret."
+ 
+ ship_heavy_battery_1_2x_desc: "A set of two cannons in the 14 to 15-inch/34 to 38cm caliber range from the Great War in an armored turret."
+ ship_heavy_battery_1_3x_desc: "A set of three cannons in the 14 to 15-inch/34 to 38cm caliber range from the Great War in an armored turret."
+ ship_heavy_battery_1_4x_desc: "A set of four cannons in the 14 to 15-inch/34 to 38cm caliber range from the Great War in an armored turret."
+
+ ship_heavy_battery_2_2x_desc: "A pair of cannons in the 15 to 16-inch/38 to 41cm caliber range, in a heavily armored mount. A redesign of the turret allows for a higher gun elevation, thus increasing its range."
+ ship_heavy_battery_2_3x_desc: "A set of three cannons in the 15 to 16-inch/38 to 41cm caliber range, in a heavily armored mount. A redesign of the turret allows for a higher gun elevation, thus increasing its range."
+ ship_heavy_battery_2_4x_desc: "A set of four cannnons in the 15 to 16-inch/38 to 41cm caliber range, in a heavily armored mount. A redesign of the turret allows for a higher gun elevation, thus increasing its range."
+ 
+ ship_heavy_battery_3_2x_desc: "A heavily armored mount for a pair of heavy guns in the 15 to 16-inch/38 to 41cm caliber range, incorporating a number of new technologies to increase accuracy and firing speed."
+ ship_heavy_battery_3_3x_desc: "A heavily armored mount for a set of three heavy guns in the 15 to 16-inch/38 to 41cm caliber range, incorporating a number of new technologies to increase accuracy and firing speed."
+ ship_heavy_battery_3_4x_desc: "A heavily armored mount for a set of four heavy guns in the 15 to 16-inch/38 to 41cm caliber range, incorporating a number of new technologies to increase accuracy and firing speed."
+ 
+ ship_heavy_battery_4_2x_desc: "The ultimate evolution of heavy firepower, this heavily armored mount allows its twin cannons, in the 15 to 16-inch/38 to 41cm caliber range, a high degree of accuracy over long distances."
+ ship_heavy_battery_4_3x_desc: "The ultimate evolution of heavy firepower, this heavily armored mount allows its three cannons, in the 15 to 16-inch/38 to 41cm caliber range, a high degree of accuracy over long distances."
+ ship_heavy_battery_4_4x_desc: "The ultimate evolution of heavy firepower, this heavily armored mount allows its four cannons, in the 15 to 16-inch/38 to 41cm caliber range, a high degree of accuracy over long distances."
+ 
+ ship_heavy_battery_5_2x_desc: "As the time passes, battleship calibers continue to increase. The 11 and 12 inch guns, for example, have been overcome by bigger calibers but that doesn't mean they don't have an use. By adding a pair of lower caliber guns to modern turrets, we can design adequate large guns for cheap battleships, battlecruisers, heavy cruisers or cruiser killers."
+ ship_heavy_battery_5_3x_desc: "As the time passes, battleship calibers continue to increase. The 11 and 12 inch guns, for example, have been overcome by bigger calibers but that doesn't mean they don't have an use. By adding a set of three lower caliber guns to modern turrets, we can design adequate large guns for cheap battleships, battlecruisers, heavy cruisers or cruiser killers."
+ ship_heavy_battery_5_4x_desc: "As the time passes, battleship calibers continue to increase. The 11 and 12 inch guns, for example, have been overcome by bigger calibers but that doesn't mean they don't have an use. By adding a set of four lower caliber guns to modern turrets, we can design adequate large guns for cheap battleships, battlecruisers, heavy cruisers or cruiser killers."
+ 
+ ship_super_heavy_battery_1_2x_desc: "A pair of the biggest guns ever mounted on a ship, in the 18-inch/46cm caliber range, these massive cannons were designed to penetrate any feasible armor at any distance."
+ ship_super_heavy_battery_1_3x_desc: "A set of three of the biggest guns ever mounted on a ship so far, in the 18-inch/46cm caliber range, these massive cannons were designed to penetrate any feasible armor at any distance."
+ ship_super_heavy_battery_1_4x_desc: "A set of four of the biggest guns ever mounted on a ship so far, in the 18-inch/46cm caliber range, these massive cannons were designed to penetrate any feasible armor at any distance."
+ 
+ ship_super_heavy_battery_2_2x_desc: "A pair of the most excessively big guns mounted on modern turrets, in the 20-inch/51cm caliber range, these massive cannons were designed to penetrate any feasible armor at any distance."
+ ship_super_heavy_battery_2_3x_desc: "A set of three of the excessively big guns mounted on modern turrets, in the 20-inch/51cm caliber range, these massive cannons were designed to penetrate any feasible armor at any distance."
+ ship_super_heavy_battery_2_4x_desc: "A set of four of the excessively big guns mounted on modern turrets, in the 20-inch/51cm caliber range, these massive cannons were designed to penetrate any feasible armor at any distance."
+ 
+ #AIR TECHS
+ 
+ biplane_wing_desc: "Planes with two wings of similar size, stacked one above the other. The biplane is inherently lighter and stronger than a monoplane and was the most common configuration until the 1930s."
+ straight_wing_desc: "Monoplane wings with little sweep, or even none at all. It is the most structurally-efficient wing, it has been common for low-speed designs and the basic design standard in the pre-jet monoplane era."
+ elliptical_wing_desc: "A monoplane wing where the leading and trailing edges are curved such that the chord length varies elliptically with respect to span. It is more difficult to manufacture than a straight wing but provides more efficient lift and the cost of being inherently more unstable and susceptible to stalls."
+ semielliptical_wing_desc: "A type of monoplane wing where the goal is to still achieve elliptical area distribution while maintaining one of the leading edges straight, and the other one curved. It achieves some of the benefits of an elliptical wing, while mitigating part of the risks of the design."
+ laminar_flow_straight_wing_desc: "A wing built with the intent to produce a laminar flow of the air over the airfoil. This reduces the creation of vortexes, reducing drag and therefore increasing speed and the overall design efficiency."
+ high_altitude_straight_wing_desc: "Higher aspect ratio wings are longer and thinner shaped wings, which provide a better lift-to-drag ratio. Due to its better lift, this type of wing is preferred for aircraft that need to perform well in higher altitudes, such as prop interceptors. It is incompatible with supersonic flight, however."
+ swept_wing_desc: "A monoplane wing where the wing sweeps rearwards from the root to the tip. It is the most basic design for fast aircraft due to its inherent capabilities to minimize adverse effects of near supersonic flight."
+ flying_wing_desc: "A type of aircraft construction where it has no distinct fuselage or horizontal tail. This shape provides the lowest theoretical drag configuration, but since it lacks conventional control and stabilizing surfaces it is inherently unstable and difficult to control."
+ delta_wing_desc: "A type of high-speed wing, designed to improve performance in transonic and supersonic flight due to its reduced drag and low frontal area. It is one of the preferred designs for supersonic interceptors, for example."
+ tailed_delta_wing_desc: "The tailed delta design includes a conventional tail plane to a delta design with the goal of improving the handling characteristics of that configuration."
+ blended_wing_desc: "In a blended-wing body there is a smooth transition between wing and fuselage, with no hard dividing line. It is a very complex configuration to develop and manufacture, but it provides a great reduction in drag and increases overall performance."
+ trapezoidal_wing_desc: "The swept trapezoidal wing is a design where the leading edge sweeps back and the trailing edge sweeps forward. It provides low aerodynamic drag at high speeds, improving the aircrafts performance and maneuverability."
+ stub_wing_desc: "The stub wing is a type of high-speed trapezoidal wing. It is small and thin, reducing drag to the maximum, reducing the available lift in benefit of speed. A high stall speed makes this design better suited for high-speed missions such as interception."
+ 
+ modern_small_airframe_2_desc: "With less drag, better structural integrity, wide-spread adoption of swept wings, and other advancements: these new airframes are now capable of breaking the sound barrier."
+ modern_small_airframe_3_desc: "With the first few generations of jets rolling out, our airframes can go higher, faster, can be lighter; we broke the sound barrier before and now with even advanced construction techniques, we can go beyond even that."
+ modern_small_airframe_4_desc: "Tighter tolerances, field data, and wide-spread adoption of jet-engines as the future have led us to standardize, support, and streamline the future of aviation into it's newest iteration."
+ modern_small_airframe_5_desc: "Vertical landings, avionic advancements, super-sonic sustainability, our newest iterations are cutting-edge: bringing the future, faster."
+ 
+ imp_bomb_rack_desc: "The addition of basic sensors and reinforcing the pylons used to carry bombs should allow us to carry bombs that are more dangerous than that from just 10 years ago."
+ bomb_pods_desc: "Rather than carry our bombs in a bomb bay or individually on pylons. We have decided to package the payload like fuel pods so as to reduce drag."
+ radar_jammers_desc: "By dropping a trail of metallic confetti behind our airplanes in flight, we can confuse early-warning and gun-laying radars with a cloud of false contacts."
+ aa_hmg_2_desc: "Heavy machine guns' advantages over cannons in air combat are summarized by their ability to put a lot of lead down range. To stay competitive with more modern cannons, heavy machine guns need a higher fire rate, keeping the same basic ammunition and cartridges and improving damage by increasing the amount of lead fired at the target for a given amount of time."
+ aa_cannon_3_desc: "Improved firerates, even larger explosive filled shells and better sighting will allow pilots to take down opponents in the few moments they can be expected to remain in their sights."
+ 
+ anti_ship_missile_1: "Guided Gliding Anti-Ship Munition"
+ anti_ship_missile_1_desc: "By adding radio controls to the guidance planes of our bombs, we should be able to guide otherwise unwiedly payloads to hit enemy ships. Additionally, it should increase our chance to hit even naval targets that are underway."
+ guided_anti_ship_missile_2_desc: "A missile created by improvements to the deployment mechanisms, we can ensure that all uses of this weapon hit below the waterline and be improved by terminal phase guidance systems."
+ guided_anti_ship_missile_3_desc: "The latest iteration of the anti-ship missile includes an autonomous guidance package using options of a radar or IR to discriminate a target and hit it from immense distance."
+
+ heavy_mg_2_2x_desc: "Two heavy machine guns with increased fire rate specially designed to be mounted on military airframe."
+ heavy_mg_2_4x_desc: "Four heavy machine guns with increased fire rate specially designed to be mounted on military airframe."
+ engine_cannon_1_1x_desc: "An automatic cannon mounted behind the engine offers significant firepower without affecting the flight caracteristics of the plane to any noticable degree."
+ engine_cannon_2_1x_desc: "An improved automatic cannon mounted behind the engine offers an increase to the volume of fire without affecting the performance of the aircraft to any noticable degree."
+ reflex_gunsight_desc: "Optical sight that works with an illuminated projection of an aiming point on the field of view. The reflection removes almost all the effects of parallax, ensuring a more accurate sight and, therefore, making it easier to hit aerial targets."
+ gunpod_cannon_2_2x_desc: "Twin gunpods mounted under the wings are able to significantly increase the volume of fire of the plane. They are however mounted outside of the airframe and considarably worsen the performance of the aircraft."
+ gunpod_cannon_2_4x_desc: "Two gunpods each containing two cannons offer a staggering amount of firepower, able to tear through any target. They massively increase the forces of weight and aerodynamic drag acting on any aircraft they are attached to and as such drastically limit manouverability and speed."
+ gunpod_cannon_3_2x_desc: "Twin gunpods mounted with improved aerial cannons under the wings are able to significantly increase the volume of fire of the plane. They are however mounted outside of the airframe and considarably worsen the performance of the aircraft. "
+ gunpod_cannon_3_4x_desc: "Two gunpods each containing two improved aerial cannons offer a staggering amount of firepower, able to tear through any target. They massively increase the forces of weight and aerodynamic drag acting on any aircraft they are attached to and as such drastically limit manouverability and speed."
+ gunpod_cannon_4_2x_desc: "Twin gunpods mounted with advanced aerial cannons under the wings are able to significantly increase the volume of fire of the plane. They are however mounted outside of the airframe and considarably worsen the performance of the aircraft. "
+ gunpod_cannon_4_4x_desc: "Two gunpods each containing two advanced aerial cannons offer a staggering amount of firepower, able to tear through any target. They massively increase the forces of weight and aerodynamic drag acting on any aircraft they are attached to and as such drastically limit manouverability and speed."
+ 
+ air_air_missile_1_desc: "If we add wires to manually control missiles fired from a given airframe. We can then use these missiles to engage aerial targets from a safe distance."
+ air_air_missile_2_desc: "The implementation of a missile using a automated guidance system, which depends on the launch aircraft radar lock to track its target. It requires a human operator to function and is only really practical for the interception of larger aircraft due to its increased heft."
+ air_air_missile_3_desc: "Better firing and tracking computers, with improved communication between the missiles and the launching aircraft have greatly improved the performance of semi-active AA missiles."
+ air_air_missile_4_desc: "By increasing the size of the missile, we can increase the power of the radar and increase the missile's range to engage targets. This ensures that our interceptors need not get within even line of sight of enemy large airframes to shoot them down."
+ 
+ air_air_missile_2_module_desc: "By linking the guidance system of the missile to that of the radar onboard an airframe, we can use the radar to guide the missile to require less human concentration to guide the missile."
+ air_air_missile_3_module_desc: "The implementation of a missile using a semi-automated radar guidance system. It requires a human operator to function and is only really practical for the interception of larger aircraft due to its increased heft."
+ air_air_missile_4_module_desc: "Using our understanding of a decade of missile development and improvements by better industrial standards, we can increase the quality of our air-to-air missiles to be capable of stand-off engagements."
+ 
+ air_air_ir_missile_1_module_desc: "The IR homing guidance system is a passive guidance system, which does not require a radar lock to track and hit a target, leading to an excellent short-range weapon."
+ air_air_ir_missile_2_module_desc: "More reliable IR tracking system coupled with an increased performance of the aerodynamics and the control planes of the missile have improved its dogfighting characteristics."
+ 
+ imp_rocket_rails_desc: "By reinforcing the rail structure on the pylons, we should be able to increase the weight able to be carried and preserve them from the pressures of being used to launch rockets from aircraft."
+ imp_bomb_locks_desc: "While not much of an upgrade from the most recent models in regards to size. This bomb's chemical and metallurgical content is much improved to provide a heavy dose of reality to our enemies. "
+ small_bomb_bay_2_desc: "A small bomb bay capable of carrying a set of improved bombs straight into the fighting forces of our enemies...or their trucks."
+ medium_bomb_bay_2_desc: "A medium bomb bay that's able to carry bombs of increased size which reduce its ability to be dropped on fighting forces, but allow it to be used generally against enemy forces, their buildings, or just infrastructure."
+ large_bomb_bay_2_desc: "A large bomb bay that's combat ability is limited to the devastation of a general area and is more likely than not to be used for strategic devastation."
+ rocket_pod_module_desc: "Rocket pods are the most modern form of cheaply firing off rockets, as it allows the ability to carry more rockets and reduce drag."
+ toss_computer_desc: "A device to help our bombers drop their payloads safe and quickly by computing an optimal bomb toss to hit the target."
+ anti_tank_missile_module_desc: "The addition of guided air to ground missiles would allow us to strike enemy targets precisely without needed to resort to large scale conventional bombing. This should allow the elimination of ground targets with expedience."
+ bomb_pod_module_desc: "A bomb payload package neatly into a pod that looks akin to a fuel pod, but more likely to give a larger kick to any unfortunate enemy who is in its way."
+ 
+ turboprop_desc: "With extensive engineering to capitalize on every possible performance boost, this engine represents the absolute pinnacle of piston-driven engine technology."
+ 
+ radial_engine_1_1x_desc: "Aeronatical radial engines have their cylinders placed radially around a central crankshaft. This configuration allows for an easier cooling and generally more bulkier engines, more resistant engine to battle damage."
+ radial_engine_1_2x_desc: "Twin engines give the plane a significant increase in thrust, but at a cost."
+ radial_engine_1_3x_desc: "Three engines give more thrust than a pair of them, without the addictional cost of a fourth engine."
+ radial_engine_1_4x_desc: "A quartet of engines provides enough thrust to lift a heavy plane and allow it to carry a significant payload."
+ radial_engine_1_6x_desc: "With six engines, any plane can be made to carry a significant payload over a long range, at a decent speed."
+ 
+ radial_engine_2_1x_desc: "A larger and more powerful inline engine allows for highter speed and greater payload."
+ radial_engine_2_2x_desc: "Twin engines give the plane a significant increase in thrust, but at a cost."
+ radial_engine_2_3x_desc: "Three engines give more thrust than a pair of them, without the addictional cost of a fourth engine."
+ radial_engine_2_4x_desc: "A quartet of engines provides enough thrust to lift a heavy plane and allow it to carry a significant payload."
+ radial_engine_2_6x_desc: "With six engines, any plane can be made to carry a significant payload over a long range, at a decent speed."
+ 
+ radial_engine_3_1x_desc: "Incorporating advanced features such as methanol-injection and automatic mixture, this engine is able to put out significantly more power."
+ radial_engine_3_2x_desc: "Twin engines give the plane a significant increase in thrust, but at a cost."
+ radial_engine_3_3x_desc: "Three engines give more thrust than a pair of them, without the addictional cost of a fourth engine."
+ radial_engine_3_4x_desc: "A quartet of engines provides enough thrust to lift a heavy plane and allow it to carry a significant payload."
+ radial_engine_3_6x_desc: "With six engines, any plane can be made to carry a significant payload over a long range, at a decent speed."
+ 
+ radial_engine_4_1x_desc: "Adjustments to existing designs can ensure more resistant and better cooled engines, resulting in better endurance and the ability to further extract raw power from these engines."
+ radial_engine_4_2x_desc: "Twin engines give the plane a significant increase in thrust, but at a cost."
+ radial_engine_4_3x_desc: "Three engines give more thrust than a pair of them, without the addictional cost of a fourth engine."
+ radial_engine_4_4x_desc: "A quartet of engines provides enough thrust to lift a heavy plane and allow it to carry a significant payload."
+ radial_engine_4_6x_desc: "With six engines, any plane can be made to carry a significant payload over a long range, at a decent speed."
+ 
+ radial_engine_5_1x_desc: "With extensive engineering to capitalize on every possible performance boost, this engine represents the absolute pinnacle of piston-driven engine technology."
+ radial_engine_5_2x_desc: "Twin engines give the plane a significant increase in thrust, but at a cost."
+ radial_engine_5_3x_desc: "Three engines give more thrust than a pair of them, without the addictional cost of a fourth engine."
+ radial_engine_5_4x_desc: "A quartet of engines provides enough thrust to lift a heavy plane and allow it to carry a significant payload."
+ radial_engine_5_6x_desc: "With six engines, any plane can be made to carry a significant payload over a long range, at a decent speed."
+ 
+ engine_1_1x_desc: "Aeronautical inline engines place their cylinders in banks, with each cylinder in a row, one behind the other. This leads to a slender profile of the overall engine block."
+ 
+ engine_2_1x_desc: "A larger and more powerful inline engine allows for highter speed and greater payload."
+ 
+ engine_3_1x_desc: "Incorporating advanced features such as methanol-injection and automatic mixture, this engine is able to put out significantly more power."
+  
+ engine_4_1x_desc: "Adjustments to existing designs can ensure more resistant and better cooled engines, resulting in better endurance and the ability to further extract raw power from these engines."
+  
+ engine_5_1x_desc: "Adjustments to existing designs can ensure more resistant and better cooled engines, resulting in better endurance and the ability to further extract raw power from these engines."
+ engine_5_2x_desc: "Twin engines give the plane a significant increase in thrust, but at a cost."
+ engine_5_3x_desc: "Three engines give more thrust than a pair of them, without the addictional cost of a fourth engine."
+ engine_5_4x_desc: "A quartet of engines provides enough thrust to lift a heavy plane and allow it to carry a significant payload."
+ engine_5_6x_desc: "With six engines, any plane can be made to carry a significant payload over a long range, at a decent speed."
+ 
+ #jet_engine_2_1x_desc: ""
+ jet_engine_2_2x_desc: "Twin engines give the plane a significant increase in thrust, but at a cost."
+ jet_engine_2_3x_desc: "Three engines give more thrust than a pair of them, without the addictional cost of a fourth engine."
+ jet_engine_2_4x_desc: "A quartet of engines provides enough thrust to lift a heavy plane and allow it to carry a significant payload."
+ jet_engine_2_6x_desc: "With six engines, any plane can be made to carry a significant payload over a long range, at a decent speed."
+ jet_engine_2_8x_desc: "Eight engines are necessary to power the most absolute behemoths aeronatical engineering can ever dream of."
+ 
+ #secong_gen_jet_engine_1x_desc: ""
+ secong_gen_jet_engine_2x_desc: "Twin engines give the plane a significant increase in thrust, but at a cost."
+ secong_gen_jet_engine_3x_desc: "Three engines give more thrust than a pair of them, without the addictional cost of a fourth engine."
+ secong_gen_jet_engine_4x_desc: "A quartet of engines provides enough thrust to lift a heavy plane and allow it to carry a significant payload."
+ secong_gen_jet_engine_6x_desc: "With six engines, any plane can be made to carry a significant payload over a long range, at a decent speed."
+ secong_gen_jet_engine_8x_desc: "Eight engines are necessary to power the most absolute behemoths aeronatical engineering can ever dream of."
+ 
+ #third_gen_jet_engine_1x_desc: ""
+ third_gen_jet_engine_2x_desc: "Twin engines give the plane a significant increase in thrust, but at a cost."
+ third_gen_jet_engine_3x_desc: "Three engines give more thrust than a pair of them, without the addictional cost of a fourth engine."
+ third_gen_jet_engine_4x_desc: "A quartet of engines provides enough thrust to lift a heavy plane and allow it to carry a significant payload."
+ third_gen_jet_engine_6x_desc: "With six engines, any plane can be made to carry a significant payload over a long range, at a decent speed."
+ third_gen_jet_engine_8x_desc: "Eight engines are necessary to power the most absolute behemoths aeronatical engineering can ever dream of."
+  
+ supercharger_desc: "A supercharger increases the power output of an engine by compressing air as it enters the intake manifold, at the cost of more weight and complexity."
+ turbocharger_desc: "A turbocharger uses the engine's own exhaust gasses to power a turbine that compresses the air coming into the engine. This greatly increases power output but makes the engine a lot heavier."
+ injection_system_desc: "War emergency power is a throttle setting for use on emergency situations. There are several different methods to do so, including water injection, methanol-water injection and nitrous-oxide injection. The extra power would bring the engine above its rated max-sustained power and the resulting stress could damage the engine, requiring more frequent maintenance and reducing its overall lifetime."
+ contra_rotating_props_desc: "Two propellers are arranged one behind the other, and power is transferred from the engine via a planetary gear or spur gear transmission. It leads to a more stable, efficient, noisy and complex operation."
+ non_strategic_materials_jet_engine_desc: "Particularly due to the high temperatures involved, jet engines require a set of strategic materials to function correctly. In desperate times one can find alternative materials to build jet engines, at the expense of reliability."
+ gas_turbine_desc: "A gas turbine engine does not use boilers, but instead employ an advanced compressor and combustion system which further increases the air pressure and engine performance. It delivers very high speeds at the cost of poor fuel efficiency."
+ wet_wing_desc: "By filling the wing of the aircraft with fuel, we conserve space normally taken up by fuel tanks in other partes of the airframe. We also do away with the weight such dedicated tanks take up allowing for a longer range at the cost of space for weapons in the wings."
+ 
+ scout_helicopter_1_desc: "While gyrocopters were an interesting experiment up to a few years ago, now we can begin to construct aircraft that are capable of being by an engine for vertical flight for extended periods of time for operation. While the technology is in its infancy and limited in use, there are many ways it can be used in the future."
+ scout_helicopter_2_desc: "Through more careful design and experience, we have eliminated some of the more experimental aspects of vertical flight and our newer reconnaissance flights are capable of going longer, farther, and gathering more intelligence."
+ scout_helicopter_3_desc: "Our most modern designs of reconnaissance helicopters that are capable of being used for even more extended flight times and modern recording equipment now being miniaturized to fit inside of them."
+ 
+ scout_helicopter_recon_desc: "Using flights of helicopters, our recon units can be able to get a much better image from the sky around a battlefield without the requirement of runways or prepared landing areas."
+ airmobile_desc: "By lifting entire formations by helicopter, we can transport troops at a much higher speed without the limitations imposed by using paratroopers and transport aircraft."
+ general_aviation_battalion_desc: "By using helicopters in an airborne-artillery role and to resupply lighter items to the division, we can greatly improve the formations fighting ability."
+ 
+ naval_helicopter_module_1_desc: "A landing pad that is mostly a set of markers on the deck to allow for a safe approach for landing and launch."
+ naval_helicopter_module_2_desc: "A landing pad that now features a set of anchor points to anchor down the helicopter or other items on the landing pad."
+ 
+ #ENGINEERING TECHS
+ 
+ sub_ship_radar_1_desc: "By deploying radar onboard submarines capable of being house in pressure capsules, we can locate nearby aircraft before they're able to strike our submarines."
+ sub_ship_radar_2_desc: "Through the implementation of radar detectors capable of operation at microwave-frequency, we can detect airborne radar systems to more likely prevent a surprise attack on our submarines on or near the surface."
+ 
+ postwar_radar_tech_1_desc: "The increase of frequency and power to allow for Radar to more dominately rely in the L-band allows for increases in resolution and tracking. We should now be more capable of detecting small formations of aircraft at similar distances."
+ postwar_radar_tech_2_desc: "By further increasing the power, we can now accurately determine formations, and even individual planes, from even further away. Addtionally, the ground work can be made for fire-control-systems due to the increase ability to track individual airframes."
+ postwar_radar_tech_3_desc: "Through careful testing, we have demonstrated that radar can be bounced off the ionosphere to increase its range despite terrain limitations. Consequently, we can increase our ability to detect targets at extreme distances."
+ postwar_radar_tech_4_desc: "We have improved our existing Third Generation Radars by increasing the amount of power in transmissions allowing for an increased ability to discriminate potential targets from extreme distances."
+ postwar_radar_tech_5_desc: "Using developments in both the concepts of stacked and steered beams, we can create radars capable of generating radar images in a 3-dimensional space. This provides elevation in addition to azimuth and distance normally given by previous radar iterations."
+ 
+ fly_by_wire_desc: "The addition of the most modern digital computerization should allow us to make our aircraft more easily controlled and should allow for us to fly aircraft designs that were not safe to use previously."
+ 
+ fire_control_radar_2_desc: "While the concept of monopulse radar has been around since the 1940s, its taken time for the precision necessary to manufacture fire-control-systems capable of using it effectively. We now can track targets with incredible speed and efficiency that dwarf pre-existing systems."
+ 
+ nukes_2_desc: "While previously limited to fission warheads, by using fission to kickstart a fusion reaction, we could detonate a nuclear chain that will allow for more destructive nuclear weapons."
+ nukes_3_desc: "By reducing the size of our nuclear weapons payloads, we can increase the number of nuclear weapons we are capable of making and deploying in combat."
+ 
+ theater_missiles_1_desc: "If we already have railways capable of transporting missiles, we could develop a new launch system. By making a mobile system capable of transporting missiles around, we can launch missiles in the same vein as the railway cannons of the last generation."
+ theater_missiles_2_desc: "Through improvement of our missile technologies and our launch platform, we can create a better missile launch system for use."
+ 
+ sub_cruise_missile_1_desc: "While most missiles are used from a prepared, fixed location. We could put our missiles on submarines to make missiles systems harder to protect, more resilient, and provide an expansion of missions to our submarine fleet."
+ sub_cruise_missile_2_desc: "By improving the cruise missile launch system to be more resilient, we can transport even heavier cruise missiles allowing for more sustained heavy bombardment of enemy positions."
+ 
+ sub_cruise_missile_battery_1_desc: "A submarine launched cruise missile capable of being used to conduct ground bombardment."
+ sub_cruise_missile_battery_2_desc: "An improved submarine launched cruise missile capable of further ground bombardment."
+ 
+ sub_cruise_missile_1_desc: "A submarine launched cruise missile capable of being used to conduct ground bombardment."
+ sub_cruise_missile_2_desc: "An improved submarine launched cruise missile capable of further ground bombardment."
+ 
+ sub_cruise_missile_battery_1_desc: "A submarine launched cruise missile capable of being used to conduct ground bombardment."
+ sub_cruise_missile_battery_2_desc: "An improved submarine launched cruise missile capable of further ground bombardment."
+ 
+ #INDUSTRY TECHS
+ 
+ assembly_line_6_desc: "With more advanced materials used in tooling, they can be made to last longer and make production much more efficient."
+ assembly_line_7_desc: "By linking factories of the same industry close together, we can drastically reduce the time take to transfer goods along the production line."
+ assembly_line_8_desc: "The introduction of early CNC machines allows for greater flexibility in manufacturing, with operators no longer needed to run the machines."
+ assembly_line_9_desc: "With the introduction of CAD/CAM, engineers are now more able to focus on producing parts and to a higher quality, while early computer sets design most of the product themselves."
+ 
+ industry6_desc: "By merging factorys of the same industry, we are able to drasitcally reduce the time take to transport needed materials."
+ industry7_desc: "With advances in other industries, we are now able to move smaller factories underground, and use the gained space to expand crucial industries."
+ industry8_desc: "With the use of early robots, we are able to use automation for menial tasks or work in conditions a human could not."
+ industry9_desc: "With more powerful hydraulics installed into robots, we are able to expand factory floor space vertically and maximise the space available to us."
+ 
+ construction6_desc: "By prefabricating common parts of buildings, it is possible to greatly improve the speed of construction of normal buildings."
+ construction7_desc: "With the introduction of more standardised parts, the process of prefabricating buildings is made much more cost and time efficient."
+ construction8_desc: "With advances in transportation technologies, we are now able to deliver more supplies in a shorter amount of time than has every been possible before."
+ construction9_desc: "By making machinery lighter and reducing power usage, we can now start factories turning out goods much quicker and at a far lower cost than previously possible."
+ 
+ excavation6_desc: "With the use of improved ground surveying technology, we can quickly and more easily find mineral deposits and set about extracting them."
+ excavation7_desc: "With improved tools we can make finer cuts into mineral veins and extract more resources of a higher quality for processings."
+ excavation8_desc: "By improving our refining methods, we are now able to use ores of a slightly lower quality in the same capacity that was previously reserved for only the best extract, greatly improving the mineral abundance."
+ excavation9_desc: "With better grade tooling and improvements to automation, deep-seam mines are now more common and can reach deeper, granting us more high quality material for use in industry."
+ 
+ oil_processing_1945_desc: "By improving the energy efficiency of the process, more synthetic oil can be made siginificantly more easily than before."
+ oil_processing_1950_desc: "Because of more advanced processing, lower grade coal can now be broken down and heated to make oils suitable for all purposes."
+ oil_processing_1955_desc: "By improving the process of melting coal into oil, we are able to use more types of oil as a base from which to produce synthetics, therefore increasing the yield we get."
+ oil_processing_1960_desc: "By adding catalysts into the process, we can break down coal much more efficiently in order to polymerise it, this development also allows us to process more coal at a time."
+ 
+ rubber_processing_1945_desc: "By improving the energy efficiency of the process, more synthetic rubber can be made at the same cost as previously possible."
+ rubber_processing_1950_desc: "By improving the energy efficiency of the process, more synthetic rubber can be made at the same cost as previously possible."
+ rubber_processing_1955_desc: "By miniturising the equipment needed to refine synthetics, it is possible to add more refining vats into a refinery."
+ rubber_processing_1960_desc: "By making minor improvements to the process of breaking down coal and polymerising it as rubber, we can greatly improve the yeild gained through the process."
+ 
+ anechoic_tiles_1_desc: "By layering rubber onto the hull of a submarine, it is possible to mask its signiture and distort sonar returns."
+ anechoic_tiles_2_desc: "By improving the quality of tiles applied, it is made possible to not only distort sonar returns, but also completely absorb some active sonar, further reducing the chance of detection."
+ low_octane_fuel_desc: "By lowering the standard of fuel accepted for use in aviation, we greatly increase the amount available for use, though at a cost to performance of course."
+ high_octane_fuel_desc: "By only accepting the highest quality of fuel for use in combat aircraft, the performance that can be expected of them is also greatly raised, though less fuel will be available for use of course."
+   

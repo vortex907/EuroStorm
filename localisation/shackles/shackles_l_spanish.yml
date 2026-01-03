@@ -1,0 +1,15 @@
+l_spanish:
+remove_shackles:0 "Eliminar Restricciones"
+remove_shackles_desc:0 "Para que el juego sea jugable hasta la década de 1960, se limitó la capacidad de las potencias menores de formar ejércitos masivos y producir grandes cantidades de equipamiento. Si deseas jugar con una potencia menor o mediana que haya sido limitada de alguna manera, esta decisión eliminará esas restricciones."
+
+shackles.1.t:0 "Restricciones de la IA"
+shackles.1.d:0 "El final de la partida en HoI4 es famoso por sus problemas de rendimiento. Esto se debe a que las naciones controladas por la IA producen enormes cantidades de equipamiento militar y entrenan grandes ejércitos, incluso en naciones pequeñas. Este problema se hace evidente hacia finales de los años 40 y empeora en los 50, afectando significativamente el rendimiento del juego. El mod AI Shackles agrega limitaciones de producción y reclutamiento para estos países menores con el fin de garantizar una experiencia de juego fluida. Algunos países, como Brasil y Argentina, que tenían una industria razonable pero poco interés en conflictos extranjeros (hasta que, en el caso de Brasil, fueron arrastrados a ellos), solo tendrán una limitación en la mano de obra reclutable, mientras que otros, como El Salvador, tendrán límites tanto en la mano de obra como en la industria.\n\nSi decides imponer estas limitaciones, llamadas restricciones, a la IA, puedes eliminarlas a través de una decisión (sin coste de puntos políticos) si deseas jugar con una nación menor. Las naciones que tengan restricciones y que estén siendo justificadas para una guerra o ya estén en guerra perderán inmediatamente estas restricciones y volverán a las leyes normales de movilización y economía. También puedes optar por jugar sin estas restricciones desde el principio para todos los países, pero esto seguramente impactará negativamente en el rendimiento del juego. La elección es tuya.\n\nTe invito a revisar el mod Extended Tech Tree 1960 en Steam para continuar jugando mucho más allá de la fecha normal de finalización con contenido nuevo."
+shackles.1.b:0 "No quiero limitar a la IA."
+shackles.1.b.d:0 "Los países menores no tendrán restricciones."
+shackles.1.a:0 "Restringir a la IA"
+shackles.1.a.d:0 "Los países menores estarán limitados."
+
+unindustrialized:0 "No industrializado"
+uninterested:0 "Desinteresado"
+
+unshackle_congo: "Quiten las cadenas del Congo"

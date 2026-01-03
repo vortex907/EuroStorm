@@ -1,0 +1,15 @@
+units = {
+	fleet = {
+		name = "Replenishment Fleet"			
+		naval_base = 1562 # San Diego
+		task_force = {					
+			name = "Replenishment Fleet"				
+			location = 9671 # San Francisco
+			# Replenishment Division			
+			ship = { name = "USS Alameda" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = USA } } }		
+			ship = { name = "USS Kaweah" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = USA } } }		
+			ship = { name = "USS Laramie" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = USA } } }		
+			ship = { name = "USS Mattole" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = USA } } }		
+		}			
+	}
+}

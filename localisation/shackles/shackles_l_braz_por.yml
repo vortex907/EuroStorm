@@ -1,0 +1,17 @@
+l_braz_por:
+ remove_shackles:0 "Remover Grilhões"
+ remove_shackles_desc:0 "Para tornar o jogo jogável até a década de 1960, a capacidade de menores potências de formar exércitos massivos e produzir enormes quantidades de equipamentos foi limitada. Se você quiser jogar com uma potência menor ou média que tenha sido limitada de alguma forma, esta decisão removerá esses grilhões."
+
+ shackles.1.t:0 "Grilhões da IA"
+ shackles.1.d:0 "O final do jogo em HoI4 é notório pelo lag. Isso é causado por nações controladas pela IA construindo quantidades excessivas de equipamentos militares e treinando exércitos enormes, até mesmo em nações pequenas. Esse problema é perceptível no final da década de 1940 e se agrava na década de 1950, afetando significativamente o desempenho do jogo. O mod AI Shackles adiciona limitações de produção e recrutamento a esses países menores para garantir um jogo jogável. Alguns países, como Brasil e Argentina, que tinham uma indústria razoável, mas pouco interesse em conflitos no exterior (até, no caso do Brasil, serem arrastados para eles), terão apenas uma limitação de mão de obra recrutável, enquanto outros (como El Salvador) terão tanto a mão de obra quanto a indústria limitadas.\n\nSe você decidir impor essas limitações, chamadas de grilhões, à IA, elas podem ser removidas por meio de uma decisão (sem custo de pontos políticos) caso queira jogar com uma nação menor. Nações que possuem grilhões e estão sendo justificadas para guerra, ou em guerra, perderão imediatamente esses grilhões e voltarão às leis de mobilização e econômicas normais. Ou você pode optar por jogar sem essas limitações desde o início para todos os países, mas isso certamente impactará negativamente o desempenho do jogo. A escolha é sua.\n\nEu convido você a conferir o mod Extended Tech Tree 1960 no Steam para continuar jogando bem além da data final normal com novos conteúdos."
+ shackles.1.b:0 "Não quero limitar a IA."
+ shackles.1.b.d:0 "Países menores não terão limitações."
+ shackles.1.a:0 "Restringir a IA"
+ shackles.1.a.d:0 "Países menores serão limitados."
+
+ unindustrialized:0 "Desindustrializado"
+ uninterested:0 "Desinteressado"
+
+unshackle_congo: "Remova os grilhões do Congo"
+
+  

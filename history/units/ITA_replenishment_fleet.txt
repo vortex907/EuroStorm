@@ -1,0 +1,15 @@
+units = {
+	fleet = {
+		name = "Replenishment Fleet"			
+		naval_base = 11837 # Taranto, Italy
+		task_force = {					
+			name = "Replenishment Fleet"				
+			location = 11837 # Taranto, Italy
+			# Replenishment Division			
+			ship = { name = "Olterra" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ITA } } }		
+			ship = { name = "Genoano" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ITA } } }		
+			ship = { name = "Lucifero" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ITA } } }		
+			ship = { name = "Gianna M" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ITA } } }	
+		}			
+	}
+}

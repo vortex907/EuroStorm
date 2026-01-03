@@ -1,0 +1,15 @@
+l_french:
+remove_shackles:0 "Retirer les Entraves"
+remove_shackles_desc:0 "Afin de rendre le jeu jouable jusqu'aux années 1960, la capacité des petits pays à lever des armées massives et à produire d'énormes quantités d'équipements a été limitée. Si vous souhaitez jouer avec une puissance mineure ou moyenne qui a été limitée d'une manière ou d'une autre, cette décision supprimera ces entraves."
+
+shackles.1.t:0 "Entraves de l'IA"
+shackles.1.d:0 "La fin de partie de HoI4 est tristement célèbre pour ses ralentissements. Cela est causé par des nations contrôlées par l'IA qui produisent des quantités excessives d'équipements militaires et forment d'immenses armées, même dans le cas de petites nations. Ce problème devient évident à la fin des années 1940 et s'aggrave dans les années 1950, ayant un impact significatif sur les performances du jeu. Le mod AI Shackles ajoute des limitations de production et de recrutement à ces pays mineurs pour assurer une partie jouable. Certains pays, comme le Brésil et l'Argentine, qui disposaient d'une industrie raisonnable mais se souciaient peu des conflits à l'étranger (jusqu'à ce que, dans le cas du Brésil par exemple, ils y soient entraînés), auront uniquement une limitation sur leur main-d'œuvre mobilisable, tandis que d'autres (comme le Salvador) auront à la fois des limites sur la main-d'œuvre et sur l'industrie.\n\nSi vous décidez d'imposer ces limitations, appelées entraves, à l'IA, elles peuvent être levées par une décision (sans coût en points politiques) si vous voulez jouer avec une nation mineure. Les nations ayant des entraves et qui sont justifiées pour une guerre ou déjà en guerre perdront immédiatement leurs entraves et reviendront aux lois normales de mobilisation et économiques. Vous pouvez également choisir de jouer sans ces limitations dès le début pour tous les pays, mais cela impactera certainement les performances du jeu. Le choix vous appartient.\n\nJe vous invite à découvrir le mod Extended Tech Tree 1960 sur Steam pour continuer à jouer bien après la date normale de fin avec de nouveaux contenus."
+shackles.1.b:0 "Je ne veux pas limiter l'IA."
+shackles.1.b.d:0 "Les pays mineurs ne recevront aucune limitation."
+shackles.1.a:0 "Restreindre l'IA"
+shackles.1.a.d:0 "Les pays mineurs seront limités."
+
+unindustrialized:0 "Désindustrialisé"
+uninterested:0 "Désintéressé"
+
+unshackle_congo: "Enlevez les chaînes du Congo"

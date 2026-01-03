@@ -1,0 +1,300 @@
+﻿USA = {
+	
+	naval_helicopter_equipment = {
+		prefix = ""
+		generic = { "Helicopter Combat Support Squadron" "HC" }
+		generic_pattern = AIR_WING_NAME_USA_CARRIER
+		unique = {
+		}	
+	} 
+	
+	naval_helicopter = {
+		prefix = ""
+		generic = { "Helicopter Combat Support Squadron" "HC" }
+		generic_pattern = AIR_WING_NAME_USA_CARRIER
+		unique = {
+		}
+	}
+	
+	fleet_oiler = {
+		prefix = "USS"
+		generic = { "Fleet Replenishment Oiler" }
+		unique = {			
+			"Mattole" "Laramie" "Cimarron"  "Neosho" "Platte" "Sabine" "Salamonie" "Kaskaskia" "Sangamon" "Santee" "Chemung" "Chenango" "Guadalupe" "Suwannee" "Ashtabula" "Cacapon" "Caliente" "Chikaskia" "Elokomin" "Aucilla"
+			"Marias" "Manatee" "Mississinewa" "Nantahala" "Severn" "Taluga" "Chipola" "Tolovana" "Allagash" "Caloosahatchee" "Canisteo" "Chukawan" "Mispillion" "Navasota" "Passumpsic" "Pawcatuck" "Waccamaw" "Chicopee" "Housatonic"
+			"Kennebec" "Merrimack" "Winooski" "Kankakee" "Lackawanna" "Mattaponi" "Monongahela" "Tappahannock" "Patuxent" "Neches" "Chiwawa" "Enoree" "Escalante" "Neshanic" "Niobrara" "Suamico" "Tallulah" "Pecos" "Cache" "Millicoma"
+			"Saranac" "Saugatuck" "Schuylkill" "Cossatot" "Chepachet" "Cowanesque" "Escambia" "Kennebago" "Cahaba" "Mascoma" "Ocklawaha" "Pamanset" "Ponaganset" "Sebec" "Tomahawk" "Pasig" "Abatan" "Soubarissen" "Anacostia" "Caney"
+			"Tamalpais" "Cohocton" "Concho" "Conecuh" "Contoocook" "Mississinewa" "Hassayampa" "Kawishiwi" "Truckee" "Ponchatoula"
+		}
+	}	
+	helicopter_carrier = {
+		prefix = "USS"
+		generic = { "Amphibious Assault Ship" }
+		unique = {
+			"Iwo Jima" "Okinawa" "Guadalcanal" "Guam" "Tripoli" "New Orleans" "Inchon" "Block Island" "Boxer" "Princeton" "Thetis Bay" "Valley Forge" "Tarawa" "Saipan" "Belleau Wood" "Nassau" "Peleliu" "Wasp" "Essex" "Kearsarge" 
+			"Bataan" "Bonhomme Richard" "Makin Island"
+		}
+	}
+	
+	nuclear_missile = {
+		prefix = ""
+		generic = { "Strategic Aerospace Wing" "SAW" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+	
+	slbm = {
+		prefix = ""
+		generic = { "Strategic Naval Wing" "SNW" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+	
+	slcm = {
+		prefix = ""
+		generic = { "Strategic Naval Wing" "SNW" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+	
+	antipodal_bomber = {
+		prefix = ""
+		generic = { "Space Combat Squadron" "SCS" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+
+	airlifter_equipment = {
+		prefix = ""
+		generic = { "Troop Carrier Group" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	}
+}
+generic = {
+	
+	fleet_oiler = {
+		prefix = ""
+		generic = { "Fleet Replenishment Oiler" }
+		unique = {}
+	}
+	
+	nuclear_missile = {
+		prefix = ""
+		generic = { "Strategic Missile Squadron" "SMS" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+	
+	slbm = {
+		prefix = ""
+		generic = { "Strategic Naval Wing" "SNW" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+	
+	slcm = {
+		prefix = ""
+		generic = { "Strategic Naval Wing" "SNW" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+	
+	ballistic_missile = {
+		prefix = ""
+		generic = { "Tactical Missile Wing" "TMW" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+	
+	guided_missile = {
+		prefix = ""
+		generic = { "Guided Missile Wing" "GMW" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+	
+	sam_missile = {
+		prefix = ""
+		generic = { "Air Defense Wing" "ADW" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+	
+	antipodal_bomber = {
+		prefix = ""
+		generic = { "Space Combat Squadron" }
+		#generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+
+	airlifter_equipment = {
+		prefix = ""
+		generic = { "Airlift Wing" }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	}
+}
+GER = {	
+	fleet_oiler = {
+		prefix = ""
+		generic = { "Fleet Replenishment Oiler" }
+		unique = {
+			"Dithmarschen" "Altmark" "Northmark" "Franken" "Ermland" "Lothringen" "Lüneburg" "Coburg" "Freibug" "Glücksburg" "Saarburg" "Nienburg" "Offenburg" "Meersburg" "Westerwald" "Odenwald" "Rhön" "Spessart" "Elbe" 
+			"Mosel" "Rhein" "Werra" "Main" "Donau" "Berlin" "Frankurt am Main" "Bonn"
+		}
+	}
+	
+	antipodal_bomber = {
+		prefix = ""
+		generic = { "Weltraumkampfgeschwader" "WK" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+		}	
+	} 
+
+	airlifter_equipment = {
+		prefix = ""
+		generic = { "Transportgeschwader" "Kampfgeschwader zbV."}
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+			"TS 'Condor'" "KG zbV 1" "KG zbV 2" "KG zbV 3" 
+		}	
+	}
+}
+SOV = {	
+	fleet_oiler = {
+		prefix = ""
+		generic = { "Fleet Replenishment Oiler" }
+		unique = {
+			"Alazan" "Tartu" "Goryn" "Khobi" "Sosya" "Orsha" "Titan" "Tunguska" "Sunta"  "Linda" "Indiga" "Moksha" "Sysola" "Cheremshan" "Lovat" "Shacha" "Seyma" "Shelon" "Terek" "Sheksna" "Don" "Donets" "Dnepr" "Dunay" "Koyda" "Lena" "Vishera"
+			"Kola" "Yel'nya" "Yergorlik" "Izhora" "Prut" "Ilim"
+		}
+	}
+	helicopter_carrier = {
+		prefix = ""
+		generic = { "Helicopter Cruiser" }
+		unique = {
+			"Moskva" "Leningrad" "Kiev" "Minsk" "Novorossiysk" "Admiral Gorshkov"
+		}
+	}	
+	antipodal_bomber = {
+		prefix = ""
+		generic = { "KBP" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = {
+		}	
+	} 
+
+	airlifter_equipment = {
+		prefix = ""
+		generic = { "TrAD"}
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = {
+		}	
+	}
+}
+ENG = {	
+	fleet_oiler = {
+		prefix = "HMS"
+		generic = { "Fleet Replenishment Oiler" }
+		unique = {
+			"Olcades" "Oligarch" "Olynthus" "Olwen" "Olna" "Oleander" "Abbeydale" "Aldersdale" "Arndale" "Bishopdale" "Boardale" "Broomdale" "Cairndale" "Cedardale" "Dewdale" "Darkdale" "Derwentdale" "Dingledale" "Dinsdale" "Denbydale" 
+			"Eaglesdale" "Easedale" "Ennerdale" "Echodale" "Airsprite" "Nasprite" "Gold Ranger" "Green Ranger" "Grey Ranger" "Black Ranger" "Blue Ranger" "Brown Ranger" "Wave Baron" "Wave Chief" "Wave Emperor" "Wave Governor" "Wave Liberator"
+			"Wave Protector" "Wave Regent" "Wave Ruler" "Wave Sovereign" "Wave Victor" "Wave King" "Wave Monarch" "Wave Duke" "Wave Knight" "Wave Laird" "Wave Prince" "Wave Protector" "Wave Master" "Wave Commander" "Wave Conqueror" "Northmark"
+			"Surf Patrol" "Surf Pioneer" "Eddybeach" "Eddybay" "Eddycliff" "Eddycreek" "Eddyrock" "Eddyreef" "Eddyfirth" "Eddyness" "Tidereach" "Tideflow" "Tidesurge" "Tide Austral" "Appleleaf" "Bayleaf" "Brambleleaf" "Orangeleaf" "Plumleaf"
+			"Pearleaf" "Tidespring" "Tidepool"
+		}
+	}
+	helicopter_carrier = {
+		prefix = "HMS"
+		generic = { "Helicopter Carrier" }
+		unique = {
+			"Bulwark" "Albion" "Illustrious" "Ocean"
+		}
+	}
+	antipodal_bomber = {
+		prefix = ""
+		generic = { "KBP" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = {
+		}	
+	} 
+	
+	antipodal_bomber = {
+		prefix = ""
+		generic = { "Space Squadron No." }
+		generic_pattern = AIR_WING_NAME_USA_GENERIC
+		unique = {
+		}	
+	} 
+}
+JAP = {	
+	fleet_oiler = {
+		prefix = ""
+		generic = { "Fleet Replenishment Oiler" }
+		unique = {
+			"Kazahaya" "Karasaki" "Hayasui" "Inatori" "Kariko" "Tsurikake" "Kumomi" "Kamisu" "Kōshū" "Seitō" "Noma" "Hario" "Inatori" "Karasaki" "Tatsumai" "Hamana" "Sagami" "Towada" "Tokiwa" "Mashū" "Ōmi"
+			"Kinesaki" "Hayasaki" "Shirasaki" "Arasaki" "Kiyosaki" "Ōsaki" "Hesaki" "Kashizaki" "Kuresaki" "Misaki" "Fujisaki" "Irako" "Mamiya" "Nosaki" "Kurasaki" "Sōya" "Kashino" "Komahasi" "Taigei" "Jingei" "Chōgei"
+		}
+	}
+}
+FRA = {	
+	fleet_oiler = {
+		prefix = ""
+		generic = { "Fleet Replenishment Oiler" }
+		unique = {
+			"Durance" "Meuse" "Var" "Marne" "Somme" "Émile Bertin" "Gustave Zédé"
+		}
+	}
+	helicopter_carrier = {
+		prefix = ""
+		generic = { "Helicopter Carrier" }
+		unique = {
+			"Jeanne D'Arc" "Mistral" "Tonnerre" "Dixmude"
+		}
+	}
+	antipodal_bomber = {
+		prefix = ""
+		generic = { "Groupe de Combat Spatial" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	} 
+	airlifter_equipment = {
+		prefix = ""
+		generic = { "Escadron de Transport" }
+		generic_pattern = AIR_WING_NAME_FRA_GENERIC
+		unique = {
+		}	
+	}
+}
+ITA = {	
+	fleet_oiler = {
+		prefix = ""
+		generic = { "Fleet Replenishment Oiler" }
+		unique = {
+			"Stromboli" "Vesuvio" "Bormida" "Favignana" "Linosa" "Panarea" "Salina" "Etna"
+		}
+	}
+	helicopter_carrier = {
+		prefix = ""
+		generic = { "Helicopter Carrier" }
+		unique = {
+			"Vittorio Veneto" "Caio Duilio" "Andrea Doria"
+		}
+	}
+}

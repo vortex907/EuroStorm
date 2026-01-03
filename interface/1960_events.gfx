@@ -1,0 +1,27 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_report_event_shackles"
+		texturefile = "gfx/event_pictures/aishackles.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_resources"
+		texturefile = "gfx/event_pictures/increasedresources.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_ett60"
+		texturefile = "gfx/event_pictures/ett60splash.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_refueling"
+		texturefile = "gfx/event_pictures/refueling.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_fleet_oilers"
+		texturefile = "gfx/event_pictures/fleet_oilers.dds"
+	}
+} 

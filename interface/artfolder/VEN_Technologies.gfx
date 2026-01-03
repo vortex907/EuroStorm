@@ -1,0 +1,108 @@
+spriteTypes = {	
+
+### guns ###
+	
+	SpriteType = {
+	name = "GFX_VEN_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/VEN_1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_VEN_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/denxson/VEN_2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_VEN_improved_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/VEN_3.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_VEN_advanced_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/VEN_4.dds"
+	}
+	
+### Arty ###
+
+	SpriteType = {
+	name = "GFX_VEN_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/VEN_iwa.dds"
+	}
+	 
+	SpriteType = {
+	name = "GFX_VEN_adv_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/VEN_a2.dds"
+	}	
+	
+	# SpriteType = {
+	# name = "GFX_VEN_artillery3_medium"
+	# texturefile = "gfx/interface/technologies/denxson/VEN_a3.dds"
+	# }	 
+	
+	SpriteType = {
+	name = "GFX_VEN_artillery_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/denxson/VEN_iwa.dds"
+	}
+	
+	# SpriteType = {
+	# name = "GFX_VEN_artillery_equipment_3_medium"
+	# texturefile = "gfx/interface/technologies/denxson/VEN_a3.dds"
+	# }	
+	
+	SpriteType = {
+	name = "GFX_VEN_artillery_equipment_2_medium"
+	texturefile = "gfx/interface/technologies/denxson/VEN_a2.dds"
+	}
+	
+### Anti-air ###
+
+	SpriteType = {
+	name = "GFX_VEN_interwar_antiair_medium"
+	texturefile = "gfx/interface/technologies/denxson/VEN_aa1.dds"
+	}
+
+	
+### Anti-tank ###
+
+	SpriteType = {
+	name = "GFX_VEN_interwar_antitank_medium"
+	texturefile = "gfx/interface/technologies/denxson/VEN_at1.dds"
+	}	
+	
+### armoured cars ###
+
+	SpriteType = {
+	name = "GFX_VEN_armored_car2_medium"
+	texturefile = "gfx/interface/technologies/denxson/VEN_ac2.dds"
+	}
+	
+### troop_carriers ###
+
+    SpriteType = {
+	name = "GFX_VEN_motorized_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/denxson/VEN_tc1.dds"
+	}
+	SpriteType = {
+	name = "GFX_VEN_motorised_infantry_medium"
+	texturefile = "gfx/interface/technologies/denxson/VEN_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_VEN_motorised_equipment_medium"
+	texturefile = "gfx/interface/technologies/denxson/VEN_tc1.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_VEN_mechanised_infantry2_medium"
+	texturefile = "gfx/interface/technologies/denxson/VEN_tc3.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_VEN_mechanised_infantry_medium"
+	texturefile = "gfx/interface/technologies/denxson/VEN_tc2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_VEN_mechanised_infantry3_medium"
+	texturefile = "gfx/interface/technologies/denxson/VEN_tc4.dds"
+	}

@@ -1,0 +1,69 @@
+units = {
+	fleet = {
+		name = "Home Royal Fleet Auxiliary"			
+		naval_base = 11064 # Scapa Flow
+		task_force = {					
+			name = "Home Royal Fleet Auxiliary"				
+			location = 11064 # Scapa Flow
+			# Replenishment Division			
+			ship = { name = "War Afridi" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }		
+			ship = { name = "War Bahadur" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }		
+			ship = { name = "War Bharata" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }			
+			ship = { name = "War Rajah" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }	
+		}			
+	}
+	fleet = {
+		name = "Mediterranean Royal Fleet Auxiliary"			
+		naval_base = 4076 # Alexandria
+		task_force = {					
+			name = "Mediterranean Royal Fleet Auxiliary"				
+			location = 4076 # Alexandria
+			# Replenishment Division			
+			ship = { name = "War Brahmin" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }		
+			ship = { name = "War Diwan" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }		
+			ship = { name = "War Gaekwar" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }	
+			ship = { name = "War Ranee" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }			
+			ship = { name = "War Sudra" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }		
+		}			
+	}
+	fleet = {
+		name = "Atlantic Royal Fleet Auxiliary"			
+		naval_base = 13010  # Bermuda
+		task_force = {					
+			name = "Atlantic Royal Fleet Auxiliary"				
+			location = 13010  # Bermuda
+			# Replenishment Division			
+			ship = { name = "War Ghurka" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }		
+			ship = { name = "War Hindoo" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }		
+			ship = { name = "War Jemadar" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }		
+			ship = { name = "War Sepoy" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }	
+		}			
+	}
+	fleet = {
+		name = "Singapore Royal Fleet Auxiliary"			
+		naval_base = 12299 # Singapore
+		task_force = {					
+			name = "Singapore Royal Fleet Auxiliary"				
+			location = 12299 # Singapore
+			# Replenishment Division			
+			ship = { name = "War Krishna" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }		
+			ship = { name = "War Mehtar" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }		
+			ship = { name = "War Nawab" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }		
+			ship = { name = "War Shikari" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }	
+		}			
+	}
+	fleet = {
+		name = "Far East Royal Fleet Auxiliary"			
+		naval_base = 10062 # Hong Kong
+		task_force = {					
+			name = "Far East Royal Fleet Auxiliary"				
+			location = 10062 # Hong Kong
+			# Replenishment Division			
+			ship = { name = "War Nizam" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }		
+			ship = { name = "War Pathan" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }		
+			ship = { name = "War Pindari" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }		
+			ship = { name = "War Sirdar" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }				
+			ship = { name = "War Subadar" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = ENG } } }	
+		}			
+	}
+}

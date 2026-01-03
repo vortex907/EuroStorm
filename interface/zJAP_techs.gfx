@@ -1,0 +1,901 @@
+spriteTypes = {
+	
+	# SpriteType = {
+		# name = "GFX_JAP_CAS4_medium"
+		# texture file = "gfx/interface/technologies/JAP_CAS4.dds"
+	# }	
+	
+	SpriteType = {
+		name = "GFX_JAP_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/JAP_jet_tactical_bomber1.dds"
+	}	
+				
+	SpriteType = {
+		name = "GFX_JAP_jet_fighter1_medium"
+		texturefile = "gfx/interface/technologies/JAP_jet_fighter1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_jet_fighter2_medium"
+		texturefile = "gfx/interface/technologies/JAP_jet_fighter2.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_JAP_jet_interceptor1_medium"
+		texturefile = "gfx/interface/technologies/JAP_jet_interceptor1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_jet_interceptor2_medium"
+		texturefile = "gfx/interface/technologies/JAP_jet_interceptor2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_interceptor1_medium"
+		texturefile = "gfx/interface/technologies/JAP_interceptor1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_interceptor2_medium"
+		texturefile = "gfx/interface/technologies/JAP_interceptor2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_interceptor3_medium"
+		texturefile = "gfx/interface/technologies/JAP_interceptor3.dds"
+	}
+	
+	# SpriteType = {
+		# name = "GFX_JAP_transport1_medium"
+		# texturefile = "gfx/interface/technologies/JAP_transport1.dds"
+	# }
+
+	SpriteType = {
+		name = "GFX_JAP_cv_fighter_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/JAP_fighter_cv.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_cv_fighter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/JAP_fighter1_cv.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_cv_fighter_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/JAP_fighter2_cv.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_cv_fighter_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/JAP_fighter3_cv.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/JAP_jet_tactical_bomber1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_jet_CAS1_medium"
+		texturefile = "gfx/interface/technologies/JAP_jet_CAS1.dds"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_JAP_modern_tank_chassis_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/modern/jap_sta_3.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_modern_tank_chassis_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/modern_3/jap_sta_4.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_modern_tank_chassis_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/modern_4/jap_type_61.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_JAP_infantry_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/HIP_infantry_equipment_4.tga"
+	}		
+	
+	SpriteType = {
+		name = "GFX_JAP_infantry_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/JAP_infantry_equipment_5.dds"
+	}	
+	
+		SpriteType = {
+		name = "GFX_JAP_rocket_interceptor_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/JAP_rocket_interceptor_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_rocket_interceptor_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/JAP_rocket_interceptor_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_rocket_interceptor_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/JAP_rocket_interceptor_3.dds"
+	}		
+							
+	SpriteType = {
+		name = "GFX_JAP_jet_strategic_bomber1_medium"
+		texturefile = "gfx/interface/technologies/JAP_jet_strategic_bomber1.dds"
+	}	
+	### NAVAL
+
+	SpriteType = {	
+		name = "GFX_JAP_early_ship_hull_light_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_1_Akatsuki.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_basic_ship_hull_light_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_2_Shiratsuyu.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_improved_ship_hull_light_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_3_Shimakaze.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_advanced_ship_hull_light_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_4_Akizuki_Kai.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_light_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_5_Harukaze.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_light_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_6_Akizuki.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_light_7_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DD/JAP_DD_7_Takatsuki.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_light_converted_missile_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DDGC/JAP_DDG_1_Amatsukaze.dds"
+	}
+		
+	SpriteType = {	
+		name = "GFX_JAP_ship_sam_missile_battery_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/DDGC/JAP_DDG_1_Amatsukaze.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_super_heavy_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_SHBB_1_Yamato.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_super_heavy_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_SHBB_2_A_150.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_JAP_early_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_1_No13_Design_M.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_basic_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_2_Design_X.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_improved_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_3_A_140D.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_advanced_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_4_A_140J3.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_heavy_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/BB/JAP_BB_5_fictional_BBG.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_early_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_1_Yubari.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_basic_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_2_C_39.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_improved_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_3_Oyodo.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_advanced_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_4_Agano_Kai.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_cruiser_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_1_Yubari.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_cruiser_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_2_C_39.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_cruiser_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_3_Oyodo.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_cruiser_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_4_Agano_Kai.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_cruiser_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_5_Fictional_1.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_cruiser_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_6_Fictional.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_cruiser_7_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CL/JAP_CL_7_Fictional.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_7_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_7_Fictional.dds"
+	}	
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_6_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_6_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_5_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_5_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_4_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_4_Fictional.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_3_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_3_Zao.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_2_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_2_Tone.dds"
+	}
+	SpriteType = {
+		name = "GFX_ship_hull_cruiser_1_capital_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CA/JAP_CA_1_Myoko.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_early_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_BB_Kaga.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_ship_hull_carrier_conversion_bb_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_BB_Kaga.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_ship_hull_carrier_conversion_ca_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_1_CA_Zuiho.dds"
+	}
+		
+	SpriteType = {	
+		name = "GFX_JAP_basic_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_2_Hiryū.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_improved_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_3_Taiho.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_advanced_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_4_Unryu.dds"
+	}
+	 
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_carrier_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_5_Hayataka.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_carrier_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_6_Fictional.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_carrier_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CV/JAP_CV_7_Fictional.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_ship_hull_helicopter_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CVH/JAP_CVH_1_Haruna.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_ship_hull_mega_carrier"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CVH/JAP_CVH_1_Haruna.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_ship_hull_mega_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CVH/JAP_CVH_1_Haruna.png"
+	}
+		
+	SpriteType = {	
+		name = "GFX_JAP_early_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_1_Type_L.dds"
+	}
+		
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_submarine_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_1_Type_L.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_basic_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_1_I_51_Kaidai.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_submarine_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_1_I_51_Kaidai.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_improved_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_3_Ro_100.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_submarine_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_3_Ro_100.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_submarine_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_4_Ha_201.dds"
+	} 
+	
+	SpriteType = {	
+		name = "GFX_JAP_advanced_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_4_Ha_201.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_submarine_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_6_Hayashio.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_attack_boat_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_6_Hayashio.dds"
+	}
+	 
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_fleet_submarine_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/GER/SS/JAP_SS_4_I_201.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_fleet_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_4_I_201.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_fleet_submarine_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_6_Fictional_Fleet_1.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_fleet_submarine_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_6_Fictional_Fleet_1.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_fleet_submarine_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_6_Fictional_Fleet_2.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_fleet_submarine_3"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_6_Fictional_Fleet_2.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_rocket_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSG/JAP_SSG_1_Missile_Fictional_2.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_JAP_rocket_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSG/JAP_SSG_1_Missile_Fictional_2.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSG/JAP_SSG_1_Fictional.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_missile_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSG/JAP_SSG_1_Fictional.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_nuclear_attack_sub_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SSN_Fictional.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_submarine_6_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SSN_Fictional.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_cruiser_submarines_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_2_Type_B.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_cruiser_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SS/JAP_SS_2_Type_B.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_midget_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSM/JAP_SSM_1_Kairyū.dds"
+	} 
+	
+	SpriteType = {	 
+		name = "GFX_JAP_ship_hull_midget_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSM/JAP_SSM_1_Kairyū.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_carrier_submarine"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSV/JAP_SSC_1_I_400.dds"
+	}
+	 
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_carrier_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSV/JAP_SSC_1_I_400.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_carrier_2_submarine"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSV/JAP_SSC_2_Fictional.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_carrier_submarine_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSV/JAP_SSC_2_Fictional.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_midget_submarine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SSM/JAP_SSM_1_Type_A.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_cruiser_panzerschiff_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/PzSC/JAP_PzSc_1_Yuzuru_20KT_Var_B.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_escort_carrier"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CVE/JAP_CVE_Taiyō.dds"
+	} 
+	
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_escort_carrier_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CVE/JAP_CVE_Taiyō.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_torpedo_cruiser_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/CT/JAP_CT_1_Kitakami.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_JAP_tanker_submarines_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SST/JAP_SST_1_I_361.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_JAP_ship_hull_tanker_submarine_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/ships/JAP/SST/JAP_SST_1_I_361.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_cv_nav_bomber_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/JAP_naval_bomber1_cv.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_cv_nav_bomber_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/JAP_naval_bomber2_cv.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_cv_nav_bomber_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/JAP_naval_bomber3_cv.dds"
+	}	
+	SpriteType = {
+		name = "GFX_JAP_cv_CAS_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/JAP_CAS1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_cv_CAS_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/JAP_CAS2_cv.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_cv_CAS_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/JAP_CAS3_cv.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_JAP_bba_early_transport_plane_medium"
+		texturefile = "gfx/interface/technologies/JAP_transport1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_bba_improved_transport_plane_medium"
+		texturefile = "gfx/interface/technologies/JAP_transport2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_transport_plane_4_medium"
+		texturefile = "gfx/interface/technologies/JAP_transport4.dds"
+	}
+ 
+	SpriteType = {
+		name = "GFX_JAP_transport_plane_5_medium"
+		texturefile = "gfx/interface/technologies/JAP_transport5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_transport_plane_6_medium"
+		texturefile = "gfx/interface/technologies/JAP_transport6.dds"
+	}
+			
+	SpriteType = {
+		name = "GFX_JAP_transport_plane_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/JAP_transport1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_transport_plane_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/JAP_transport2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_transport_plane_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/JAP_transport4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_transport_plane_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/JAP_transport5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_transport_plane_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/JAP_transport6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_modern_large_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/large/strat_45/g10n.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_modern_large_airframe_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/large/strat_47/ki180.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_modern_large_airframe_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/large/strat_50/Ki-185.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_modern_large_airframe_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/large/strat_55/fictional55.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_modern_large_airframe_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/large/strat_60/fictional60.dds"
+	}	 
+
+	SpriteType = {
+		name = "GFX_JAP_modern_medium_airframe_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/heavy_fighter_45/ki83.dds"
+	}		
+					
+	SpriteType = {
+		name = "GFX_JAP_modern_medium_airframe_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/bomber_47/r2y2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_modern_medium_airframe_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/bomber_50/fictional50.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_modern_medium_airframe_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/bomber_55/fictional55.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_modern_medium_airframe_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/bomber_60/fictional60.dds"
+	}	
+ 
+	SpriteType = {
+		name = "GFX_JAP_modern_small_airframe_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_47/r2y1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_modern_small_airframe_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_50/ki252.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_modern_small_airframe_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_55/ki233.dds" 
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_modern_small_airframe_5_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_60/ki500.dds"
+	}	
+	
+	# #### ARMORED CAR
+		
+	SpriteType = {
+		name = "GFX_JAP_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_type_92.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_type_93.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_So_Ha.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_So_Ni.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_armored_car5_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_Type_82.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_armored_car6_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_Type_87.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_armored_car_at_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_So_Ha.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_armored_car_at_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_Type_82.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_armored_car_at_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_Type_87.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_JAP_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_Type_94.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_JAP_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_Type_94.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_JAP_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_So_Da.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_JAP_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_Ho_Ki.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_Ho_Ha.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_mechanised_infantry4_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_Chi_So.dds"
+	} 
+		
+	SpriteType = {
+		name = "GFX_JAP_mechanised_infantry5_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_SU_I.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_JAP_mechanised_infantry6_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_Type_60.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_JAP_mechanised_infantry7_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_Type_73.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_JAP_ifv_infantry_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_Type_73_20mm.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_JAP_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_1.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_JAP_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_3.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_JAP_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_amphibious_mechanized_infantry_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_Su_Ki.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_amphibious_mechanized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_Su_Ki.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_amphibious_mechanized_infantry_2_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_Ka_Tsu.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_amphibious_mechanized_infantry_3_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_Type_73_Amph.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_utility_helicopter_1_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_fictional_utility1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_utility_helicopter_2_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_fictional_utility2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_utility_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_fictional_utility1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_utility_helicopter_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_fictional_utility2.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_JAP_naval_helicopter_2_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_fictional_naval2.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_JAP_naval_helicopter_1_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_fictional_naval1.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_JAP_naval_helicopter_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_fictional_naval2.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_JAP_naval_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_fictional_naval1.dds"
+	} 
+	
+	SpriteType = {
+		name = "GFX_JAP_scout_helicopter_1_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_kh4.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_scout_helicopter_2_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_kh7.dds"
+	}	
+	 
+	SpriteType = {
+		name = "GFX_JAP_scout_helicopter_3_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_fictional_scout3.dds" 
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_scout_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_kh4.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_scout_helicopter_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_kh7.dds"
+	}	
+	 
+	SpriteType = {
+		name = "GFX_JAP_scout_helicopter_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_fictional_scout3.dds" 
+	}		
+	
+	SpriteType = {
+		name = "GFX_JAP_cargo_helicopter_1_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_fictional_cargo1.dds"
+	}	
+	
+	
+	SpriteType = {
+		name = "GFX_JAP_cargo_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/JAP/JAP_fictional_cargo1.dds"
+	}	
+}
+

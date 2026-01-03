@@ -1,0 +1,19 @@
+units = {
+	fleet = {
+		name = "Replenishment Fleet"			
+		naval_base = 9998  #Yokosuka
+		task_force = {					
+			name = "Replenishment Fleet"				
+			location = 9998  #Yokosuka
+			# Replenishment Division			
+			ship = { name = "Ondo" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = JAP } } }		
+			ship = { name = "Hayatomo" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = JAP } } }		
+			ship = { name = "Naruto" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = JAP } } }		
+			ship = { name = "Erimo" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = JAP } } }		
+			ship = { name = "Tsurumi" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = JAP } } }		
+			ship = { name = "Shiriya" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = JAP } } }		
+			ship = { name = "Irō" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = JAP } } }		
+			ship = { name = "Teiyō Maru" definition = fleet_oiler equipment = { fleet_oiler_1 = { amount = 1 owner = JAP } } }	
+		}			
+	}
+}

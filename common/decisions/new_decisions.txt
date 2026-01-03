@@ -1,0 +1,132 @@
+political_actions = {
+
+	appoint_a_black_general = {
+		
+		icon = GFX_decision_generic_army_support
+		
+		allowed = {
+			always = yes
+		}
+		
+		cost = 25
+		fire_only_once = yes
+		
+		available = {
+			has_completed_focus = USA_desegregate_the_armed_forces
+		}		
+		
+		visible = {
+			has_completed_focus = USA_desegregate_the_armed_forces
+		}		
+		
+		complete_effect = {
+			add_corps_commander_role = {
+				Character = USA_benjamim_davis
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 3
+				traits = { infantry_officer brilliant_strategist }
+			}
+			add_advisor_role = {
+				character = USA_benjamim_davis
+				advisor = {
+					slot = army_chief
+					idea_token = USA_benjamim_davis
+					traits  = {
+						army_chief_reform_2 
+					}
+				}		
+			}
+		}
+		
+        ai_will_do = {
+			factor = 1		
+			modifier = {
+				has_government = communism
+				factor = 50
+			}
+		}
+	}
+
+	USA_fix_pp_sink = {
+		
+		icon = GFX_decision_generic_army_support
+		
+		allowed = {
+			always = yes
+		}
+		
+		#cost = 25
+		fire_only_once = yes
+		
+		available = {
+			#is_ai = yes
+			tag = USA
+			has_war_with_major = yes
+			threat > 0.9 
+			OR = {
+				has_idea = undisturbed_isolation
+				has_idea = isolation
+				has_idea = volunteer_only
+				has_idea = disarmed_nation
+			}
+		}		
+		
+		visible = {
+			is_ai = yes
+			tag = USA
+			has_war_with_major = yes
+			threat > 0.9 
+		}		
+		
+		complete_effect = {
+			add_ideas = { 
+				partial_economic_mobilisation
+				extensive_conscription
+			}
+		}
+		
+        ai_will_do = {
+			factor = 200
+		}
+	}
+
+	# USA_fix_production = {
+		
+		# icon = GFX_decision_generic_army_support
+		
+		# allowed = {
+			# always = yes
+		# }
+		
+		# #cost = 25
+		# fire_only_once = yes
+		
+		# available = {
+			# #is_ai = yes
+			# tag = USA
+			# has_war_with_major = yes
+			# threat > 0.9 
+		# }		
+		
+		# visible = {
+			# is_ai = yes
+			# tag = USA
+			# has_war_with_major = yes
+			# threat > 0.9 
+		# }		
+		
+		# complete_effect = {
+			# add_timed_idea = { 
+				# idea = ai_war_mobilization
+				# days = 730
+			# }
+		# }
+		
+        # ai_will_do = {
+			# factor = 200
+		# }
+	# }
+}

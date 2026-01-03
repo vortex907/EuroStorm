@@ -1,0 +1,9 @@
+airlift_mission_modifier = {
+
+	icon = GFX_decision_ger_military_buildup
+	
+	production_speed_supply_node_factor = 2
+	
+	local_supplies_for_controller = 0.3
+	
+}

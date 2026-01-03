@@ -1,0 +1,14 @@
+#background sprite is in frontendmainviewbg.gfx
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_mod_coop_badge"
+		textureFile = "gfx/interface/icons/coop_badge.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_mod_ett60"
+		textureFile = "gfx/interface/TechTreeExpanded60.png"
+	}
+}

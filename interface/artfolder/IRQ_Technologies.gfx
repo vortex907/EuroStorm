@@ -1,0 +1,88 @@
+spriteTypes = {	
+
+
+	SpriteType = {
+	name = "GFX_IRQ_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/IRQ_1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_IRQ_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/denxson/IRQ_2.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_IRQ_improved_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/IRQ_3.dds"
+	}
+		
+	SpriteType = {
+	name = "GFX_IRQ_advanced_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/denxson/IRQ_4.dds"
+	}
+	
+### Arty ###
+
+
+	SpriteType = {
+	name = "GFX_IRQ_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/IRQ_iwa.dds"
+	}
+	 
+	SpriteType = {
+	name = "GFX_IRQ_adv_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/denxson/IRQ_a2.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_IRQ_artillery3_medium"
+	texturefile = "gfx/interface/technologies/denxson/IRQ_a3.dds"
+	}	 
+	
+	SpriteType = {
+	name = "GFX_IRQ_artillery_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/denxson/IRQ_iwa.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_IRQ_artillery_equipment_3_medium"
+	texturefile = "gfx/interface/technologies/denxson/IRQ_a3.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_IRQ_artillery_equipment_2_medium"
+	texturefile = "gfx/interface/technologies/denxson/IRQ_a2.dds"
+	}
+	
+### Anti-tank ###
+
+	SpriteType = {
+	name = "GFX_IRQ_interwar_antitank_medium"
+	texturefile = "gfx/interface/technologies/denxson/IRQ_at1.dds"
+	}	
+	
+### armoured cars ###
+
+	SpriteType = {
+	name = "GFX_IRQ_armored_car1_medium"
+	texturefile = "gfx/interface/technologies/denxson/IRQ_ac1.dds"
+	}
+
+### troop_carriers ###
+
+    SpriteType = {
+	name = "GFX_IRQ_motorized_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/denxson/IRQ_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_IRQ_motorised_infantry_medium"
+	texturefile = "gfx/interface/technologies/denxson/IRQ_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_IRQ_motorised_equipment_medium"
+	texturefile = "gfx/interface/technologies/denxson/IRQ_tc1.dds"
+	}
+	
+
