@@ -31,4 +31,63 @@ focus_tree = {
 			PRE = { country_event = { id = prussia.1 } }
 		}
 	}
+
+	focus = {
+		id = dealing_with_the_resource_crisis
+		icon = xxx
+		x = -20
+		y = 1
+		relative_position_id = situation_of_prussia
+		prerequisite = { focus = situation_of_prussia	}
+		cost = 10
+		available = {
+
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+			PRE = { country_event = { id = prussia.6 } }
+		}
+	}
+
+	focus = {
+		id = searching_for_trade_partners
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 8
+		y = 1
+		relative_position_id = dealing_with_the_resource_crisis
+		prerequisite = { focus = dealing_with_the_resource_crisis	}
+		mutually_exclusive = { focus = prussian_way_to_autarky }
+		cost = 1
+		available = {
+			always = false
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = prussian_way_to_autarky
+		icon = GFX_focus_GER_autarky_ambitions
+		x = -8
+		y = 1
+		relative_position_id = dealing_with_the_resource_crisis
+		prerequisite = { focus = dealing_with_the_resource_crisis	}
+		mutually_exclusive = { focus = searching_for_trade_partners }
+		cost = 1
+		available = {
+			always = false
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+			
+		}
+	}
 }

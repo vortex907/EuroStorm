@@ -68,20 +68,14 @@ IF = {
 
 	#National spirits are set here
 
-	add_ideas = {
-		AUS_widespread_unemployment
-		AUS_phonix_insurance
-		AUS_recovering_from_the_depression
-	}
+	
 
 	add_timed_idea = {
 		idea = AUS_treaty_of_saint_germain_en_laye
 		days = 1657
 	}
 
-	add_dynamic_modifier= {
-		modifier = AUS_austrofascism 
-	}	
+	
 
 	add_opinion_modifier = {
 		target = GER

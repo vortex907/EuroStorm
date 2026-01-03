@@ -24,10 +24,6 @@ country_event = {
 		name = prussia.1.e
 		PRE = { country_event = { id = prussia.5 } }
 	}
-	option = {
-		name = prussia.1.f
-		add_political_power = 50
-	}
 }
 
 country_event = {
@@ -41,6 +37,10 @@ country_event = {
 	option = {
 		name = prussia.2.a
 		PRE = { country_event = { id = prussia.1 } }
+	}
+	option = {
+		name = prussia.1.f
+		add_political_power = 50
 	}
 }
 
@@ -56,6 +56,10 @@ country_event = {
 		name = prussia.3.a
 		PRE = { country_event = { id = prussia.1 } }
 	}
+	option = {
+		name = prussia.1.f
+		add_political_power = 50
+	}
 }
 
 country_event = {
@@ -70,6 +74,10 @@ country_event = {
 		name = prussia.4.a
 		PRE = { country_event = { id = prussia.1 } }
 	}
+	option = {
+		name = prussia.1.f
+		add_political_power = 50
+	}
 }
 
 country_event = {
@@ -83,5 +91,27 @@ country_event = {
 	option = {
 		name = prussia.5.a
 		PRE = { country_event = { id = prussia.1 } }
+	}
+	option = {
+		name = prussia.1.f
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = prussia.6
+	title = prussia.6.t
+	desc = prussia.6.d
+	picture = GFX_report_event_tur_industry
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = prussia.6.a
+		complete_national_focus = searching_for_trade_partners
+	}
+	option = {
+		name = prussia.6.b
+		complete_national_focus = prussian_way_to_autarky
 	}
 }
