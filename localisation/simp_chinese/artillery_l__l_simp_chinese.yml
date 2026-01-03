@@ -1,0 +1,105 @@
+﻿l_simp_chinese:
+  interwar_antiair_desc: "防空火炮主要用于击落敌方飞机，尽管其高射速火炮在对地攻击中同样具有效果。"
+  interwar_antitank_desc: "反坦克火炮专门用于击败装甲目标，例如坦克，通常发射穿甲弹。"
+
+  tank_designer_carriage_equipment: "炮架"
+  carriage_equipment_0: "炮架"
+
+  artillery_equipment_0: "火炮装备"
+  anti_air_equipment_0: "防空装备"
+  anti_tank_equipment_0: "反坦克装备"
+
+  EQ_MOD_SLOT_main_weapon_slot_TITLE: "主武装"
+  EQ_MOD_CAT_artilery_weapon_type_TITLE: "火炮武装"
+
+  gw_art_weapon: "大战时期火炮"
+  gw_art_weapon_desc: ""
+
+  regular_art_weapon: "两战期间榴弹炮"
+  regular_art_weapon_desc: ""
+
+  improved_art_weapon: "改进型榴弹炮"
+  improved_art_weapon_desc: ""
+
+  advanced_art_weapon: "先进型榴弹炮"
+  advanced_art_weapon_desc: ""
+
+  basic_rocket_weapon: "火箭发射器"
+  basic_rocket_weapon_desc: ""
+
+  improved_rocket_weapon: "改进型火箭发射器"
+  improved_rocket_weapon_desc: ""
+
+  EQ_MOD_CAT_aa_weapon_type_TITLE: "防空武装"
+  regular_aa_weapon: "防空武装"
+  regular_aa_weapon_desc: ""
+  improved_aa_weapon: "改进型防空武装"
+  improved_aa_weapon_desc: ""
+  advanced_aa_weapon: "先进型防空武装"
+  advanced_aa_weapon_desc: ""
+
+  EQ_MOD_CAT_at_weapon_type_TITLE: "反坦克武装"
+  regular_at_weapon: "反坦克武装"
+  regular_at_weapon_desc: ""
+  improved_at_weapon: "改进型反坦克武装"
+  improved_at_weapon_desc: ""
+  advanced_at_weapon: "先进型反坦克武装"
+  advanced_at_weapon_desc: ""
+
+  EQ_MOD_SLOT_carriage_slot_TITLE: "炮架类型"
+  EQ_MOD_CAT_carriage_slot_type_TITLE: "炮架"
+
+  standart_carriage: "标准炮架"
+  standart_carriage_desc: ""
+  hardness_carriage: "加重炮架"
+  hardness_carriage_desc: ""
+  ligher_carriage: "轻型炮架"
+  ligher_carriage_desc: ""
+  wheels_carriage: "轮式炮架"
+  wheels_carriage_desc: ""
+
+  EQ_MOD_CAT_artillery_armor_modules_TITLE: "装甲防护"
+  EQ_MOD_SLOT_armor_slot_TITLE: "装甲防护"
+
+  fullArmor: "标准防护"
+  fullArmor_desc: ""
+  fatArmor: "强化防护"
+  fatArmor_desc: ""
+  lowerArmor: "低轮廓防护"
+  lowerArmor_desc: ""
+
+  EQ_MOD_CAT_carriage_special_modules_TITLE: "炮管改装"
+  muzzle_break: "制退器"
+  muzzle_break_desc: ""
+  longer_barrels: "加长炮管"
+  longer_barrels_desc: ""
+
+  EQ_MOD_CAT_antitank_special_modules_TITLE: "反坦克改装"
+  squeezebore_at_adaptor: "锥膛适配器"
+  squeezebore_at_adaptor_desc: "通过缩小炮管口径提高初速，从而显著增强穿甲能力。"
+  blasting_shells: "高爆弹"
+  blasting_shells_desc: ""
+  two_stage_shells: "尾翼稳定脱壳穿甲弹"
+  two_stage_shells_desc: "一种用于攻击装甲目标的动能穿甲弹药。"
+
+  EQ_MOD_CAT_artillery_special_modules_TITLE: "火炮改装"
+  hydraulic_recoil: "液压后坐缓冲"
+  hydraulic_recoil_desc: ""
+  gas_screen: "毒气幕"
+  gas_screen_desc: "在火炮射击区域释放毒气，但风向变化可能危及友军。"
+  smoke_screen: "烟幕"
+  smoke_screen_desc: "烟幕可覆盖战场，降低敌方能见度。"
+
+  EQ_MOD_CAT_rocket_special_modules_TITLE: "火箭改装"
+  multiple_launcher: "多管发射"
+  multiple_launcher_desc: ""
+  heavy_rockets: "重型火箭"
+  heavy_rockets_desc: ""
+
+  EQ_MOD_CAT_antiair_special_modules_TITLE: "防空改装"
+  radar_aa: "雷达引导"
+  radar_aa_desc: ""
+  fast_reloading_aa: "快速装填机构"
+  fast_reloading_aa_desc: ""
+  computer_aa: "火控系统"
+  computer_aa_desc: ""

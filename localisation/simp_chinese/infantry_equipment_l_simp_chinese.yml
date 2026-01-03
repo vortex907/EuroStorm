@@ -1,0 +1,134 @@
+﻿l_simp_chinese:
+
+
+  TANK_DESIGNER_TITLE: "军队设计器"
+
+  tank_designer_infantry_equipment: "步兵装备"
+
+  EQ_MOD_SLOT_small_arms_slot_TITLE: "轻武器"
+  EQ_MOD_CAT_infantry_weapon_type_TITLE: "轻武器"
+
+  EQ_MOD_SLOT_auxiliary_armament_slot_TITLE: "辅助武器"
+  EQ_MOD_CAT_infantry_fire_support_attack_type_TITLE: "进攻性武装"
+  EQ_MOD_CAT_infantry_fire_support_defence_type_TITLE: "防御性武装"
+
+  EQ_MOD_SLOT_anti_tank_slot_TITLE: "反坦克武装"
+  EQ_MOD_CAT_infantry_anti_tank_type_TITLE: "反坦克武装"
+
+  EQ_MOD_SLOT_personal_protective_slot_TITLE: "个人防护装备"
+  EQ_MOD_CAT_infantry_personal_protective_TITLE: "个人防护装备"
+
+ # Technology
+  infantry_weapons1: "步兵装备 I"
+  infantry_weapons1_desc: "单兵与集体轻武器，以及其他步兵装备。"
+
+  improved_infantry_weapons: "步兵装备 II"
+  improved_infantry_weapons_desc: "改进型单兵与集体轻武器，包含大量冲锋枪。"
+
+  advanced_infantry_weapons: "步兵装备 III"
+  advanced_infantry_weapons_desc: "先进型单兵与集体轻武器，包含突击步枪。"
+
+  infantry_at: "反坦克步枪"
+  infantry_at_desc: "为步兵配备反坦克步枪，使其在不损失机动性的情况下摧毁轻装甲车辆。"
+
+  infantry_at2: "反坦克火箭发射器"
+  infantry_at2_desc: "使步兵能够更有效地对抗重型装甲目标。"
+
+  night_vision_improve: "改进型夜视设备"
+  night_vision_improve_desc: "早期红外瞄具最初用于狙击手，但随着便携性与视距提升，可供更多夜战部队使用。"
+
+  sp_land_night_vision: "夜视设备"
+  sp_land_night_vision_desc: "在夜间作战中先敌发现至关重要，红外技术使这一点成为可能。"
+
+ # Anti-tank
+  prewar_anti_tank: "战前反坦克装备"
+  prewar_anti_tank_short: "战前"
+  prewar_anti_tank_desc: "在大战前及大战期间开发的基础步兵反坦克装备。"
+
+  regular_anti_tank: "反坦克手榴弹"
+  regular_anti_tank_short: "手榴弹"
+  regular_anti_tank_desc: "适合近距离摧毁敌方装甲目标。"
+
+  improved_anti_tank: "反坦克步枪"
+  improved_anti_tank_short: "反坦克步枪"
+  improved_anti_tank_desc: "用于远距离攻击敌方装甲目标。"
+
+  advanced_anti_tank: "反坦克火箭发射器"
+  advanced_anti_tank_short: "火箭发射器"
+  advanced_anti_tank_desc: "使用火箭弹对远距离装甲目标造成更大杀伤。"
+
+ # Personal Protective
+  minimum_protective: "最低个人防护"
+  minimum_protective_short: "最低"
+  minimum_protective_desc: "仅包含标准步兵钢盔。"
+
+  pistol_protective: "轻型个人防护"
+  pistol_protective_short: "轻型"
+  pistol_protective_desc: "可防护手枪口径弹药的钢制护甲。"
+
+  saper_protective: "工兵个人防护"
+  saper_protective_short: "工兵"
+  saper_protective_desc: "可防护破片与手榴弹的重型钢制护甲。"
+
+ # Fire Support
+  prewar_attack_support: "战前进攻支援武装"
+  prewar_attack_support_short: "战前"
+  prewar_attack_support_desc: ""
+
+  regular_attack_support: "进攻支援武装 I"
+  regular_attack_support_short: "迫击炮 I"
+  regular_attack_support_desc: ""
+
+  improved_attack_support: "进攻支援武装 II"
+  improved_attack_support_short: "迫击炮 II"
+  improved_attack_support_desc: ""
+
+  advanced_attack_support: "进攻支援武装 III"
+  advanced_attack_support_short: "迫击炮 III"
+  advanced_attack_support_desc: ""
+
+  prewar_defence_support: "战前防御支援武装"
+  prewar_defence_support_short: "战前"
+  prewar_defence_support_desc: ""
+
+  regular_defence_support: "防御支援武装 I"
+  regular_defence_support_short: "机枪 I"
+  regular_defence_support_desc: ""
+
+  improved_defence_support: "防御支援武装 II"
+  improved_defence_support_short: "机枪 II"
+  improved_defence_support_desc: ""
+
+  advanced_defence_support: "防御支援武装 III"
+  advanced_defence_support_short: "机枪 III"
+  advanced_defence_support_desc: ""
+
+ # Special Modules
+  EQ_MOD_CAT_infantry_special_modules_TITLE: "附加装备"
+  bandaging_package: "急救包"
+  bandaging_package_desc: "允许士兵在战场上快速进行基础急救。"
+  sapper_shovels: "工兵铲"
+  sapper_shovels_desc: "可用于挖掘工事，也可作为近战武器。"
+  additional_grenades: "额外反坦克手榴弹"
+  additional_grenades_desc: "增加可摧毁的装甲目标数量。"
+  additional_ammo: "额外弹药"
+  additional_ammo_desc: "延长持续作战能力。"
+  binoculars: "望远镜"
+  binoculars_desc: "用于基础侦察。"
+  night_vision_device: "夜视装置"
+  night_vision_device_desc: "提升夜间作战能力。"
+  gun_grease: "枪械润滑油"
+  gun_grease_desc: "提高可靠性，降低故障率。"
+  molotov_cocktail: "燃烧瓶"
+  molotov_cocktail_desc: "用于点燃敌方阵地，压制防御。"
+  tripflare: "照明弹"
+  tripflare_desc: "用于照亮区域或发出信号。"
+
+  EQ_MOD_CAT_infantry_special_modules_extend_TITLE: "班组扩展"
+  sniper_support: "狙击手支援"
+  sniper_support_desc: "可在远距离消灭敌人。"
+  flame_support: "火焰喷射器支援"
+  flame_support_desc: "对敌方防御阵地极其有效。"
+
+# 其余国家与武器名称保持原文（历史型号名不翻译）
+```

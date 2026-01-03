@@ -1,0 +1,63 @@
+﻿l_simp_chinese:
+
+  train_equipment_1: "列车"
+
+  EQ_MOD_SLOT_locomotive_slot_TITLE: "机车"
+  EQ_MOD_CAT_locomotive_type_TITLE: "机车"
+
+  great_war_locomotive: "大战时期机车"
+  great_war_locomotive_desc: ""
+
+  wartime_locomotive: "战时机车"
+  wartime_locomotive_desc: ""
+
+  GER_great_war_locomotive: "Class 18.4-5"
+  GER_wartime_locomotive: "DRB 52 Class"
+  SOV_great_war_locomotive: "FD Class"
+  SOV_wartime_locomotive: "L Class"
+  USA_great_war_locomotive: "Pennsylvania I1s Class"
+  USA_wartime_locomotive: "USATC S160 Class"
+  JAP_great_war_locomotive: "JNR D50 Class"
+  JAP_wartime_locomotive: "JNR D52 Class"
+  ENG_great_war_locomotive: "LMS Class 8F"
+  ENG_wartime_locomotive: "WD Austerity 2-8-0"
+  FRA_great_war_locomotive: "141 B/C SNCF"
+  FRA_wartime_locomotive: "141 P SNCF"
+  ITA_great_war_locomotive: "FS Class 685"
+
+  EQ_MOD_SLOT_vagon1_slot_TITLE: "第一节车厢"
+  EQ_MOD_SLOT_vagon2_slot_TITLE: "第二节车厢"
+  EQ_MOD_SLOT_vagon3_slot_TITLE: "第三节车厢"
+  EQ_MOD_SLOT_vagon4_slot_TITLE: "第四节车厢"
+  EQ_MOD_SLOT_vagon5_slot_TITLE: "第五节车厢"
+
+  EQ_MOD_CAT_vagon_type_TITLE: "货运车厢"
+
+  standart_vagon: "民用货运车厢"
+  standart_vagon_desc: ""
+
+  armored_vagon: "装甲车厢"
+  armored_vagon_desc: ""
+
+  EQ_MOD_CAT_aa_vagon_type_TITLE: "防空车厢"
+
+  anti_air1_vagon: "防空车厢"
+  anti_air1_vagon_desc: ""
+
+  anti_air2_vagon: "改进型防空车厢"
+  anti_air2_vagon_desc: ""
+
+  anti_air3_vagon: "先进型防空车厢"
+  anti_air3_vagon_desc: ""
+
+  wartime_train: "战时简化型列车"
+  wartime_train_desc: "一种为降低生产成本而简化设计的列车，省略了常规货运列车上的许多功能。其防护能力与普通列车相同，但更容易被替换。"
+
+  GER_wartime_train: "DRB 52 Class"
+  SOV_wartime_train: "L Class"
+  USA_wartime_train: "USATC S160 Class"
+  JAP_wartime_train: "JNR D52 Class"
+  ENG_wartime_train: "WD Austerity 2-8-0"
+  FRA_wartime_train: "141 P SNCF"
+
+  armored_train_desc: "被重型装甲包覆的列车机车，可降低遭受敌方攻击时的脆弱性。其载货能力与普通列车相同，但生产成本更高。"
