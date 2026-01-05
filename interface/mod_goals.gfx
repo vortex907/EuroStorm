@@ -1,0 +1,78 @@
+spriteTypes = {
+
+  SpriteType = {
+  name = "GFX_focus_chi_tibet_question"
+  texturefile = "gfx/interface/goals/focus_chi_tibet_question.dds"
+  }
+
+  SpriteType = {
+  name = "GFX_focus_chi_manchu_question"
+  texturefile = "gfx/interface/goals/focus_chi_manchu_question.dds"
+  }
+
+  SpriteType = {
+  name = "GFX_focus_chi_korea_question"
+  texturefile = "gfx/interface/goals/focus_chi_korea_question.dds"
+  }
+
+  SpriteType = {
+  name = "GFX_focus_chi_mongolia_question"
+  texturefile = "gfx/interface/goals/focus_chi_mongolia_question.dds"
+  }
+
+  SpriteType = {
+  name = "GFX_focus_chi_silver_standard"
+  texturefile = "gfx/interface/goals/focus_chi_silver_standard.dds"
+  }
+
+  SpriteType = {
+  name = "GFX_focus_chi_abandon_silver_standard"
+  texturefile = "gfx/interface/goals/focus_chi_abandon_silver_standard.dds"
+  }
+
+  SpriteType = {
+  name = "GFX_focus_chi_beiyang"
+  texturefile = "gfx/interface/goals/focus_chi_beiyang.dds"
+  }
+
+  SpriteType = {
+  name = "GFX_focus_chi_showa"
+  texturefile = "gfx/interface/goals/focus_chi_showa.dds"
+  }
+
+  SpriteType = {
+  name = "GFX_focus_chi_china_first"
+  texturefile = "gfx/interface/goals/focus_chi_china_first.dds"
+  }
+
+  SpriteType = {
+  name = "GFX_focus_chi_japanese_ruler"
+  texturefile = "gfx/interface/goals/focus_chi_japanese_ruler.dds"
+  }
+
+  SpriteType = {
+  name = "GFX_focus_chi_bigger_china"
+  texturefile = "gfx/interface/goals/focus_chi_bigger_china.dds"
+  }
+
+  SpriteType = {
+  name = "GFX_focus_chi_sun_legacy"
+  texturefile = "gfx/interface/goals/focus_chi_sun_legacy.dds"
+  }
+
+  SpriteType = {
+  name = "GFX_focus_chi_judicial_yuan"
+  texturefile = "gfx/interface/goals/focus_chi_judicial_yuan.dds"
+  }
+
+  SpriteType = {
+  name = "GFX_focus_chi_control_yuan"
+  texturefile = "gfx/interface/goals/focus_chi_control_yuan.dds"
+  }
+
+  SpriteType = {
+  name = "GFX_focus_chi_new_executive_yuan"
+  texturefile = "gfx/interface/goals/focus_chi_new_executive_yuan.dds"
+  }
+
+}

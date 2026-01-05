@@ -1,0 +1,32 @@
+spriteTypes = { 
+	spriteType = {
+		name = "GFX_subscription_startup_button"
+		texturefile = "gfx/interface/sub/startup/subscription_startup_button.dds"
+	}
+	spriteType = {
+		name = "GFX_superevent_text_underlay"
+		textureFile = "gfx/interface/superevent_text_underlay.dds"
+	}
+
+ ### sep (super event pic) ###
+
+	spriteType = {
+		name = "GFX_super_event_pic_01"
+		textureFile = "gfx/event_pictures/sep/test_super_event_pic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_super_event_pic_02"
+		textureFile = "gfx/event_pictures/sep/super_event_pic_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_super_event_pic_03"
+		textureFile = "gfx/event_pictures/sep/super_event_pic_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_super_event_pic_04"
+		textureFile = "gfx/event_pictures/sep/super_event_pic_4.dds"
+	}
+}	

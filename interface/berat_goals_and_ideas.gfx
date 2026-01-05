@@ -1,0 +1,150 @@
+spriteTypes = {
+
+        SpriteType = {
+            name = "GFX_idea_mosley_investments"
+            texturefile = "gfx/interface/ideas/mosley_investments.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_idea_mosley_industrial_boom"
+            texturefile = "gfx/interface/ideas/mosley_industrial_boom.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_idea_mosley_economy_good"
+            texturefile = "gfx/interface/ideas/mosley_economy_good.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_idea_desert_economy"
+            texturefile = "gfx/interface/ideas/desert_economy.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_idea_prussian_autarky_1"
+            texturefile = "gfx/interface/ideas/prussian_autarky_1.dds"
+        }
+
+        SpriteType = {
+            name = "AST_general_coup"
+            texturefile = "gfx/interface/goals/ast_general_coup.dds"
+        }
+
+        SpriteType = {
+            name = "PRC_ignite_civil_war"
+            texturefile = "gfx/interface/goals/PRC_ignite_civil_war.dds"
+        }
+
+        SpriteType = {
+            name = "mao_cult"
+            texturefile = "gfx/interface/goals/mao_cult.dds"
+        }
+
+        SpriteType = {
+            name = "great_forward_plan"
+            texturefile = "gfx/interface/goals/great_forward_plan.dds"
+        }
+
+        SpriteType = {
+            name = "end_of_revolution"
+            texturefile = "gfx/interface/goals/end_of_revolution.dds"
+        }
+
+        SpriteType = {
+            name = "declaration_of_prc"
+            texturefile = "gfx/interface/goals/declaration_of_prc.dds"
+        }
+
+         SpriteType = {
+            name = "sino_japanese_war"
+            texturefile = "gfx/interface/goals/sino_japanese_war.dds"
+        }
+
+        SpriteType = {
+            name = "japanese_devils"
+            texturefile = "gfx/interface/goals/japanese_devils.dds"
+        }
+
+        SpriteType = {
+            name = "revive_of_economy"
+            texturefile = "gfx/interface/goals/revive_of_economy.dds"
+        }
+
+        SpriteType = {
+            name = "central_china"
+            texturefile = "gfx/interface/goals/china_center.dds"
+        }
+
+        SpriteType = {
+            name = "northeast_china"
+            texturefile = "gfx/interface/goals/china_northeast.dds"
+        }
+
+        SpriteType = {
+            name = "southeast_china"
+            texturefile = "gfx/interface/goals/china_south_east.dds"
+        }
+
+        SpriteType = {
+            name = "china_guangxi"
+            texturefile = "gfx/interface/goals/china_guanxi.dds"
+        }
+
+        SpriteType = {
+            name = "china_yunnan"
+            texturefile = "gfx/interface/goals/china_yunnan.dds"
+        }
+
+        SpriteType = {
+            name = "china_shanxi"
+            texturefile = "gfx/interface/goals/china_shanxi.dds"
+        }
+
+        SpriteType = {
+            name = "long_night_in_london"
+            texturefile = "gfx/interface/goals/long_night_in_london.dds"
+        }
+
+        SpriteType = {
+            name = "mosley_economic_boom"
+            texturefile = "gfx/interface/goals/mosley_economic_boom.dds"
+        }
+
+        SpriteType = {
+            name = "mosley_army"
+            texturefile = "gfx/interface/goals/mosley_army.dds"
+        }
+
+        SpriteType = {
+            name = "mosley_is_watching_you"
+            texturefile = "gfx/interface/goals/mosley_is_watching_you.dds"
+        }
+
+        SpriteType = {
+            name = "chemical_warfare"
+            texturefile = "gfx/interface/goals/chemical_warfare.dds"
+        }
+
+        SpriteType = {
+            name = "mosleys_cult"
+            texturefile = "gfx/interface/goals/mosleys_cult.dds"
+        }
+
+        SpriteType = {
+            name = "china_xibei"
+            texturefile = "gfx/interface/goals/china_xibei.dds"
+        }
+
+         SpriteType = {
+            name = "prussia_legacy_of_the_civil_war"
+            texturefile = "gfx/interface/goals/berat/prussia_legacy_of_the_civil_war.dds"
+        }
+
+        SpriteType = {
+            name = "prussia_resource_crisis"
+            texturefile = "gfx/interface/goals/berat/prussia_resource_crisis.dds"
+        }
+
+        
+}
+

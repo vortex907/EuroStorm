@@ -1,0 +1,142 @@
+spriteTypes = { 
+	SpriteType = { 
+		name = "ROMEV_legionary_win"
+		texturefile = "gfx/events/event/ROMEV_legionary_win.dds"
+	}
+	SpriteType = { 
+		name = "ROMEV_monarchists_win"
+		texturefile = "gfx/events/event/ROMEV_monarchists_win.dds"
+	}
+	SpriteType = { 
+		name = "ROMEV_goga_win"
+		texturefile = "gfx/events/event/ROMEV_goga_win.dds"
+	}
+	SpriteType = { 
+		name = "ROMEV_coalition_win"
+		texturefile = "gfx/events/event/ROMEV_coalition_win.dds"
+	}
+	SpriteType = { 
+		name = "ROMEV_reclaim_basarabia"
+		texturefile = "gfx/events/event/ROMEV_reclaim_basarabia.dds"
+	}
+	SpriteType = { 
+		name = "ROMEV_mihai_coup"
+		texturefile = "gfx/events/event/ROMEV_mihai_coup.dds"
+	}
+	SpriteType = { 
+		name = "ROMEV_statul_legionar"
+		texturefile = "gfx/events/event/ROMEV_statul_legionar.dds"
+	}
+	SpriteType = { 
+		name = "ROMEV_antonescu_to_power"
+		texturefile = "gfx/events/event/ROMEV_antonescu_to_power.dds"
+	}
+	##Icon For: sending
+	SpriteType = { 
+		name = "ROMEV_sending-1002"
+		texturefile = "gfx/events/event/ROMEV_sending-1002.dds"
+	}
+
+	##Icon For: pol_alliance
+	SpriteType = { 
+		name = "ROMEV_pol_alliance-627"
+		texturefile = "gfx/events/event/ROMEV_pol_alliance-627.dds"
+	}
+
+	##Icon For: ger_alliance
+	SpriteType = { 
+		name = "ROMEV_ger_alliance-567"
+		texturefile = "gfx/events/event/ROMEV_ger_alliance-825.dds"
+	}
+
+	##Icon For: tur_alliance
+	SpriteType = { 
+		name = "ROMEV_tur_alliance-621"
+		texturefile = "gfx/events/event/ROMEV_tur_alliance-1010.dds"
+	}
+
+	##Icon For: civil_war_2
+	SpriteType = { 
+		name = "ROMEV_civil_war_2-529"
+		texturefile = "gfx/events/event/ROMEV_civil_war_2-529.dds"
+	}
+
+	##Icon For: civil_war_1
+	SpriteType = { 
+		name = "ROMEV_civil_war_1-572"
+		texturefile = "gfx/events/event/ROMEV_civil_war_1-572.dds"
+	}
+	##Icon For: protest
+	SpriteType = { 
+		name = "ROMEV_protest-700"
+		texturefile = "gfx/events/event/ROMEV_protest-700.dds"
+	}
+
+	##Icon For: rally
+	SpriteType = { 
+		name = "ROMEV_rally-791"
+		texturefile = "gfx/events/event/ROMEV_rally-791.dds"
+	}
+
+	##Icon For: arest
+	SpriteType = { 
+		name = "ROMEV_arest-698"
+		texturefile = "gfx/events/event/ROMEV_arest-698.dds"
+	}
+
+	##Icon For: compliance
+	SpriteType = { 
+		name = "ROMEV_compliance-825"
+		texturefile = "gfx/events/event/ROMEV_compliance-825.dds"
+	}
+
+	##Icon For: siphon
+	SpriteType = { 
+		name = "ROMEV_siphon-923"
+		texturefile = "gfx/events/event/ROMEV_siphon-923.dds"
+	}
+
+	##Icon For: party
+	SpriteType = { 
+		name = "ROMEV_party-717"
+		texturefile = "gfx/events/event/ROMEV_party-717.dds"
+	}
+
+	##Icon For: tax
+	SpriteType = { 
+		name = "ROMEV_tax-716"
+		texturefile = "gfx/events/event/ROMEV_tax-716.dds"
+	}
+
+	##Icon For: duties
+	SpriteType = { 
+		name = "ROMEV_duties-924"
+		texturefile = "gfx/events/event/ROMEV_duties-924.dds"
+	}
+
+	##Icon For: Funerals of Mota and Marin
+	SpriteType = { 
+		name = "ROMEV_funerals_of_mota_and_marin-308001"
+		texturefile = "gfx/events/event/ROMEV_mota_marin.dds"
+	}
+
+	##Icon For: The [GetYear] Constitution of Romania
+	SpriteType = { 
+		name = "ROMEV_the_getyear_constitution_of_romania-317161"
+		texturefile = "gfx/events/event/ROMEV_1938_const.dds"
+	}
+
+	##Icon For: The Execution of Codreanu
+	SpriteType = { 
+		name = "ROMEV_the_execution_of_codreanu-308003"
+		texturefile = "gfx/events/event/ROMEV_codreanu_dead.dds"
+	}
+
+	##Icon For: Decemvirii
+	SpriteType = { 
+		name = "ROMEV_decemvirii-320860"
+		texturefile = "gfx/events/event/ROMEV_decemvirii.dds"
+	}
+
+ 
+ }

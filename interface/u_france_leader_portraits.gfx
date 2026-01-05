@@ -1,0 +1,30 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_FRA_juan_bourbon"
+		texturefile = "gfx/leaders/FRA/portrait_juan_bourbon.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_ufra_exodus"
+		textureFile = "gfx/interface/state_modifiers/modifiers_ufra_exodus.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_ufra_afria_conscription"
+		textureFile = "gfx/interface/state_modifiers/modifiers_ufra_afria_conscription.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_ufra_cinema"
+		textureFile = "gfx/interface/state_modifiers/modifiers_ufra_cinema.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_ufra_abandoned"
+		textureFile = "gfx/interface/state_modifiers/modifiers_ufra_abandoned.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_ufra_exodus_panic"
+		textureFile = "gfx/interface/state_modifiers/modifiers_ufra_exodus_panic.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_Charles_Maurras2"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Charles_Maurras2.dds"
+	}	
+} 

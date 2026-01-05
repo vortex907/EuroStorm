@@ -1,0 +1,267 @@
+@FACTION_TEXT_X = 55
+@LOYALTY_TEXT_X = 240
+@POPULARITY_TEXT_X = 380
+@FACTION_ICONS_X = 10
+@FACTION_NAMES_X = 55
+@HEADERS_Y = 0
+guiTypes = {
+
+	containerWindowType = {
+		name = "romid_internal_factions_decision_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 255 }
+
+		#ICONS
+		iconType = {
+			name ="army_icon"
+			spriteType = "GFX_decision_romid_army_faction"
+			position = { x = @FACTION_ICONS_X y = 30 }
+		}
+
+		instantTextBoxType = {
+			name ="army_name_text"
+			position = { x = @FACTION_NAMES_X y = 40 }
+			font = "hoi_18mbs"
+			text = "ROMID_army_name_text"
+			format = left
+			maxHeight = 24
+		}
+
+		#Tooltip
+		instantTextBoxType = {
+			name ="army_tooltip_fake"
+			position = { x = @FACTION_ICONS_X y = 30 }
+			maxwidth = 230
+			maxHeight = 38
+			pdx_tooltip = ROMID_ARMY_TOOLTIP
+		}
+
+		iconType = {
+			name ="royalists_icon"
+			spriteType = "GFX_decision_romid_royalists_faction"
+			position = { x = @FACTION_ICONS_X y = 75 }
+		}
+
+		instantTextBoxType = {
+			name ="royalists_name_text"
+			position = { x = @FACTION_NAMES_X y = 85 }
+			font = "hoi_18mbs"
+			text = "ROMID_royalists_name_text"
+			format = left
+			maxHeight = 24
+		}
+
+		#Tooltip
+		instantTextBoxType = {
+			name ="royalists_tooltip_fake"
+			position = { x = @FACTION_ICONS_X y = 75 }
+			maxwidth = 230
+			maxHeight = 38
+			pdx_tooltip = ROMID_ROYALISTS_TOOLTIP
+		}
+
+		iconType = {
+			name ="iron_guard_icon"
+			spriteType = "GFX_decision_romid_iron_guard_faction"
+			position = { x = @FACTION_ICONS_X y = 120 }
+		}
+
+		instantTextBoxType = {
+			name ="iron_guard_name_text"
+			position = { x = @FACTION_NAMES_X y = 130 }
+			font = "hoi_18mbs"
+			text = "ROMID_iron_guard_name_text"
+			format = left
+			maxHeight = 24
+		}
+
+		#Tooltip
+		instantTextBoxType = {
+			name ="iron_guard_tooltip_fake"
+			position = { x = @FACTION_ICONS_X y = 120 }
+			maxwidth = 230
+			maxHeight = 38
+			pdx_tooltip = ROMID_IRON_GUARD_TOOLTIP
+		}
+
+		iconType = {
+			name ="lancieri_icon"
+			spriteType = "GFX_decision_romid_lancieri_faction"
+			position = { x = @FACTION_ICONS_X y = 165 }
+		}
+
+		instantTextBoxType = {
+			name ="lancieri_name_text"
+			position = { x = @FACTION_NAMES_X y = 175 }
+			font = "hoi_18mbs"
+			text = "ROMID_lancieri_name_text"
+			format = left
+			maxHeight = 24
+		}
+
+		#Tooltip
+		instantTextBoxType = {
+			name ="lancieri_tooltip_fake"
+			position = { x = @FACTION_ICONS_X y = 165 }
+			maxwidth = 230
+			maxHeight = 38
+			pdx_tooltip = ROMID_LANCIERI_TOOLTIP
+		}
+
+		iconType = {
+			name ="socialists_icon"
+			spriteType = "GFX_decision_romid_socialists_faction"
+			position = { x = @FACTION_ICONS_X y = 210 }
+		}
+
+		instantTextBoxType = {
+			name ="socialists_name_text"
+			position = { x = @FACTION_NAMES_X y = 220 }
+			font = "hoi_18mbs"
+			text = "ROMID_socialists_name_text"
+			format = left
+			maxHeight = 24
+		}
+
+		#Tooltip
+		instantTextBoxType = {
+			name ="socialists_tooltip_fake"
+			position = { x = @FACTION_ICONS_X y = 210 }
+			maxwidth = 230
+			maxHeight = 38
+			pdx_tooltip = ROMID_SOCIALISTS_TOOLTIP
+		}
+
+		#LOYALTY
+		instantTextBoxType = {
+			name ="loyalty_header"
+			position = { x = @LOYALTY_TEXT_X y = @HEADERS_Y }
+			font = "hoi_18mbs"
+			text = "ROMID_ui_loyalty_header"
+			format = center
+			maxHeight = 24
+			maxwidth = 110
+		}
+
+		instantTextBoxType = {
+			name ="ROMID_army_loyalty_status"
+			position = { x = @LOYALTY_TEXT_X y = 40 }
+			font = "hoi_18mbs"
+			text = "ROMID_army_loyalty_status"
+			format = center
+			maxwidth = 110
+		}
+
+		instantTextBoxType = {
+			name ="ROMID_royalists_loyalty_status"
+			position = { x = @LOYALTY_TEXT_X y = 85 }
+			font = "hoi_18mbs"
+			text = "ROMID_royalists_loyalty_status"
+			format = center
+			maxwidth = 110
+		}
+
+		instantTextBoxType = {
+			name ="ROMID_iron_guard_loyalty_status"
+			position = { x = @LOYALTY_TEXT_X y = 130 }
+			font = "hoi_18mbs"
+			text = "ROMID_iron_guard_loyalty_status"
+			format = center
+			maxwidth = 110
+		}
+
+		instantTextBoxType = {
+			name ="ROMID_lancieri_loyalty_status"
+			position = { x = @LOYALTY_TEXT_X y = 175 }
+			font = "hoi_18mbs"
+			text = "ROMID_lancieri_loyalty_status"
+			format = center
+			maxwidth = 110
+		}
+		
+		instantTextBoxType = {
+			name ="ROMID_socialists_loyalty_status"
+			position = { x = @LOYALTY_TEXT_X y = 220 }
+			font = "hoi_18mbs"
+			text = "ROMID_socialists_loyalty_status"
+			format = center
+			maxwidth = 110
+		}
+
+		#Tooltip
+		instantTextBoxType = {
+			name ="loyalty_tooltip_fake"
+			position = { x = @LOYALTY_TEXT_X y = @HEADERS_Y }
+			format = center
+			maxwidth = 110
+			maxHeight = 205
+			pdx_tooltip = ROMID_LOYALTY_TOOLTIP
+		}
+
+		#POPULARITY
+		instantTextBoxType = {
+			name ="popularity_header"
+			position = { x = @POPULARITY_TEXT_X y = @HEADERS_Y }
+			font = "hoi_18mbs"
+			text = "ROMID_ui_popularity_header"
+			format = center
+			maxHeight = 24
+			maxwidth = 120
+		}
+
+		instantTextBoxType = {
+			name ="ROMID_army_popularity_status"
+			position = { x = @POPULARITY_TEXT_X y = 40 }
+			font = "hoi_18mbs"
+			text = "ROMID_army_popularity_status"
+			format = center
+			maxwidth = 120
+		}
+
+		instantTextBoxType = {
+			name ="ROMID_royalists_popularity_status"
+			position = { x = @POPULARITY_TEXT_X y = 85 }
+			font = "hoi_18mbs"
+			text = "ROMID_royalists_popularity_status"
+			format = center
+			maxwidth = 120
+		}
+
+		instantTextBoxType = {
+			name ="ROMID_iron_guard_popularity_status"
+			position = { x = @POPULARITY_TEXT_X y = 130 }
+			font = "hoi_18mbs"
+			text = "ROMID_iron_guard_popularity_status"
+			format = center
+			maxwidth = 120
+		}
+
+		instantTextBoxType = {
+			name ="ROMID_lancieri_popularity_status"
+			position = { x = @POPULARITY_TEXT_X y = 175 }
+			font = "hoi_18mbs"
+			text = "ROMID_lancieri_popularity_status"
+			format = center
+			maxwidth = 120
+		}
+		
+		instantTextBoxType = {
+			name ="ROMID_socialists_popularity_status"
+			position = { x = @POPULARITY_TEXT_X y = 220 }
+			font = "hoi_18mbs"
+			text = "ROMID_socialists_popularity_status"
+			format = center
+			maxwidth = 120
+		}
+
+		#Tooltip
+		instantTextBoxType = {
+			name ="popularity_tooltip_fake"
+			position = { x = @POPULARITY_TEXT_X y = @HEADERS_Y }
+			format = center
+			maxwidth = 110
+			maxHeight = 205
+			pdx_tooltip = ROMID_POPULARITY_TOOLTIP
+		}
+	}
+}

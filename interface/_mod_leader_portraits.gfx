@@ -1,0 +1,34 @@
+spriteTypes = {
+
+	### MOD!!!
+	spriteType = {
+		name = "GFX_portrait_chiang_kai_shek"
+		texturefile = "gfx/leaders/CHI/Portrait_China_Chiang_Kai_Shek.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_chan_chak"
+		texturefile = "gfx/leaders/CHI/Portrait_China_Chan_Chak.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_chen_shaokuan"
+		texturefile = "gfx/leaders/CHI/Portrait_China_Chen_Shaokuan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_zhang_xueliang"
+		texturefile = "gfx/leaders/CHI/portrait_chi_zhang_xueliang.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_wang_jingwei"
+		texturefile = "gfx/leaders/CHI/portrait_chi_wang_jingwei.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_he_yingqin"
+		texturefile = "gfx/leaders/CHI/portrait_chi_he_yingqin.dds"
+	}
+
+}

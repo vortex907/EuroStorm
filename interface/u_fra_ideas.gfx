@@ -1,0 +1,86 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_csf"
+		texturefile = "gfx/interface/ideas/idea_csf.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_cfp"
+		texturefile = "gfx/interface/ideas/idea_cfp.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_smn"
+		texturefile = "gfx/interface/ideas/idea_smn.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_sncf"
+		texturefile = "gfx/interface/ideas/idea_sncf.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_phillipe_petain"
+		texturefile = "gfx/interface/ideas/idea_phillipe_petain.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jacques_doriot"
+		texturefile = "gfx/interface/ideas/idea_jacques_doriot.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_neapoleon_idea"
+		texturefile = "gfx/interface/ideas/neapoleon_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_victoryisours_idea"
+		texturefile = "gfx/interface/ideas/victoryisours_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_grande_armee_idea"
+		texturefile = "gfx/interface/ideas/grande_armee_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_robert_brasillach"
+		texturefile = "gfx/interface/ideas/idea_robert_brasillach.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_joseph_darnan"
+		texturefile = "gfx/interface/ideas/idea_joseph_darnan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_alexandre_kojeve"
+		texturefile = "gfx/interface/ideas/idea_alexandre_kojeve.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nuclear_agreement_fra"
+		texturefile = "gfx/interface/ideas/nuclear_agreement_fra.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fra_lack_nuclear_moderator"
+		texturefile = "gfx/interface/ideas/fra_lack_nuclear_moderator.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_apcr_fra"
+		texturefile = "gfx/interface/ideas/apcr_fra.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_matra_fra"
+		texturefile = "gfx/interface/ideas/matra_fra.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jean_mermoz"
+		texturefile = "gfx/interface/ideas/idea_jean_mermoz.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_UFRA_14_july"
+		texturefile = "gfx/interface/ideas/UFRA_14_july.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_UFRA_corp_expi_fra_ita"
+		texturefile = "gfx/interface/ideas/UFRA_corp_expi_fra_ita.dds"
+	}
+	spriteType = {
+		name = "GFX_bop_UFRA_Giraud"
+		texturefile = "gfx/interface/bop/bop_UFRA_Giraud.dds"
+	}
+	spriteType = {
+		name = "GFX_bop_UFRA_Gaulle"
+		texturefile = "gfx/interface/bop/bop_UFRA_Gaulle.dds"
+	}
+}

@@ -1,0 +1,135 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_news_univ_expo_paris"
+		texturefile = "gfx/event_pictures/fra_news_event_1.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_1st_may"
+		texturefile = "gfx/event_pictures/FRA_1st_may.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_6_fevrier_celeb"
+		texturefile = "gfx/event_pictures/FRA_6_fevrier_celeb.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_14_juillet"
+		texturefile = "gfx/event_pictures/FRA_14_juillet.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_af_hostile_to_frontpop"
+		texturefile = "gfx/event_pictures/FRA_af_hostile_to_frontpop.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_liberty_front_doriot"
+		texturefile = "gfx/event_pictures/FRA_liberty_front_doriot.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_af_intro"
+		texturefile = "gfx/event_pictures/FRA_af_intro.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_anniversay_psf"
+		texturefile = "gfx/event_pictures/FRA_anniversay_psf.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_blum_aggression"
+		texturefile = "gfx/event_pictures/FRA_blum_aggression.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_cdf_victory"
+		texturefile = "gfx/event_pictures/FRA_cdf_victory.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_clichy_shooting"
+		texturefile = "gfx/event_pictures/FRA_clichy_shooting.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_la_cagoule_violence"
+		texturefile = "gfx/event_pictures/FRA_la_cagoule_violence.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_larocque_minister"
+		texturefile = "gfx/event_pictures/FRA_larocque_minister.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_colonial1"
+		texturefile = "gfx/event_pictures/FRA_colonial1.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_colonial2"
+		texturefile = "gfx/event_pictures/FRA_colonial2.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_colonial3"
+		texturefile = "gfx/event_pictures/FRA_colonial3.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_colonial4"
+		texturefile = "gfx/event_pictures/FRA_colonial4.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_communists_intro"
+		texturefile = "gfx/event_pictures/FRA_communists_intro.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_communists_rally"
+		texturefile = "gfx/event_pictures/FRA_communists_rally.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_daladier_soclib_adress"
+		texturefile = "gfx/event_pictures/FRA_daladier_soclib_adress.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_industrial_hostile"
+		texturefile = "gfx/event_pictures/FRA_industrial_hostile.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_doriot_july_1936"
+		texturefile = "gfx/event_pictures/FRA_doriot_july_1936.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_front_populaire_victory"
+		texturefile = "gfx/event_pictures/FRA_front_populaire_victory.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_greves_joyeuses"
+		texturefile = "gfx/event_pictures/FRA_greves_joyeuses.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_indochine_1"
+		texturefile = "gfx/event_pictures/FRA_indochine_1.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_popular_front_intro"
+		texturefile = "gfx/event_pictures/FRA_popular_front_intro.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_radicals_seek_power"
+		texturefile = "gfx/event_pictures/FRA_radicals_seek_power.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_the_leagues" 
+		texturefile = "gfx/event_pictures/FRA_the_leagues.dds"
+	}
+	spriteType = {
+		name = "GFX_news_FRA_saint_exupery_plane"
+		texturefile = "gfx/event_pictures/FRA_saint_exupery_plane.dds" 
+	}
+	spriteType = {
+		name = "GFX_news_FRA_croix_du_sud"
+		texturefile = "gfx/event_pictures/FRA_croix_du_sud.dds"  
+	}
+	spriteType = {
+		name = "GFX_news_FRA_paris_damas_race"
+		texturefile = "gfx/event_pictures/FRA_paris_damas_race.dds"  
+	}
+	spriteType = {
+		name = "GFX_news_FRA_important_death"
+		texturefile = "gfx/event_pictures/FRA_important_death.dds"  
+	}
+	spriteType = {
+		name = "GFX_news_FRA_exode"
+		texturefile = "gfx/event_pictures/FRA_exodes.dds"  
+	}
+}

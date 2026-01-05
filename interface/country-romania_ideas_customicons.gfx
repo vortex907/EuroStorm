@@ -1,0 +1,435 @@
+spriteTypes = {
+	spriteType = { 
+     		name = "GFX_unit_greenshirt_legionary_icon_medium"				
+     		textureFile = "gfx/interface/counters/divisions_large/greenshirt_legionary_icon.dds"  ## Thats the paradox shape, but you can use any path and file naming you want
+     		noOfFrames = 2
+   	}
+
+   	spriteType = { 
+     		name = "GFX_unit_greenshirt_legionary_icon_medium_white" # Do not omit "medium"						
+     		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_greenshirt_legionary_icon.dds" 
+     		noOfFrames = 2
+   	}
+
+   	spriteType = {
+     		name = "GFX_unit_greenshirt_legionary_icon_small"
+     		texturefile = "gfx/texticons/unit_greenshirt_legionary_icon_small.dds"
+     		legacy_lazy_load = no
+     		noOfFrames = 2		
+   	}
+ 
+	spriteType = { 
+     		name = "GFX_unit_greenshirt_death_squad_icon_medium"				
+     		textureFile = "gfx/interface/counters/divisions_large/greenshirt_death_squad_icon.dds"  ## Thats the paradox shape, but you can use any path and file naming you want
+     		noOfFrames = 2
+   	}
+
+   	spriteType = { 
+     		name = "GFX_unit_greenshirt_death_squad_icon_medium_white" # Do not omit "medium"						
+     		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_greenshirt_death_squad_icon.dds" 
+     		noOfFrames = 2
+   	}
+
+   	spriteType = {
+     		name = "GFX_unit_greenshirt_death_squad_icon_small"
+     		texturefile = "gfx/texticons/unit_greenshirt_death_squad_icon_small.dds"
+     		legacy_lazy_load = no
+     		noOfFrames = 2		
+   	}
+
+	#GENERAL TRAITS START
+	spriteType = {
+    		name = "GFX_trait_legionary_loyalties"
+    		texturefile = "gfx/interface/traits/ROMID_iron_guard_symp.dds"
+	}
+	spriteType = {
+    		name = "GFX_trait_pnc_loyalties"
+    		texturefile = "gfx/interface/traits/ROMID_lancieri_symp.dds"
+	}
+	#GENERAL TRAITS END
+
+	#STATE MODIFIERS START
+	SpriteType = { 
+		name = "GFX_modifiers_transnistria"
+		texturefile = "gfx/interface/state_modifiers/transnistria.dds"
+	}
+	SpriteType = { 
+		name = "GFX_modifiers_odessa"
+		texturefile = "gfx/interface/state_modifiers/odessa.dds"
+	}
+	SpriteType = { 
+		name = "GFX_modifiers_iron_guard_supporters"
+		texturefile = "gfx/interface/state_modifiers/iron_guard_support.dds"
+	}
+	SpriteType = { 
+		name = "GFX_modifiers_lancieri_supports"
+		texturefile = "gfx/interface/state_modifiers/lancieri_support.dds"
+	}
+	SpriteType = { 
+		name = "GFX_modifiers_transylvania_minorities"
+		texturefile = "gfx/interface/state_modifiers/transylvania_minorities.dds"
+	}
+	SpriteType = { 
+		name = "GFX_modifiers_protest"
+		texturefile = "gfx/interface/state_modifiers/protest.dds"
+	}
+	SpriteType = { 
+		name = "GFX_modifiers_clashes"
+		texturefile = "gfx/interface/state_modifiers/clashes.dds"
+	}
+	#STATE MODIFIERS END
+
+	#TEXTICONS START
+	SpriteType = { 
+		name = "GFX_romid_army_faction_icon"
+		texturefile = "gfx/texticons/romid_army_faction.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = { 
+		name = "GFX_romid_royalists_faction_icon"
+		texturefile = "gfx/texticons/romid_royalists_faction.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = { 
+		name = "GFX_romid_iron_guard_faction_icon"
+		texturefile = "gfx/texticons/romid_iron_guard_faction.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = { 
+		name = "GFX_romid_lancieri_faction_icon"
+		texturefile = "gfx/texticons/romid_lancieri_faction.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = { 
+		name = "GFX_romid_socialists_faction_icon"
+		texturefile = "gfx/texticons/romid_socialists_faction.dds"
+		legacy_lazy_load = no
+	}
+
+	#TEXTICONS END
+
+	#DECISIONS START
+	SpriteType = { 
+		name = "GFX_decision_romid_army_faction"
+		texturefile = "gfx/interface/decisions/army_faction.dds"
+	}
+	SpriteType = { 
+		name = "GFX_decision_romid_royalists_faction"
+		texturefile = "gfx/interface/decisions/royalists_faction.dds"
+	}
+	SpriteType = { 
+		name = "GFX_decision_romid_iron_guard_faction"
+		texturefile = "gfx/interface/decisions/iron_guard_faction.dds"
+	}
+	SpriteType = { 
+		name = "GFX_decision_romid_lancieri_faction"
+		texturefile = "gfx/interface/decisions/lancieri_faction.dds"
+	}
+	SpriteType = { 
+		name = "GFX_decision_romid_socialists_faction"
+		texturefile = "gfx/interface/decisions/socialists_faction.dds"
+	}
+	#DECISIONS END	
+
+	#DESIGNERS ICONS START
+	SpriteType = { 
+		name = "GFX_idea_academia"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_academia.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_arsenalul"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_arsenalul.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_astra"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_astra.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_basarab"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_basarab.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_directia"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_directia.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_concordia"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_concordia.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_sPkHnQgv-305307"
+		texturefile = "gfx/interface/ideas/ROM/sPkHnQgv-305307.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_YRrzQCOK-305170"
+		texturefile = "gfx/interface/ideas/ROM/YRrzQCOK-305170.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_LVjuenkA-1481"
+		texturefile = "gfx/interface/ideas/ROM/LVjuenkA-1481.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_aARmQiXh-1482"
+		texturefile = "gfx/interface/ideas/ROM/aARmQiXh-1482.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_xQoTnEID-1483"
+		texturefile = "gfx/interface/ideas/ROM/xQoTnEID-1483.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_iAoJRyOT-305301"
+		texturefile = "gfx/interface/ideas/ROM/iAoJRyOT-305301.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_zcYZGdLw-305303"
+		texturefile = "gfx/interface/ideas/ROM/zcYZGdLw-305303.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_fEteHRpZ-305305"
+		texturefile = "gfx/interface/ideas/ROM/fEteHRpZ-305305.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_wgTSbAam-1380"
+		texturefile = "gfx/interface/ideas/ROM/wgTSbAam-1380.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_YRrzQCOK-305170"
+		texturefile = "gfx/interface/ideas/ROM/YRrzQCOK-305170.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_UobFIwgf-304981"
+		texturefile = "gfx/interface/ideas/ROM/UobFIwgf-304981.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_qeOzKXks-305742"
+		texturefile = "gfx/interface/ideas/ROM/qeOzKXks-305742.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_kOcPwmVv-1882"
+		texturefile = "gfx/interface/ideas/ROM/kOcPwmVv-1882.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ShwFELNB-305300"
+		texturefile = "gfx/interface/ideas/ROM/ShwFELNB-305300.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_lZoPwYnz-1467"
+		texturefile = "gfx/interface/ideas/ROM/lZoPwYnz-1467.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_fOlJjWIP-305750"
+		texturefile = "gfx/interface/ideas/ROM/fOlJjWIP-305750.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_eVafsKXF-1449"
+		texturefile = "gfx/interface/ideas/ROM/eVafsKXF-1449.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_lTVCARvo-1468"
+		texturefile = "gfx/interface/ideas/ROM/lTVCARvo-1468.dds"
+	}
+	#DESIGNERS ICONS END
+
+	#NATIONAL IDEAS START
+	SpriteType = { 
+		name = "GFX_idea_ROMID_idea_army_training"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_idea_army_training.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_union-312079"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_union-312079.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_cuiburi-1078"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_cuiburi-1078.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_iron_guard_propaganda-122106"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_iron_guard_propaganda-122106.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_carol_emptied_accounts-1878"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_carol_emptied_accounts-1878.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_other_parties_banned-1089"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_other_parties_banned-1089.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_occupying_ukraine-1130"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_occupying_ukraine-1130.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_religious_propaganda-122549"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_religious_propaganda-122549.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_orthodox_state-2087"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_orthodox_state-2087.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_antirussian_propaganda-2124"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_antirussian_propaganda-2124.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_prison_system-1506"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_prison_system-1506.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_munca_tineretului_romn-1129"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_munca_tineretului_romn-1129.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_the_fragile_deal-1442"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_the_fragile_deal-1442.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_lancieri-324294"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_lancieri-324294.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_socialists_fact"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_socialists_fact.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_corpul_muncitorilor_legionari-1090"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_corpul_muncitorilor_legionari-1090.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_german_military_adivsors-1098"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_german_military_adivsors-1098.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_operation_munchen-1045"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_operation_munchen-1045.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_purging_fascists_everywhere-1531"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_purging_fascists_everywhere-1531.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_royal_police-1535"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_royal_police-1535.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_fortify_the_country-1465"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_fortify_the_country-1465.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_figurehead_king_michael_i-1884"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_figurehead_king_michael_i-1884.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_mobilization_effort-1063"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_mobilization_effort-1063.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_germanromanian_economic_treaty-1442"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_germanromanian_economic_treaty-1442.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_straja_trii-1887"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_straja_trii-1887.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_straja_trii_2-1886"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_straja_trii_2-1886.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_echipa_mortii-320580"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_echipa_mortii-320580.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_funding_malaxa_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_funding_malaxa_icon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_carol_ii_hedonist"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_carol_ii_hedonist.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_iron_guard"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_iron_guard.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_backward_industry"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_backward_industry.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_drawbacks"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_drawbacks.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_agrarian_soldiers_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_agrarian_soldiers_icon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_modernized_farming_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_modernized_farming_icon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_urbanization_program_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_urbanization_program_icon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_agrarian_reform_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_agrarian_reform_icon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_artillery_contracts_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_artillery_contracts_icon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_elite_army_1_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_elite_army_1_icon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_elite_army_2_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_elite_army_2_icon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_funding_malaxa_1_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_funding_malaxa_1_icon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_investing_in_iar_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_investing_in_iar_icon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_license_expertise_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_license_expertise_icon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_licensing_arms_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_licensing_arms_icon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_licensing_planes_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_licensing_planes_icon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_mass_army_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_mass_army_icon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_military_restructuring_program_1_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_military_restructuring_program_1_icon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_military_restructuring_program_2_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_military_restructuring_program_2_icon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_military_restructuring_program_3_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_military_restructuring_program_3_icon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_the_ruined_army_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_the_ruined_army_icon.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ROMID_vantorii_de_munte_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROMID_vantorii_de_munte_icon.dds"
+	}
+	#NATIONAL IDEAS END
+ }
