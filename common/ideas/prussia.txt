@@ -70,7 +70,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = xxx
+			picture = GFX_idea_generic_trade
 			modifier = {
 				political_power_cost = 0.25
 				trade_laws_cost_factor = -0.75

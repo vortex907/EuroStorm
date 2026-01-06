@@ -12,17 +12,17 @@ units= {
 			name = "Battleships, Battle Force"
 			location = 1562 # San Diego
 			### Battleship Division 1 ###			
-			ship = { name = "USS Nevada" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }				
+			ship = { name = "USS Nevada" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Nevada Class" } } }				
 			ship = { name = "USS Arizona" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }				
 			ship = { name = "USS Pennsylvania" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }				
 			### Battleship Division 2 ###			
-			ship = { name = "USS Oklahoma" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }				
-			ship = { name = "USS Tennessee" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }				
-			ship = { name = "USS California" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }				
+			ship = { name = "USS Oklahoma" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Nevada Class" } } }				
+			ship = { name = "USS Tennessee" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Tennessee Class" } } }				
+			ship = { name = "USS California" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Tennessee Class" } } }				
 			### Battleship Division 3 ###			
-			ship = { name = "USS New Mexico" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }				
-			ship = { name = "USS Mississippi" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }				
-			ship = { name = "USS Idaho" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Class" } } }				
+			ship = { name = "USS New Mexico" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New Mexico Class" } } }				
+			ship = { name = "USS Mississippi" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New Mexico Class" } } }				
+			ship = { name = "USS Idaho" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New Mexico Class" } } }				
 			### Battleship Division 4 ###			
 			ship = { name = "USS Colorado" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Colorado Class" } } }				
 			ship = { name = "USS West Virginia" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Colorado Class" } } }				
@@ -52,10 +52,10 @@ units= {
 			ship = { name = "USS New Orleans" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }				
 			ship = { name = "USS Astoria" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }				
 			ship = { name = "USS Minneapolis" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }				
-			ship = { name = "USS Indianapolis" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Portland Class" } } }				
+			ship = { name = "USS Indianapolis" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }				
 		}					
 		task_force = {					
-			name = "Cruiser Division 3"				
+			name = "Cruiser Division 3"		
 			location = 1562 # San Diego
 			ship = { name = "USS Trenton" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Omaha Class" } } }				
 			ship = { name = "USS Concord" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Omaha Class" } } }				
@@ -141,7 +141,7 @@ units= {
 			ship = { name = "USS Barney" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }		
 			ship = { name = "USS Blakeley" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }		
 			ship = { name = "USS Biddle" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }		
-		}					
+		}						
 	}
 	
 	### SCOUTING FLEET ###
@@ -152,7 +152,7 @@ units= {
 			name = "Scouting Force"				
 			location = 9814 # Los Angeles
 			### Battleship Division 4 ###			
-			ship = { name = "USS Arkansas" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New York Class" } } }				
+			ship = { name = "USS Arkansas" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Wyoming Class" } } }				
 			ship = { name = "USS New York" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New York Class" } } }				
 			ship = { name = "USS Texas" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New York Class" } } }				
 			### Cruisers ###				
@@ -169,7 +169,7 @@ units= {
 			# Cruiser Division 7 #
 			ship = { name = "USS Tuscaloosa" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }				
 			ship = { name = "USS San Francisco" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }				
-			ship = { name = "USS Portland" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Portland Class" } } }				
+			ship = { name = "USS Portland" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }				
 			### Destroyer Squadron 10 ###
 			ship = { name = "USS Decatur" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }		
 			# 22nd Destroyer Division				
@@ -453,17 +453,17 @@ instant_effect = {
 		industrial_manufacturer = mio:USA_newport_news_shipbuilding_organization
 	}
 	# CA: Wichita (Wichita class
-	add_equipment_production = {
-		equipment = {
-			type = ship_hull_cruiser_2
-			creator = "USA"
-			version_name = "Wichita Class"
-		} 
-		requested_factories = 2
-		progress = 0.10
-		amount = 1
-		industrial_manufacturer = mio:USA_newport_news_shipbuilding_organization
-	}
+	# add_equipment_production = {
+		# equipment = {
+			# type = ship_hull_cruiser_3
+			# creator = "USA"
+			# version_name = "Wichita Class"
+		# } 
+		# requested_factories = 2
+		# progress = 0.10
+		# amount = 1
+		# industrial_manufacturer = mio:USA_newport_news_shipbuilding_organization
+	# }
 	##2 Yorktowns (Yorktown, Enterprise)
 	add_equipment_production = {
 		equipment = {
@@ -499,7 +499,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.20
 		amount = 1
-		industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+		#industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -511,7 +511,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.80
 		amount = 1
-		industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+		#industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -523,7 +523,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.50
 		amount = 1
-		industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+		#industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -535,7 +535,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.20
 		amount = 1
-		industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+		#industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	# DD: Mahan class (x9) ("USS Mahan" "USS Cummings" "USS Flusser" "USS Case" "USS Conyngham" "USS Cassin" "USS Shaw" "USS Cushing" "USS Perkins")
 	add_equipment_production = {
@@ -548,7 +548,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.30
 		amount = 1
-		industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+		#industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -560,7 +560,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.10
 		amount = 1
-		industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+		#industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -572,7 +572,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.20
 		amount = 1
-		industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+		#industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -584,7 +584,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.30
 		amount = 1
-		industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+		#industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -596,7 +596,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.10
 		amount = 1
-		industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+		#industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -608,7 +608,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.40
 		amount = 1
-		industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+		#industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -620,7 +620,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.30
 		amount = 1
-		industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+		#industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -632,7 +632,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.40
 		amount = 1
-		industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+		#industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -644,7 +644,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.30
 		amount = 1
-		industrial_manufacturer = mio:USA_norfolk_naval_yard_organization
+		#industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	# SS: Shark class (x1) ("USS Tarpon")
 	add_equipment_production = {
@@ -657,7 +657,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.70
 		amount = 1
-		industrial_manufacturer = mio:USA_electric_boat_company_organization
+		#industrial_manufacturer = mio:USA_electric_boat_company_organization
 	}
 }
 

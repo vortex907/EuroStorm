@@ -394,10 +394,10 @@ SpriteType = {
 
 	SpriteType = {
 		name = "china_guangxi_shine"
-		texturefile = "gfx/interface/goals/china_guangxi.dds"
+		texturefile = "gfx/interface/goals/china_guanxi.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/china_guangxi.dds"
+			animationmaskfile = "gfx/interface/goals/china_guanxi.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -410,7 +410,7 @@ SpriteType = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/china_guangxi.dds"
+			animationmaskfile = "gfx/interface/goals/china_guanxi.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
