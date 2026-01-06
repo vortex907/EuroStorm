@@ -1,0 +1,206 @@
+
+
+defined_text = {
+	name = GetMapModeIndustrialisationLevel
+	text = {
+		trigger = { has_idea = consumerist_nation }
+		localization_key = consumerist_nation
+	}
+	text = {
+		trigger = { has_idea = industrialised_nation }
+		localization_key = industrialised_nation
+	}
+	text = {
+		trigger = { has_idea = semi_industrialised_nation }
+		localization_key = semi_industrialised_nation
+	}
+	text = {
+		trigger = { has_idea = agrarian_nation }
+		localization_key = agrarian_nation
+	}
+}
+
+defined_text = {
+	name = country_GDP_f
+	text = {
+		trigger = {
+			check_variable = { country_GDP < 1 }
+		}
+		localization_key = country_GDP_M
+	}
+	text = {
+		trigger = {
+			check_variable = { country_GDP > 999 }
+		}
+		localization_key = country_GDP_T
+	}
+	text = {
+		localization_key = country_GDP_B
+	}
+}
+
+defined_text = {
+	name = country_GDP_f_d
+	text = {
+		trigger = {
+			check_variable = { country_GDP < 1 }
+		}
+		localization_key = country_GDP_M_d
+	}
+	text = {
+		trigger = {
+			check_variable = { country_GDP > 999 }
+		}
+		localization_key = country_GDP_T_d
+	}
+	text = {
+		localization_key = country_GDP_B_d
+	}
+}
+
+defined_text = {
+	name = country_GDP_f_map
+	text = {
+		trigger = {
+			check_variable = { country_GDP < 1 }
+		}
+		localization_key = country_GDP_M_map_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { country_GDP > 999 }
+		}
+		localization_key = country_GDP_T_map_tooltip
+	}
+	text = {
+		localization_key = country_GDP_B_map_tooltip
+	}
+}
+defined_text = {
+	name = country_GDP_f_map_d
+	text = {
+		trigger = {
+			check_variable = { country_GDP < 1 }
+		}
+		localization_key = country_GDP_M_map_1
+	}
+	text = {
+		trigger = {
+			check_variable = { country_GDP > 999 }
+		}
+		localization_key = country_GDP_T_map_2
+	}
+	text = {
+		localization_key = country_GDP_B_map_3
+	}
+}
+
+
+
+# Get region name by region ID (v = region ID in array)
+defined_text = {
+	name = GetRegionName
+	text = {
+		trigger = { check_variable = { v = 1 } }
+		localization_key = GDP_region_europe
+	}
+	text = {
+		trigger = { check_variable = { v = 2 } }
+		localization_key = GDP_region_asia
+	}
+	text = {
+		trigger = { check_variable = { v = 3 } }
+		localization_key = GDP_region_north_america
+	}
+	text = {
+		trigger = { check_variable = { v = 4 } }
+		localization_key = GDP_region_south_america
+	}
+	text = {
+		trigger = { check_variable = { v = 5 } }
+		localization_key = GDP_region_africa
+	}
+	text = {
+		trigger = { check_variable = { v = 6 } }
+		localization_key = GDP_region_oceania
+	}
+	text = {
+		trigger = { check_variable = { v = 7 } }
+		localization_key = GDP_region_middle_east
+	}
+	text = {
+		localization_key = GDP_region_unknown
+	}
+}
+
+# Get region GDP value by region ID
+defined_text = {
+	name = GetRegionGDPValue
+	text = {
+		trigger = { check_variable = { v = 1 } }
+		localization_key = GDP_region_europe_value
+	}
+	text = {
+		trigger = { check_variable = { v = 2 } }
+		localization_key = GDP_region_asia_value
+	}
+	text = {
+		trigger = { check_variable = { v = 3 } }
+		localization_key = GDP_region_north_america_value
+	}
+	text = {
+		trigger = { check_variable = { v = 4 } }
+		localization_key = GDP_region_south_america_value
+	}
+	text = {
+		trigger = { check_variable = { v = 5 } }
+		localization_key = GDP_region_africa_value
+	}
+	text = {
+		trigger = { check_variable = { v = 6 } }
+		localization_key = GDP_region_oceania_value
+	}
+	text = {
+		trigger = { check_variable = { v = 7 } }
+		localization_key = GDP_region_middle_east_value
+	}
+	text = {
+		localization_key = GDP_region_unknown_value
+	}
+}
+
+# Get region GDP percentage by region ID
+defined_text = {
+	name = GetRegionGDPPct
+	text = {
+		trigger = { check_variable = { v = 1 } }
+		localization_key = GDP_region_europe_pct
+	}
+	text = {
+		trigger = { check_variable = { v = 2 } }
+		localization_key = GDP_region_asia_pct
+	}
+	text = {
+		trigger = { check_variable = { v = 3 } }
+		localization_key = GDP_region_north_america_pct
+	}
+	text = {
+		trigger = { check_variable = { v = 4 } }
+		localization_key = GDP_region_south_america_pct
+	}
+	text = {
+		trigger = { check_variable = { v = 5 } }
+		localization_key = GDP_region_africa_pct
+	}
+	text = {
+		trigger = { check_variable = { v = 6 } }
+		localization_key = GDP_region_oceania_pct
+	}
+	text = {
+		trigger = { check_variable = { v = 7 } }
+		localization_key = GDP_region_middle_east_pct
+	}
+	text = {
+		localization_key = GDP_region_unknown_pct
+	}
+}

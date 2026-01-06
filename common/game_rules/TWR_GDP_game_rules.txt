@@ -1,0 +1,99 @@
+# TWR GDP Game Rules
+
+TWR_GDP_update_frequency = {
+	name = "RULE_TWR_GDP_UPDATE_FREQUENCY"
+	group = "RULE_GROUP_TWR_GDP"
+	default = {
+		name = "TWR_GDP_UPDATE_MONTHLY"
+		text = "TWR_GDP_UPDATE_MONTHLY_TEXT"
+		desc = "TWR_GDP_UPDATE_MONTHLY_DESC"
+	}
+	option = {
+		name = "TWR_GDP_UPDATE_WEEKLY"
+		text = "TWR_GDP_UPDATE_WEEKLY_TEXT"
+		desc = "TWR_GDP_UPDATE_WEEKLY_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "TWR_GDP_UPDATE_DAILY"
+		text = "TWR_GDP_UPDATE_DAILY_TEXT"
+		desc = "TWR_GDP_UPDATE_DAILY_DESC"
+		allow_achievements = yes
+	}
+}
+
+TWR_GDP_formula = {
+	name = "RULE_TWR_GDP_FORMULA"
+	group = "RULE_GROUP_TWR_GDP"
+	default = {
+		name = "TWR_GDP_FORMULA_ENABLED"
+		text = "TWR_GDP_FORMULA_ENABLED_TEXT"
+		desc = "TWR_GDP_FORMULA_ENABLED_DESC"
+	}
+	option = {
+		name = "TWR_GDP_FORMULA_DISABLED"
+		text = "TWR_GDP_FORMULA_DISABLED_TEXT"
+		desc = "TWR_GDP_FORMULA_DISABLED_DESC"
+		allow_achievements = yes
+	}
+}
+
+TWR_GDP_resources = {
+	name = "RULE_TWR_GDP_RESOURCES"
+	group = "RULE_GROUP_TWR_GDP"
+	default = {
+		name = "TWR_GDP_RESOURCES_BOTH"
+		text = "TWR_GDP_RESOURCES_BOTH_TEXT"
+		desc = "TWR_GDP_RESOURCES_BOTH_DESC"
+	}
+	option = {
+		name = "TWR_GDP_RESOURCES_EXPORTED"
+		text = "TWR_GDP_RESOURCES_EXPORTED_TEXT"
+		desc = "TWR_GDP_RESOURCES_EXPORTED_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "TWR_GDP_RESOURCES_PRODUCED"
+		text = "TWR_GDP_RESOURCES_PRODUCED_TEXT"
+		desc = "TWR_GDP_RESOURCES_PRODUCED_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "TWR_GDP_RESOURCES_DISABLED"
+		text = "TWR_GDP_RESOURCES_DISABLED_TEXT"
+		desc = "TWR_GDP_RESOURCES_DISABLED_DESC"
+		allow_achievements = yes
+	}
+}
+
+TWR_GDP_damage_calculation = {
+	name = "RULE_TWR_GDP_DAMAGE"
+	group = "RULE_GROUP_TWR_GDP"
+	default = {
+		name = "TWR_GDP_DAMAGE_ENABLED"
+		text = "TWR_GDP_DAMAGE_ENABLED_TEXT"
+		desc = "TWR_GDP_DAMAGE_ENABLED_DESC"
+	}
+	option = {
+		name = "TWR_GDP_DAMAGE_DISABLED"
+		text = "TWR_GDP_DAMAGE_DISABLED_TEXT"
+		desc = "TWR_GDP_DAMAGE_DISABLED_DESC"
+		allow_achievements = yes
+	}
+}
+
+TWR_GDP_dlc_buildings = {
+	name = "RULE_TWR_GDP_DLC"
+	group = "RULE_GROUP_TWR_GDP"
+	default = {
+		name = "TWR_GDP_DLC_ENABLED"
+		text = "TWR_GDP_DLC_ENABLED_TEXT"
+		desc = "TWR_GDP_DLC_ENABLED_DESC"
+	}
+	option = {
+		name = "TWR_GDP_DLC_DISABLED"
+		text = "TWR_GDP_DLC_DISABLED_TEXT"
+		desc = "TWR_GDP_DLC_DISABLED_DESC"
+		allow_achievements = yes
+	}
+}

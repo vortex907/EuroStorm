@@ -1,0 +1,73 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				if = {
+					limit = {
+						NOT = { is_in_array = { global.GDP_list_array = THIS } }
+					}
+					add_to_array = { global.GDP_list_array = THIS }
+				}
+				calculate_GDP = yes
+				GDP_growth_calculation = yes
+			}
+			# Initialize graph for player only
+			clear_array = gdp_array
+			add_to_array = { gdp_array = country_GDP }
+			set_variable = { sGDPui_count = 1 }
+			compute_y_axis_intervals = yes
+			sGDPui_add_point_to_graph = yes
+		}
+	}
+	
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = TWR_GDP_update_frequency
+						option = TWR_GDP_UPDATE_DAILY
+					}
+				}
+				calculate_GDP = yes
+				GDP_growth_calculation = yes
+				compute_y_axis_intervals = yes
+				sGDPui_add_point_to_graph = yes
+			}
+		}
+	}
+	
+	on_weekly = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = TWR_GDP_update_frequency
+						option = TWR_GDP_UPDATE_WEEKLY
+					}
+				}
+				calculate_GDP = yes
+				GDP_growth_calculation = yes
+				compute_y_axis_intervals = yes
+				sGDPui_add_point_to_graph = yes
+			}
+		}
+	}
+	
+	on_monthly = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = TWR_GDP_update_frequency
+						option = TWR_GDP_UPDATE_MONTHLY
+					}
+				}
+				calculate_GDP = yes
+				GDP_growth_calculation = yes
+				compute_y_axis_intervals = yes
+				sGDPui_add_point_to_graph = yes
+			}
+		}
+	}
+}
