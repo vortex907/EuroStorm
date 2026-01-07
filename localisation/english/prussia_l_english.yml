@@ -56,3 +56,20 @@ PRE_old_system_new_faces:0 "Old System New Faces"
 PRE_old_system_new_faces_desc:0 ""
 PRE_reformation_of_old_glory:0 "Reformation Of Old Glory"
 PRE_reformation_of_old_glory_desc:0 ""
+
+# FOCUS TREE NAMES
+prussian_focus:0 "Prussian Technological Renaissance"
+situation_of_prussia:0 "The Prussian Situation"
+PRE_recovering_from_the_german_civil_war:0 "Recovering From The German Civil War"
+PRE_dealing_with_the_resource_crisis:0 "Dealing With The Resource Crisis"
+PRE_searching_for_trade_partners:0 "Searching For Trade Partners"
+prussian_way_to_autarky:0 "Prussian Way To Autarky"
+PRE_old_system_new_faces:0 "Old System New Faces"
+PRE_reformation_of_old_glory:0 "Reformation Of Old Glory"
+
+# COMING SOON FOCUSES
+coming_soon:0 "Coming Soon"
+coming_soon_france:0 "Coming Soon"
+coming_soon_china:0 "Coming Soon"
+coming_soon_prc:0 "Focus Tree Coming Soon"
+coming_soon_warlord:0 "Coming Soon"

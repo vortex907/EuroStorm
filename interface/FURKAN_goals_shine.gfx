@@ -617,10 +617,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "ROM_fate_of_gypsies_GFX_shine"
-		texturefile = "gfx/interface/goals/cingenler_sabun_oluyor.dds"
+		texturefile = "gfx/interface/goals/cingenler_hapise.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/cingenler_sabun_oluyor.dds"
+			animationmaskfile = "gfx/interface/goals/cingenler_hapise.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -633,7 +633,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/cingenler_sabun_oluyor.dds"
+			animationmaskfile = "gfx/interface/goals/cingenler_hapise.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -841,10 +841,10 @@ SpriteType = {
 
 SpriteType = {
 	name = "GFX_gaintrust_shine"
-	texturefile = "gfx/interface/goals/gaintrust.dds"
+	texturefile = "gfx/interface/goals/gaintrust.png"
 	effectFile = "gfx/FX/buttonstate.lua"
 	animation = {
-		animationmaskfile = "gfx/interface/goals/gaintrust.dds"
+		animationmaskfile = "gfx/interface/goals/gaintrust.png"
 		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 		animationrotation = -90.0
 		animationlooping = no
@@ -857,7 +857,7 @@ SpriteType = {
 	}
 
 	animation = {
-		animationmaskfile = "gfx/interface/goals/gaintrust.dds"
+		animationmaskfile = "gfx/interface/goals/gaintrust.png"
 		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 		animationrotation = 90.0
 		animationlooping = no
@@ -873,10 +873,10 @@ SpriteType = {
 
 SpriteType = {
 	name = "GFX_adnan_menderes_shine"
-	texturefile = "gfx/interface/goals/GFX_adnan_menderes.dds"
+	texturefile = "gfx/interface/goals/adnan_menderes.png"
 	effectFile = "gfx/FX/buttonstate.lua"
 	animation = {
-		animationmaskfile = "gfx/interface/goals/GFX_adnan_menderes.dds"
+		animationmaskfile = "gfx/interface/goals/adnan_menderes.png"
 		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 		animationrotation = -90.0
 		animationlooping = no
@@ -889,7 +889,7 @@ SpriteType = {
 	}
 
 	animation = {
-		animationmaskfile = "gfx/interface/goals/GFX_adnan_menderes.dds"
+		animationmaskfile = "gfx/interface/goals/adnan_menderes.png"
 		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 		animationrotation = 90.0
 		animationlooping = no
@@ -905,10 +905,10 @@ SpriteType = {
 
 SpriteType = {
 	name = "ROM_codreanu_on_council_shine"
-	texturefile = "gfx/interface/goals/ROM_corneliu_on_council.dds"
+	texturefile = "gfx/interface/goals/corneliu_on_council.dds"
 	effectFile = "gfx/FX/buttonstate.lua"
 	animation = {
-		animationmaskfile = "gfx/interface/goals/ROM_corneliu_on_council.dds"
+		animationmaskfile = "gfx/interface/goals/corneliu_on_council.dds"
 		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 		animationrotation = -90.0
 		animationlooping = no
@@ -921,7 +921,7 @@ SpriteType = {
 	}
 
 	animation = {
-		animationmaskfile = "gfx/interface/goals/ROM_corneliu_on_council.dds"
+		animationmaskfile = "gfx/interface/goals/corneliu_on_council.dds"
 		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 		animationrotation = 90.0
 		animationlooping = no

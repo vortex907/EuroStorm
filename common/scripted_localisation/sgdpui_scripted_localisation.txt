@@ -1,0 +1,21 @@
+# Selected country GDP display
+defined_text = {
+	name = GetSelectedCountryGDP
+	text = {
+		localization_key = selected_country_gdp_value
+	}
+}
+
+defined_text = {
+	name = GetSelectedCountryGrowth
+	text = {
+		localization_key = selected_country_growth_value
+	}
+}
+
+defined_text = {
+	name = GetSelectedCountryName
+	text = {
+		localization_key = selected_country_name_value
+	}
+}

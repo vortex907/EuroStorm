@@ -1,0 +1,94 @@
+# sGDPui Graph Effects - Modified to use TWR_GDP's country_GDP
+
+sGDPui_add_point_to_graph = {
+	add_to_variable = { THIS.sGDPui_count = 1 }
+
+	clear_array = THIS.sGDPui_graph_offsets
+	clear_array = THIS.sGDPui_graph_slopes
+
+	for_each_loop = {
+		array = THIS.gdp_array
+		index = i
+
+		# y value
+		set_variable = { THIS.sGDPui_y_position = THIS.gdp_array^i }
+		subtract_from_variable = { THIS.sGDPui_y_position = THIS.min_gdp }
+		divide_variable = { THIS.sGDPui_y_position = THIS.gdp_interval }
+		multiply_variable = { THIS.sGDPui_y_position = 100 }
+		round_variable = THIS.sGDPui_y_position
+
+		if = {
+			limit = { check_variable = { i > 0 } }
+
+			set_temp_variable = { offset = THIS.sGDPui_last_y_position }
+			multiply_temp_variable = { offset = -1 }
+			add_to_array = {
+				array = THIS.sGDPui_graph_offsets
+				value = offset
+			}
+
+			set_temp_variable = { diff = THIS.sGDPui_y_position }
+			subtract_from_temp_variable = { diff = THIS.sGDPui_last_y_position }
+			divide_temp_variable = { diff = 2 }
+			add_to_temp_variable = { diff = 50 }
+			add_to_array = {
+				array = THIS.sGDPui_graph_slopes
+				value = diff
+			}
+		}
+		set_variable = { THIS.sGDPui_last_y_position = THIS.sGDPui_y_position }
+	}
+
+	# Prune arrays so they hold at most 50 elements
+	if = {
+		limit = { check_variable = { THIS.sGDPui_count > 50 } }
+		remove_from_array = { array = THIS.sGDPui_graph_offsets index = 0 }
+		remove_from_array = { array = THIS.sGDPui_graph_slopes index = 0 }
+		remove_from_array = { array = THIS.sGDPui_numbers index = 0 }
+		remove_from_array = { array = THIS.gdp_array index = 0 }
+	}
+
+	add_to_array = { THIS.sGDPui_numbers = THIS.sGDPui_count }
+	add_to_variable = { THIS.sGDPui_graph_dirty = 1 }
+}
+
+# Use TWR_GDP's country_GDP instead of calculating separately
+compute_y_axis_intervals = {
+	# Use country_GDP from TWR_GDP
+	add_to_array = { THIS.gdp_array = THIS.country_GDP }
+
+	find_lowest_in_array = {
+		array = THIS.gdp_array
+		value = temp_min_gdp
+		index = temp_min_gdp_i
+	}
+	set_variable = { THIS.min_gdp = temp_min_gdp }
+	set_variable = { THIS.min_gdp_i = temp_min_gdp_i }
+	
+	find_highest_in_array = {
+		array = THIS.gdp_array
+		value = temp_new_max_gdp
+		index = temp_max_gdp_i
+	}
+	set_variable = { THIS.max_gdp = temp_new_max_gdp }
+	set_variable = { THIS.max_gdp_i = temp_max_gdp_i }
+
+	# compute y axis intervals
+	set_variable = { THIS.gdp_interval = THIS.max_gdp }
+	subtract_from_variable = { THIS.gdp_interval = THIS.min_gdp }
+	
+	# Prevent division by zero
+	if = {
+		limit = { check_variable = { THIS.gdp_interval < 0.01 } }
+		set_variable = { THIS.gdp_interval = 1 }
+	}
+	
+	set_temp_variable = { gdp_interval_fifth = THIS.gdp_interval }
+	divide_temp_variable = { gdp_interval_fifth = 5 }
+
+	set_variable = { THIS.sgdpui_100_gdp = THIS.max_gdp }
+	set_variable = { THIS.sgdpui_60_gdp = THIS.max_gdp }
+	subtract_from_variable = { THIS.sgdpui_60_gdp = gdp_interval_fifth }
+	subtract_from_variable = { THIS.sgdpui_60_gdp = gdp_interval_fifth }
+	set_variable = { THIS.sgdpui_00_gdp = THIS.min_gdp }
+}

@@ -10,19 +10,19 @@ country_event = {
 	
 	option = {
 		name = prussia.1.a
-		PRE = { country_event = { id = prussia.2 } }
+		country_event = { id = prussia.2 }
 	}
 	option = {
 		name = prussia.1.b
-		PRE = { country_event = { id = prussia.3 } }
+		country_event = { id = prussia.3 }
 	}
 	option = {
 		name = prussia.1.c
-		PRE = { country_event = { id = prussia.4 } }
+		country_event = { id = prussia.4 }
 	}
 	option = {
 		name = prussia.1.e
-		PRE = { country_event = { id = prussia.5 } }
+		country_event = { id = prussia.5 }
 	}
 }
 
@@ -36,7 +36,7 @@ country_event = {
 	
 	option = {
 		name = prussia.2.a
-		PRE = { country_event = { id = prussia.1 } }
+		country_event = { id = prussia.1 }
 	}
 	option = {
 		name = prussia.1.f
@@ -54,7 +54,7 @@ country_event = {
 	
 	option = {
 		name = prussia.3.a
-		PRE = { country_event = { id = prussia.1 } }
+		country_event = { id = prussia.1 }
 	}
 	option = {
 		name = prussia.1.f
@@ -72,7 +72,7 @@ country_event = {
 	
 	option = {
 		name = prussia.4.a
-		PRE = { country_event = { id = prussia.1 } }
+		country_event = { id = prussia.1 }
 	}
 	option = {
 		name = prussia.1.f
@@ -90,7 +90,7 @@ country_event = {
 	
 	option = {
 		name = prussia.5.a
-		PRE = { country_event = { id = prussia.1 } }
+		country_event = { id = prussia.1 }
 	}
 	option = {
 		name = prussia.1.f

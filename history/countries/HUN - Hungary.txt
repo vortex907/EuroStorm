@@ -232,12 +232,12 @@ IF = {
 		parent_version = 0
 		obsolete = no
 		modules = {
-			main_armament_slot = tank_small_cannon
+			main_armament_slot_tank = tank_small_cannon
 			turret_type_slot = tank_light_one_man_tank_turret
 			suspension_type_slot = tank_bogie_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
-			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_1_tank = secondary_turret_hmg
 		}
 		upgrades = {
 			tank_nsb_engine_upgrade = 0
@@ -327,15 +327,15 @@ add_opinion_modifier = {
 
 # SETUP HUNGARIAN POLITICS
 set_politics = {
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = "1935.3.31"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 17
-	communism = 78
-	neutrality =5
+	democratic = 25
+	fascism = 31
+	neutrality = 44
 }
 
 # RECRUITING HUNGARIAN CHARACTERS
@@ -687,13 +687,13 @@ add_breakthrough_progress = {
 		tech_maintenance_company = 1
 		tech_field_hospital = 1
 
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
+		# #doctrines
+		# air_superiority = 1
+		# grand_battle_plan = 1
+		# trench_warfare = 1
+		# fleet_in_being = 1
+		# battlefleet_concentration = 1
+		# convoy_sailing = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1

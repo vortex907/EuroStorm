@@ -101,7 +101,7 @@ air_wings = {
 	### USN Atlantic Naval Patrol Division -- Norfolk
 	362 = { 
 		# Naval Patrol Wing 3 
-		medium_plane_airframe_0 =  {
+		medium_plane_naval_bomber_airframe_0 =  {
 			owner = "USA" 
 			amount = 36
 			version_name = "P2Y"
@@ -111,7 +111,7 @@ air_wings = {
 	378 = { 
 		# Naval Patrol Wing 1 
 		# Naval Patrol Wing 2 
-		medium_plane_airframe_0 =  {
+		medium_plane_naval_bomber_airframe_0 =  {
 			owner = "USA" 
 			amount = 72
 			version_name = "P2Y"

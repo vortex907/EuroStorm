@@ -1,0 +1,30 @@
+
+ technology_sharing_group = {
+
+	id = YUG_scientific_exchange_organization
+	name = YUG_scientific_exchange_organization_name
+	desc = YUG_scientific_exchange_organization_desc
+	picture = GFX_technology_sharing_default
+    
+	research_sharing_per_country_bonus = 0.1
+
+    available = {
+        is_in_faction_with = YUG
+    }
+
+}
+
+ technology_sharing_group = {
+
+	id = YUG_eastern_european_research_organization
+	name = YUG_eastern_european_research_organization_name
+	desc = YUG_eastern_european_research_organization_desc
+	picture = GFX_technology_sharing_default
+    
+	research_sharing_per_country_bonus = 0.1
+
+    available = {
+        is_in_faction_with = YUG
+    }
+
+}

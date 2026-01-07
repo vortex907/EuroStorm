@@ -1,0 +1,550 @@
+guiTypes = {
+	containerWindowType = {
+		name = "view_GDP_container"
+		position = { x = -20 y = -430 }
+		size = { width = 30 height = 20 }
+		orientation = lower_right
+		
+		buttonType = {
+			name = "view_GDP_button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_minimap_handle_default"
+			pdx_tooltip = "view_GDP_button_tt"
+			shortcut = "shift+g"
+		}
+	}
+	
+	containerWindowType = {
+		name = "GDP_main_container"
+		position = { x = 0 y = 0 }
+		size = { width = 1100 height = 600 }
+		orientation = center
+		origo = center
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_bg"
+		}
+
+		buttonType = {
+			name = "close_GDP_button"
+			position = { x = 1063 y = 5 }
+			quadTextureSprite = "GFX_closebutton"
+			pdx_tooltip = "CLOSE"
+			clicksound = click_close
+			shortcut = "ESCAPE"
+		}
+
+		instantTextBoxType = {
+			name ="GDP_main_title"
+			position = { x = 0 y = 10 }
+			font = "hoi_36header"
+			text = GDP_main_title
+			format = centre
+			maxWidth = 1100
+		}
+
+		# ============================================
+		# LEFT: Country View
+		# ============================================
+		instantTextBoxType = {
+			name ="GDP_country_section_title"
+			position = { x = 20 y = 50 }
+			font = "hoi_24header"
+			text = GDP_tab_country
+			format = left
+			maxWidth = 200
+		}
+		
+		instantTextBoxType = {
+			name ="GDP_main_text"
+			position = { x = 20 y = 80 }
+			font = "hoi_16mbs"
+			text = GDP_main_text
+			format = left
+			maxWidth = 340
+		}
+		
+		buttonType = {
+			name = "GDP_list_sort_button"
+			position = { x = 20 y = 120 }
+			spriteType = "GFX_sort_button_83x29"
+			buttonFont = "hoi_16mbs"
+			buttonText = GDP_list_sort_button_text
+		}
+		buttonType = {
+			name = "GDP_per_capita_list_sort_button"
+			position = { x = 108 y = 120 }
+			spriteType = "GFX_sort_button_83x29"
+			buttonFont = "hoi_16mbs"
+			buttonText = GDP_pc_short
+		}
+
+		# Country - Selected info
+		containerWindowType = {
+			name = "GDP_selected_country_grid_container"
+			position = {x = 200 y = 135}
+			size = {width = 180 height = 180 } 
+			margin = { top = 5 bottom = 5 }
+			Orientation = upper_left
+			
+			gridboxtype = {
+				name = "GDP_selected_country_grid"
+				position = { x = 0 y = 0 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 180 height = 180 }
+				max_slots_horizontal = 1
+				add_horizontal = no
+			}
+		}
+
+		# Country - List
+		containerWindowType = {
+			name = "GDP_list_grid_container"
+			position = { x = 10 y = 150 }
+			size = { width = 210 height = 440 } 
+			margin = { top = 5 bottom = 5 }
+			orientation = upper_left
+			verticalScrollbar = "right_vertical_slider"
+			scroll_wheel_factor = 40
+
+			background = {
+				name = "bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+
+			gridboxtype = {
+				name = "GDP_list_grid"
+				position = { x = 5 y = 0 }
+				padding = { top = 0 bottom = 5 }
+				size = { width = 190 height = 28 }
+				slotsize = { width = 180 height = 28 }
+				max_slots_horizontal = 1
+				add_horizontal = no
+			}
+		}
+
+		# ============================================
+		# CENTER: Region View
+		# ============================================
+		instantTextBoxType = {
+			name ="GDP_region_section_title"
+			position = { x = 390 y = 50 }
+			font = "hoi_24header"
+			text = GDP_tab_region
+			format = left
+			maxWidth = 200
+		}
+
+		# Region Header
+		instantTextBoxType = {
+			name = "GDP_region_header_name"
+			position = { x = 390 y = 85 }
+			font = "hoi_18mbs"
+			text = GDP_region_header_region
+			format = left
+			maxWidth = 150
+		}
+		instantTextBoxType = {
+			name = "GDP_region_header_gdp"
+			position = { x = 530 y = 85 }
+			font = "hoi_18mbs"
+			text = GDP_region_header_total
+			format = left
+			maxWidth = 120
+		}
+		instantTextBoxType = {
+			name = "GDP_region_header_pct"
+			position = { x = 660 y = 85 }
+			font = "hoi_18mbs"
+			text = GDP_region_header_percentage
+			format = left
+			maxWidth = 80
+		}
+
+		# Region List (dynamic, sorted by GDP)
+		containerWindowType = {
+			name = "GDP_region_list_container"
+			position = { x = 380 y = 110 }
+			size = { width = 360 height = 220 } 
+			margin = { top = 5 bottom = 5 }
+			orientation = upper_left
+			verticalScrollbar = "right_vertical_slider"
+			scroll_wheel_factor = 40
+
+			background = {
+				name = "bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+
+			gridboxtype = {
+				name = "GDP_region_list_grid"
+				position = { x = 5 y = 0 }
+				size = { width = 350 height = 30 }
+				slotsize = { width = 350 height = 30 }
+				max_slots_horizontal = 1
+				add_horizontal = no
+			}
+		}
+
+		# ============================================
+		# RIGHT: Faction View
+		# ============================================
+		instantTextBoxType = {
+			name ="GDP_faction_section_title"
+			position = { x = 760 y = 50 }
+			font = "hoi_24header"
+			text = GDP_tab_faction
+			format = left
+			maxWidth = 200
+		}
+
+		# Faction Header
+		instantTextBoxType = {
+			name = "GDP_faction_header_name"
+			position = { x = 760 y = 85 }
+			font = "hoi_18mbs"
+			text = GDP_faction_header_faction
+			format = left
+			maxWidth = 150
+		}
+		instantTextBoxType = {
+			name = "GDP_faction_header_gdp"
+			position = { x = 910 y = 85 }
+			font = "hoi_18mbs"
+			text = GDP_region_header_total
+			format = left
+			maxWidth = 100
+		}
+		instantTextBoxType = {
+			name = "GDP_faction_header_pct"
+			position = { x = 1020 y = 85 }
+			font = "hoi_18mbs"
+			text = GDP_region_header_percentage
+			format = left
+			maxWidth = 80
+		}
+
+		# Faction List
+		containerWindowType = {
+			name = "GDP_faction_list_container"
+			position = { x = 750 y = 110 }
+			size = { width = 340 height = 220 } 
+			margin = { top = 5 bottom = 5 }
+			orientation = upper_left
+			verticalScrollbar = "right_vertical_slider"
+			scroll_wheel_factor = 40
+
+			background = {
+				name = "bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+
+			gridboxtype = {
+				name = "GDP_faction_list_grid"
+				position = { x = 5 y = 0 }
+				padding = { top = 0 bottom = 5 }
+				size = { width = 320 height = 30 }
+				slotsize = { width = 320 height = 30 }
+				max_slots_horizontal = 1
+				add_horizontal = no
+			}
+		}
+
+		# ============================================
+		# BOTTOM LEFT: Top 10 GDP
+		# ============================================
+		instantTextBoxType = {
+			name ="top_ten_GDP_grid_title"
+			position = { x = 500 y = 340 }
+			font = "hoi_24header"
+			text = "Top 10 GDP"
+			format = center
+			maxWidth = 120
+		}
+
+		containerWindowType = {
+			name = "top_ten_GDP_grid_container"
+			position = { x = 250 y = 370 }
+			size = { width = 350 height = 220 } 
+			margin = { top = 5 bottom = 5 }
+			orientation = upper_left
+
+			gridboxtype = {
+				name = "top_ten_GDP_grid"
+				position = { x = 0 y = 0 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 70 height = 70 }
+				max_slots_horizontal = 5
+				max_slots_vertical = 2
+				add_horizontal = yes
+			}
+		}
+
+		# ============================================
+		# BOTTOM RIGHT: GDP Graph
+		# ============================================
+		instantTextBoxType = {
+			name ="GDP_graph_title"
+			position = { x = 760 y = 340 }
+			font = "hoi_24header"
+			text = GDP_graph_title
+			format = left
+			maxWidth = 200
+		}
+
+		containerWindowType = {
+			name = "GDP_graph_container"
+			position = { x = 760 y = 365 }
+			size = { width = 340 height = 225 }
+			orientation = upper_left
+
+			iconType = {
+				name = "chart"
+				spriteType = "GFX_sgdpui_chart"
+				position = { x = 50 y = 25 }
+			}
+
+			gridboxtype = {
+				name = "gdp_line_segments"
+				position = { x = 59 y = 21 }
+				size = { width = 0 height = 200 }
+				slotsize = { width = 4 height = 200 }
+				max_slots_horizontal = 50
+				add_horizontal = yes
+			}
+
+			instantTextBoxType = {
+				name = "graph_100pct"
+				position = { x = -20 y = 20 }
+				font = "hoi_16mbs"
+				text = "[?sgdpui_100_gdp|0..2]B"
+				maxWidth = 70
+				format = right
+			}
+			instantTextBoxType = {
+				name = "graph_50pct"
+				position = { x = -20 y = 70 }
+				font = "hoi_16mbs"
+				text = "[?sgdpui_60_gdp|0..2]B"
+				maxWidth = 70
+				format = right
+			}
+			instantTextBoxType = {
+				name = "graph_0pct"
+				position = { x = -20 y = 120 }
+				font = "hoi_16mbs"
+				text = "[?sgdpui_00_gdp|0..2]B"
+				maxWidth = 70
+				format = right
+			}
+
+			instantTextBoxType = {
+				name = "current_gdp_label"
+				position = { x = 220 y = 150 }
+				font = "hoi_16mbs"
+				text = "GDP: [?country_GDP|0..2]B"
+				maxWidth = 120
+				format = left
+			}
+			instantTextBoxType = {
+				name = "gdp_growth_label"
+				position = { x = 220 y = 170 }
+				font = "hoi_16mbs"
+				text = "[?GDP_growth_value|0..2+=%%]"
+				maxWidth = 120
+				format = left
+			}
+		}
+	}
+
+	# Entry templates
+	containerWindowType = {
+		name = "top_ten_GDP_entry"
+		position = { x = 0 y = 0 }	
+		size = { width = 70 height = 70 }
+		
+		iconType = {
+			name = "top_ten_GDP_country_flag_icon"
+			position = { x = 10 y = 5 }
+			quadTextureSprite = "GFX_flag_small2"
+			pdx_tooltip = "top_ten_GDP_country_flag_icon_tt"
+		}
+		iconType = {
+			name = "GDP_list_flag_frame"
+			position = { x = 5 y = 1 }
+			quadTextureSprite = "GFX_diplo_countrylist_flag_frame"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name ="top_ten_GDP_rank"
+			position = { x = 0 y = 50 }
+			font = "hoi_16mbs"
+			text = top_ten_GDP_rank
+			format = centre
+			maxWidth = 70
+			maxHeight = 20
+		}
+	}
+
+	containerWindowType = {
+		name = "GDP_list_entry"
+		position = { x = 0 y = 0 }	
+		size = { width = 180 height = 28 }
+		
+		# Rank number
+		instantTextBoxType = {
+			name ="GDP_list_rank"
+			position = { x = 0 y = 5 }
+			font = "hoi_16mbs"
+			text = "[?THIS.GDP_position|0]."
+			format = right
+			maxWidth = 25
+			maxHeight = 20
+		}
+		buttonType = {
+			name = "GDP_list_flag_button"
+			position = { x = 28 y = 2 }
+			quadTextureSprite = "GFX_flag_small2"
+			pdx_tooltip = "GDP_list_flag_button_tt"
+		}
+		iconType = {
+			name = "GDP_list_flag_frame"
+			position = { x = 23 y = -2 }
+			quadTextureSprite = "GFX_diplo_countrylist_flag_frame"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name ="GDP_list_text"
+			position = { x = 75 y = 5 }
+			font = "hoi_16mbs"
+			text = GDP_list_text_short
+			format = left
+			maxWidth = 55
+			maxHeight = 20
+		}
+		instantTextBoxType = {
+			name ="GDP_per_capita_list_text"
+			position = { x = 130 y = 5 }
+			font = "hoi_16mbs"
+			text = GDP_per_capita_list_text
+			format = right
+			maxWidth = 45
+			maxHeight = 20
+		}
+	}
+
+	containerWindowType = {
+		name = "GDP_selected_country_entry"
+		position = { x = 0 y = 0 }	
+		size = { width = 180 height = 180 }
+		
+		instantTextBoxType = {
+			name ="GDP_selected_country_title"
+			position = { x = 0 y = 5 }
+			font = "hoi_18mbs"
+			text = "[THIS.GetName]"
+			format = centre
+			maxWidth = 180
+			maxHeight = 24
+		}
+		iconType = {
+			name = "GDP_selected_country_flag_icon"
+			position = { x = 55 y = 35 }
+			spriteType = "GFX_shield_medium"
+			pdx_tooltip = "GDP_selected_country_flag_icon_tt"
+		}
+		instantTextBoxType = {
+			name ="GDP_selected_country_rank"
+			position = { x = 0 y = 120 }
+			font = "hoi_24header"
+			text = GDP_selected_country_rank
+			format = centre
+			maxWidth = 180
+			maxHeight = 24
+		}
+	}
+	
+	containerWindowType = {
+		name = "GDP_faction_entry"
+		position = { x = 0 y = 0 }	
+		size = { width = 320 height = 30 }
+		
+		instantTextBoxType = {
+			name ="GDP_faction_name"
+			position = { x = 5 y = 5 }
+			font = "hoi_18mbs"
+			text = "[THIS.GetFactionName]"
+			format = left
+			maxWidth = 150
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="GDP_faction_total"
+			position = { x = 155 y = 5 }
+			font = "hoi_18mbs"
+			text = "$[?THIS.faction_GDP_total|Y0..2] B"
+			format = left
+			maxWidth = 100
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="GDP_faction_percentage"
+			position = { x = 265 y = 5 }
+			font = "hoi_18mbs"
+			text = "[?THIS.faction_GDP_pct|0..1]%"
+			format = left
+			maxWidth = 60
+			maxHeight = 24
+		}
+	}
+
+	containerWindowType = {
+		name = "GDP_region_entry"
+		position = { x = 0 y = 0 }	
+		size = { width = 350 height = 30 }
+		
+		instantTextBoxType = {
+			name ="GDP_region_name"
+			position = { x = 5 y = 5 }
+			font = "hoi_18mbs"
+			text = "[GetRegionName]"
+			format = left
+			maxWidth = 140
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="GDP_region_total"
+			position = { x = 145 y = 5 }
+			font = "hoi_18mbs"
+			text = "[GetRegionGDPValue]"
+			format = left
+			maxWidth = 130
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="GDP_region_percentage"
+			position = { x = 275 y = 5 }
+			font = "hoi_18mbs"
+			text = "[GetRegionGDPPct]"
+			format = left
+			maxWidth = 70
+			maxHeight = 24
+		}
+	}
+
+	# Graph line segment entry
+	containerWindowType = {
+		name = "sGDPui_graph_line_segment"
+		size = { width = 10 height = 200 }
+		position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "segment"
+			spriteType = "GFX_sgdpui_line_segment"
+			position = { x = 0 y = 0 }
+			frame = 57
+		}
+	}
+}
