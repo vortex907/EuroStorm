@@ -279,7 +279,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "wia_credits_button"
-			web_link = "https://pastebin.com/rgijgDWB"
+			web_link = "NOT USED ANYMORE - Remove before release"
 			position = {  x = 55 y = 495 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			buttonText = "FE_CREDITS"
