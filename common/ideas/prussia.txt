@@ -40,7 +40,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = GFX_idea_prussian_autarky_1
+			picture = prussian_autarky_bad
 			modifier = {
 				political_power_cost = 1
 				trade_laws_cost_factor = 0.25

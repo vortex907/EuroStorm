@@ -21,8 +21,8 @@ spriteTypes = {
         }
 
         SpriteType = {
-            name = "GFX_idea_prussian_autarky_1"
-            texturefile = "gfx/interface/ideas/prussian_autarky_1.dds"
+            name = "GFX_idea_prussian_autarky_bad"
+            texturefile = "gfx/interface/ideas/berat/prussian_autarky_1.dds"
         }
 
         SpriteType = {
