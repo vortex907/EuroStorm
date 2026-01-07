@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = {
 		id = situation_of_prussia
-		icon = xxx
+		icon = prussia_on_fire
 		x = 0
 		y = 0
 		#relative_position_id =
@@ -53,7 +53,7 @@ focus_tree = {
 
 	focus = {
 		id = PRE_old_system_new_faces
-		icon = xxx
+		icon = prussia_army_1
 		x = 8
 		y = 1
 		relative_position_id = PRE_recovering_from_the_german_civil_war
@@ -73,7 +73,7 @@ focus_tree = {
 
 	focus = {
 		id = PRE_reformation_of_old_glory
-		icon = xxx
+		icon = prussia_modernization
 		x = -8
 		y = 1
 		relative_position_id = PRE_recovering_from_the_german_civil_war

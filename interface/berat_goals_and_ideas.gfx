@@ -145,6 +145,31 @@ spriteTypes = {
             texturefile = "gfx/interface/goals/berat/prussia_resource_crisis.dds"
         }
 
+         SpriteType = {
+            name = "prussia_Elections"
+            texturefile = "gfx/interface/goals/berat/prussia_Elections.dds"
+        }
+
+        SpriteType = {
+            name = "prussia_on_fire"
+            texturefile = "gfx/interface/goals/berat/prussia_on_fire.dds"
+        }
+
+        SpriteType = {
+            name = "prussia_army_1"
+            texturefile = "gfx/interface/goals/berat/prussia_army_1.dds"
+        }
+
+        SpriteType = {
+            name = "prussia_modernization"
+            texturefile = "gfx/interface/goals/berat/prussia_modernization.dds"
+        }
+
+        SpriteType = {
+            name = "urbanization_1"
+            texturefile = "gfx/interface/goals/berat/urbanization_1.dds"
+        }
+
         
 }
 

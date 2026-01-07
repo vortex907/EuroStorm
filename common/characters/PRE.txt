@@ -1,0 +1,15 @@
+characters={
+	PRE_national_security_council={
+		name= "National Security Council"
+		portraits={
+			civilian={
+				large="gfx//leaders//PRE//prussia_reichstag_portrait.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -6,6 +6,10 @@ add_ideas = {
 	PRE_industrial_resource_shortage
 }
 
+recruit_character = PRE_national_security_council
+
+
+
 set_party_name = {
 	    ideology = fascism
 	    long_name = "Nationale Revolution Partei Prußia"
