@@ -1,21 +1,17 @@
 focus_tree = {
-	id = generic_coming_soon
+	id = france_coming_soon
 
 	country = {
-		factor = 1000
-		
-		modifier = {
-			factor = 0
-			tag = PRE
-		}
+		factor = 100
+		tag = FRA
 	}
 	
-	default = yes
+	default = no
 
 	continuous_focus_position = { x = 0 y = 0 }
 
 	focus = {
-		id = coming_soon
+		id = coming_soon_france
 		icon = GFX_goal_generic_unknown
 		x = 0
 		y = 0

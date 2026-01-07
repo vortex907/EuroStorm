@@ -28,7 +28,7 @@ focus_tree = {
 		search_filters = {}
 
 		completion_reward = {
-			PRE = { country_event = { id = prussia.1 } }
+			country_event = { id = prussia.1 }
 		}
 	}
 
@@ -47,7 +47,7 @@ focus_tree = {
 		search_filters = {}
 
 		completion_reward = {
-			PRE = { country_event = { id = prussia.7 } }
+			country_event = { id = prussia.7 }
 		}
 	}
 
@@ -106,7 +106,7 @@ focus_tree = {
 		search_filters = {}
 
 		completion_reward = {
-			PRE = { country_event = { id = prussia.6 } }
+			country_event = { id = prussia.6 }
 		}
 	}
 

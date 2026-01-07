@@ -1,0 +1,48 @@
+focus_tree = {
+	id = warlord_coming_soon
+
+	country = {
+		factor = 1000
+		tag = SHX
+	}
+	country = {
+		factor = 1000
+		tag = XSM
+	}
+	country = {
+		factor = 1000
+		tag = YUN
+	}
+	country = {
+		factor = 1000
+		tag = SIK
+	}
+	country = {
+		factor = 1000
+		tag = GXC
+	}
+	country = {
+		factor = 1000
+		tag = GUI
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 0 y = 0 }
+
+	focus = {
+		id = coming_soon_warlord
+		icon = GFX_goal_generic_unknown
+		x = 0
+		y = 0
+		cost = 0
+		available = {
+			always = no
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		}
+	}
+}
