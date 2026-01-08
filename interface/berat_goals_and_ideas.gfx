@@ -170,6 +170,16 @@ spriteTypes = {
             texturefile = "gfx/interface/goals/berat/urbanization_1.dds"
         }
 
+        SpriteType = {
+            name = "prussia_search_for_trade_partners"
+            texturefile = "gfx/interface/goals/berat/prussia_search_for_trade_partners.dds"
+        }
+
+        SpriteType = {
+            name = "prussian_autarky_1"
+            texturefile = "gfx/interface/goals/berat/prussian_autarky_1.dds"
+        }
+
         
 }
 

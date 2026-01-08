@@ -112,7 +112,7 @@ focus_tree = {
 
 	focus = {
 		id = PRE_searching_for_trade_partners
-		icon = GFX_goal_generic_positive_trade_relations
+		icon = prussia_search_for_trade_partners
 		x = 8
 		y = 1
 		relative_position_id = PRE_dealing_with_the_resource_crisis
@@ -132,7 +132,7 @@ focus_tree = {
 
 	focus = {
 		id = prussian_way_to_autarky
-		icon = GFX_focus_GER_autarky_ambitions
+		icon = prussian_autarky_1
 		x = -8
 		y = 1
 		relative_position_id = PRE_dealing_with_the_resource_crisis
